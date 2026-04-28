@@ -3,6 +3,12 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pyw
+
+# Virtual environment
+.venv/
+venv/
+env/
 
 # Backup files
 bu_*.py
@@ -11,11 +17,24 @@ bu_*.py
 log_files/
 bu_log_files/
 
-# IDE
-.vscode/
-.idea/
-*.code-workspace
+# Pipeline outputs
+*.tif
+*.png
+*.geotiff
+
+# Flight logs
+*.bin
+*.BIN
+*.ulg
+*.tlog
+*.log
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
