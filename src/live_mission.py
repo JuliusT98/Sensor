@@ -56,7 +56,7 @@ MIN_POINTS_MAP   = 10
 RESOLUTION_M     = 0.5
 
 OUTPUT_PNG       = "/tmp/sensor_map.png"   # Wird vom HTTP-Server ausgeliefert
-OUTPUT_TIF       = "sensor_map_live.tif"   # Wird am Ende gespeichert
+OUTPUT_TIF       = "output/sensor_map_live.tif"
 HTTP_PORT        = 8080                    # Browser: http://<raspi-ip>:8080
 UTM_EPSG         = 32633
 MIN_HDOP         = 3.0

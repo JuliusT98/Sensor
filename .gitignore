@@ -4,6 +4,13 @@ __pycache__/
 *.pyo
 *.pyd
 *.pyw
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environment
 .venv/
@@ -13,14 +20,20 @@ env/
 # Backup files
 bu_*.py
 
-# Log / measurement data
-log_files/
-bu_log_files/
+# Environment variables / Secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sensor logs & GPS data (downloaded from sensor PC)
+data/sensor_logs/
+data/flight_logs/
 
 # Pipeline outputs
-*.tif
-*.png
-*.geotiff
+output/
 
 # Flight logs
 *.bin
@@ -29,12 +42,33 @@ bu_log_files/
 *.tlog
 *.log
 
+# GeoTIFF (große Rasterdateien)
+*.tif
+*.tiff
+
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
 
 # IDE
 .vscode/
 .idea/
 *.code-workspace
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

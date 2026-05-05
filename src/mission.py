@@ -28,6 +28,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+ROOT = Path(__file__).parent.parent  # Projektroot, egal von wo das Script gestartet wird
 
 # ---------------------------------------------------------------------------
 # Konfiguration
@@ -43,24 +44,21 @@ SENSOR_UTC_OFFSET_H = 2
 TELEMETRY_PORT   = "COM3"     # Windows: COM3 / Linux (RPi): /dev/ttyUSB0
 TELEMETRY_BAUD   = 57600
 
-LOG_DIR          = Path("log_files")
+LOG_DIR          = ROOT / "data/sensor_logs"
 MAP_CHANNEL      = None       # None = alle Kanäle mitteln, N = Kanal N
-RESOLUTION_M     = 0.5
-OUTPUT_TIF       = "sensor_map.tif"
-OUTPUT_PNG       = "sensor_map.png"
-UTM_EPSG         = 32633
+OUTPUT_PNG       = str(ROOT / "output/sensor_map.png")
 MIN_HDOP         = 3.0
 MAX_GPS_GAP_S    = 2.0
 AUTO_SYNC        = True
 TIME_OFFSET_S    = 0.0
 
 # Landungs-Erkennung
-LAND_ALT_M       = 2.0        # Unter dieser Höhe (relativ) gilt Drohne als "tief"
+LAND_ALT_M       = 0.3        # Unter dieser Höhe (relativ) gilt Drohne als "tief" (Flughöhe ~1.5 m → Schwelle muss deutlich darunter liegen)
 LAND_SPEED_MS    = 0.5        # Unter dieser Geschwindigkeit gilt Drohne als "langsam"
 LAND_CONFIRM_S   = 3.0        # Wie lange die Bedingungen erfüllt sein müssen
 
 # Simulation
-SIMULATE_DIR     = "log_files/measurements_2026-04-28_1"
+SIMULATE_DIR     = str(ROOT / "data/sensor_logs/measurements_2026-04-28_1")
 SIMULATE_PREFIX  = "NI_2026-04-28_1_sensor1"
 
 
@@ -307,7 +305,7 @@ def parse_sensor_log(zip_path: Path) -> tuple[str, str]:
 # Schritt 6: GPS-Buffer → DataFrame
 # ---------------------------------------------------------------------------
 
-GPS_CSV = Path("gps_last_flight.csv")
+GPS_CSV = ROOT / "data/gps_last_flight.csv"
 
 def gps_to_dataframe(buf: GpsBuffer) -> pd.DataFrame:
     df = buf.to_dataframe()
@@ -337,9 +335,9 @@ def load_gps_csv() -> pd.DataFrame:
 
 def load_sensor_csv(sensor_dir: str, prefix: str, clock_offset_s: float = None) -> pd.DataFrame:
     base = Path(sensor_dir)
-    ts   = pd.read_csv(base / f"{prefix}_timestamps.csv")
-    murs = pd.read_csv(base / f"{prefix}_MURs.csv")
-    df   = pd.concat([ts, murs], axis=1)
+    ts  = pd.read_csv(base / f"{prefix}_timestamps.csv")
+    nis = pd.read_csv(base / f"{prefix}_NIs.csv")
+    df  = pd.concat([ts, nis], axis=1)
 
     # Sensor-Timestamps in UTC konvertieren
     # clock_offset_s = Differenz zwischen RPi-Uhr und PC-UTC (automatisch kalibriert)
@@ -371,8 +369,8 @@ def load_sensor_csv(sensor_dir: str, prefix: str, clock_offset_s: float = None) 
 def estimate_offset(sensor_df: pd.DataFrame, gps_df: pd.DataFrame) -> float:
     from scipy.signal import correlate
 
-    mur_cols = [c for c in sensor_df.columns if c.startswith("MUR_")]
-    activity = sensor_df[mur_cols].std(axis=1)
+    ni_cols  = [c for c in sensor_df.columns if c.startswith("NI_")]
+    activity = sensor_df[ni_cols].std(axis=1)
 
     t0 = max(sensor_df.index.min(), gps_df.index.min())
     t1 = min(sensor_df.index.max(), gps_df.index.max())
@@ -417,7 +415,7 @@ def _interpolate_gps(sensor_df, gps_df, offset_s):
 
 
 # Visualisierungs-Engine: "cesium" | "maplibre" | "folium"
-MAP_ENGINE = "cesium"
+MAP_ENGINE = "maplibre"
 
 
 def _value_to_rgb(value: float, v_min: float, v_max: float) -> tuple:
@@ -673,32 +671,32 @@ def build_maplibre_map(df, gps_df, label, v_min, v_max, html_path):
       style: {{
         version: 8,
         sources: {{
+          sat: {{ type:"raster", tiles:["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}"], tileSize:256, attribution:"Esri World Imagery" }},
           osm: {{ type:"raster", tiles:["https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png"], tileSize:256, attribution:"© OpenStreetMap" }},
-          sat: {{ type:"raster", tiles:["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}"], tileSize:256, attribution:"Esri" }},
         }},
-        layers: [{{ id:"osm",type:"raster",source:"osm" }}]
+        layers: [{{ id:"sat-layer",type:"raster",source:"sat" }}]
       }},
       center: {center},
       zoom: 17,
     }});
 
-    // Satellit-Toggle
-    let isSat = false;
+    // Karte-Toggle
+    let isSat = true;
     const btn = document.createElement("button");
-    btn.textContent = "🛰 Satellit";
+    btn.textContent = "🗺 Karte";
     Object.assign(btn.style, {{ position:"absolute",top:"16px",left:"16px",zIndex:10,
       padding:"8px 14px",background:"rgba(18,18,18,0.85)",color:"#fff",border:"none",
       borderRadius:"8px",cursor:"pointer",font:"13px sans-serif",backdropFilter:"blur(4px)" }});
     btn.onclick = () => {{
       isSat = !isSat;
-      map.setLayoutProperty("osm", "visibility", isSat ? "none" : "visible");
-      map.setLayoutProperty("sat", "visibility", isSat ? "visible" : "none");
+      map.setLayoutProperty("sat-layer", "visibility", isSat ? "visible" : "none");
+      map.setLayoutProperty("osm-layer", "visibility", isSat ? "none" : "visible");
       btn.textContent = isSat ? "🗺 Karte" : "🛰 Satellit";
     }};
     document.body.appendChild(btn);
 
     map.on("load", () => {{
-      map.addLayer({{ id:"sat",type:"raster",source:"sat",layout:{{visibility:"none"}} }});
+      map.addLayer({{ id:"osm-layer",type:"raster",source:"osm",layout:{{visibility:"none"}} }});
 
       // Flugpfad
       map.addSource("path", {{ type:"geojson", data:{path_json} }});
@@ -744,11 +742,6 @@ def build_maplibre_map(df, gps_df, label, v_min, v_max, html_path):
 
 
 def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
-    import matplotlib
-    matplotlib.use("Agg")
-    import rasterio
-    from rasterio.transform import from_bounds
-    from rasterio.crs import CRS
     from scipy.interpolate import griddata
     from pyproj import Transformer
 
@@ -762,14 +755,14 @@ def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
         )
 
     # Messwert
-    mur_cols = [c for c in df.columns if c.startswith("MUR_")]
+    ni_cols = [c for c in df.columns if c.startswith("NI_")]
     if MAP_CHANNEL is None:
-        df["value"] = df[mur_cols].mean(axis=1)
-        label = "MUR Mittelwert"
+        df["value"] = df[ni_cols].mean(axis=1)
+        label = "NIR Mittelwert"
     else:
-        ch_cols     = [f"MUR_{MAP_CHANNEL}_{d}" for d in range(1, 5)]
+        ch_cols     = [f"NI_{MAP_CHANNEL}_{d}" for d in range(1, 5)]
         df["value"] = df[ch_cols].mean(axis=1)
-        label = f"MUR Kanal {MAP_CHANNEL}"
+        label = f"NIR Kanal {MAP_CHANNEL}"
 
     lats   = df["lat"].values
     lons   = df["lon"].values
@@ -791,25 +784,50 @@ def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
     else:
         raise ValueError(f"Unbekannte MAP_ENGINE: {MAP_ENGINE}. Wähle 'cesium' oder 'maplibre'.")
 
-    # -----------------------------------------------------------------------
-    # GeoTIFF
-    # -----------------------------------------------------------------------
-    to_utm   = Transformer.from_crs("EPSG:4326", f"EPSG:{UTM_EPSG}", always_xy=True)
-    from_utm = Transformer.from_crs(f"EPSG:{UTM_EPSG}", "EPSG:4326", always_xy=True)
-    x, y     = to_utm.transform(lons, lats)
-    nx       = max(2, int((x.max() - x.min()) / RESOLUTION_M) + 1)
-    ny       = max(2, int((y.max() - y.min()) / RESOLUTION_M) + 1)
-    gx, gy   = np.meshgrid(np.linspace(x.min(), x.max(), nx),
-                             np.linspace(y.min(), y.max(), ny))
-    grid     = np.flipud(griddata(np.column_stack([x, y]), values, (gx, gy), method="linear"))
-    lon_min, lat_min = from_utm.transform(x.min(), y.min())
-    lon_max, lat_max = from_utm.transform(x.max(), y.max())
-    tf = from_bounds(lon_min, lat_min, lon_max, lat_max, nx, ny)
-    with rasterio.open(OUTPUT_TIF, "w", driver="GTiff", height=ny, width=nx,
-                       count=1, dtype=rasterio.float32, crs=CRS.from_epsg(4326),
-                       transform=tf, nodata=np.nan) as dst:
-        dst.write(grid.astype(np.float32), 1)
-    print(f"  GeoTIFF: {OUTPUT_TIF}  ({nx}x{ny} px)")
+    export_json(lats, lons, alts, values, times, label, v_min, v_max, gps_df)
+
+
+def export_json(lats, lons, alts, values, times, label, v_min, v_max, gps_df):
+    import json
+    from datetime import datetime
+
+    points = []
+    for i in range(len(lats)):
+        r, g, b = _value_to_rgb(float(values[i]), v_min, v_max)
+        points.append({
+            "lat":   round(float(lats[i]), 7),
+            "lon":   round(float(lons[i]), 7),
+            "alt":   round(float(alts[i]), 2),
+            "value": round(float(values[i]), 3),
+            "time":  str(times[i]),
+            "r": r, "g": g, "b": b,
+        })
+
+    path = [
+        {"lat": round(float(row.lat), 7), "lon": round(float(row.lon), 7), "alt": round(float(row.alt), 2)}
+        for _, row in gps_df.iterrows()
+    ]
+
+    data = {
+        "meta": {
+            "label": label,
+            "point_count": len(points),
+            "v_min":  round(float(v_min), 3),
+            "v_max":  round(float(v_max), 3),
+            "v_mean": round(float(np.mean(values)), 3),
+            "v_std":  round(float(np.std(values)), 3),
+            "center_lat": round(float(np.mean(lats)), 7),
+            "center_lon": round(float(np.mean(lons)), 7),
+            "generated_at": datetime.utcnow().isoformat() + "Z",
+        },
+        "points": points,
+        "path":   path,
+    }
+
+    json_path = ROOT / "output" / "flight_data.json"
+    json_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    print(f"  JSON: {json_path}")
+
 
 
 # ---------------------------------------------------------------------------
@@ -817,6 +835,7 @@ def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
 # ---------------------------------------------------------------------------
 
 def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str, remap: bool = False):
+    (ROOT / "output").mkdir(exist_ok=True)
     print("=" * 50)
     print("  Sensor Map Mission")
     print("=" * 50)
@@ -905,7 +924,7 @@ def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str, remap: b
     print("\n[ 9 ] Karte erstellen ...")
     build_map(sensor_df, gps_df, offset_s)
 
-    print(f"\nFertig — {OUTPUT_PNG} und {OUTPUT_TIF} erstellt.")
+    print(f"\nFertig — {OUTPUT_PNG} erstellt.")
 
 
 if __name__ == "__main__":

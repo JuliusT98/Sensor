@@ -21,10 +21,9 @@ from scipy.signal import correlate
 # Konfiguration — hier anpassen
 # ---------------------------------------------------------------------------
 
-LOG_FILE        = "logs/00000001.BIN"            # ArduPilot .bin  ODER  PX4 .ulg
-                                                  # SITL-Logs: logs/XXXXXXXX.BIN im ArduPilot-Ordner
+LOG_FILE        = "data/flight_logs/00000001.BIN"  # ArduPilot .bin  ODER  PX4 .ulg
 
-SENSOR_DIR      = "log_files/measurements_2026-04-13_1"
+SENSOR_DIR      = "data/sensor_logs/measurements_2026-04-13_1"
 SENSOR_PREFIX   = "NI_2026-04-13_1_sensor1"
 
 # Welcher Kanal soll gemappt werden?
@@ -39,8 +38,8 @@ AUTO_SYNC       = True
 TIME_OFFSET_S   = 0.0
 
 RESOLUTION_M    = 0.5    # Pixelgröße in Metern
-OUTPUT_TIF      = "sensor_map.tif"
-OUTPUT_PNG      = "sensor_map.png"
+OUTPUT_TIF      = "output/sensor_map.tif"
+OUTPUT_PNG      = "output/sensor_map.png"
 
 UTM_EPSG        = 32633  # 32632=West-DE, 32633=Ost-DE/Österreich, 32634=weiter östlich
 MIN_HDOP        = 2.5
@@ -160,13 +159,13 @@ def parse_gps(log_file: str) -> pd.DataFrame:
 def parse_sensor_data(sensor_dir: str, prefix: str) -> pd.DataFrame:
     base     = Path(sensor_dir)
     ts_path  = base / f"{prefix}_timestamps.csv"
-    mur_path = base / f"{prefix}_MURs.csv"
+    ni_path = base / f"{prefix}_NIs.csv"
 
-    for p in [ts_path, mur_path]:
+    for p in [ts_path, ni_path]:
         if not p.exists():
             raise FileNotFoundError(f"Nicht gefunden: {p}")
 
-    df = pd.concat([pd.read_csv(ts_path), pd.read_csv(mur_path)], axis=1)
+    df = pd.concat([pd.read_csv(ts_path), pd.read_csv(ni_path)], axis=1)
     df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
     df = df.set_index("timestamp").sort_index()
     df = df[~df.index.duplicated(keep="first")]
@@ -182,8 +181,8 @@ def parse_sensor_data(sensor_dir: str, prefix: str) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 
 def estimate_time_offset(sensor_df: pd.DataFrame, gps_df: pd.DataFrame) -> float:
-    mur_cols = [c for c in sensor_df.columns if c.startswith("MUR_")]
-    activity = sensor_df[mur_cols].std(axis=1)
+    ni_cols  = [c for c in sensor_df.columns if c.startswith("NI_")]
+    activity = sensor_df[ni_cols].std(axis=1)
 
     t_start = max(sensor_df.index.min(), gps_df.index.min())
     t_end   = min(sensor_df.index.max(), gps_df.index.max())
@@ -243,18 +242,18 @@ def interpolate_gps_to_sensor(
 
 def extract_map_value(df: pd.DataFrame, channel: int | None) -> pd.DataFrame:
     result   = df.copy()
-    mur_cols = [c for c in df.columns if c.startswith("MUR_")]
+    ni_cols = [c for c in df.columns if c.startswith("NI_")]
 
     if channel is None:
-        result["value"] = df[mur_cols].mean(axis=1)
-        label = "MUR Mittelwert (alle Kanäle)"
+        result["value"] = df[ni_cols].mean(axis=1)
+        label = "NIR Mittelwert (alle Kanäle)"
     else:
-        ch_cols = [f"MUR_{channel}_{d}" for d in range(1, 5)]
+        ch_cols = [f"NI_{channel}_{d}" for d in range(1, 5)]
         missing = [c for c in ch_cols if c not in df.columns]
         if missing:
             raise ValueError(f"Spalten nicht gefunden: {missing}")
         result["value"] = df[ch_cols].mean(axis=1)
-        label = f"MUR Kanal {channel}"
+        label = f"NIR Kanal {channel}"
 
     result.attrs["value_label"] = label
     print(f"  {label}: {result['value'].min():.3f} – {result['value'].max():.3f} "
@@ -340,6 +339,7 @@ def build_and_export_map(georef_df: pd.DataFrame):
 # ---------------------------------------------------------------------------
 
 def run():
+    Path("output").mkdir(exist_ok=True)
     print("=== Sensor Map Pipeline ===\n")
 
     print("[ 1 ] Log einlesen ...")
