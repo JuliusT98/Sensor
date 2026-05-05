@@ -11,7 +11,7 @@ import { FlightData, FlightMeta } from '@/lib/types'
 const LAT_M = 111319
 const lonM  = (lat: number) => 111319 * Math.cos((lat * Math.PI) / 180)
 const ALT_SCALE = 8
-const GROUND_Y  = -20
+const GROUND_Y  = 0
 const SAT_ZOOM  = 17
 
 function toXYZ(
@@ -124,10 +124,10 @@ function FlightPath({ data, meanAlt }: { data: FlightData; meanAlt: number }) {
     const pos: number[] = [], col: number[] = []
     for (let i = 0; i < points.length - 1; i++) {
       const a = points[i], b = points[i + 1]
-      const [ax, ay, az] = toXYZ(a.lat, a.lon, a.alt, meta.center_lat, meta.center_lon, meanAlt)
-      const [bx, by, bz] = toXYZ(b.lat, b.lon, b.alt, meta.center_lat, meta.center_lon, meanAlt)
+      const [ax, ay, az] = toXYZ(a.lat, a.lon, a.rel_alt, meta.center_lat, meta.center_lon, meanAlt)
+      const [bx, by, bz] = toXYZ(b.lat, b.lon, b.rel_alt, meta.center_lat, meta.center_lon, meanAlt)
       pos.push(ax, ay, az, bx, by, bz)
-      col.push(a.r / 255, a.g / 255, a.b / 255, b.r / 255, b.g / 255, b.b / 255)
+      col.push(1, 0.85, 0, 1, 0.85, 0)
     }
     return { positions: new Float32Array(pos), colors: new Float32Array(col) }
   }, [points, meta, meanAlt])
@@ -152,8 +152,8 @@ function MeasurementPoints({ data, meanAlt }: { data: FlightData; meanAlt: numbe
     const pos = new Float32Array(points.length * 3)
     const col = new Float32Array(points.length * 3)
     points.forEach((p, i) => {
-      const [x, y, z] = toXYZ(p.lat, p.lon, p.alt, meta.center_lat, meta.center_lon, meanAlt)
-      pos[i*3]=x; pos[i*3+1]=y; pos[i*3+2]=z
+      const [x, , z] = toXYZ(p.lat, p.lon, 0, meta.center_lat, meta.center_lon, 0)
+      pos[i*3]=x; pos[i*3+1]=GROUND_Y; pos[i*3+2]=z
       col[i*3]=p.r/255; col[i*3+1]=p.g/255; col[i*3+2]=p.b/255
     })
     return { positions: pos, colors: col }
@@ -174,25 +174,25 @@ function MeasurementPoints({ data, meanAlt }: { data: FlightData; meanAlt: numbe
 
 function Markers({ data, meanAlt }: { data: FlightData; meanAlt: number }) {
   const { points, meta } = data
-  const [sx, sy, sz] = toXYZ(points[0].lat, points[0].lon, points[0].alt, meta.center_lat, meta.center_lon, meanAlt)
+  const [sx, , sz] = toXYZ(points[0].lat, points[0].lon, 0, meta.center_lat, meta.center_lon, 0)
   const last = points[points.length - 1]
-  const [ex, ey, ez] = toXYZ(last.lat, last.lon, last.alt, meta.center_lat, meta.center_lon, meanAlt)
+  const [ex, , ez] = toXYZ(last.lat, last.lon, 0, meta.center_lat, meta.center_lon, 0)
 
   return (
     <>
-      <mesh position={[sx, sy, sz]}>
-        <sphereGeometry args={[1.5, 12, 12]} />
+      <mesh position={[sx, GROUND_Y, sz]}>
+        <sphereGeometry args={[0.4, 12, 12]} />
         <meshStandardMaterial color="#00ff88" emissive="#00ff88" emissiveIntensity={0.6} />
       </mesh>
-      <Html position={[sx, sy + 5, sz]} center style={{ pointerEvents: 'none' }}>
+      <Html position={[sx, GROUND_Y + 5, sz]} center style={{ pointerEvents: 'none' }}>
         <div style={{ color: '#00ff88', fontSize: 11, fontFamily: 'sans-serif', whiteSpace: 'nowrap' }}>Start</div>
       </Html>
 
-      <mesh position={[ex, ey, ez]}>
-        <sphereGeometry args={[1.5, 12, 12]} />
+      <mesh position={[ex, GROUND_Y, ez]}>
+        <sphereGeometry args={[0.4, 12, 12]} />
         <meshStandardMaterial color="#ff4444" emissive="#ff4444" emissiveIntensity={0.6} />
       </mesh>
-      <Html position={[ex, ey + 5, ez]} center style={{ pointerEvents: 'none' }}>
+      <Html position={[ex, GROUND_Y + 5, ez]} center style={{ pointerEvents: 'none' }}>
         <div style={{ color: '#ff4444', fontSize: 11, fontFamily: 'sans-serif', whiteSpace: 'nowrap' }}>Landung</div>
       </Html>
     </>
@@ -202,10 +202,7 @@ function Markers({ data, meanAlt }: { data: FlightData; meanAlt: number }) {
 // ── Scene ─────────────────────────────────────────────────────────────────────
 
 function Scene({ data, showSat }: { data: FlightData; showSat: boolean }) {
-  const meanAlt = useMemo(
-    () => data.points.reduce((s, p) => s + p.alt, 0) / data.points.length,
-    [data]
-  )
+  const meanAlt = 0
 
   return (
     <>

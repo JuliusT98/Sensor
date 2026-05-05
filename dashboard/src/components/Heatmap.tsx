@@ -1,126 +1,218 @@
 'use client'
 
 import { useEffect, useRef, useMemo } from 'react'
+import maplibregl from 'maplibre-gl'
+import 'maplibre-gl/dist/maplibre-gl.css'
 import { FlightData } from '@/lib/types'
 
 export default function Heatmap({ data }: { data: FlightData }) {
-  const canvasRef    = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+  const mapRef       = useRef<maplibregl.Map | null>(null)
+
+  const ptGeojson = useMemo(() => ({
+    type: 'FeatureCollection' as const,
+    features: data.points.map(p => ({
+      type: 'Feature' as const,
+      geometry: { type: 'Point' as const, coordinates: [p.lon, p.lat] },
+      properties: { value: p.value, r: p.r, g: p.g, b: p.b, time: p.time },
+    })),
+  }), [data])
+
+  const pathGeojson = useMemo(() => ({
+    type: 'Feature' as const,
+    geometry: {
+      type: 'LineString' as const,
+      coordinates: data.path.map(p => [p.lon, p.lat]),
+    },
+    properties: {},
+  }), [data])
 
   const bounds = useMemo(() => {
     const lats = data.points.map(p => p.lat)
     const lons = data.points.map(p => p.lon)
-    const pad  = 0.0003
-    return {
-      minLat: Math.min(...lats) - pad,
-      maxLat: Math.max(...lats) + pad,
-      minLon: Math.min(...lons) - pad,
-      maxLon: Math.max(...lons) + pad,
-    }
+    return new maplibregl.LngLatBounds(
+      [Math.min(...lons), Math.min(...lats)],
+      [Math.max(...lons), Math.max(...lats)],
+    )
   }, [data])
 
   useEffect(() => {
-    const canvas    = canvasRef.current
-    const container = containerRef.current
-    if (!canvas || !container) return
+    if (!containerRef.current || mapRef.current) return
 
-    const W = container.clientWidth
-    const H = container.clientHeight
-    canvas.width  = W
-    canvas.height = H
-
-    const ctx = canvas.getContext('2d')!
-    ctx.fillStyle = '#05070f'
-    ctx.fillRect(0, 0, W, H)
-
-    const toPixel = (lat: number, lon: number): [number, number] => [
-      ((lon - bounds.minLon) / (bounds.maxLon - bounds.minLon)) * W,
-      H - ((lat - bounds.minLat) / (bounds.maxLat - bounds.minLat)) * H,
-    ]
-
-    // Flight path (faint)
-    ctx.strokeStyle = 'rgba(100,180,255,0.2)'
-    ctx.lineWidth   = 1
-    ctx.beginPath()
-    data.path.forEach((p, i) => {
-      const [x, y] = toPixel(p.lat, p.lon)
-      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y)
-    })
-    ctx.stroke()
-
-    // Heatmap blobs
-    const radius = Math.min(W, H) * 0.05
-    data.points.forEach(p => {
-      const [x, y] = toPixel(p.lat, p.lon)
-      const grad   = ctx.createRadialGradient(x, y, 0, x, y, radius)
-      grad.addColorStop(0,   `rgba(${p.r},${p.g},${p.b},0.55)`)
-      grad.addColorStop(0.4, `rgba(${p.r},${p.g},${p.b},0.18)`)
-      grad.addColorStop(1,   `rgba(${p.r},${p.g},${p.b},0)`)
-      ctx.fillStyle = grad
-      ctx.beginPath()
-      ctx.arc(x, y, radius, 0, Math.PI * 2)
-      ctx.fill()
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: {
+        version: 8,
+        glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+        sources: {
+          sat: {
+            type: 'raster',
+            tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+            tileSize: 256,
+            attribution: 'Esri World Imagery',
+          },
+          osm: {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '© OpenStreetMap',
+          },
+        },
+        layers: [
+          { id: 'sat-layer', type: 'raster', source: 'sat' },
+          { id: 'osm-layer', type: 'raster', source: 'osm', layout: { visibility: 'none' } },
+        ],
+      },
+      bounds,
+      fitBoundsOptions: { padding: 60 },
     })
 
-    // Individual points (crisp)
-    data.points.forEach(p => {
-      const [x, y] = toPixel(p.lat, p.lon)
-      ctx.fillStyle = `rgb(${p.r},${p.g},${p.b})`
-      ctx.beginPath()
-      ctx.arc(x, y, 2, 0, Math.PI * 2)
-      ctx.fill()
+    mapRef.current = map
+    map.addControl(new maplibregl.NavigationControl(), 'bottom-right')
+    map.addControl(new maplibregl.ScaleControl(), 'bottom-left')
+
+    // Karte/Satellit-Toggle
+    let isSat = true
+    const toggleBtn = document.createElement('button')
+    toggleBtn.textContent = 'Karte'
+    toggleBtn.style.cssText = `
+      position:absolute;top:10px;left:10px;z-index:10;
+      padding:6px 12px;background:rgba(13,17,23,0.85);color:#fff;
+      border:1px solid #1e2433;border-radius:6px;cursor:pointer;
+      font:12px sans-serif;backdrop-filter:blur(4px);
+    `
+    toggleBtn.onclick = () => {
+      isSat = !isSat
+      map.setLayoutProperty('sat-layer', 'visibility', isSat ? 'visible' : 'none')
+      map.setLayoutProperty('osm-layer', 'visibility', isSat ? 'none' : 'visible')
+      toggleBtn.textContent = isSat ? 'Karte' : 'Satellit'
+    }
+    containerRef.current?.appendChild(toggleBtn)
+
+    map.on('load', () => {
+      map.addSource('pts', { type: 'geojson', data: ptGeojson })
+
+      // ── Heatmap-Layer (Jet-Farbskala, wertbasiert) ──────────────────────────
+      map.addLayer({
+        id: 'heatmap-layer',
+        type: 'heatmap',
+        source: 'pts',
+        paint: {
+          // Gewichtung nach Sensorwert → hoher Wert = "heiß"
+          'heatmap-weight': [
+            'interpolate', ['linear'], ['get', 'value'],
+            data.meta.v_min, 0,
+            data.meta.v_max, 1,
+          ],
+          // Radius wächst mit Zoom
+          'heatmap-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            12, 18,
+            15, 35,
+            18, 70,
+          ],
+          // Jet-Farbverlauf: blau → cyan → grün → gelb → rot → weiß
+          'heatmap-color': [
+            'interpolate', ['linear'], ['heatmap-density'],
+            0,    'rgba(20,0,130,0)',
+            0.08, 'rgba(30,0,220,0.65)',
+            0.22, 'rgba(0,200,255,0.78)',
+            0.42, 'rgba(0,230,80,0.84)',
+            0.62, 'rgba(220,255,0,0.89)',
+            0.78, 'rgba(255,140,0,0.93)',
+            0.90, 'rgba(255,20,0,0.96)',
+            1,    'rgba(255,255,255,1)',
+          ],
+          'heatmap-intensity': [
+            'interpolate', ['linear'], ['zoom'],
+            12, 0.8,
+            18, 2.5,
+          ],
+          'heatmap-opacity': 0.82,
+        },
+      })
+
+      // ── Einzelpunkte bei hohem Zoom ──────────────────────────────────────────
+      map.addLayer({
+        id: 'pts-layer',
+        type: 'circle',
+        source: 'pts',
+        minzoom: 17,
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 17, 3, 21, 10],
+          'circle-color':  ['rgb', ['get', 'r'], ['get', 'g'], ['get', 'b']],
+          'circle-opacity': 0.9,
+          'circle-stroke-width': 0.8,
+          'circle-stroke-color': 'rgba(0,0,0,0.4)',
+        },
+      })
+
+      // ── Flugpfad ─────────────────────────────────────────────────────────────
+      map.addSource('path', { type: 'geojson', data: pathGeojson })
+      map.addLayer({
+        id: 'path-glow', type: 'line', source: 'path',
+        paint: { 'line-color': '#ffdd00', 'line-width': 7, 'line-opacity': 0.15, 'line-blur': 5 },
+      })
+      map.addLayer({
+        id: 'path-line', type: 'line', source: 'path',
+        paint: { 'line-color': '#ffdd00', 'line-width': 1.5, 'line-opacity': 0.8 },
+      })
+
+      // ── Start / Landung ───────────────────────────────────────────────────────
+      const mkStart = document.createElement('div')
+      mkStart.style.cssText = 'width:11px;height:11px;border-radius:50%;background:#00ff88;border:2px solid #fff;box-shadow:0 0 8px #00ff88'
+      new maplibregl.Marker({ element: mkStart })
+        .setLngLat([data.path[0].lon, data.path[0].lat])
+        .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML('<b style="font:12px sans-serif">Start</b>'))
+        .addTo(map)
+
+      const mkEnd = document.createElement('div')
+      mkEnd.style.cssText = 'width:11px;height:11px;border-radius:50%;background:#ff4444;border:2px solid #fff;box-shadow:0 0 8px #ff4444'
+      new maplibregl.Marker({ element: mkEnd })
+        .setLngLat([data.path[data.path.length - 1].lon, data.path[data.path.length - 1].lat])
+        .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML('<b style="font:12px sans-serif">Landung</b>'))
+        .addTo(map)
+
+      // ── Hover-Tooltip (ab Zoom 17 auf Einzelpunkten) ─────────────────────────
+      const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 })
+
+      map.on('mousemove', 'pts-layer', e => {
+        map.getCanvas().style.cursor = 'crosshair'
+        const p = e.features![0].properties as { value: number; time: string }
+        popup
+          .setLngLat(e.lngLat)
+          .setHTML(`
+            <div style="font:12px/1.6 sans-serif;color:#fff;background:rgba(13,17,23,0.92);
+                        padding:7px 11px;border-radius:7px;border:1px solid #1e2433">
+              <b>${data.meta.label}:</b> ${p.value}<br>
+              <span style="color:#94a3b8">Zeit: ${p.time}</span>
+            </div>`)
+          .addTo(map)
+      })
+      map.on('mouseleave', 'pts-layer', () => {
+        map.getCanvas().style.cursor = ''
+        popup.remove()
+      })
     })
 
-    // Start marker
-    const [sx, sy] = toPixel(data.path[0].lat, data.path[0].lon)
-    ctx.fillStyle   = '#00ff88'
-    ctx.shadowColor = '#00ff88'
-    ctx.shadowBlur  = 8
-    ctx.beginPath()
-    ctx.arc(sx, sy, 5, 0, Math.PI * 2)
-    ctx.fill()
-    ctx.shadowBlur  = 0
-    ctx.font        = '11px sans-serif'
-    ctx.fillText('Start', sx + 8, sy + 4)
-
-    // Landing marker
-    const [ex, ey] = toPixel(
-      data.path[data.path.length - 1].lat,
-      data.path[data.path.length - 1].lon
-    )
-    ctx.fillStyle   = '#ff4444'
-    ctx.shadowColor = '#ff4444'
-    ctx.shadowBlur  = 8
-    ctx.beginPath()
-    ctx.arc(ex, ey, 5, 0, Math.PI * 2)
-    ctx.fill()
-    ctx.shadowBlur  = 0
-    ctx.fillText('Landung', ex + 8, ey + 4)
-
-    // Color bar (bottom)
-    const barW = 200, barH = 10, barX = 16, barY = H - 32
-    const barGrad = ctx.createLinearGradient(barX, 0, barX + barW, 0)
-    barGrad.addColorStop(0,    '#006837')
-    barGrad.addColorStop(0.25, '#66bd63')
-    barGrad.addColorStop(0.5,  '#d9ef8b')
-    barGrad.addColorStop(0.75, '#f46d43')
-    barGrad.addColorStop(1,    '#a50026')
-    ctx.fillStyle = barGrad
-    ctx.beginPath()
-    ctx.roundRect(barX, barY, barW, barH, 3)
-    ctx.fill()
-
-    ctx.fillStyle = 'rgba(200,210,220,0.8)'
-    ctx.font      = '10px sans-serif'
-    ctx.fillText(data.meta.v_min.toFixed(0), barX, barY + barH + 12)
-    ctx.fillText(data.meta.v_max.toFixed(0), barX + barW - 24, barY + barH + 12)
-    ctx.fillText(data.meta.label, barX, barY - 6)
-
-  }, [data, bounds])
+    return () => { map.remove(); mapRef.current = null }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div ref={containerRef} className="w-full h-full">
-      <canvas ref={canvasRef} className="w-full h-full" />
+    <div className="w-full h-full relative">
+      <div ref={containerRef} className="w-full h-full" />
+
+      {/* Jet-Legende */}
+      <div className="absolute bottom-8 right-4 z-10 bg-black/70 backdrop-blur-sm rounded-lg px-3 py-2.5 text-xs text-white pointer-events-none">
+        <div className="mb-1.5 font-medium text-slate-300">{data.meta.label}</div>
+        <div className="w-32 h-3 rounded mb-1" style={{
+          background: 'linear-gradient(to right, #1400dc, #00c8ff, #00e650, #dcff00, #ff8c00, #ff1400, #ffffff)',
+        }} />
+        <div className="flex justify-between w-32 text-slate-400">
+          <span>{data.meta.v_min.toFixed(1)}</span>
+          <span>{data.meta.v_max.toFixed(1)}</span>
+        </div>
+      </div>
     </div>
   )
 }

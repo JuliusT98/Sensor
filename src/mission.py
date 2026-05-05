@@ -198,10 +198,12 @@ def gps_logging_thread(buf: GpsBuffer, port: str, baud: int):
             rel_alt = msg.relative_alt / 1000.0
             speed   = np.sqrt(msg.vx**2 + msg.vy**2) / 100.0
 
-            if lat != 0.0 and lon != 0.0:
+            # rel_alt == 0.0 während des Fluges ist ein SITL-Artefakt (zwei Message-Quellen)
+            spurious = buf.armed and rel_alt == 0.0
+            if lat != 0.0 and lon != 0.0 and not spurious:
                 buf.add(ts, lat, lon, alt, rel_alt, speed)
 
-            if buf.armed and rel_alt < LAND_ALT_M and speed < LAND_SPEED_MS:
+            if buf.armed and not spurious and rel_alt < LAND_ALT_M and speed < LAND_SPEED_MS:
                 if land_since is None:
                     land_since = time.monotonic()
                 elif time.monotonic() - land_since >= LAND_CONFIRM_S:
@@ -402,7 +404,7 @@ def _interpolate_gps(sensor_df, gps_df, offset_s):
     df.index = df.index - pd.Timedelta(seconds=offset_s)
     gps_ns   = gps_df.index.astype(np.int64)
     sen_ns   = df.index.astype(np.int64)
-    for col in ["lat", "lon", "alt"]:
+    for col in ["lat", "lon", "alt", "rel_alt"]:
         fn      = interp1d(gps_ns, gps_df[col].values, kind="linear",
                            bounds_error=False, fill_value=np.nan)
         df[col] = fn(sen_ns)
@@ -445,10 +447,11 @@ def build_cesium_map(df, gps_df, label, v_min, v_max, html_path):
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": [float(row["lon"]), float(row["lat"]), float(row["alt"])]},
             "properties": {
-                "value": round(float(row["value"]), 4),
-                "alt":   round(float(row["alt"]), 1),
-                "time":  str(idx),
-                "color": f"rgb({r},{g},{b})",
+                "value":   round(float(row["value"]), 4),
+                "alt":     round(float(row["alt"]), 1),
+                "rel_alt": round(float(row["rel_alt"]), 1),
+                "time":    str(idx),
+                "color":   f"rgb({r},{g},{b})",
                 "r": r, "g": g, "b": b,
             }
         })
@@ -580,7 +583,7 @@ def build_cesium_map(df, gps_df, label, v_min, v_max, html_path):
         point: {{ pixelSize: 8, color: c, outlineColor: Cesium.Color.WHITE.withAlpha(0.3), outlineWidth: 1 }},
         description: `<table style="font:13px sans-serif;color:#222">
           <tr><td><b>{label}</b></td><td>${{p.value}}</td></tr>
-          <tr><td>Höhe</td><td>${{p.alt}} m</td></tr>
+          <tr><td>Höhe AGL</td><td>${{p.rel_alt}} m</td></tr>
           <tr><td>Zeit</td><td>${{p.time}}</td></tr>
         </table>`,
       }});
@@ -620,7 +623,7 @@ def build_maplibre_map(df, gps_df, label, v_min, v_max, html_path):
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": [float(row["lon"]), float(row["lat"])]},
             "properties": {"value": round(float(row["value"]), 4), "alt": round(float(row["alt"]), 1),
-                           "time": str(idx), "r": r, "g": g, "b": b}
+                           "rel_alt": round(float(row["rel_alt"]), 1), "time": str(idx), "r": r, "g": g, "b": b}
         })
 
     path_coords = [[float(row["lon"]), float(row["lat"])]
@@ -726,7 +729,7 @@ def build_maplibre_map(df, gps_df, label, v_min, v_max, html_path):
         tip.style.display = "block";
         tip.style.left = e.point.x + 14 + "px";
         tip.style.top  = e.point.y + "px";
-        tip.innerHTML = `<b>{label}:</b> ${{p.value}}<br>Höhe: ${{p.alt}} m<br>Zeit: ${{p.time}}`;
+        tip.innerHTML = `<b>{label}:</b> ${{p.value}}<br>Höhe AGL: ${{p.rel_alt}} m<br>Zeit: ${{p.time}}`;
       }});
       map.on("mouseleave","pts-layer", () => {{
         map.getCanvas().style.cursor = "";
@@ -764,11 +767,12 @@ def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
         df["value"] = df[ch_cols].mean(axis=1)
         label = f"NIR Kanal {MAP_CHANNEL}"
 
-    lats   = df["lat"].values
-    lons   = df["lon"].values
-    values = df["value"].values
-    alts   = df["alt"].values
-    times  = df.index.strftime("%H:%M:%S").values
+    lats     = df["lat"].values
+    lons     = df["lon"].values
+    values   = df["value"].values
+    alts     = df["alt"].values
+    rel_alts = df["rel_alt"].values
+    times    = df.index.strftime("%H:%M:%S").values
     v_min  = float(np.nanpercentile(values, 2))
     v_max  = float(np.nanpercentile(values, 98))
     print(f"  {label}: {values.min():.3f} – {values.max():.3f}")
@@ -784,10 +788,10 @@ def build_map(sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float):
     else:
         raise ValueError(f"Unbekannte MAP_ENGINE: {MAP_ENGINE}. Wähle 'cesium' oder 'maplibre'.")
 
-    export_json(lats, lons, alts, values, times, label, v_min, v_max, gps_df)
+    export_json(lats, lons, alts, rel_alts, values, times, label, v_min, v_max, gps_df)
 
 
-def export_json(lats, lons, alts, values, times, label, v_min, v_max, gps_df):
+def export_json(lats, lons, alts, rel_alts, values, times, label, v_min, v_max, gps_df):
     import json
     from datetime import datetime
 
@@ -795,11 +799,12 @@ def export_json(lats, lons, alts, values, times, label, v_min, v_max, gps_df):
     for i in range(len(lats)):
         r, g, b = _value_to_rgb(float(values[i]), v_min, v_max)
         points.append({
-            "lat":   round(float(lats[i]), 7),
-            "lon":   round(float(lons[i]), 7),
-            "alt":   round(float(alts[i]), 2),
-            "value": round(float(values[i]), 3),
-            "time":  str(times[i]),
+            "lat":     round(float(lats[i]), 7),
+            "lon":     round(float(lons[i]), 7),
+            "alt":     round(float(alts[i]), 2),
+            "rel_alt": round(float(rel_alts[i]), 2),
+            "value":   round(float(values[i]), 3),
+            "time":    str(times[i]),
             "r": r, "g": g, "b": b,
         })
 

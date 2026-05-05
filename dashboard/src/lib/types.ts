@@ -2,6 +2,7 @@ export interface FlightPoint {
   lat: number
   lon: number
   alt: number
+  rel_alt: number
   value: number
   time: string
   r: number
