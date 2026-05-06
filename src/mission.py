@@ -158,7 +158,7 @@ def gps_logging_thread(buf: GpsBuffer, port: str, baud: int):
     # GPS-Datenstream explizit anfordern (nötig bei SITL und manchen Setups)
     mav.mav.request_data_stream_send(
         mav.target_system, mav.target_component,
-        mavutil.mavlink.MAV_DATA_STREAM_POSITION, 4, 1   # 4 Hz, start
+        mavutil.mavlink.MAV_DATA_STREAM_POSITION, 20, 1   # 20 Hz, start
     )
     mav.mav.request_data_stream_send(
         mav.target_system, mav.target_component,

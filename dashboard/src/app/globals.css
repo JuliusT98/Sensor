@@ -36,3 +36,9 @@ body {
   padding: 0 !important;
 }
 .maplibregl-popup-tip { display: none !important; }
+
+/* Cesium UI bereinigen */
+.cesium-widget-credits,
+.cesium-credit-logoContainer,
+.cesium-credit-textContainer { display: none !important; }
+.cesium-viewer-toolbar { display: none !important; }

@@ -142,6 +142,10 @@ def gps_thread(buf: DataBuffer, port: str, baud: int):
         mav = mavutil.mavlink_connection(port, baud=baud)
         mav.wait_heartbeat(timeout=15)
         print(f"[GPS] Verbunden — System {mav.target_system}")
+        mav.mav.request_data_stream_send(
+            mav.target_system, mav.target_component,
+            mavutil.mavlink.MAV_DATA_STREAM_POSITION, 20, 1   # 20 Hz
+        )
         buf.status = "GPS: Verbunden"
     except Exception as e:
         print(f"[GPS] Fehler: {e}")

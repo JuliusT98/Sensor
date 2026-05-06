@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.venv/Scripts/pip install *)"
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(npm install *)",
+      "Bash(Remove-Item *)",
+      "Bash(npx playwright *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\julit\\\\Desktop\\\\Spraylogic-Projekt\\\\Sensor\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(git -C \"C:\\\\Users\\\\julit\\\\Desktop\\\\Spraylogic-Projekt\\\\Sensor\" log --oneline)",
+      "Bash(npm run *)",
+      "Bash(Start-Sleep -Seconds 8)",
+      "Bash(Get-Content \"C:\\\\Users\\\\julit\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-julit-Desktop-Spraylogic-Projekt-Sensor\\\\1438ea44-4301-4481-a7bd-588be1b1b5d9\\\\tasks\\\\bffimvmnp.output\" -Tail 10)",
+      "Bash(BASE_URL=http://localhost:3001 npx playwright test --headed)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist /FI \"PID eq 18028\")",
+      "PowerShell(Get-Process *)"
     ]
   }
 }
