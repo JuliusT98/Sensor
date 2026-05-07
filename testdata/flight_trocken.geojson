@@ -1,0 +1,6245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1552,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:00+00:00",
+        "nir_values": [
+          505.65,
+          498.08,
+          528.63,
+          516.9,
+          497.71,
+          474.05,
+          491.47,
+          522.31
+        ],
+        "nir_mean": 504.35,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1552,
+          40.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:00.200000+00:00",
+        "nir_values": [
+          500.85,
+          504.88,
+          493.82,
+          517.53,
+          500.23,
+          452.92,
+          531.25,
+          503.0
+        ],
+        "nir_mean": 500.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1552,
+          40.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:00.400000+00:00",
+        "nir_values": [
+          519.44,
+          524.89,
+          540.05,
+          523.49,
+          512.58,
+          536.17,
+          537.29,
+          506.02
+        ],
+        "nir_mean": 524.99,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1552,
+          40.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:00.600000+00:00",
+        "nir_values": [
+          530.35,
+          534.06,
+          525.43,
+          538.96,
+          462.58,
+          525.66,
+          524.63,
+          519.55
+        ],
+        "nir_mean": 520.15,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1552,
+          40.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:00.800000+00:00",
+        "nir_values": [
+          548.91,
+          510.54,
+          566.7,
+          522.24,
+          544.37,
+          522.89,
+          587.97,
+          534.24
+        ],
+        "nir_mean": 542.23,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1552,
+          40.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:01+00:00",
+        "nir_values": [
+          550.77,
+          519.5,
+          527.03,
+          555.68,
+          506.29,
+          552.75,
+          513.67,
+          549.81
+        ],
+        "nir_mean": 534.44,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1552,
+          40.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:01.200000+00:00",
+        "nir_values": [
+          591.15,
+          531.78,
+          535.37,
+          566.16,
+          587.58,
+          544.91,
+          546.17,
+          561.17
+        ],
+        "nir_mean": 558.04,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1552,
+          40.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:01.400000+00:00",
+        "nir_values": [
+          566.25,
+          558.58,
+          583.2,
+          561.38,
+          584.58,
+          560.92,
+          600.11,
+          561.73
+        ],
+        "nir_mean": 572.09,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1552,
+          40.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:01.600000+00:00",
+        "nir_values": [
+          550.71,
+          576.72,
+          565.06,
+          570.79,
+          586.37,
+          603.46,
+          605.97,
+          568.6
+        ],
+        "nir_mean": 578.46,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1552,
+          39.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:01.800000+00:00",
+        "nir_values": [
+          604.22,
+          559.97,
+          601.26,
+          582.62,
+          589.76,
+          582.82,
+          580.55,
+          576.48
+        ],
+        "nir_mean": 584.71,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1552,
+          39.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:02+00:00",
+        "nir_values": [
+          607.06,
+          592.98,
+          559.21,
+          594.23,
+          600.47,
+          614.43,
+          616.11,
+          584.98
+        ],
+        "nir_mean": 596.18,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1552,
+          39.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:02.200000+00:00",
+        "nir_values": [
+          629.85,
+          614.03,
+          625.04,
+          638.14,
+          656.05,
+          636.42,
+          644.08,
+          615.47
+        ],
+        "nir_mean": 632.38,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1552,
+          39.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:02.400000+00:00",
+        "nir_values": [
+          618.58,
+          659.73,
+          627.62,
+          631.54,
+          612.3,
+          600.01,
+          683.45,
+          637.64
+        ],
+        "nir_mean": 633.86,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1552,
+          39.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:02.600000+00:00",
+        "nir_values": [
+          649.73,
+          634.58,
+          602.79,
+          605.94,
+          645.16,
+          643.05,
+          653.61,
+          634.63
+        ],
+        "nir_mean": 633.69,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1552,
+          39.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:02.800000+00:00",
+        "nir_values": [
+          636.95,
+          591.81,
+          641.59,
+          595.41,
+          632.98,
+          615.65,
+          645.05,
+          672.55
+        ],
+        "nir_mean": 629.0,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1552,
+          39.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:03+00:00",
+        "nir_values": [
+          669.87,
+          664.83,
+          658.39,
+          641.58,
+          630.43,
+          638.43,
+          637.38,
+          648.82
+        ],
+        "nir_mean": 648.72,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1552,
+          39.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:03.200000+00:00",
+        "nir_values": [
+          658.2,
+          691.48,
+          656.14,
+          662.13,
+          648.12,
+          655.47,
+          665.66,
+          662.11
+        ],
+        "nir_mean": 662.41,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1552,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:03.400000+00:00",
+        "nir_values": [
+          697.44,
+          688.87,
+          602.92,
+          666.52,
+          739.29,
+          639.57,
+          672.8,
+          695.28
+        ],
+        "nir_mean": 675.34,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1552,
+          39.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:03.600000+00:00",
+        "nir_values": [
+          652.03,
+          661.94,
+          691.61,
+          644.42,
+          678.96,
+          704.94,
+          677.69,
+          679.62
+        ],
+        "nir_mean": 673.9,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1552,
+          38.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:03.800000+00:00",
+        "nir_values": [
+          680.15,
+          696.36,
+          687.06,
+          672.31,
+          702.39,
+          698.97,
+          691.96,
+          706.79
+        ],
+        "nir_mean": 692.0,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1552,
+          38.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:04+00:00",
+        "nir_values": [
+          679.43,
+          704.68,
+          689.35,
+          686.83,
+          752.4,
+          665.13,
+          696.55,
+          674.1
+        ],
+        "nir_mean": 693.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1552,
+          38.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:04.200000+00:00",
+        "nir_values": [
+          702.96,
+          706.07,
+          683.61,
+          724.94,
+          714.62,
+          720.01,
+          717.71,
+          687.56
+        ],
+        "nir_mean": 707.18,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1552,
+          38.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:04.400000+00:00",
+        "nir_values": [
+          750.48,
+          703.61,
+          702.23,
+          789.99,
+          716.57,
+          723.56,
+          715.4,
+          709.31
+        ],
+        "nir_mean": 726.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1552,
+          38.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:04.600000+00:00",
+        "nir_values": [
+          750.58,
+          697.84,
+          757.86,
+          732.76,
+          705.05,
+          745.69,
+          738.83,
+          762.89
+        ],
+        "nir_mean": 736.44,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1552,
+          38.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:04.800000+00:00",
+        "nir_values": [
+          734.64,
+          764.44,
+          749.49,
+          735.91,
+          740.53,
+          723.08,
+          716.74,
+          728.78
+        ],
+        "nir_mean": 736.7,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1552,
+          38.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:05+00:00",
+        "nir_values": [
+          750.59,
+          723.69,
+          759.65,
+          759.26,
+          794.73,
+          774.78,
+          707.92,
+          698.48
+        ],
+        "nir_mean": 746.14,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1552,
+          38.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:05.200000+00:00",
+        "nir_values": [
+          798.56,
+          766.03,
+          767.26,
+          717.97,
+          734.98,
+          760.32,
+          714.1,
+          772.7
+        ],
+        "nir_mean": 753.99,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1552,
+          38.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:05.400000+00:00",
+        "nir_values": [
+          739.71,
+          764.95,
+          816.72,
+          756.33,
+          816.65,
+          748.78,
+          764.33,
+          788.73
+        ],
+        "nir_mean": 774.53,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1552,
+          38.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:05.600000+00:00",
+        "nir_values": [
+          778.3,
+          808.79,
+          753.67,
+          724.82,
+          736.78,
+          754.11,
+          801.1,
+          794.52
+        ],
+        "nir_mean": 769.01,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1552,
+          38.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:05.800000+00:00",
+        "nir_values": [
+          807.38,
+          812.85,
+          800.72,
+          794.79,
+          855.54,
+          739.49,
+          781.33,
+          778.37
+        ],
+        "nir_mean": 796.31,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1556286,
+          38.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:06+00:00",
+        "nir_values": [
+          794.73,
+          830.94,
+          777.53,
+          763.02,
+          776.67,
+          787.98,
+          724.55,
+          772.8
+        ],
+        "nir_mean": 778.53,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1556286,
+          38.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:06.200000+00:00",
+        "nir_values": [
+          807.09,
+          798.7,
+          775.45,
+          759.44,
+          803.97,
+          761.38,
+          771.95,
+          753.41
+        ],
+        "nir_mean": 778.92,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1556286,
+          39.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:06.400000+00:00",
+        "nir_values": [
+          777.2,
+          735.57,
+          787.85,
+          792.95,
+          805.63,
+          776.65,
+          782.53,
+          758.5
+        ],
+        "nir_mean": 777.11,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1556286,
+          39.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:06.600000+00:00",
+        "nir_values": [
+          733.06,
+          762.98,
+          744.63,
+          699.43,
+          751.68,
+          731.09,
+          783.16,
+          754.36
+        ],
+        "nir_mean": 745.05,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1556286,
+          39.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:06.800000+00:00",
+        "nir_values": [
+          725.83,
+          712.7,
+          761.21,
+          734.98,
+          730.72,
+          731.6,
+          714.02,
+          687.4
+        ],
+        "nir_mean": 724.81,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1556286,
+          39.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:07+00:00",
+        "nir_values": [
+          768.87,
+          742.11,
+          727.17,
+          687.88,
+          712.01,
+          701.43,
+          801.68,
+          746.67
+        ],
+        "nir_mean": 735.98,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1556286,
+          39.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:07.200000+00:00",
+        "nir_values": [
+          686.47,
+          695.6,
+          738.8,
+          722.21,
+          747.48,
+          690.04,
+          743.15,
+          770.09
+        ],
+        "nir_mean": 724.23,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1556286,
+          39.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:07.400000+00:00",
+        "nir_values": [
+          736.35,
+          762.47,
+          742.47,
+          746.43,
+          702.34,
+          727.72,
+          694.13,
+          708.59
+        ],
+        "nir_mean": 727.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1556286,
+          39.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:07.600000+00:00",
+        "nir_values": [
+          719.45,
+          708.0,
+          738.64,
+          710.55,
+          728.97,
+          678.91,
+          710.84,
+          681.38
+        ],
+        "nir_mean": 709.59,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1556286,
+          39.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:07.800000+00:00",
+        "nir_values": [
+          690.18,
+          716.63,
+          694.21,
+          699.89,
+          735.98,
+          719.72,
+          718.82,
+          736.21
+        ],
+        "nir_mean": 713.95,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1556286,
+          39.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:08+00:00",
+        "nir_values": [
+          660.12,
+          710.45,
+          701.24,
+          643.08,
+          699.52,
+          700.78,
+          670.13,
+          708.27
+        ],
+        "nir_mean": 686.7,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1556286,
+          39.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:08.200000+00:00",
+        "nir_values": [
+          710.32,
+          681.98,
+          702.25,
+          675.31,
+          657.3,
+          674.47,
+          634.95,
+          696.92
+        ],
+        "nir_mean": 679.19,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1556286,
+          39.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:08.400000+00:00",
+        "nir_values": [
+          654.02,
+          648.28,
+          619.49,
+          657.51,
+          708.75,
+          690.27,
+          658.71,
+          701.87
+        ],
+        "nir_mean": 667.36,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1556286,
+          39.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:08.600000+00:00",
+        "nir_values": [
+          646.84,
+          641.04,
+          665.51,
+          651.41,
+          644.6,
+          642.9,
+          615.75,
+          651.43
+        ],
+        "nir_mean": 644.94,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1556286,
+          39.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:08.800000+00:00",
+        "nir_values": [
+          636.53,
+          635.86,
+          652.7,
+          675.02,
+          652.06,
+          668.23,
+          660.7,
+          647.09
+        ],
+        "nir_mean": 653.52,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1556286,
+          40.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:09+00:00",
+        "nir_values": [
+          624.52,
+          654.68,
+          636.25,
+          648.17,
+          626.96,
+          643.58,
+          622.61,
+          646.63
+        ],
+        "nir_mean": 637.92,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1556286,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:09.200000+00:00",
+        "nir_values": [
+          651.0,
+          618.75,
+          597.52,
+          590.93,
+          625.35,
+          638.96,
+          631.09,
+          644.25
+        ],
+        "nir_mean": 624.73,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1556286,
+          40.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:09.400000+00:00",
+        "nir_values": [
+          605.71,
+          634.51,
+          624.42,
+          604.82,
+          631.05,
+          591.33,
+          587.26,
+          643.7
+        ],
+        "nir_mean": 615.35,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1556286,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:09.600000+00:00",
+        "nir_values": [
+          645.21,
+          576.34,
+          577.33,
+          609.46,
+          643.37,
+          598.88,
+          610.27,
+          566.93
+        ],
+        "nir_mean": 603.47,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1556286,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:09.800000+00:00",
+        "nir_values": [
+          601.3,
+          541.62,
+          592.42,
+          628.32,
+          590.39,
+          582.35,
+          589.71,
+          607.97
+        ],
+        "nir_mean": 591.76,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1556286,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:10+00:00",
+        "nir_values": [
+          575.71,
+          608.66,
+          600.41,
+          581.78,
+          600.44,
+          587.37,
+          608.9,
+          593.36
+        ],
+        "nir_mean": 594.58,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1556286,
+          41.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:10.200000+00:00",
+        "nir_values": [
+          616.56,
+          559.19,
+          581.58,
+          558.32,
+          565.61,
+          576.05,
+          590.11,
+          562.54
+        ],
+        "nir_mean": 576.25,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1556286,
+          40.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:10.400000+00:00",
+        "nir_values": [
+          562.61,
+          561.32,
+          551.56,
+          611.65,
+          579.14,
+          576.21,
+          574.29,
+          584.55
+        ],
+        "nir_mean": 575.17,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1556286,
+          40.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:10.600000+00:00",
+        "nir_values": [
+          559.98,
+          577.96,
+          560.32,
+          574.52,
+          546.36,
+          548.63,
+          536.65,
+          584.01
+        ],
+        "nir_mean": 561.05,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1556286,
+          40.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:10.800000+00:00",
+        "nir_values": [
+          573.19,
+          579.53,
+          519.76,
+          564.28,
+          565.73,
+          567.35,
+          559.86,
+          535.56
+        ],
+        "nir_mean": 558.16,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1556286,
+          40.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:11+00:00",
+        "nir_values": [
+          525.44,
+          527.9,
+          558.86,
+          539.69,
+          514.08,
+          544.31,
+          525.31,
+          572.91
+        ],
+        "nir_mean": 538.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1556286,
+          40.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:11.200000+00:00",
+        "nir_values": [
+          510.37,
+          517.88,
+          585.42,
+          524.74,
+          541.03,
+          512.81,
+          510.76,
+          541.91
+        ],
+        "nir_mean": 530.61,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1556286,
+          40.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:11.400000+00:00",
+        "nir_values": [
+          566.29,
+          557.45,
+          549.68,
+          550.9,
+          502.73,
+          483.46,
+          533.75,
+          527.26
+        ],
+        "nir_mean": 533.94,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1556286,
+          40.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:11.600000+00:00",
+        "nir_values": [
+          518.44,
+          510.47,
+          503.49,
+          518.88,
+          526.04,
+          531.18,
+          549.89,
+          536.0
+        ],
+        "nir_mean": 524.3,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1556286,
+          40.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:11.800000+00:00",
+        "nir_values": [
+          535.63,
+          511.52,
+          501.07,
+          520.03,
+          491.08,
+          496.55,
+          493.83,
+          499.92
+        ],
+        "nir_mean": 506.2,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1560571,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:12+00:00",
+        "nir_values": [
+          528.35,
+          484.08,
+          473.79,
+          496.2,
+          506.82,
+          493.23,
+          490.71,
+          500.46
+        ],
+        "nir_mean": 496.71,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1560571,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:12.200000+00:00",
+        "nir_values": [
+          519.58,
+          517.74,
+          521.74,
+          514.07,
+          491.93,
+          527.16,
+          534.38,
+          480.0
+        ],
+        "nir_mean": 513.33,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1560571,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:12.400000+00:00",
+        "nir_values": [
+          479.44,
+          518.19,
+          524.47,
+          527.34,
+          530.57,
+          496.72,
+          524.37,
+          537.17
+        ],
+        "nir_mean": 517.28,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1560571,
+          40.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:12.600000+00:00",
+        "nir_values": [
+          512.22,
+          538.25,
+          503.4,
+          549.8,
+          538.99,
+          507.91,
+          515.04,
+          532.58
+        ],
+        "nir_mean": 524.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1560571,
+          40.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:12.800000+00:00",
+        "nir_values": [
+          553.59,
+          538.88,
+          531.49,
+          511.97,
+          537.43,
+          536.05,
+          527.97,
+          535.95
+        ],
+        "nir_mean": 534.17,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1560571,
+          40.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:13+00:00",
+        "nir_values": [
+          525.7,
+          536.68,
+          527.65,
+          527.53,
+          543.59,
+          529.1,
+          581.63,
+          559.79
+        ],
+        "nir_mean": 541.46,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1560571,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:13.200000+00:00",
+        "nir_values": [
+          573.54,
+          537.26,
+          572.57,
+          563.07,
+          581.65,
+          577.53,
+          547.89,
+          556.54
+        ],
+        "nir_mean": 563.76,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1560571,
+          40.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:13.400000+00:00",
+        "nir_values": [
+          612.34,
+          564.1,
+          553.85,
+          573.73,
+          579.51,
+          605.96,
+          565.12,
+          554.68
+        ],
+        "nir_mean": 576.16,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1560571,
+          41.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:13.600000+00:00",
+        "nir_values": [
+          560.99,
+          571.21,
+          552.05,
+          596.42,
+          551.38,
+          588.25,
+          602.76,
+          601.93
+        ],
+        "nir_mean": 578.12,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1560571,
+          41.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:13.800000+00:00",
+        "nir_values": [
+          602.14,
+          582.35,
+          577.18,
+          612.23,
+          570.33,
+          605.78,
+          602.28,
+          583.62
+        ],
+        "nir_mean": 591.99,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1560571,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:14+00:00",
+        "nir_values": [
+          587.13,
+          565.43,
+          578.12,
+          607.47,
+          586.53,
+          619.59,
+          599.61,
+          613.66
+        ],
+        "nir_mean": 594.69,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1560571,
+          41.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:14.200000+00:00",
+        "nir_values": [
+          618.55,
+          632.46,
+          593.54,
+          601.83,
+          623.95,
+          635.54,
+          619.66,
+          598.35
+        ],
+        "nir_mean": 615.49,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1560571,
+          41.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:14.400000+00:00",
+        "nir_values": [
+          595.51,
+          582.11,
+          612.3,
+          603.05,
+          630.95,
+          659.85,
+          618.95,
+          623.3
+        ],
+        "nir_mean": 615.75,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1560571,
+          41.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:14.600000+00:00",
+        "nir_values": [
+          636.14,
+          648.1,
+          622.88,
+          645.39,
+          626.73,
+          610.06,
+          608.59,
+          638.39
+        ],
+        "nir_mean": 629.53,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1560571,
+          41.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:14.800000+00:00",
+        "nir_values": [
+          669.3,
+          643.38,
+          648.65,
+          649.43,
+          622.98,
+          626.47,
+          667.4,
+          651.82
+        ],
+        "nir_mean": 647.43,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1560571,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:15+00:00",
+        "nir_values": [
+          633.7,
+          628.96,
+          665.88,
+          601.93,
+          661.15,
+          665.61,
+          700.64,
+          638.61
+        ],
+        "nir_mean": 649.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1560571,
+          41.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:15.200000+00:00",
+        "nir_values": [
+          646.49,
+          614.94,
+          629.8,
+          640.48,
+          643.3,
+          657.46,
+          661.9,
+          668.04
+        ],
+        "nir_mean": 645.3,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1560571,
+          41.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:15.400000+00:00",
+        "nir_values": [
+          691.09,
+          694.97,
+          650.54,
+          685.85,
+          692.98,
+          665.68,
+          647.36,
+          673.62
+        ],
+        "nir_mean": 675.26,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1560571,
+          41.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:15.600000+00:00",
+        "nir_values": [
+          684.76,
+          708.97,
+          684.26,
+          670.55,
+          713.6,
+          668.06,
+          715.18,
+          692.37
+        ],
+        "nir_mean": 692.22,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1560571,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:15.800000+00:00",
+        "nir_values": [
+          678.9,
+          688.97,
+          660.8,
+          688.11,
+          696.45,
+          658.81,
+          678.98,
+          652.24
+        ],
+        "nir_mean": 675.41,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1560571,
+          41.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:16+00:00",
+        "nir_values": [
+          727.62,
+          704.33,
+          709.32,
+          709.84,
+          686.75,
+          727.4,
+          673.61,
+          676.51
+        ],
+        "nir_mean": 701.92,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1560571,
+          41.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:16.200000+00:00",
+        "nir_values": [
+          735.44,
+          729.0,
+          741.66,
+          729.16,
+          697.39,
+          715.23,
+          696.44,
+          743.92
+        ],
+        "nir_mean": 723.53,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1560571,
+          41.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:16.400000+00:00",
+        "nir_values": [
+          742.18,
+          711.92,
+          689.43,
+          768.12,
+          710.57,
+          712.59,
+          725.11,
+          696.6
+        ],
+        "nir_mean": 719.56,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1560571,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:16.600000+00:00",
+        "nir_values": [
+          699.64,
+          695.18,
+          754.2,
+          711.46,
+          735.69,
+          728.81,
+          703.79,
+          771.08
+        ],
+        "nir_mean": 724.98,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1560571,
+          41.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:16.800000+00:00",
+        "nir_values": [
+          694.27,
+          653.69,
+          728.86,
+          689.66,
+          768.61,
+          754.97,
+          718.61,
+          722.39
+        ],
+        "nir_mean": 716.38,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1560571,
+          41.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:17+00:00",
+        "nir_values": [
+          753.94,
+          734.87,
+          783.8,
+          759.82,
+          798.1,
+          739.72,
+          739.82,
+          730.57
+        ],
+        "nir_mean": 755.08,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1560571,
+          41.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:17.200000+00:00",
+        "nir_values": [
+          779.38,
+          765.0,
+          773.37,
+          705.17,
+          712.26,
+          793.4,
+          787.51,
+          783.01
+        ],
+        "nir_mean": 762.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1560571,
+          41.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:17.400000+00:00",
+        "nir_values": [
+          771.83,
+          787.4,
+          797.45,
+          771.08,
+          748.11,
+          769.97,
+          764.88,
+          762.79
+        ],
+        "nir_mean": 771.69,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1560571,
+          41.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:17.600000+00:00",
+        "nir_values": [
+          752.68,
+          775.19,
+          792.22,
+          772.75,
+          752.84,
+          793.43,
+          728.65,
+          832.78
+        ],
+        "nir_mean": 775.07,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1560571,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:17.800000+00:00",
+        "nir_values": [
+          760.38,
+          786.94,
+          727.27,
+          816.0,
+          802.14,
+          751.96,
+          809.43,
+          821.66
+        ],
+        "nir_mean": 784.47,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1564857,
+          41.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:18+00:00",
+        "nir_values": [
+          786.46,
+          794.81,
+          768.84,
+          716.85,
+          766.74,
+          762.64,
+          789.92,
+          819.88
+        ],
+        "nir_mean": 775.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1564857,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:18.200000+00:00",
+        "nir_values": [
+          760.85,
+          790.06,
+          788.7,
+          824.66,
+          828.42,
+          765.09,
+          775.31,
+          775.51
+        ],
+        "nir_mean": 788.58,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1564857,
+          41.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:18.400000+00:00",
+        "nir_values": [
+          808.75,
+          708.93,
+          736.61,
+          759.65,
+          762.1,
+          751.3,
+          763.95,
+          745.04
+        ],
+        "nir_mean": 754.54,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1564857,
+          41.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:18.600000+00:00",
+        "nir_values": [
+          721.88,
+          769.35,
+          729.12,
+          748.64,
+          696.37,
+          775.97,
+          760.84,
+          732.26
+        ],
+        "nir_mean": 741.8,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1564857,
+          41.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:18.800000+00:00",
+        "nir_values": [
+          784.86,
+          723.94,
+          712.07,
+          695.61,
+          776.26,
+          773.8,
+          729.46,
+          729.66
+        ],
+        "nir_mean": 740.71,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1564857,
+          41.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:19+00:00",
+        "nir_values": [
+          765.24,
+          734.77,
+          707.14,
+          710.55,
+          731.83,
+          716.81,
+          747.16,
+          717.1
+        ],
+        "nir_mean": 728.83,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1564857,
+          41.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:19.200000+00:00",
+        "nir_values": [
+          711.09,
+          698.22,
+          704.8,
+          746.33,
+          776.29,
+          726.48,
+          683.05,
+          761.05
+        ],
+        "nir_mean": 725.91,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1564857,
+          41.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:19.400000+00:00",
+        "nir_values": [
+          689.94,
+          740.45,
+          731.23,
+          667.54,
+          702.05,
+          687.2,
+          714.13,
+          724.22
+        ],
+        "nir_mean": 707.1,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1564857,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:19.600000+00:00",
+        "nir_values": [
+          754.69,
+          749.05,
+          688.01,
+          735.76,
+          708.35,
+          694.5,
+          721.05,
+          690.91
+        ],
+        "nir_mean": 717.79,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1564857,
+          41.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:19.800000+00:00",
+        "nir_values": [
+          679.87,
+          685.42,
+          723.21,
+          687.07,
+          703.92,
+          702.64,
+          728.06,
+          705.42
+        ],
+        "nir_mean": 701.95,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1564857,
+          41.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:20+00:00",
+        "nir_values": [
+          710.5,
+          696.84,
+          638.92,
+          696.97,
+          738.42,
+          680.95,
+          669.69,
+          665.8
+        ],
+        "nir_mean": 687.26,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1564857,
+          41.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:20.200000+00:00",
+        "nir_values": [
+          669.08,
+          670.7,
+          665.3,
+          722.34,
+          645.15,
+          664.1,
+          661.19,
+          684.16
+        ],
+        "nir_mean": 672.75,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1564857,
+          41.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:20.400000+00:00",
+        "nir_values": [
+          654.37,
+          662.26,
+          707.29,
+          615.44,
+          677.32,
+          685.86,
+          684.11,
+          635.24
+        ],
+        "nir_mean": 665.24,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1564857,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:20.600000+00:00",
+        "nir_values": [
+          645.39,
+          651.24,
+          680.01,
+          636.67,
+          646.32,
+          659.07,
+          638.31,
+          674.59
+        ],
+        "nir_mean": 653.95,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1564857,
+          40.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:20.800000+00:00",
+        "nir_values": [
+          656.45,
+          663.68,
+          634.07,
+          600.74,
+          667.5,
+          623.88,
+          653.1,
+          638.22
+        ],
+        "nir_mean": 642.21,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1564857,
+          40.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:21+00:00",
+        "nir_values": [
+          639.65,
+          638.84,
+          673.63,
+          659.58,
+          644.69,
+          653.53,
+          606.22,
+          666.05
+        ],
+        "nir_mean": 647.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1564857,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:21.200000+00:00",
+        "nir_values": [
+          643.5,
+          616.91,
+          607.5,
+          619.23,
+          670.11,
+          668.48,
+          647.91,
+          665.62
+        ],
+        "nir_mean": 642.41,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1564857,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:21.400000+00:00",
+        "nir_values": [
+          567.19,
+          635.73,
+          631.33,
+          624.72,
+          611.49,
+          620.87,
+          629.43,
+          595.19
+        ],
+        "nir_mean": 614.49,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1564857,
+          40.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:21.600000+00:00",
+        "nir_values": [
+          608.86,
+          614.88,
+          621.27,
+          600.72,
+          600.41,
+          615.51,
+          589.62,
+          597.63
+        ],
+        "nir_mean": 606.11,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1564857,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:21.800000+00:00",
+        "nir_values": [
+          618.49,
+          604.64,
+          602.54,
+          588.12,
+          603.95,
+          628.89,
+          574.93,
+          571.53
+        ],
+        "nir_mean": 599.14,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1564857,
+          40.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:22+00:00",
+        "nir_values": [
+          597.04,
+          580.28,
+          594.41,
+          587.65,
+          597.08,
+          596.57,
+          593.83,
+          565.83
+        ],
+        "nir_mean": 589.09,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1564857,
+          40.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:22.200000+00:00",
+        "nir_values": [
+          629.44,
+          572.12,
+          565.76,
+          567.59,
+          611.78,
+          571.23,
+          588.57,
+          604.3
+        ],
+        "nir_mean": 588.85,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1564857,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:22.400000+00:00",
+        "nir_values": [
+          598.3,
+          573.12,
+          562.42,
+          531.09,
+          570.22,
+          559.18,
+          565.76,
+          513.92
+        ],
+        "nir_mean": 559.25,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1564857,
+          40.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:22.600000+00:00",
+        "nir_values": [
+          543.74,
+          561.99,
+          585.29,
+          570.7,
+          569.4,
+          557.7,
+          578.03,
+          522.22
+        ],
+        "nir_mean": 561.13,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1564857,
+          40.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:22.800000+00:00",
+        "nir_values": [
+          556.35,
+          540.77,
+          542.21,
+          573.64,
+          567.33,
+          533.62,
+          587.58,
+          573.62
+        ],
+        "nir_mean": 559.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1564857,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:23+00:00",
+        "nir_values": [
+          542.47,
+          526.57,
+          535.83,
+          547.08,
+          547.84,
+          558.68,
+          516.57,
+          554.66
+        ],
+        "nir_mean": 541.21,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1564857,
+          40.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:23.200000+00:00",
+        "nir_values": [
+          508.67,
+          566.5,
+          520.25,
+          516.0,
+          548.47,
+          572.53,
+          526.96,
+          525.42
+        ],
+        "nir_mean": 535.6,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1564857,
+          41.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:23.400000+00:00",
+        "nir_values": [
+          506.3,
+          533.2,
+          521.26,
+          507.13,
+          517.4,
+          542.54,
+          526.38,
+          515.64
+        ],
+        "nir_mean": 521.23,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1564857,
+          41.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:23.600000+00:00",
+        "nir_values": [
+          507.95,
+          499.04,
+          496.9,
+          488.86,
+          504.45,
+          488.55,
+          501.78,
+          529.43
+        ],
+        "nir_mean": 502.12,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1564857,
+          41.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:23.800000+00:00",
+        "nir_values": [
+          482.84,
+          504.95,
+          509.97,
+          507.9,
+          490.22,
+          514.52,
+          473.26,
+          488.77
+        ],
+        "nir_mean": 496.55,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1569143,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:24+00:00",
+        "nir_values": [
+          485.04,
+          494.65,
+          501.4,
+          509.5,
+          539.32,
+          489.85,
+          505.22,
+          490.62
+        ],
+        "nir_mean": 501.95,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1569143,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:24.200000+00:00",
+        "nir_values": [
+          521.96,
+          519.2,
+          508.05,
+          510.97,
+          485.91,
+          522.83,
+          515.83,
+          499.99
+        ],
+        "nir_mean": 510.59,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1569143,
+          40.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:24.400000+00:00",
+        "nir_values": [
+          524.96,
+          502.9,
+          515.89,
+          529.72,
+          518.35,
+          534.23,
+          519.42,
+          533.24
+        ],
+        "nir_mean": 522.34,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1569143,
+          40.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:24.600000+00:00",
+        "nir_values": [
+          536.17,
+          515.29,
+          511.55,
+          540.7,
+          547.33,
+          503.53,
+          541.39,
+          528.95
+        ],
+        "nir_mean": 528.11,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1569143,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:24.800000+00:00",
+        "nir_values": [
+          533.15,
+          563.81,
+          515.64,
+          535.81,
+          536.81,
+          546.57,
+          583.24,
+          542.14
+        ],
+        "nir_mean": 544.65,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1569143,
+          40.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:25+00:00",
+        "nir_values": [
+          541.91,
+          552.08,
+          561.95,
+          530.67,
+          523.0,
+          555.1,
+          557.41,
+          561.3
+        ],
+        "nir_mean": 547.93,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1569143,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:25.200000+00:00",
+        "nir_values": [
+          554.56,
+          504.0,
+          512.18,
+          581.28,
+          577.89,
+          545.02,
+          569.1,
+          552.68
+        ],
+        "nir_mean": 549.59,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1569143,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:25.400000+00:00",
+        "nir_values": [
+          574.32,
+          559.87,
+          537.55,
+          566.85,
+          563.96,
+          557.3,
+          571.35,
+          564.27
+        ],
+        "nir_mean": 561.93,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1569143,
+          40.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:25.600000+00:00",
+        "nir_values": [
+          600.43,
+          564.7,
+          557.4,
+          645.92,
+          574.8,
+          544.43,
+          617.7,
+          551.18
+        ],
+        "nir_mean": 582.07,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1569143,
+          40.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:25.800000+00:00",
+        "nir_values": [
+          600.99,
+          568.24,
+          589.47,
+          606.67,
+          589.65,
+          594.68,
+          574.77,
+          575.71
+        ],
+        "nir_mean": 587.52,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1569143,
+          41.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:26+00:00",
+        "nir_values": [
+          634.84,
+          611.58,
+          606.3,
+          617.48,
+          586.06,
+          650.87,
+          585.66,
+          581.29
+        ],
+        "nir_mean": 609.26,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1569143,
+          40.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:26.200000+00:00",
+        "nir_values": [
+          629.52,
+          616.03,
+          632.84,
+          606.25,
+          590.14,
+          570.74,
+          627.95,
+          615.53
+        ],
+        "nir_mean": 611.12,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1569143,
+          40.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:26.400000+00:00",
+        "nir_values": [
+          623.18,
+          641.09,
+          615.13,
+          609.39,
+          613.76,
+          602.9,
+          612.62,
+          608.81
+        ],
+        "nir_mean": 615.86,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1569143,
+          41.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:26.600000+00:00",
+        "nir_values": [
+          593.58,
+          650.25,
+          658.49,
+          624.11,
+          650.87,
+          632.8,
+          661.67,
+          625.17
+        ],
+        "nir_mean": 637.12,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1569143,
+          41.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:26.800000+00:00",
+        "nir_values": [
+          587.38,
+          647.93,
+          665.73,
+          622.98,
+          631.17,
+          634.42,
+          655.17,
+          640.7
+        ],
+        "nir_mean": 635.68,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1569143,
+          41.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:27+00:00",
+        "nir_values": [
+          672.37,
+          618.07,
+          654.29,
+          646.31,
+          667.19,
+          653.12,
+          680.02,
+          653.43
+        ],
+        "nir_mean": 655.6,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1569143,
+          41.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:27.200000+00:00",
+        "nir_values": [
+          668.82,
+          653.5,
+          642.31,
+          630.44,
+          646.93,
+          640.12,
+          664.1,
+          707.98
+        ],
+        "nir_mean": 656.78,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:27.400000+00:00",
+        "nir_values": [
+          663.85,
+          641.27,
+          688.47,
+          673.88,
+          671.14,
+          687.45,
+          677.38,
+          704.03
+        ],
+        "nir_mean": 675.93,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:27.600000+00:00",
+        "nir_values": [
+          703.01,
+          725.83,
+          739.41,
+          680.21,
+          650.29,
+          662.93,
+          672.82,
+          715.78
+        ],
+        "nir_mean": 693.78,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:27.800000+00:00",
+        "nir_values": [
+          693.56,
+          702.34,
+          694.31,
+          672.23,
+          712.15,
+          707.3,
+          696.47,
+          705.44
+        ],
+        "nir_mean": 697.98,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1569143,
+          41.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:28+00:00",
+        "nir_values": [
+          739.06,
+          722.94,
+          667.3,
+          685.77,
+          688.95,
+          740.86,
+          794.09,
+          676.47
+        ],
+        "nir_mean": 714.43,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1569143,
+          41.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:28.200000+00:00",
+        "nir_values": [
+          706.01,
+          720.0,
+          674.08,
+          715.73,
+          691.92,
+          695.38,
+          743.84,
+          702.12
+        ],
+        "nir_mean": 706.13,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1569143,
+          41.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:28.400000+00:00",
+        "nir_values": [
+          687.64,
+          736.35,
+          745.35,
+          738.22,
+          708.88,
+          705.4,
+          710.46,
+          710.55
+        ],
+        "nir_mean": 717.86,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1569143,
+          41.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:28.600000+00:00",
+        "nir_values": [
+          707.15,
+          711.8,
+          739.64,
+          743.51,
+          703.75,
+          756.26,
+          714.39,
+          736.99
+        ],
+        "nir_mean": 726.69,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1569143,
+          41.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:28.800000+00:00",
+        "nir_values": [
+          734.93,
+          753.15,
+          715.23,
+          724.49,
+          739.33,
+          741.3,
+          746.76,
+          735.94
+        ],
+        "nir_mean": 736.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1569143,
+          41.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:29+00:00",
+        "nir_values": [
+          737.42,
+          794.59,
+          790.82,
+          732.8,
+          763.6,
+          798.31,
+          762.54,
+          752.59
+        ],
+        "nir_mean": 766.58,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1569143,
+          41.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:29.200000+00:00",
+        "nir_values": [
+          727.09,
+          746.17,
+          714.75,
+          713.76,
+          760.62,
+          716.11,
+          787.21,
+          811.72
+        ],
+        "nir_mean": 747.18,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1569143,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:29.400000+00:00",
+        "nir_values": [
+          775.22,
+          760.25,
+          762.68,
+          738.21,
+          749.3,
+          765.08,
+          777.03,
+          721.65
+        ],
+        "nir_mean": 756.18,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1569143,
+          41.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:29.600000+00:00",
+        "nir_values": [
+          765.71,
+          822.22,
+          815.32,
+          801.31,
+          782.97,
+          780.58,
+          811.49,
+          804.19
+        ],
+        "nir_mean": 797.97,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:29.800000+00:00",
+        "nir_values": [
+          751.06,
+          798.04,
+          744.55,
+          762.63,
+          840.1,
+          780.32,
+          784.76,
+          799.31
+        ],
+        "nir_mean": 782.6,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:30+00:00",
+        "nir_values": [
+          781.55,
+          835.85,
+          801.09,
+          777.42,
+          799.99,
+          817.2,
+          820.14,
+          745.14
+        ],
+        "nir_mean": 797.3,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:30.200000+00:00",
+        "nir_values": [
+          774.49,
+          817.73,
+          798.53,
+          761.0,
+          763.37,
+          769.88,
+          798.34,
+          756.87
+        ],
+        "nir_mean": 780.03,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1573429,
+          41.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:30.400000+00:00",
+        "nir_values": [
+          756.84,
+          750.38,
+          781.5,
+          742.42,
+          730.83,
+          788.57,
+          748.83,
+          733.28
+        ],
+        "nir_mean": 754.08,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:30.600000+00:00",
+        "nir_values": [
+          769.88,
+          734.64,
+          727.14,
+          718.28,
+          796.66,
+          773.38,
+          733.38,
+          755.36
+        ],
+        "nir_mean": 751.09,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1573429,
+          41.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:30.800000+00:00",
+        "nir_values": [
+          739.62,
+          792.46,
+          807.62,
+          698.75,
+          751.52,
+          695.95,
+          757.25,
+          736.01
+        ],
+        "nir_mean": 747.4,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1573429,
+          41.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:31+00:00",
+        "nir_values": [
+          769.44,
+          708.31,
+          733.34,
+          779.64,
+          718.77,
+          757.6,
+          735.32,
+          701.39
+        ],
+        "nir_mean": 737.98,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1573429,
+          41.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:31.200000+00:00",
+        "nir_values": [
+          724.32,
+          723.06,
+          742.73,
+          775.96,
+          746.71,
+          719.82,
+          731.47,
+          713.85
+        ],
+        "nir_mean": 734.74,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1573429,
+          41.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:31.400000+00:00",
+        "nir_values": [
+          713.88,
+          728.6,
+          690.84,
+          733.02,
+          726.97,
+          710.56,
+          719.47,
+          722.21
+        ],
+        "nir_mean": 718.19,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1573429,
+          41.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:31.600000+00:00",
+        "nir_values": [
+          705.27,
+          755.78,
+          726.02,
+          703.5,
+          679.92,
+          713.36,
+          647.24,
+          713.63
+        ],
+        "nir_mean": 705.59,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1573429,
+          41.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:31.800000+00:00",
+        "nir_values": [
+          724.36,
+          706.01,
+          665.05,
+          693.75,
+          655.44,
+          691.41,
+          722.19,
+          715.82
+        ],
+        "nir_mean": 696.75,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1573429,
+          41.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:32+00:00",
+        "nir_values": [
+          697.13,
+          703.1,
+          679.94,
+          680.96,
+          678.05,
+          686.5,
+          698.42,
+          710.09
+        ],
+        "nir_mean": 691.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:32.200000+00:00",
+        "nir_values": [
+          655.04,
+          659.05,
+          663.38,
+          662.79,
+          711.65,
+          675.23,
+          673.86,
+          673.58
+        ],
+        "nir_mean": 671.82,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1573429,
+          41.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:32.400000+00:00",
+        "nir_values": [
+          619.74,
+          639.9,
+          667.74,
+          662.49,
+          675.75,
+          654.86,
+          657.39,
+          661.38
+        ],
+        "nir_mean": 654.91,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1573429,
+          41.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:32.600000+00:00",
+        "nir_values": [
+          663.78,
+          633.62,
+          631.47,
+          637.91,
+          640.07,
+          646.66,
+          647.61,
+          685.54
+        ],
+        "nir_mean": 648.33,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1573429,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:32.800000+00:00",
+        "nir_values": [
+          646.78,
+          691.39,
+          630.1,
+          680.42,
+          639.09,
+          627.0,
+          654.51,
+          630.13
+        ],
+        "nir_mean": 649.93,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1573429,
+          40.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:33+00:00",
+        "nir_values": [
+          661.61,
+          609.64,
+          636.31,
+          589.78,
+          620.21,
+          652.88,
+          605.48,
+          610.46
+        ],
+        "nir_mean": 623.3,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1573429,
+          40.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:33.200000+00:00",
+        "nir_values": [
+          632.93,
+          574.74,
+          629.89,
+          634.13,
+          646.64,
+          657.04,
+          641.33,
+          682.45
+        ],
+        "nir_mean": 637.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1573429,
+          40.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:33.400000+00:00",
+        "nir_values": [
+          636.01,
+          607.55,
+          637.31,
+          610.51,
+          644.94,
+          640.92,
+          604.34,
+          669.02
+        ],
+        "nir_mean": 631.33,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1573429,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:33.600000+00:00",
+        "nir_values": [
+          609.02,
+          634.76,
+          575.06,
+          598.56,
+          607.59,
+          637.49,
+          581.76,
+          606.66
+        ],
+        "nir_mean": 606.36,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1573429,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:33.800000+00:00",
+        "nir_values": [
+          581.07,
+          608.58,
+          546.56,
+          641.4,
+          590.13,
+          598.61,
+          571.91,
+          622.18
+        ],
+        "nir_mean": 595.06,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1573429,
+          40.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:34+00:00",
+        "nir_values": [
+          608.64,
+          600.36,
+          551.91,
+          601.88,
+          584.99,
+          635.71,
+          591.61,
+          586.2
+        ],
+        "nir_mean": 595.16,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1573429,
+          40.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:34.200000+00:00",
+        "nir_values": [
+          551.94,
+          574.15,
+          590.36,
+          571.15,
+          581.29,
+          577.6,
+          587.89,
+          566.29
+        ],
+        "nir_mean": 575.08,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1573429,
+          40.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:34.400000+00:00",
+        "nir_values": [
+          590.43,
+          521.02,
+          551.03,
+          541.04,
+          557.99,
+          579.07,
+          551.44,
+          538.83
+        ],
+        "nir_mean": 553.86,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1573429,
+          40.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:34.600000+00:00",
+        "nir_values": [
+          548.96,
+          570.97,
+          556.35,
+          599.15,
+          564.13,
+          560.18,
+          573.84,
+          591.44
+        ],
+        "nir_mean": 570.63,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1573429,
+          40.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:34.800000+00:00",
+        "nir_values": [
+          551.37,
+          520.33,
+          569.53,
+          533.47,
+          558.86,
+          551.22,
+          541.78,
+          555.09
+        ],
+        "nir_mean": 547.71,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1573429,
+          40.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:35+00:00",
+        "nir_values": [
+          531.65,
+          593.46,
+          567.56,
+          533.78,
+          522.83,
+          549.27,
+          558.76,
+          548.88
+        ],
+        "nir_mean": 550.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1573429,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:35.200000+00:00",
+        "nir_values": [
+          496.54,
+          523.15,
+          506.42,
+          546.95,
+          546.22,
+          492.17,
+          517.76,
+          536.04
+        ],
+        "nir_mean": 520.66,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1573429,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:35.400000+00:00",
+        "nir_values": [
+          505.47,
+          520.08,
+          505.24,
+          486.82,
+          537.6,
+          518.15,
+          518.71,
+          533.75
+        ],
+        "nir_mean": 515.73,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1573429,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:35.600000+00:00",
+        "nir_values": [
+          518.12,
+          549.25,
+          506.19,
+          505.72,
+          519.49,
+          516.36,
+          526.02,
+          506.77
+        ],
+        "nir_mean": 518.49,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1573429,
+          40.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:35.800000+00:00",
+        "nir_values": [
+          501.82,
+          511.4,
+          506.48,
+          497.54,
+          478.52,
+          499.89,
+          484.62,
+          525.06
+        ],
+        "nir_mean": 500.67,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1577714,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:36+00:00",
+        "nir_values": [
+          501.92,
+          514.7,
+          480.07,
+          501.72,
+          479.66,
+          477.68,
+          477.9,
+          535.22
+        ],
+        "nir_mean": 496.11,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1577714,
+          40.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:36.200000+00:00",
+        "nir_values": [
+          528.39,
+          513.33,
+          498.85,
+          507.89,
+          527.49,
+          493.49,
+          495.51,
+          508.16
+        ],
+        "nir_mean": 509.14,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1577714,
+          40.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:36.400000+00:00",
+        "nir_values": [
+          515.8,
+          545.72,
+          508.69,
+          494.82,
+          550.94,
+          526.3,
+          510.66,
+          494.09
+        ],
+        "nir_mean": 518.38,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1577714,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:36.600000+00:00",
+        "nir_values": [
+          558.83,
+          492.21,
+          512.91,
+          520.13,
+          497.78,
+          521.42,
+          515.78,
+          501.23
+        ],
+        "nir_mean": 515.04,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1577714,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:36.800000+00:00",
+        "nir_values": [
+          528.88,
+          531.71,
+          537.1,
+          538.47,
+          510.21,
+          533.59,
+          558.44,
+          528.42
+        ],
+        "nir_mean": 533.35,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1577714,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:37+00:00",
+        "nir_values": [
+          550.91,
+          552.81,
+          533.31,
+          544.22,
+          529.4,
+          565.9,
+          551.38,
+          511.69
+        ],
+        "nir_mean": 542.45,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1577714,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:37.200000+00:00",
+        "nir_values": [
+          535.99,
+          546.33,
+          549.72,
+          536.16,
+          525.16,
+          567.74,
+          594.16,
+          564.3
+        ],
+        "nir_mean": 552.45,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1577714,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:37.400000+00:00",
+        "nir_values": [
+          582.3,
+          597.12,
+          552.47,
+          575.12,
+          575.71,
+          573.06,
+          569.0,
+          578.93
+        ],
+        "nir_mean": 575.46,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1577714,
+          40.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:37.600000+00:00",
+        "nir_values": [
+          586.03,
+          598.93,
+          552.11,
+          595.08,
+          591.63,
+          553.77,
+          582.26,
+          590.81
+        ],
+        "nir_mean": 581.33,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1577714,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:37.800000+00:00",
+        "nir_values": [
+          567.87,
+          614.72,
+          596.7,
+          620.91,
+          579.47,
+          603.02,
+          604.6,
+          621.37
+        ],
+        "nir_mean": 601.08,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1577714,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:38+00:00",
+        "nir_values": [
+          561.81,
+          589.19,
+          625.98,
+          604.44,
+          592.55,
+          613.82,
+          607.41,
+          586.2
+        ],
+        "nir_mean": 597.68,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1577714,
+          40.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:38.200000+00:00",
+        "nir_values": [
+          599.35,
+          614.7,
+          609.32,
+          611.72,
+          579.98,
+          609.93,
+          664.02,
+          609.9
+        ],
+        "nir_mean": 612.37,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1577714,
+          39.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:38.400000+00:00",
+        "nir_values": [
+          629.91,
+          617.67,
+          635.85,
+          641.44,
+          608.04,
+          593.44,
+          641.64,
+          625.03
+        ],
+        "nir_mean": 624.13,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1577714,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:38.600000+00:00",
+        "nir_values": [
+          601.78,
+          654.42,
+          629.66,
+          620.63,
+          596.74,
+          637.37,
+          637.75,
+          598.41
+        ],
+        "nir_mean": 622.09,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1577714,
+          40.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:38.800000+00:00",
+        "nir_values": [
+          638.58,
+          617.64,
+          655.7,
+          613.46,
+          615.4,
+          622.72,
+          640.58,
+          604.82
+        ],
+        "nir_mean": 626.11,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1577714,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:39+00:00",
+        "nir_values": [
+          655.54,
+          626.87,
+          647.09,
+          599.65,
+          637.34,
+          647.6,
+          663.07,
+          641.23
+        ],
+        "nir_mean": 639.8,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1577714,
+          40.07
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:39.200000+00:00",
+        "nir_values": [
+          683.11,
+          666.81,
+          625.32,
+          684.84,
+          670.57,
+          679.84,
+          660.63,
+          654.97
+        ],
+        "nir_mean": 665.76,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1577714,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:39.400000+00:00",
+        "nir_values": [
+          693.93,
+          702.34,
+          666.07,
+          682.32,
+          682.24,
+          680.4,
+          666.61,
+          658.87
+        ],
+        "nir_mean": 679.1,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1577714,
+          39.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:39.600000+00:00",
+        "nir_values": [
+          680.47,
+          686.96,
+          675.21,
+          640.17,
+          658.99,
+          675.64,
+          716.59,
+          689.16
+        ],
+        "nir_mean": 677.9,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1577714,
+          39.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:39.800000+00:00",
+        "nir_values": [
+          621.63,
+          668.19,
+          692.3,
+          726.78,
+          662.41,
+          701.36,
+          658.97,
+          711.19
+        ],
+        "nir_mean": 680.35,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1577714,
+          39.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:40+00:00",
+        "nir_values": [
+          744.42,
+          709.18,
+          701.61,
+          722.72,
+          667.38,
+          704.25,
+          700.56,
+          687.7
+        ],
+        "nir_mean": 704.73,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1577714,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:40.200000+00:00",
+        "nir_values": [
+          689.69,
+          690.68,
+          711.88,
+          754.26,
+          744.83,
+          701.85,
+          695.94,
+          706.88
+        ],
+        "nir_mean": 712.0,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1577714,
+          39.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:40.400000+00:00",
+        "nir_values": [
+          724.77,
+          698.57,
+          694.62,
+          730.51,
+          707.32,
+          752.49,
+          703.69,
+          774.49
+        ],
+        "nir_mean": 723.31,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1577714,
+          39.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:40.600000+00:00",
+        "nir_values": [
+          726.64,
+          738.87,
+          776.33,
+          736.8,
+          718.55,
+          735.99,
+          772.53,
+          743.1
+        ],
+        "nir_mean": 743.6,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1577714,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:40.800000+00:00",
+        "nir_values": [
+          761.39,
+          728.36,
+          723.41,
+          722.8,
+          731.99,
+          728.17,
+          738.56,
+          753.16
+        ],
+        "nir_mean": 735.98,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1577714,
+          39.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:41+00:00",
+        "nir_values": [
+          675.12,
+          718.74,
+          803.84,
+          752.24,
+          746.4,
+          765.09,
+          773.89,
+          754.77
+        ],
+        "nir_mean": 748.76,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1577714,
+          38.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:41.200000+00:00",
+        "nir_values": [
+          730.55,
+          760.87,
+          787.43,
+          807.89,
+          721.15,
+          737.5,
+          762.57,
+          802.47
+        ],
+        "nir_mean": 763.8,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1577714,
+          38.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:41.400000+00:00",
+        "nir_values": [
+          772.62,
+          752.93,
+          798.26,
+          760.7,
+          823.27,
+          799.44,
+          750.32,
+          823.82
+        ],
+        "nir_mean": 785.17,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1577714,
+          38.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:41.600000+00:00",
+        "nir_values": [
+          809.42,
+          794.42,
+          741.03,
+          767.69,
+          763.63,
+          759.96,
+          782.03,
+          747.22
+        ],
+        "nir_mean": 770.67,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1577714,
+          38.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:41.800000+00:00",
+        "nir_values": [
+          767.75,
+          777.01,
+          774.42,
+          785.44,
+          789.65,
+          811.68,
+          786.88,
+          784.83
+        ],
+        "nir_mean": 784.71,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1582,
+          38.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:42+00:00",
+        "nir_values": [
+          744.13,
+          822.55,
+          813.83,
+          813.18,
+          800.47,
+          763.69,
+          810.37,
+          784.23
+        ],
+        "nir_mean": 794.06,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1582,
+          38.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:42.200000+00:00",
+        "nir_values": [
+          772.43,
+          800.87,
+          822.75,
+          800.23,
+          750.57,
+          737.2,
+          762.87,
+          782.51
+        ],
+        "nir_mean": 778.68,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1582,
+          38.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:42.400000+00:00",
+        "nir_values": [
+          801.5,
+          756.21,
+          767.31,
+          802.67,
+          800.23,
+          730.36,
+          739.05,
+          738.26
+        ],
+        "nir_mean": 766.95,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1582,
+          38.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:42.600000+00:00",
+        "nir_values": [
+          762.58,
+          763.01,
+          730.63,
+          769.46,
+          808.94,
+          765.39,
+          718.75,
+          747.38
+        ],
+        "nir_mean": 758.27,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1582,
+          38.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:42.800000+00:00",
+        "nir_values": [
+          753.93,
+          706.66,
+          729.31,
+          725.55,
+          755.13,
+          704.43,
+          735.75,
+          795.26
+        ],
+        "nir_mean": 738.25,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1582,
+          38.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:43+00:00",
+        "nir_values": [
+          682.94,
+          728.26,
+          750.78,
+          793.45,
+          698.32,
+          744.19,
+          744.88,
+          746.84
+        ],
+        "nir_mean": 736.21,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1582,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:43.200000+00:00",
+        "nir_values": [
+          685.48,
+          699.52,
+          701.47,
+          717.74,
+          708.07,
+          750.65,
+          718.42,
+          680.0
+        ],
+        "nir_mean": 707.67,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1582,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:43.400000+00:00",
+        "nir_values": [
+          709.3,
+          699.35,
+          719.83,
+          728.47,
+          691.48,
+          739.48,
+          692.57,
+          718.42
+        ],
+        "nir_mean": 712.36,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1582,
+          38.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:43.600000+00:00",
+        "nir_values": [
+          673.55,
+          721.03,
+          652.92,
+          689.11,
+          696.64,
+          733.28,
+          712.32,
+          689.31
+        ],
+        "nir_mean": 696.02,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1582,
+          38.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:43.800000+00:00",
+        "nir_values": [
+          693.63,
+          712.64,
+          669.87,
+          691.06,
+          693.32,
+          718.39,
+          729.01,
+          699.56
+        ],
+        "nir_mean": 700.93,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1582,
+          38.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:44+00:00",
+        "nir_values": [
+          663.26,
+          704.72,
+          686.71,
+          704.32,
+          708.19,
+          658.31,
+          681.76,
+          713.24
+        ],
+        "nir_mean": 690.06,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1582,
+          38.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:44.200000+00:00",
+        "nir_values": [
+          710.18,
+          693.05,
+          716.16,
+          678.86,
+          668.21,
+          682.56,
+          649.52,
+          672.39
+        ],
+        "nir_mean": 683.87,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1582,
+          38.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:44.400000+00:00",
+        "nir_values": [
+          683.74,
+          657.5,
+          718.89,
+          707.9,
+          622.12,
+          659.51,
+          629.99,
+          639.24
+        ],
+        "nir_mean": 664.86,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1582,
+          38.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:44.600000+00:00",
+        "nir_values": [
+          655.09,
+          627.61,
+          696.85,
+          648.77,
+          683.64,
+          656.08,
+          664.21,
+          674.9
+        ],
+        "nir_mean": 663.39,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1582,
+          38.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:44.800000+00:00",
+        "nir_values": [
+          617.38,
+          637.91,
+          592.57,
+          662.82,
+          647.54,
+          651.67,
+          617.19,
+          644.27
+        ],
+        "nir_mean": 633.92,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1582,
+          38.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:45+00:00",
+        "nir_values": [
+          639.27,
+          625.2,
+          660.04,
+          626.19,
+          669.52,
+          630.91,
+          637.51,
+          625.01
+        ],
+        "nir_mean": 639.21,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1582,
+          38.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:45.200000+00:00",
+        "nir_values": [
+          642.54,
+          629.23,
+          618.54,
+          623.77,
+          662.23,
+          599.9,
+          662.03,
+          610.11
+        ],
+        "nir_mean": 631.04,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1582,
+          38.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:45.400000+00:00",
+        "nir_values": [
+          614.89,
+          614.44,
+          641.71,
+          637.08,
+          618.97,
+          601.92,
+          626.57,
+          620.55
+        ],
+        "nir_mean": 622.02,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1582,
+          38.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:45.600000+00:00",
+        "nir_values": [
+          577.74,
+          643.44,
+          593.81,
+          568.93,
+          611.15,
+          576.86,
+          611.27,
+          594.94
+        ],
+        "nir_mean": 597.27,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1582,
+          38.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:45.800000+00:00",
+        "nir_values": [
+          573.61,
+          585.33,
+          577.13,
+          600.6,
+          620.92,
+          568.69,
+          614.61,
+          638.95
+        ],
+        "nir_mean": 597.48,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1582,
+          38.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:46+00:00",
+        "nir_values": [
+          623.7,
+          603.95,
+          606.07,
+          574.93,
+          575.18,
+          597.03,
+          598.8,
+          613.98
+        ],
+        "nir_mean": 599.2,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1582,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:46.200000+00:00",
+        "nir_values": [
+          563.05,
+          555.57,
+          592.03,
+          612.66,
+          560.22,
+          586.3,
+          591.14,
+          605.56
+        ],
+        "nir_mean": 583.32,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1582,
+          39.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:46.400000+00:00",
+        "nir_values": [
+          577.44,
+          533.77,
+          555.35,
+          590.36,
+          555.11,
+          556.95,
+          602.17,
+          572.03
+        ],
+        "nir_mean": 567.9,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1582,
+          39.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:46.600000+00:00",
+        "nir_values": [
+          516.36,
+          567.23,
+          584.6,
+          568.3,
+          537.73,
+          576.93,
+          540.05,
+          584.02
+        ],
+        "nir_mean": 559.4,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1582,
+          39.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:46.800000+00:00",
+        "nir_values": [
+          545.46,
+          569.31,
+          532.63,
+          559.87,
+          571.64,
+          541.86,
+          540.65,
+          546.22
+        ],
+        "nir_mean": 550.96,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1582,
+          39.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:47+00:00",
+        "nir_values": [
+          542.02,
+          510.62,
+          564.54,
+          533.2,
+          513.57,
+          567.64,
+          589.95,
+          533.48
+        ],
+        "nir_mean": 544.38,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1582,
+          38.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:47.200000+00:00",
+        "nir_values": [
+          525.13,
+          520.25,
+          526.74,
+          561.94,
+          547.41,
+          512.29,
+          520.88,
+          549.35
+        ],
+        "nir_mean": 533.0,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1582,
+          38.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:47.400000+00:00",
+        "nir_values": [
+          518.82,
+          532.27,
+          560.11,
+          506.75,
+          533.99,
+          552.36,
+          519.73,
+          490.76
+        ],
+        "nir_mean": 526.85,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1582,
+          38.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:47.600000+00:00",
+        "nir_values": [
+          477.85,
+          503.51,
+          497.42,
+          470.39,
+          525.05,
+          515.46,
+          497.29,
+          523.43
+        ],
+        "nir_mean": 501.3,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1582,
+          38.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T10:00:47.800000+00:00",
+        "nir_values": [
+          532.38,
+          493.42,
+          483.34,
+          474.81,
+          507.05,
+          490.12,
+          464.91,
+          464.14
+        ],
+        "nir_mean": 488.77,
+        "label": "Trockenstress – niedriger NIR"
+      }
+    }
+  ]
+}

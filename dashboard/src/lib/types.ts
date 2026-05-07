@@ -1,35 +1,39 @@
-export interface FlightPoint {
-  lat: number
-  lon: number
-  alt: number
-  rel_alt: number
-  value: number
-  time: string
-  r: number
-  g: number
-  b: number
+export interface NIRFeature {
+  type: 'Feature';
+  geometry: {
+    type: 'Point';
+    coordinates: [number, number, number]; // [lon, lat, alt]
+  } | null;
+  properties: {
+    timestamp: string;
+    nir_values: (number | null)[];
+    nir_mean: number | null;
+  };
 }
 
-export interface PathPoint {
-  lat: number
-  lon: number
-  alt: number
+export interface NIRFeatureCollection {
+  type: 'FeatureCollection';
+  features: NIRFeature[];
 }
 
-export interface FlightMeta {
-  label: string
-  point_count: number
-  v_min: number
-  v_max: number
-  v_mean: number
-  v_std: number
-  center_lat: number
-  center_lon: number
-  generated_at: string
+export interface FlightStats {
+  count: number;
+  withGPS: number;
+  nirMin: number;
+  nirMax: number;
+  nirMean: number;
+  nirStd: number;
+  firstTs: string | null;
+  lastTs: string | null;
+  bounds: {
+    minLat: number;
+    maxLat: number;
+    minLon: number;
+    maxLon: number;
+  } | null;
 }
 
-export interface FlightData {
-  meta: FlightMeta
-  points: FlightPoint[]
-  path: PathPoint[]
+export interface FlightDataResponse {
+  geojson: NIRFeatureCollection;
+  stats: FlightStats;
 }

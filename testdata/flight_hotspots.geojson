@@ -1,0 +1,6245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1552,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:00+00:00",
+        "nir_values": [
+          887.65,
+          908.86,
+          881.57,
+          889.98,
+          922.11,
+          919.41,
+          930.32,
+          896.11
+        ],
+        "nir_mean": 904.5,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1552,
+          39.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:00.200000+00:00",
+        "nir_values": [
+          957.73,
+          920.4,
+          940.36,
+          889.99,
+          909.57,
+          907.26,
+          878.43,
+          872.75
+        ],
+        "nir_mean": 909.56,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1552,
+          39.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:00.400000+00:00",
+        "nir_values": [
+          923.26,
+          877.64,
+          976.16,
+          947.3,
+          902.85,
+          911.05,
+          989.6,
+          938.48
+        ],
+        "nir_mean": 933.29,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1552,
+          39.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:00.600000+00:00",
+        "nir_values": [
+          917.68,
+          865.06,
+          914.3,
+          859.15,
+          884.47,
+          966.58,
+          858.98,
+          956.71
+        ],
+        "nir_mean": 902.87,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1552,
+          39.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:00.800000+00:00",
+        "nir_values": [
+          949.98,
+          945.67,
+          952.99,
+          1018.63,
+          893.18,
+          953.44,
+          923.22,
+          972.46
+        ],
+        "nir_mean": 951.2,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1552,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:01+00:00",
+        "nir_values": [
+          914.12,
+          975.12,
+          878.47,
+          903.98,
+          908.61,
+          871.11,
+          1002.55,
+          860.74
+        ],
+        "nir_mean": 914.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1552,
+          39.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:01.200000+00:00",
+        "nir_values": [
+          977.87,
+          999.86,
+          1013.68,
+          928.03,
+          896.41,
+          921.84,
+          958.9,
+          1004.32
+        ],
+        "nir_mean": 962.61,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1552,
+          39.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:01.400000+00:00",
+        "nir_values": [
+          944.24,
+          958.57,
+          1007.84,
+          867.15,
+          997.4,
+          978.27,
+          930.83,
+          956.96
+        ],
+        "nir_mean": 955.16,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1552,
+          39.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:01.600000+00:00",
+        "nir_values": [
+          957.04,
+          882.11,
+          993.21,
+          961.67,
+          999.89,
+          963.83,
+          915.73,
+          1008.95
+        ],
+        "nir_mean": 960.3,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1552,
+          40.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:01.800000+00:00",
+        "nir_values": [
+          830.84,
+          946.75,
+          945.96,
+          963.23,
+          944.03,
+          945.91,
+          961.9,
+          983.07
+        ],
+        "nir_mean": 940.21,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1552,
+          40.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:02+00:00",
+        "nir_values": [
+          958.11,
+          960.82,
+          972.17,
+          931.28,
+          1021.31,
+          934.41,
+          926.01,
+          978.38
+        ],
+        "nir_mean": 960.31,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1552,
+          40.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:02.200000+00:00",
+        "nir_values": [
+          927.52,
+          919.99,
+          912.02,
+          938.43,
+          992.38,
+          940.85,
+          906.89,
+          977.71
+        ],
+        "nir_mean": 939.47,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1552,
+          40.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:02.400000+00:00",
+        "nir_values": [
+          930.66,
+          1047.89,
+          917.92,
+          954.31,
+          994.63,
+          962.42,
+          953.99,
+          956.66
+        ],
+        "nir_mean": 964.81,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1552,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:02.600000+00:00",
+        "nir_values": [
+          959.44,
+          958.68,
+          941.05,
+          940.26,
+          953.91,
+          938.97,
+          952.67,
+          914.07
+        ],
+        "nir_mean": 944.88,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1552,
+          39.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:02.800000+00:00",
+        "nir_values": [
+          1027.1,
+          998.44,
+          1004.7,
+          973.36,
+          935.1,
+          991.77,
+          965.43,
+          1008.82
+        ],
+        "nir_mean": 988.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1552,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:03+00:00",
+        "nir_values": [
+          964.95,
+          1031.31,
+          986.34,
+          1029.18,
+          998.05,
+          988.84,
+          945.33,
+          972.93
+        ],
+        "nir_mean": 989.62,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1552,
+          39.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:03.200000+00:00",
+        "nir_values": [
+          1033.06,
+          1085.58,
+          1023.62,
+          1044.97,
+          971.14,
+          1043.89,
+          1047.27,
+          1040.81
+        ],
+        "nir_mean": 1036.29,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1552,
+          39.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:03.400000+00:00",
+        "nir_values": [
+          1076.38,
+          1022.1,
+          1070.34,
+          1038.73,
+          1028.7,
+          1102.31,
+          1086.84,
+          1029.67
+        ],
+        "nir_mean": 1056.88,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1552,
+          39.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:03.600000+00:00",
+        "nir_values": [
+          1136.69,
+          1134.97,
+          1127.76,
+          1167.51,
+          1115.31,
+          1081.46,
+          1089.83,
+          1171.22
+        ],
+        "nir_mean": 1128.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1552,
+          39.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:03.800000+00:00",
+        "nir_values": [
+          1173.41,
+          1125.4,
+          1183.62,
+          1185.03,
+          1169.26,
+          1129.38,
+          1136.46,
+          1195.16
+        ],
+        "nir_mean": 1162.22,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1552,
+          39.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:04+00:00",
+        "nir_values": [
+          1145.98,
+          1279.53,
+          1229.78,
+          1230.92,
+          1310.37,
+          1196.6,
+          1273.18,
+          1223.7
+        ],
+        "nir_mean": 1236.26,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1552,
+          39.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:04.200000+00:00",
+        "nir_values": [
+          1315.42,
+          1272.7,
+          1284.36,
+          1201.06,
+          1258.44,
+          1240.22,
+          1276.78,
+          1326.67
+        ],
+        "nir_mean": 1271.96,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1552,
+          39.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:04.400000+00:00",
+        "nir_values": [
+          1357.08,
+          1327.01,
+          1282.68,
+          1382.65,
+          1396.45,
+          1329.36,
+          1266.0,
+          1204.82
+        ],
+        "nir_mean": 1318.26,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1552,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:04.600000+00:00",
+        "nir_values": [
+          1304.83,
+          1224.12,
+          1330.75,
+          1264.18,
+          1275.71,
+          1290.96,
+          1230.21,
+          1212.29
+        ],
+        "nir_mean": 1266.63,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1552,
+          39.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:04.800000+00:00",
+        "nir_values": [
+          1243.17,
+          1168.57,
+          1172.74,
+          1216.68,
+          1220.61,
+          1153.76,
+          1197.82,
+          1152.01
+        ],
+        "nir_mean": 1190.67,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1552,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:05+00:00",
+        "nir_values": [
+          1053.86,
+          1109.01,
+          1157.76,
+          1186.04,
+          1187.52,
+          1091.02,
+          1126.82,
+          1120.34
+        ],
+        "nir_mean": 1129.05,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1552,
+          39.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:05.200000+00:00",
+        "nir_values": [
+          1078.32,
+          1061.41,
+          1066.56,
+          1099.9,
+          1031.81,
+          1063.83,
+          1006.61,
+          1081.52
+        ],
+        "nir_mean": 1061.24,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1552,
+          39.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:05.400000+00:00",
+        "nir_values": [
+          1045.72,
+          1034.4,
+          1037.68,
+          1037.63,
+          1097.83,
+          1016.89,
+          1064.5,
+          1049.96
+        ],
+        "nir_mean": 1048.08,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1552,
+          38.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:05.600000+00:00",
+        "nir_values": [
+          982.81,
+          1025.4,
+          967.66,
+          958.67,
+          981.05,
+          1013.02,
+          987.1,
+          1011.37
+        ],
+        "nir_mean": 990.89,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1552,
+          38.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:05.800000+00:00",
+        "nir_values": [
+          964.07,
+          938.62,
+          989.8,
+          981.37,
+          938.73,
+          1004.19,
+          977.88,
+          938.56
+        ],
+        "nir_mean": 966.65,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1556286,
+          39.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:06+00:00",
+        "nir_values": [
+          950.06,
+          950.73,
+          948.25,
+          1004.81,
+          965.66,
+          941.94,
+          963.01,
+          940.42
+        ],
+        "nir_mean": 958.11,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1556286,
+          38.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:06.200000+00:00",
+        "nir_values": [
+          950.58,
+          991.26,
+          1036.61,
+          1019.4,
+          938.78,
+          1035.81,
+          1034.67,
+          990.13
+        ],
+        "nir_mean": 999.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1556286,
+          39.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:06.400000+00:00",
+        "nir_values": [
+          1047.6,
+          1012.91,
+          1022.18,
+          1044.55,
+          1061.13,
+          990.9,
+          1089.44,
+          998.39
+        ],
+        "nir_mean": 1033.39,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1556286,
+          39.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:06.600000+00:00",
+        "nir_values": [
+          1085.64,
+          1041.73,
+          1131.17,
+          1121.33,
+          1111.89,
+          1091.31,
+          1092.4,
+          1079.29
+        ],
+        "nir_mean": 1094.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1556286,
+          39.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:06.800000+00:00",
+        "nir_values": [
+          1226.71,
+          1207.7,
+          1162.67,
+          1166.84,
+          1170.08,
+          1141.55,
+          1192.64,
+          1108.44
+        ],
+        "nir_mean": 1172.08,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1556286,
+          39.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:07+00:00",
+        "nir_values": [
+          1306.29,
+          1234.26,
+          1254.82,
+          1239.88,
+          1256.96,
+          1199.14,
+          1246.71,
+          1230.92
+        ],
+        "nir_mean": 1246.12,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1556286,
+          39.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:07.200000+00:00",
+        "nir_values": [
+          1391.21,
+          1368.69,
+          1347.63,
+          1430.93,
+          1392.42,
+          1343.91,
+          1391.12,
+          1408.55
+        ],
+        "nir_mean": 1384.31,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1556286,
+          39.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:07.400000+00:00",
+        "nir_values": [
+          1531.06,
+          1476.32,
+          1493.65,
+          1569.69,
+          1497.03,
+          1574.9,
+          1584.51,
+          1561.38
+        ],
+        "nir_mean": 1536.07,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1556286,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:07.600000+00:00",
+        "nir_values": [
+          1380.92,
+          1496.86,
+          1494.43,
+          1518.89,
+          1455.86,
+          1376.87,
+          1394.8,
+          1446.67
+        ],
+        "nir_mean": 1445.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1556286,
+          40.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:07.800000+00:00",
+        "nir_values": [
+          1333.37,
+          1296.79,
+          1375.35,
+          1355.71,
+          1360.49,
+          1284.75,
+          1243.94,
+          1338.12
+        ],
+        "nir_mean": 1323.57,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1556286,
+          39.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:08+00:00",
+        "nir_values": [
+          1204.48,
+          1235.54,
+          1175.98,
+          1188.71,
+          1214.73,
+          1271.93,
+          1241.44,
+          1197.33
+        ],
+        "nir_mean": 1216.27,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1556286,
+          40.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:08.200000+00:00",
+        "nir_values": [
+          1064.61,
+          1171.21,
+          1104.05,
+          1115.12,
+          1132.68,
+          1139.34,
+          1092.39,
+          1135.95
+        ],
+        "nir_mean": 1119.42,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1556286,
+          39.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:08.400000+00:00",
+        "nir_values": [
+          1054.56,
+          1101.31,
+          1078.97,
+          1055.07,
+          1118.76,
+          1073.42,
+          1041.41,
+          1051.14
+        ],
+        "nir_mean": 1071.83,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1556286,
+          40.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:08.600000+00:00",
+        "nir_values": [
+          1056.95,
+          995.1,
+          979.25,
+          1043.6,
+          1059.6,
+          1008.05,
+          1027.32,
+          945.13
+        ],
+        "nir_mean": 1014.38,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1556286,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:08.800000+00:00",
+        "nir_values": [
+          1013.38,
+          1035.73,
+          999.38,
+          958.13,
+          1077.09,
+          992.29,
+          1011.21,
+          1032.97
+        ],
+        "nir_mean": 1015.02,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1556286,
+          39.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:09+00:00",
+        "nir_values": [
+          1013.54,
+          1042.77,
+          1039.67,
+          934.84,
+          990.49,
+          1062.18,
+          978.53,
+          1026.27
+        ],
+        "nir_mean": 1011.04,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1556286,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:09.200000+00:00",
+        "nir_values": [
+          995.35,
+          990.14,
+          996.72,
+          957.67,
+          954.21,
+          1017.86,
+          980.53,
+          978.74
+        ],
+        "nir_mean": 983.9,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1556286,
+          39.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:09.400000+00:00",
+        "nir_values": [
+          940.92,
+          992.64,
+          988.51,
+          1021.2,
+          1009.98,
+          967.82,
+          960.69,
+          972.51
+        ],
+        "nir_mean": 981.78,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1556286,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:09.600000+00:00",
+        "nir_values": [
+          967.27,
+          961.34,
+          1032.46,
+          927.09,
+          1042.44,
+          1022.24,
+          934.38,
+          1017.48
+        ],
+        "nir_mean": 988.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1556286,
+          39.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:09.800000+00:00",
+        "nir_values": [
+          961.71,
+          1025.39,
+          941.11,
+          925.21,
+          970.59,
+          1033.15,
+          1025.76,
+          963.9
+        ],
+        "nir_mean": 980.85,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1556286,
+          39.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:10+00:00",
+        "nir_values": [
+          1007.3,
+          1003.15,
+          944.5,
+          1020.67,
+          957.89,
+          937.25,
+          997.5,
+          1021.91
+        ],
+        "nir_mean": 986.27,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1556286,
+          40.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:10.200000+00:00",
+        "nir_values": [
+          1007.99,
+          1041.87,
+          967.22,
+          962.52,
+          994.22,
+          969.2,
+          950.28,
+          1024.63
+        ],
+        "nir_mean": 989.74,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1556286,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:10.400000+00:00",
+        "nir_values": [
+          928.7,
+          958.41,
+          946.58,
+          982.84,
+          980.82,
+          986.59,
+          962.89,
+          919.2
+        ],
+        "nir_mean": 958.25,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1556286,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:10.600000+00:00",
+        "nir_values": [
+          968.72,
+          938.81,
+          967.48,
+          1004.05,
+          977.74,
+          963.65,
+          945.21,
+          970.04
+        ],
+        "nir_mean": 966.96,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1556286,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:10.800000+00:00",
+        "nir_values": [
+          945.94,
+          988.53,
+          929.81,
+          988.48,
+          968.71,
+          933.22,
+          973.84,
+          950.92
+        ],
+        "nir_mean": 959.93,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1556286,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:11+00:00",
+        "nir_values": [
+          969.87,
+          966.2,
+          966.38,
+          903.52,
+          965.23,
+          976.49,
+          908.79,
+          984.22
+        ],
+        "nir_mean": 955.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1556286,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:11.200000+00:00",
+        "nir_values": [
+          947.8,
+          903.73,
+          968.42,
+          974.79,
+          962.26,
+          986.28,
+          927.89,
+          938.88
+        ],
+        "nir_mean": 951.26,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1556286,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:11.400000+00:00",
+        "nir_values": [
+          941.46,
+          931.88,
+          962.56,
+          874.39,
+          970.56,
+          929.73,
+          898.69,
+          925.73
+        ],
+        "nir_mean": 929.38,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1556286,
+          40.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:11.600000+00:00",
+        "nir_values": [
+          981.38,
+          925.03,
+          912.43,
+          993.8,
+          888.17,
+          936.62,
+          931.87,
+          929.97
+        ],
+        "nir_mean": 937.41,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1556286,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:11.800000+00:00",
+        "nir_values": [
+          905.69,
+          893.43,
+          889.91,
+          920.18,
+          939.34,
+          962.79,
+          962.63,
+          934.31
+        ],
+        "nir_mean": 926.03,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1560571,
+          40.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:12+00:00",
+        "nir_values": [
+          896.53,
+          950.83,
+          1003.16,
+          918.69,
+          974.56,
+          980.02,
+          928.75,
+          928.91
+        ],
+        "nir_mean": 947.68,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1560571,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:12.200000+00:00",
+        "nir_values": [
+          948.44,
+          960.32,
+          872.91,
+          928.57,
+          917.33,
+          1007.12,
+          940.98,
+          930.31
+        ],
+        "nir_mean": 938.25,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1560571,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:12.400000+00:00",
+        "nir_values": [
+          898.02,
+          914.26,
+          948.17,
+          906.01,
+          926.09,
+          1010.55,
+          1020.62,
+          932.1
+        ],
+        "nir_mean": 944.48,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1560571,
+          40.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:12.600000+00:00",
+        "nir_values": [
+          976.1,
+          935.16,
+          982.21,
+          980.79,
+          994.53,
+          985.14,
+          995.66,
+          1008.28
+        ],
+        "nir_mean": 982.23,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1560571,
+          41.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:12.800000+00:00",
+        "nir_values": [
+          954.45,
+          981.28,
+          972.26,
+          965.93,
+          932.91,
+          1002.66,
+          971.93,
+          1002.42
+        ],
+        "nir_mean": 972.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1560571,
+          41.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:13+00:00",
+        "nir_values": [
+          997.9,
+          971.26,
+          974.53,
+          1035.53,
+          983.69,
+          990.0,
+          1028.33,
+          1004.67
+        ],
+        "nir_mean": 998.24,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1560571,
+          41.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:13.200000+00:00",
+        "nir_values": [
+          1040.4,
+          1046.87,
+          1024.12,
+          1038.85,
+          1033.18,
+          1047.68,
+          1020.03,
+          1023.22
+        ],
+        "nir_mean": 1034.29,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1560571,
+          41.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:13.400000+00:00",
+        "nir_values": [
+          1043.15,
+          1058.91,
+          1029.82,
+          1025.52,
+          988.02,
+          1034.48,
+          1019.38,
+          1011.62
+        ],
+        "nir_mean": 1026.36,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1560571,
+          41.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:13.600000+00:00",
+        "nir_values": [
+          1017.11,
+          1028.78,
+          1048.34,
+          1018.33,
+          1057.47,
+          1046.44,
+          1049.27,
+          1066.75
+        ],
+        "nir_mean": 1041.56,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1560571,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:13.800000+00:00",
+        "nir_values": [
+          1027.92,
+          1027.81,
+          1015.62,
+          991.28,
+          1029.03,
+          980.81,
+          1047.16,
+          1007.28
+        ],
+        "nir_mean": 1015.86,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1560571,
+          40.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:14+00:00",
+        "nir_values": [
+          1005.96,
+          1077.16,
+          989.98,
+          988.79,
+          1057.05,
+          1042.23,
+          1059.0,
+          1003.31
+        ],
+        "nir_mean": 1027.93,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1560571,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:14.200000+00:00",
+        "nir_values": [
+          1019.87,
+          1007.72,
+          1009.43,
+          1013.25,
+          1053.17,
+          1021.87,
+          1023.9,
+          991.02
+        ],
+        "nir_mean": 1017.53,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1560571,
+          40.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:14.400000+00:00",
+        "nir_values": [
+          936.98,
+          1008.56,
+          1071.48,
+          958.24,
+          1028.56,
+          1005.78,
+          933.16,
+          946.72
+        ],
+        "nir_mean": 986.18,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1560571,
+          40.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:14.600000+00:00",
+        "nir_values": [
+          980.0,
+          1063.88,
+          1024.45,
+          1021.26,
+          971.72,
+          1043.89,
+          1017.85,
+          988.94
+        ],
+        "nir_mean": 1014.0,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1560571,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:14.800000+00:00",
+        "nir_values": [
+          996.64,
+          936.96,
+          928.16,
+          977.17,
+          979.69,
+          1030.95,
+          1011.23,
+          1063.91
+        ],
+        "nir_mean": 990.59,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1560571,
+          40.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:15+00:00",
+        "nir_values": [
+          1013.44,
+          1037.62,
+          1007.19,
+          968.4,
+          1007.48,
+          981.99,
+          995.6,
+          1017.75
+        ],
+        "nir_mean": 1003.68,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1560571,
+          40.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:15.200000+00:00",
+        "nir_values": [
+          1078.69,
+          1044.21,
+          1041.25,
+          983.76,
+          1060.27,
+          1053.67,
+          1067.28,
+          995.0
+        ],
+        "nir_mean": 1040.52,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1560571,
+          41.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:15.400000+00:00",
+        "nir_values": [
+          1100.8,
+          1042.78,
+          1120.92,
+          1035.5,
+          1054.18,
+          1103.5,
+          1106.37,
+          1088.87
+        ],
+        "nir_mean": 1081.62,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1560571,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:15.600000+00:00",
+        "nir_values": [
+          1160.69,
+          1151.67,
+          1132.89,
+          1130.76,
+          1103.25,
+          1097.04,
+          1142.01,
+          1127.3
+        ],
+        "nir_mean": 1130.7,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1560571,
+          41.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:15.800000+00:00",
+        "nir_values": [
+          1179.86,
+          1182.06,
+          1198.96,
+          1292.93,
+          1195.28,
+          1237.72,
+          1122.03,
+          1220.31
+        ],
+        "nir_mean": 1203.64,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1560571,
+          41.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:16+00:00",
+        "nir_values": [
+          1279.41,
+          1212.97,
+          1276.72,
+          1291.87,
+          1339.01,
+          1305.72,
+          1273.64,
+          1272.56
+        ],
+        "nir_mean": 1281.49,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1560571,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:16.200000+00:00",
+        "nir_values": [
+          1378.92,
+          1442.4,
+          1392.94,
+          1374.73,
+          1362.76,
+          1435.07,
+          1297.07,
+          1302.82
+        ],
+        "nir_mean": 1373.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1560571,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:16.400000+00:00",
+        "nir_values": [
+          1401.63,
+          1339.1,
+          1329.45,
+          1339.56,
+          1440.9,
+          1429.53,
+          1297.94,
+          1321.75
+        ],
+        "nir_mean": 1362.48,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1560571,
+          41.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:16.600000+00:00",
+        "nir_values": [
+          1256.41,
+          1293.48,
+          1303.4,
+          1287.77,
+          1276.03,
+          1349.23,
+          1358.15,
+          1331.11
+        ],
+        "nir_mean": 1306.95,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1560571,
+          41.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:16.800000+00:00",
+        "nir_values": [
+          1163.32,
+          1246.57,
+          1194.57,
+          1199.59,
+          1134.67,
+          1331.52,
+          1194.77,
+          1256.78
+        ],
+        "nir_mean": 1215.22,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1560571,
+          41.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:17+00:00",
+        "nir_values": [
+          1145.78,
+          1164.49,
+          1199.3,
+          1113.94,
+          1223.73,
+          1057.91,
+          1070.55,
+          1081.1
+        ],
+        "nir_mean": 1132.1,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1560571,
+          41.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:17.200000+00:00",
+        "nir_values": [
+          1000.13,
+          1125.3,
+          1156.18,
+          1027.49,
+          1015.52,
+          1086.82,
+          971.89,
+          1152.12
+        ],
+        "nir_mean": 1066.93,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1560571,
+          41.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:17.400000+00:00",
+        "nir_values": [
+          1012.13,
+          1115.69,
+          1040.67,
+          1049.07,
+          1028.95,
+          1004.41,
+          982.87,
+          1027.87
+        ],
+        "nir_mean": 1032.71,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1560571,
+          41.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:17.600000+00:00",
+        "nir_values": [
+          998.63,
+          971.38,
+          970.18,
+          1012.74,
+          996.6,
+          941.58,
+          995.69,
+          1015.38
+        ],
+        "nir_mean": 987.77,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1560571,
+          41.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:17.800000+00:00",
+        "nir_values": [
+          962.0,
+          980.87,
+          1006.64,
+          1021.05,
+          945.03,
+          884.82,
+          1042.69,
+          964.73
+        ],
+        "nir_mean": 975.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1564857,
+          41.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:18+00:00",
+        "nir_values": [
+          980.16,
+          989.51,
+          924.57,
+          974.19,
+          933.95,
+          956.39,
+          981.36,
+          942.62
+        ],
+        "nir_mean": 960.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1564857,
+          41.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:18.200000+00:00",
+        "nir_values": [
+          1033.3,
+          945.01,
+          978.32,
+          1010.46,
+          987.58,
+          981.27,
+          1014.64,
+          1017.09
+        ],
+        "nir_mean": 995.96,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1564857,
+          41.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:18.400000+00:00",
+        "nir_values": [
+          1018.8,
+          1022.87,
+          1030.39,
+          1071.3,
+          916.59,
+          1034.13,
+          1034.9,
+          916.79
+        ],
+        "nir_mean": 1005.72,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1564857,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:18.600000+00:00",
+        "nir_values": [
+          1049.44,
+          1052.56,
+          1016.73,
+          1060.81,
+          1090.76,
+          1061.65,
+          1073.4,
+          1064.68
+        ],
+        "nir_mean": 1058.75,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1564857,
+          40.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:18.800000+00:00",
+        "nir_values": [
+          1100.53,
+          1050.26,
+          1087.04,
+          1099.18,
+          1039.43,
+          1110.7,
+          1049.73,
+          1012.84
+        ],
+        "nir_mean": 1068.71,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1564857,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:19+00:00",
+        "nir_values": [
+          1132.75,
+          1153.8,
+          1136.05,
+          1062.52,
+          1057.78,
+          1128.25,
+          1101.99,
+          1122.12
+        ],
+        "nir_mean": 1111.91,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1564857,
+          40.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:19.200000+00:00",
+        "nir_values": [
+          1231.6,
+          1179.3,
+          1244.25,
+          1119.14,
+          1113.51,
+          1185.33,
+          1240.86,
+          1140.35
+        ],
+        "nir_mean": 1181.79,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1564857,
+          40.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:19.400000+00:00",
+        "nir_values": [
+          1152.4,
+          1221.77,
+          1208.56,
+          1219.24,
+          1143.22,
+          1076.71,
+          1154.85,
+          1183.37
+        ],
+        "nir_mean": 1170.01,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1564857,
+          40.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:19.600000+00:00",
+        "nir_values": [
+          1117.93,
+          1211.0,
+          1089.28,
+          1220.98,
+          1210.31,
+          1220.01,
+          1147.5,
+          1184.09
+        ],
+        "nir_mean": 1175.14,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1564857,
+          41.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:19.800000+00:00",
+        "nir_values": [
+          1203.86,
+          1076.84,
+          1152.15,
+          1153.27,
+          1114.08,
+          1136.7,
+          1127.05,
+          1162.41
+        ],
+        "nir_mean": 1140.8,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1564857,
+          41.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:20+00:00",
+        "nir_values": [
+          1135.38,
+          1110.28,
+          1101.43,
+          1086.95,
+          1036.91,
+          1112.16,
+          1174.45,
+          1106.0
+        ],
+        "nir_mean": 1107.94,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1564857,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:20.200000+00:00",
+        "nir_values": [
+          1102.71,
+          1070.25,
+          1028.89,
+          1129.24,
+          1069.52,
+          1109.21,
+          1168.06,
+          1053.56
+        ],
+        "nir_mean": 1091.43,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1564857,
+          40.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:20.400000+00:00",
+        "nir_values": [
+          1027.32,
+          1069.39,
+          1069.59,
+          1071.21,
+          1065.51,
+          1048.83,
+          1053.8,
+          1075.05
+        ],
+        "nir_mean": 1060.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1564857,
+          40.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:20.600000+00:00",
+        "nir_values": [
+          970.1,
+          1018.9,
+          1055.43,
+          985.43,
+          1030.19,
+          1025.25,
+          1010.21,
+          1118.55
+        ],
+        "nir_mean": 1026.76,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1564857,
+          40.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:20.800000+00:00",
+        "nir_values": [
+          1011.23,
+          1056.32,
+          1010.74,
+          1060.15,
+          1040.69,
+          1023.35,
+          1034.88,
+          1010.51
+        ],
+        "nir_mean": 1030.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1564857,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:21+00:00",
+        "nir_values": [
+          1060.3,
+          1111.65,
+          988.31,
+          966.16,
+          1019.05,
+          1020.86,
+          1012.93,
+          989.62
+        ],
+        "nir_mean": 1021.11,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1564857,
+          40.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:21.200000+00:00",
+        "nir_values": [
+          1047.76,
+          950.75,
+          1102.06,
+          1043.11,
+          981.72,
+          1008.25,
+          1043.44,
+          1037.82
+        ],
+        "nir_mean": 1026.86,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1564857,
+          40.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:21.400000+00:00",
+        "nir_values": [
+          1023.92,
+          1046.32,
+          1039.05,
+          1042.41,
+          979.68,
+          1091.47,
+          1048.38,
+          1038.51
+        ],
+        "nir_mean": 1038.72,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1564857,
+          40.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:21.600000+00:00",
+        "nir_values": [
+          1148.0,
+          1043.7,
+          1046.57,
+          1079.92,
+          1085.87,
+          1032.87,
+          1036.54,
+          1015.31
+        ],
+        "nir_mean": 1061.1,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1564857,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:21.800000+00:00",
+        "nir_values": [
+          1032.51,
+          1118.75,
+          1077.17,
+          1020.02,
+          1022.25,
+          1077.91,
+          1024.32,
+          1083.9
+        ],
+        "nir_mean": 1057.1,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1564857,
+          40.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:22+00:00",
+        "nir_values": [
+          1104.17,
+          1137.22,
+          1156.0,
+          1058.17,
+          1130.53,
+          1177.04,
+          1100.88,
+          1069.0
+        ],
+        "nir_mean": 1116.63,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1564857,
+          40.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:22.200000+00:00",
+        "nir_values": [
+          1106.21,
+          1114.63,
+          1141.68,
+          1097.09,
+          1115.72,
+          1088.8,
+          1180.07,
+          1109.26
+        ],
+        "nir_mean": 1119.18,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1564857,
+          40.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:22.400000+00:00",
+        "nir_values": [
+          1162.46,
+          1100.67,
+          1038.76,
+          1093.39,
+          1144.04,
+          1130.24,
+          1083.52,
+          1111.63
+        ],
+        "nir_mean": 1108.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1564857,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:22.600000+00:00",
+        "nir_values": [
+          1070.82,
+          1131.62,
+          1067.55,
+          1114.8,
+          1058.35,
+          1131.16,
+          1179.85,
+          1080.01
+        ],
+        "nir_mean": 1104.27,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1564857,
+          41.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:22.800000+00:00",
+        "nir_values": [
+          1083.16,
+          1041.07,
+          1096.79,
+          1063.16,
+          1098.98,
+          1098.27,
+          1063.68,
+          1033.57
+        ],
+        "nir_mean": 1072.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1564857,
+          41.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:23+00:00",
+        "nir_values": [
+          1020.04,
+          1132.26,
+          999.57,
+          1051.33,
+          966.52,
+          1024.69,
+          1083.68,
+          1035.47
+        ],
+        "nir_mean": 1039.2,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1564857,
+          41.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:23.200000+00:00",
+        "nir_values": [
+          1001.32,
+          1002.17,
+          949.97,
+          1042.19,
+          1013.34,
+          999.02,
+          1032.48,
+          983.62
+        ],
+        "nir_mean": 1003.01,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1564857,
+          41.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:23.400000+00:00",
+        "nir_values": [
+          970.26,
+          1004.15,
+          918.01,
+          964.73,
+          923.31,
+          1015.43,
+          978.45,
+          954.57
+        ],
+        "nir_mean": 966.11,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1564857,
+          41.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:23.600000+00:00",
+        "nir_values": [
+          931.53,
+          964.48,
+          931.45,
+          1000.86,
+          997.32,
+          933.98,
+          980.08,
+          984.55
+        ],
+        "nir_mean": 965.53,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1564857,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:23.800000+00:00",
+        "nir_values": [
+          935.47,
+          937.14,
+          974.61,
+          963.48,
+          947.48,
+          957.11,
+          876.46,
+          931.07
+        ],
+        "nir_mean": 940.35,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1569143,
+          41.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:24+00:00",
+        "nir_values": [
+          957.12,
+          899.09,
+          1001.08,
+          898.71,
+          914.53,
+          980.47,
+          1012.45,
+          1009.81
+        ],
+        "nir_mean": 959.16,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1569143,
+          41.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:24.200000+00:00",
+        "nir_values": [
+          913.68,
+          996.5,
+          980.19,
+          1007.1,
+          1006.11,
+          943.6,
+          992.4,
+          989.5
+        ],
+        "nir_mean": 978.63,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1569143,
+          41.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:24.400000+00:00",
+        "nir_values": [
+          1083.32,
+          1019.33,
+          1027.7,
+          1042.21,
+          983.57,
+          1043.57,
+          970.56,
+          1036.82
+        ],
+        "nir_mean": 1025.88,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1569143,
+          41.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:24.600000+00:00",
+        "nir_values": [
+          1040.73,
+          1062.62,
+          1112.28,
+          1048.69,
+          1090.64,
+          1076.1,
+          1058.68,
+          941.6
+        ],
+        "nir_mean": 1053.92,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1569143,
+          41.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:24.800000+00:00",
+        "nir_values": [
+          1149.54,
+          1108.02,
+          1032.97,
+          1143.95,
+          1121.43,
+          1074.59,
+          1060.74,
+          1130.37
+        ],
+        "nir_mean": 1102.7,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1569143,
+          41.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:25+00:00",
+        "nir_values": [
+          1172.95,
+          1199.59,
+          1210.32,
+          1191.6,
+          1254.59,
+          1176.68,
+          1108.42,
+          1153.02
+        ],
+        "nir_mean": 1183.4,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1569143,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:25.200000+00:00",
+        "nir_values": [
+          1217.89,
+          1260.01,
+          1245.56,
+          1171.32,
+          1186.6,
+          1330.1,
+          1185.09,
+          1168.39
+        ],
+        "nir_mean": 1220.62,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1569143,
+          40.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:25.400000+00:00",
+        "nir_values": [
+          1214.03,
+          1330.99,
+          1277.97,
+          1281.73,
+          1212.36,
+          1214.18,
+          1253.22,
+          1147.31
+        ],
+        "nir_mean": 1241.47,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1569143,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:25.600000+00:00",
+        "nir_values": [
+          1232.14,
+          1205.27,
+          1277.13,
+          1251.24,
+          1223.55,
+          1260.57,
+          1255.16,
+          1212.54
+        ],
+        "nir_mean": 1239.7,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1569143,
+          41.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:25.800000+00:00",
+        "nir_values": [
+          1214.94,
+          1187.34,
+          1231.45,
+          1173.66,
+          1201.77,
+          1221.52,
+          1243.21,
+          1206.95
+        ],
+        "nir_mean": 1210.11,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1569143,
+          41.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:26+00:00",
+        "nir_values": [
+          1189.86,
+          1083.83,
+          1182.76,
+          1158.97,
+          1125.52,
+          1160.82,
+          1144.61,
+          1176.07
+        ],
+        "nir_mean": 1152.81,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1569143,
+          41.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:26.200000+00:00",
+        "nir_values": [
+          1087.32,
+          1113.06,
+          1105.0,
+          1138.11,
+          1070.86,
+          1085.91,
+          1089.0,
+          1071.91
+        ],
+        "nir_mean": 1095.15,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1569143,
+          41.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:26.400000+00:00",
+        "nir_values": [
+          1041.84,
+          1045.04,
+          1059.91,
+          1022.53,
+          1011.14,
+          1047.36,
+          1031.88,
+          1030.77
+        ],
+        "nir_mean": 1036.31,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1569143,
+          41.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:26.600000+00:00",
+        "nir_values": [
+          1049.62,
+          963.47,
+          985.76,
+          1036.18,
+          1024.28,
+          1110.1,
+          1023.16,
+          1009.69
+        ],
+        "nir_mean": 1025.28,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1569143,
+          41.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:26.800000+00:00",
+        "nir_values": [
+          1050.22,
+          1014.67,
+          1058.42,
+          1016.38,
+          1042.02,
+          1068.52,
+          986.89,
+          1066.56
+        ],
+        "nir_mean": 1037.96,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1569143,
+          41.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:27+00:00",
+        "nir_values": [
+          1045.25,
+          1038.57,
+          1035.31,
+          978.9,
+          942.96,
+          994.15,
+          972.47,
+          1024.98
+        ],
+        "nir_mean": 1004.07,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1569143,
+          41.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:27.200000+00:00",
+        "nir_values": [
+          1024.45,
+          992.36,
+          1063.71,
+          1047.05,
+          985.24,
+          1003.97,
+          1071.19,
+          967.52
+        ],
+        "nir_mean": 1019.44,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1569143,
+          41.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:27.400000+00:00",
+        "nir_values": [
+          1091.19,
+          1018.33,
+          1022.91,
+          993.56,
+          1077.11,
+          1026.94,
+          1020.17,
+          990.14
+        ],
+        "nir_mean": 1030.04,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1569143,
+          41.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:27.600000+00:00",
+        "nir_values": [
+          1013.25,
+          1027.1,
+          1023.28,
+          994.16,
+          1025.21,
+          1049.93,
+          1008.3,
+          1027.78
+        ],
+        "nir_mean": 1021.13,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1569143,
+          41.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:27.800000+00:00",
+        "nir_values": [
+          1073.87,
+          1089.28,
+          1069.1,
+          1092.28,
+          1040.95,
+          1048.43,
+          1096.48,
+          1070.87
+        ],
+        "nir_mean": 1072.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1569143,
+          41.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:28+00:00",
+        "nir_values": [
+          1051.11,
+          1073.1,
+          1111.46,
+          1101.45,
+          1140.9,
+          1038.69,
+          1036.19,
+          1070.15
+        ],
+        "nir_mean": 1077.88,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1569143,
+          41.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:28.200000+00:00",
+        "nir_values": [
+          1079.78,
+          1117.76,
+          1102.92,
+          1078.41,
+          1126.16,
+          1071.33,
+          1058.1,
+          1097.15
+        ],
+        "nir_mean": 1091.45,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1569143,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:28.400000+00:00",
+        "nir_values": [
+          1105.63,
+          1131.83,
+          1060.98,
+          1084.57,
+          1104.98,
+          1195.25,
+          1101.96,
+          1026.48
+        ],
+        "nir_mean": 1101.46,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1569143,
+          41.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:28.600000+00:00",
+        "nir_values": [
+          1123.6,
+          1109.87,
+          1075.87,
+          1048.88,
+          977.52,
+          1102.96,
+          1046.18,
+          1132.33
+        ],
+        "nir_mean": 1077.15,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1569143,
+          41.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:28.800000+00:00",
+        "nir_values": [
+          1041.83,
+          1030.98,
+          1020.76,
+          1054.42,
+          1098.32,
+          1011.93,
+          1000.04,
+          1054.93
+        ],
+        "nir_mean": 1039.15,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1569143,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:29+00:00",
+        "nir_values": [
+          1042.0,
+          1006.39,
+          986.52,
+          1019.53,
+          1024.15,
+          1039.89,
+          1057.58,
+          1077.96
+        ],
+        "nir_mean": 1031.75,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1569143,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:29.200000+00:00",
+        "nir_values": [
+          1010.74,
+          966.8,
+          1074.15,
+          988.72,
+          1003.77,
+          974.86,
+          1051.95,
+          1020.76
+        ],
+        "nir_mean": 1011.47,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1569143,
+          41.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:29.400000+00:00",
+        "nir_values": [
+          1007.09,
+          975.59,
+          1039.35,
+          1067.95,
+          984.01,
+          946.97,
+          985.23,
+          967.05
+        ],
+        "nir_mean": 996.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1569143,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:29.600000+00:00",
+        "nir_values": [
+          945.32,
+          927.67,
+          977.61,
+          983.46,
+          918.07,
+          918.17,
+          970.49,
+          970.96
+        ],
+        "nir_mean": 951.47,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1569143,
+          41.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:29.800000+00:00",
+        "nir_values": [
+          959.76,
+          920.09,
+          849.89,
+          981.73,
+          932.51,
+          935.72,
+          951.84,
+          950.47
+        ],
+        "nir_mean": 935.25,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1573429,
+          40.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:30+00:00",
+        "nir_values": [
+          933.56,
+          920.85,
+          978.87,
+          948.06,
+          898.79,
+          1017.31,
+          987.51,
+          975.24
+        ],
+        "nir_mean": 957.52,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1573429,
+          40.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:30.200000+00:00",
+        "nir_values": [
+          962.66,
+          916.41,
+          935.67,
+          924.65,
+          956.15,
+          986.38,
+          959.84,
+          921.24
+        ],
+        "nir_mean": 945.38,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1573429,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:30.400000+00:00",
+        "nir_values": [
+          949.33,
+          970.02,
+          944.76,
+          1002.63,
+          918.8,
+          949.57,
+          960.51,
+          969.7
+        ],
+        "nir_mean": 958.16,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1573429,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:30.600000+00:00",
+        "nir_values": [
+          963.73,
+          994.86,
+          951.37,
+          964.45,
+          979.18,
+          929.52,
+          946.56,
+          928.25
+        ],
+        "nir_mean": 957.24,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1573429,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:30.800000+00:00",
+        "nir_values": [
+          962.81,
+          1002.68,
+          1046.28,
+          1013.16,
+          973.56,
+          989.43,
+          1030.4,
+          969.09
+        ],
+        "nir_mean": 998.43,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1573429,
+          40.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:31+00:00",
+        "nir_values": [
+          985.33,
+          1009.05,
+          1023.49,
+          1002.14,
+          912.69,
+          1102.15,
+          1031.91,
+          1030.85
+        ],
+        "nir_mean": 1012.2,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1573429,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:31.200000+00:00",
+        "nir_values": [
+          1013.47,
+          1092.83,
+          1007.64,
+          1015.06,
+          1008.88,
+          1012.85,
+          993.86,
+          943.25
+        ],
+        "nir_mean": 1010.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1573429,
+          40.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:31.400000+00:00",
+        "nir_values": [
+          1069.12,
+          1033.93,
+          1004.49,
+          1056.03,
+          1008.61,
+          1046.96,
+          1051.65,
+          1055.08
+        ],
+        "nir_mean": 1040.73,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1573429,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:31.600000+00:00",
+        "nir_values": [
+          1029.29,
+          1016.5,
+          1041.55,
+          1013.68,
+          1069.9,
+          1048.4,
+          958.99,
+          1007.11
+        ],
+        "nir_mean": 1023.18,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1573429,
+          40.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:31.800000+00:00",
+        "nir_values": [
+          1005.2,
+          1004.47,
+          995.66,
+          977.46,
+          1019.12,
+          1014.34,
+          1063.8,
+          1037.47
+        ],
+        "nir_mean": 1014.69,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1573429,
+          40.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:32+00:00",
+        "nir_values": [
+          959.97,
+          1035.29,
+          976.36,
+          995.95,
+          962.22,
+          1019.34,
+          1038.68,
+          1014.45
+        ],
+        "nir_mean": 1000.28,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1573429,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:32.200000+00:00",
+        "nir_values": [
+          1000.45,
+          1042.14,
+          1001.08,
+          1035.45,
+          968.6,
+          955.52,
+          1040.95,
+          991.77
+        ],
+        "nir_mean": 1004.49,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1573429,
+          40.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:32.400000+00:00",
+        "nir_values": [
+          991.76,
+          1008.43,
+          1001.1,
+          1044.26,
+          978.17,
+          981.37,
+          1004.68,
+          1012.49
+        ],
+        "nir_mean": 1002.78,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1573429,
+          40.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:32.600000+00:00",
+        "nir_values": [
+          971.16,
+          997.73,
+          1031.53,
+          967.9,
+          978.06,
+          1029.27,
+          1052.94,
+          1012.08
+        ],
+        "nir_mean": 1005.08,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1573429,
+          40.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:32.800000+00:00",
+        "nir_values": [
+          967.25,
+          1046.97,
+          1000.78,
+          1028.76,
+          1007.43,
+          1027.31,
+          964.61,
+          973.16
+        ],
+        "nir_mean": 1002.03,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1573429,
+          40.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:33+00:00",
+        "nir_values": [
+          1067.47,
+          1056.03,
+          984.66,
+          1023.86,
+          981.15,
+          1018.39,
+          1030.16,
+          1053.14
+        ],
+        "nir_mean": 1026.86,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1573429,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:33.200000+00:00",
+        "nir_values": [
+          1027.61,
+          965.92,
+          1071.59,
+          1117.58,
+          1063.2,
+          990.29,
+          1064.98,
+          1042.66
+        ],
+        "nir_mean": 1042.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1573429,
+          41.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:33.400000+00:00",
+        "nir_values": [
+          1101.54,
+          1074.44,
+          1009.6,
+          1034.27,
+          1065.94,
+          1157.91,
+          1119.68,
+          1063.34
+        ],
+        "nir_mean": 1078.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1573429,
+          40.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:33.600000+00:00",
+        "nir_values": [
+          1161.55,
+          1219.02,
+          1114.52,
+          1161.75,
+          1059.19,
+          1177.64,
+          1145.15,
+          1153.04
+        ],
+        "nir_mean": 1148.98,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1573429,
+          41.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:33.800000+00:00",
+        "nir_values": [
+          1210.58,
+          1266.6,
+          1262.46,
+          1222.61,
+          1305.03,
+          1274.0,
+          1229.06,
+          1258.28
+        ],
+        "nir_mean": 1253.58,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1573429,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:34+00:00",
+        "nir_values": [
+          1347.23,
+          1433.85,
+          1314.43,
+          1368.64,
+          1346.67,
+          1391.28,
+          1290.48,
+          1316.87
+        ],
+        "nir_mean": 1351.18,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1573429,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:34.200000+00:00",
+        "nir_values": [
+          1415.65,
+          1536.36,
+          1521.69,
+          1410.21,
+          1452.56,
+          1426.81,
+          1444.26,
+          1478.46
+        ],
+        "nir_mean": 1460.75,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1573429,
+          41.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:34.400000+00:00",
+        "nir_values": [
+          1586.53,
+          1454.43,
+          1533.18,
+          1442.62,
+          1517.1,
+          1512.98,
+          1581.65,
+          1515.29
+        ],
+        "nir_mean": 1517.97,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1573429,
+          41.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:34.600000+00:00",
+        "nir_values": [
+          1360.06,
+          1501.82,
+          1421.52,
+          1492.51,
+          1360.97,
+          1454.48,
+          1469.29,
+          1452.44
+        ],
+        "nir_mean": 1439.14,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1573429,
+          41.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:34.800000+00:00",
+        "nir_values": [
+          1234.25,
+          1324.32,
+          1242.55,
+          1251.99,
+          1312.09,
+          1311.66,
+          1359.72,
+          1284.62
+        ],
+        "nir_mean": 1290.15,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1573429,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:35+00:00",
+        "nir_values": [
+          1189.31,
+          1203.6,
+          1198.63,
+          1195.08,
+          1131.24,
+          1160.37,
+          1154.46,
+          1200.96
+        ],
+        "nir_mean": 1179.21,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1573429,
+          40.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:35.200000+00:00",
+        "nir_values": [
+          1103.56,
+          1055.67,
+          1101.12,
+          1052.41,
+          1113.23,
+          1112.26,
+          1121.41,
+          1060.34
+        ],
+        "nir_mean": 1090.0,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1573429,
+          40.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:35.400000+00:00",
+        "nir_values": [
+          970.58,
+          1033.8,
+          1016.27,
+          1065.07,
+          1037.15,
+          1044.73,
+          1000.76,
+          1029.16
+        ],
+        "nir_mean": 1024.69,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1573429,
+          40.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:35.600000+00:00",
+        "nir_values": [
+          962.78,
+          1012.43,
+          995.73,
+          978.62,
+          1017.73,
+          998.55,
+          1015.07,
+          984.39
+        ],
+        "nir_mean": 995.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1573429,
+          41.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:35.800000+00:00",
+        "nir_values": [
+          970.8,
+          985.41,
+          908.82,
+          955.28,
+          1011.02,
+          914.25,
+          982.86,
+          970.28
+        ],
+        "nir_mean": 962.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1577714,
+          40.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:36+00:00",
+        "nir_values": [
+          1019.14,
+          1009.97,
+          920.66,
+          991.26,
+          1010.24,
+          852.94,
+          943.5,
+          912.01
+        ],
+        "nir_mean": 957.46,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1577714,
+          41.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:36.200000+00:00",
+        "nir_values": [
+          1069.66,
+          1040.87,
+          1017.43,
+          1012.98,
+          1018.71,
+          979.93,
+          1000.48,
+          997.69
+        ],
+        "nir_mean": 1017.22,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1577714,
+          40.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:36.400000+00:00",
+        "nir_values": [
+          1045.82,
+          1038.06,
+          961.81,
+          1042.23,
+          1060.73,
+          1103.85,
+          1046.02,
+          997.01
+        ],
+        "nir_mean": 1036.94,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1577714,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:36.600000+00:00",
+        "nir_values": [
+          1106.63,
+          1102.5,
+          1125.93,
+          1153.67,
+          1135.39,
+          1103.62,
+          1091.35,
+          1098.18
+        ],
+        "nir_mean": 1114.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1577714,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:36.800000+00:00",
+        "nir_values": [
+          1146.51,
+          1211.47,
+          1183.32,
+          1174.51,
+          1184.36,
+          1119.99,
+          1215.9,
+          1168.07
+        ],
+        "nir_mean": 1175.52,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1577714,
+          41.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:37+00:00",
+        "nir_values": [
+          1364.9,
+          1399.55,
+          1272.37,
+          1332.04,
+          1244.01,
+          1305.55,
+          1297.4,
+          1352.59
+        ],
+        "nir_mean": 1321.05,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1577714,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:37.200000+00:00",
+        "nir_values": [
+          1490.11,
+          1439.99,
+          1589.41,
+          1536.02,
+          1473.99,
+          1413.72,
+          1374.6,
+          1556.78
+        ],
+        "nir_mean": 1484.33,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1577714,
+          41.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:37.400000+00:00",
+        "nir_values": [
+          1705.04,
+          1726.09,
+          1651.53,
+          1764.23,
+          1604.29,
+          1807.79,
+          1660.57,
+          1646.11
+        ],
+        "nir_mean": 1695.71,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1577714,
+          41.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:37.600000+00:00",
+        "nir_values": [
+          1528.39,
+          1544.27,
+          1522.62,
+          1592.36,
+          1485.46,
+          1596.1,
+          1625.2,
+          1681.54
+        ],
+        "nir_mean": 1571.99,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1577714,
+          41.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:37.800000+00:00",
+        "nir_values": [
+          1407.56,
+          1381.05,
+          1343.88,
+          1401.49,
+          1388.65,
+          1364.59,
+          1394.47,
+          1422.54
+        ],
+        "nir_mean": 1388.03,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1577714,
+          41.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:38+00:00",
+        "nir_values": [
+          1255.7,
+          1256.3,
+          1269.81,
+          1283.35,
+          1303.69,
+          1244.08,
+          1223.61,
+          1242.39
+        ],
+        "nir_mean": 1259.87,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1577714,
+          41.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:38.200000+00:00",
+        "nir_values": [
+          1182.11,
+          1102.97,
+          1202.43,
+          1159.19,
+          1146.58,
+          1159.65,
+          1167.62,
+          1124.37
+        ],
+        "nir_mean": 1155.62,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1577714,
+          41.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:38.400000+00:00",
+        "nir_values": [
+          1054.89,
+          1054.78,
+          1015.04,
+          1092.31,
+          1055.87,
+          1086.48,
+          1135.14,
+          1109.69
+        ],
+        "nir_mean": 1075.53,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1577714,
+          41.07
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:38.600000+00:00",
+        "nir_values": [
+          1011.22,
+          1036.4,
+          1054.23,
+          1044.54,
+          1052.98,
+          1057.69,
+          1072.76,
+          1005.37
+        ],
+        "nir_mean": 1041.9,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1577714,
+          40.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:38.800000+00:00",
+        "nir_values": [
+          1000.95,
+          964.46,
+          1067.97,
+          1035.72,
+          1029.43,
+          1134.3,
+          1031.53,
+          1035.89
+        ],
+        "nir_mean": 1037.53,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1577714,
+          40.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:39+00:00",
+        "nir_values": [
+          1035.43,
+          944.83,
+          976.43,
+          984.33,
+          945.01,
+          1017.24,
+          1067.01,
+          1021.67
+        ],
+        "nir_mean": 998.99,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1577714,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:39.200000+00:00",
+        "nir_values": [
+          1030.97,
+          960.38,
+          913.49,
+          919.6,
+          979.43,
+          1011.75,
+          998.06,
+          997.7
+        ],
+        "nir_mean": 976.42,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1577714,
+          41.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:39.400000+00:00",
+        "nir_values": [
+          1023.77,
+          1008.92,
+          921.39,
+          1019.64,
+          980.27,
+          925.1,
+          982.78,
+          968.78
+        ],
+        "nir_mean": 978.83,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1577714,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:39.600000+00:00",
+        "nir_values": [
+          950.99,
+          1002.09,
+          941.82,
+          913.92,
+          970.6,
+          897.2,
+          964.83,
+          945.28
+        ],
+        "nir_mean": 948.34,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1577714,
+          40.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:39.800000+00:00",
+        "nir_values": [
+          975.4,
+          913.24,
+          954.08,
+          999.33,
+          957.48,
+          959.77,
+          976.29,
+          975.7
+        ],
+        "nir_mean": 963.91,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1577714,
+          41.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:40+00:00",
+        "nir_values": [
+          954.53,
+          978.99,
+          941.9,
+          960.41,
+          1046.02,
+          960.2,
+          917.7,
+          941.11
+        ],
+        "nir_mean": 962.61,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1577714,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:40.200000+00:00",
+        "nir_values": [
+          1009.69,
+          1032.33,
+          1029.51,
+          886.39,
+          979.18,
+          943.06,
+          990.58,
+          1025.01
+        ],
+        "nir_mean": 986.97,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1577714,
+          41.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:40.400000+00:00",
+        "nir_values": [
+          977.58,
+          930.96,
+          990.23,
+          947.05,
+          951.36,
+          1045.46,
+          958.15,
+          947.16
+        ],
+        "nir_mean": 968.49,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1577714,
+          41.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:40.600000+00:00",
+        "nir_values": [
+          926.96,
+          991.06,
+          944.08,
+          968.89,
+          1042.03,
+          962.81,
+          973.32,
+          944.4
+        ],
+        "nir_mean": 969.19,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1577714,
+          40.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:40.800000+00:00",
+        "nir_values": [
+          958.66,
+          903.71,
+          952.67,
+          946.93,
+          958.51,
+          925.68,
+          934.57,
+          998.33
+        ],
+        "nir_mean": 947.38,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1577714,
+          40.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:41+00:00",
+        "nir_values": [
+          925.71,
+          913.91,
+          975.18,
+          957.22,
+          885.98,
+          924.02,
+          934.61,
+          922.12
+        ],
+        "nir_mean": 929.84,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1577714,
+          41.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:41.200000+00:00",
+        "nir_values": [
+          1009.03,
+          962.67,
+          919.59,
+          920.29,
+          933.9,
+          994.06,
+          979.8,
+          979.93
+        ],
+        "nir_mean": 962.41,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1577714,
+          41.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:41.400000+00:00",
+        "nir_values": [
+          997.45,
+          918.36,
+          888.64,
+          952.61,
+          913.08,
+          969.83,
+          977.63,
+          998.59
+        ],
+        "nir_mean": 952.02,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1577714,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:41.600000+00:00",
+        "nir_values": [
+          936.6,
+          922.11,
+          937.9,
+          931.13,
+          900.99,
+          920.67,
+          967.68,
+          948.21
+        ],
+        "nir_mean": 933.16,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1577714,
+          41.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:41.800000+00:00",
+        "nir_values": [
+          908.98,
+          909.16,
+          941.04,
+          901.03,
+          955.32,
+          909.22,
+          1005.77,
+          969.73
+        ],
+        "nir_mean": 937.53,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1582,
+          41.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:42+00:00",
+        "nir_values": [
+          919.38,
+          975.75,
+          950.71,
+          947.18,
+          947.67,
+          887.14,
+          889.07,
+          964.72
+        ],
+        "nir_mean": 935.2,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1582,
+          41.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:42.200000+00:00",
+        "nir_values": [
+          884.74,
+          902.92,
+          910.11,
+          954.4,
+          1011.01,
+          920.23,
+          946.05,
+          924.88
+        ],
+        "nir_mean": 931.79,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1582,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:42.400000+00:00",
+        "nir_values": [
+          935.0,
+          908.23,
+          956.1,
+          977.67,
+          972.89,
+          1007.35,
+          862.35,
+          948.46
+        ],
+        "nir_mean": 946.01,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1582,
+          41.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:42.600000+00:00",
+        "nir_values": [
+          949.17,
+          989.22,
+          913.98,
+          945.72,
+          982.75,
+          948.45,
+          908.15,
+          923.52
+        ],
+        "nir_mean": 945.12,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1582,
+          41.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:42.800000+00:00",
+        "nir_values": [
+          950.16,
+          972.19,
+          964.56,
+          954.42,
+          967.48,
+          912.88,
+          952.26,
+          958.35
+        ],
+        "nir_mean": 954.04,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1582,
+          41.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:43+00:00",
+        "nir_values": [
+          930.75,
+          1010.58,
+          1004.46,
+          967.41,
+          898.51,
+          900.18,
+          935.1,
+          952.61
+        ],
+        "nir_mean": 949.95,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1582,
+          41.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:43.200000+00:00",
+        "nir_values": [
+          940.89,
+          940.77,
+          990.71,
+          983.11,
+          993.18,
+          900.97,
+          968.2,
+          910.25
+        ],
+        "nir_mean": 953.51,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1582,
+          41.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:43.400000+00:00",
+        "nir_values": [
+          935.12,
+          908.71,
+          942.25,
+          952.15,
+          970.12,
+          962.27,
+          932.47,
+          952.93
+        ],
+        "nir_mean": 944.5,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1582,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:43.600000+00:00",
+        "nir_values": [
+          902.2,
+          925.39,
+          969.27,
+          935.77,
+          1013.9,
+          895.69,
+          948.76,
+          967.78
+        ],
+        "nir_mean": 944.84,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1582,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:43.800000+00:00",
+        "nir_values": [
+          997.85,
+          913.87,
+          914.02,
+          976.6,
+          970.34,
+          967.93,
+          903.9,
+          978.82
+        ],
+        "nir_mean": 952.92,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1582,
+          41.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:44+00:00",
+        "nir_values": [
+          960.72,
+          949.75,
+          977.42,
+          948.68,
+          979.15,
+          897.41,
+          989.4,
+          942.7
+        ],
+        "nir_mean": 955.65,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1582,
+          41.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:44.200000+00:00",
+        "nir_values": [
+          939.09,
+          1016.68,
+          1009.39,
+          999.45,
+          945.61,
+          949.05,
+          982.8,
+          945.1
+        ],
+        "nir_mean": 973.4,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1582,
+          41.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:44.400000+00:00",
+        "nir_values": [
+          959.42,
+          967.76,
+          949.53,
+          1011.7,
+          1007.2,
+          956.44,
+          997.83,
+          910.28
+        ],
+        "nir_mean": 970.02,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1582,
+          41.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:44.600000+00:00",
+        "nir_values": [
+          948.12,
+          984.52,
+          991.12,
+          1002.79,
+          983.18,
+          1020.68,
+          948.3,
+          1007.65
+        ],
+        "nir_mean": 985.79,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1582,
+          41.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:44.800000+00:00",
+        "nir_values": [
+          965.94,
+          965.43,
+          977.71,
+          1032.12,
+          991.51,
+          1029.57,
+          1013.0,
+          972.35
+        ],
+        "nir_mean": 993.45,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1582,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:45+00:00",
+        "nir_values": [
+          935.63,
+          943.64,
+          941.27,
+          989.34,
+          989.46,
+          977.93,
+          953.12,
+          993.76
+        ],
+        "nir_mean": 965.52,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1582,
+          41.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:45.200000+00:00",
+        "nir_values": [
+          985.08,
+          960.81,
+          1045.62,
+          964.13,
+          1062.06,
+          1071.23,
+          968.18,
+          966.38
+        ],
+        "nir_mean": 1002.94,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1582,
+          41.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:45.400000+00:00",
+        "nir_values": [
+          1115.45,
+          1157.74,
+          1027.08,
+          1109.72,
+          1036.18,
+          1047.22,
+          1023.24,
+          1085.81
+        ],
+        "nir_mean": 1075.31,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1582,
+          41.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:45.600000+00:00",
+        "nir_values": [
+          1055.48,
+          1108.98,
+          1103.01,
+          1182.0,
+          1072.11,
+          1083.81,
+          1135.11,
+          1112.43
+        ],
+        "nir_mean": 1106.62,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1582,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:45.800000+00:00",
+        "nir_values": [
+          1171.48,
+          1175.75,
+          1178.05,
+          1200.68,
+          1205.93,
+          1275.79,
+          1176.17,
+          1114.97
+        ],
+        "nir_mean": 1187.35,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1582,
+          41.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:46+00:00",
+        "nir_values": [
+          1317.43,
+          1310.88,
+          1212.58,
+          1285.2,
+          1261.36,
+          1353.39,
+          1251.31,
+          1264.6
+        ],
+        "nir_mean": 1282.09,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1582,
+          41.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:46.200000+00:00",
+        "nir_values": [
+          1419.23,
+          1390.62,
+          1367.46,
+          1375.11,
+          1304.89,
+          1369.93,
+          1326.94,
+          1332.06
+        ],
+        "nir_mean": 1360.78,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1582,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:46.400000+00:00",
+        "nir_values": [
+          1388.32,
+          1355.03,
+          1505.35,
+          1386.05,
+          1363.05,
+          1394.44,
+          1415.31,
+          1449.85
+        ],
+        "nir_mean": 1407.17,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1582,
+          41.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:46.600000+00:00",
+        "nir_values": [
+          1275.25,
+          1373.74,
+          1283.46,
+          1377.9,
+          1401.84,
+          1297.68,
+          1278.9,
+          1277.05
+        ],
+        "nir_mean": 1320.73,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1582,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:46.800000+00:00",
+        "nir_values": [
+          1194.63,
+          1186.09,
+          1191.49,
+          1208.27,
+          1234.64,
+          1205.14,
+          1207.1,
+          1117.79
+        ],
+        "nir_mean": 1193.14,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1582,
+          41.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:47+00:00",
+        "nir_values": [
+          1149.45,
+          1268.45,
+          1215.58,
+          1187.81,
+          1137.63,
+          1143.54,
+          1147.57,
+          1147.36
+        ],
+        "nir_mean": 1174.67,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1582,
+          41.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:47.200000+00:00",
+        "nir_values": [
+          1056.29,
+          1165.64,
+          1100.58,
+          1071.79,
+          1066.23,
+          1096.62,
+          1084.96,
+          1067.16
+        ],
+        "nir_mean": 1088.66,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1582,
+          41.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:47.400000+00:00",
+        "nir_values": [
+          1086.83,
+          1081.18,
+          1034.07,
+          1065.42,
+          990.25,
+          1048.68,
+          958.5,
+          1078.98
+        ],
+        "nir_mean": 1042.99,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1582,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:47.600000+00:00",
+        "nir_values": [
+          927.5,
+          1006.56,
+          996.98,
+          1017.65,
+          1011.79,
+          970.08,
+          1046.53,
+          955.42
+        ],
+        "nir_mean": 991.56,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1582,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T11:00:47.800000+00:00",
+        "nir_values": [
+          961.12,
+          982.52,
+          994.59,
+          942.75,
+          957.35,
+          986.61,
+          979.32,
+          1037.14
+        ],
+        "nir_mean": 980.17,
+        "label": "Zwei Bewässerungs-Hotspots"
+      }
+    }
+  ]
+}

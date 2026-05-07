@@ -1,16 +1,34 @@
-import { NextResponse } from 'next/server'
-import { readFileSync } from 'fs'
-import { join } from 'path'
+import { NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
+import type { NIRFeatureCollection, FlightDataResponse } from '@/lib/types';
+import { computeStats } from '@/lib/stats';
 
-export async function GET() {
+const GEOJSON_PATH = path.join(process.cwd(), '..', 'output', 'flight_geo.geojson');
+
+const emptyCollection: NIRFeatureCollection = { type: 'FeatureCollection', features: [] };
+
+export async function GET(): Promise<NextResponse<FlightDataResponse>> {
+  let geojson: NIRFeatureCollection = emptyCollection;
+
   try {
-    const filePath = join(process.cwd(), '..', 'output', 'flight_data.json')
-    const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-    return NextResponse.json(data)
-  } catch {
-    return NextResponse.json(
-      { error: 'Keine Flugdaten gefunden. Starte: python src/mission.py --simulate' },
-      { status: 404 }
-    )
+    if (fs.existsSync(GEOJSON_PATH)) {
+      const raw = fs.readFileSync(GEOJSON_PATH, 'utf-8');
+      geojson = JSON.parse(raw) as NIRFeatureCollection;
+    }
+  } catch (err) {
+    console.error('[flight-data] Fehler beim Lesen der GeoJSON-Datei:', err);
+    geojson = emptyCollection;
   }
+
+  const stats = computeStats(geojson);
+
+  return NextResponse.json(
+    { geojson, stats },
+    {
+      headers: {
+        'Cache-Control': 'no-store',
+      },
+    }
+  );
 }

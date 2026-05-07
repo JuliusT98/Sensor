@@ -1,5 +1,5 @@
 {
-  "name": "sensor-dashboard",
+  "name": "nir-dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,26 +8,32 @@
     "start": "next start"
   },
   "dependencies": {
-    "@react-three/drei": "^9.109.2",
-    "@react-three/fiber": "^8.16.8",
-    "framer-motion": "^12.38.0",
-    "lucide-react": "^1.14.0",
-    "maplibre-gl": "^5.24.0",
-    "next": "14.2.30",
-    "react": "^18",
-    "react-dom": "^18",
-    "recharts": "^3.8.1",
-    "three": "^0.166.1"
+    "@deck.gl/aggregation-layers": "^9.0.0",
+    "@deck.gl/core": "^9.0.0",
+    "@deck.gl/layers": "^9.0.0",
+    "@deck.gl/react": "^9.0.0",
+    "@deck.gl/widgets": "^9.3.2",
+    "@react-three/drei": "^9.106.0",
+    "@react-three/fiber": "^8.17.0",
+    "@react-three/postprocessing": "^2.16.0",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.400.0",
+    "maplibre-gl": "^4.5.0",
+    "next": "14.2.5",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-map-gl": "^8.1.0",
+    "recharts": "^2.12.7",
+    "three": "^0.167.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.59.1",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/three": "^0.166.0",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.167.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.5.0"
   }
 }

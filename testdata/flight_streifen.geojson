@@ -1,0 +1,6245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1552,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:00+00:00",
+        "nir_values": [
+          1439.23,
+          1429.71,
+          1410.22,
+          1415.03,
+          1310.71,
+          1463.52,
+          1426.0,
+          1320.74
+        ],
+        "nir_mean": 1401.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1552,
+          39.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:00.200000+00:00",
+        "nir_values": [
+          1361.6,
+          1390.99,
+          1410.84,
+          1420.53,
+          1424.9,
+          1509.45,
+          1442.27,
+          1321.87
+        ],
+        "nir_mean": 1410.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1552,
+          39.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:00.400000+00:00",
+        "nir_values": [
+          606.29,
+          616.96,
+          576.21,
+          575.61,
+          626.43,
+          565.77,
+          624.51,
+          614.85
+        ],
+        "nir_mean": 600.83,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1552,
+          39.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:00.600000+00:00",
+        "nir_values": [
+          586.87,
+          599.51,
+          591.04,
+          601.5,
+          638.56,
+          583.19,
+          583.04,
+          594.77
+        ],
+        "nir_mean": 597.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1552,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:00.800000+00:00",
+        "nir_values": [
+          1308.93,
+          1355.48,
+          1433.74,
+          1352.34,
+          1343.21,
+          1434.09,
+          1373.62,
+          1412.2
+        ],
+        "nir_mean": 1376.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1552,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:01+00:00",
+        "nir_values": [
+          1405.58,
+          1386.54,
+          1465.86,
+          1419.73,
+          1388.48,
+          1459.5,
+          1355.83,
+          1408.07
+        ],
+        "nir_mean": 1411.2,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1552,
+          40.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:01.200000+00:00",
+        "nir_values": [
+          607.27,
+          620.41,
+          608.71,
+          628.42,
+          596.76,
+          619.43,
+          599.65,
+          581.54
+        ],
+        "nir_mean": 607.77,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1552,
+          40.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:01.400000+00:00",
+        "nir_values": [
+          607.99,
+          594.52,
+          614.02,
+          605.72,
+          602.76,
+          571.1,
+          601.49,
+          618.77
+        ],
+        "nir_mean": 602.05,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1552,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:01.600000+00:00",
+        "nir_values": [
+          1385.98,
+          1403.69,
+          1366.11,
+          1301.43,
+          1476.64,
+          1377.6,
+          1409.09,
+          1397.66
+        ],
+        "nir_mean": 1389.78,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1552,
+          40.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:01.800000+00:00",
+        "nir_values": [
+          1482.74,
+          1382.05,
+          1300.71,
+          1462.64,
+          1334.27,
+          1337.88,
+          1391.4,
+          1430.76
+        ],
+        "nir_mean": 1390.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1552,
+          40.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:02+00:00",
+        "nir_values": [
+          613.48,
+          615.57,
+          618.3,
+          595.52,
+          606.35,
+          600.38,
+          617.79,
+          632.16
+        ],
+        "nir_mean": 612.44,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1552,
+          39.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:02.200000+00:00",
+        "nir_values": [
+          597.62,
+          609.19,
+          621.91,
+          597.48,
+          601.92,
+          607.09,
+          612.0,
+          604.34
+        ],
+        "nir_mean": 606.44,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1552,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:02.400000+00:00",
+        "nir_values": [
+          1408.35,
+          1411.44,
+          1362.98,
+          1402.17,
+          1425.02,
+          1399.63,
+          1316.94,
+          1384.57
+        ],
+        "nir_mean": 1388.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1552,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:02.600000+00:00",
+        "nir_values": [
+          1455.68,
+          1395.67,
+          1402.58,
+          1450.32,
+          1449.87,
+          1411.76,
+          1400.91,
+          1502.8
+        ],
+        "nir_mean": 1433.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1552,
+          40.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:02.800000+00:00",
+        "nir_values": [
+          594.67,
+          600.05,
+          599.57,
+          615.64,
+          603.97,
+          614.71,
+          607.93,
+          591.52
+        ],
+        "nir_mean": 603.51,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1552,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:03+00:00",
+        "nir_values": [
+          624.38,
+          588.16,
+          621.29,
+          598.74,
+          624.86,
+          582.17,
+          608.81,
+          566.43
+        ],
+        "nir_mean": 601.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1552,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:03.200000+00:00",
+        "nir_values": [
+          1428.14,
+          1418.59,
+          1473.76,
+          1325.13,
+          1439.5,
+          1379.74,
+          1351.5,
+          1326.76
+        ],
+        "nir_mean": 1392.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1552,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:03.400000+00:00",
+        "nir_values": [
+          1423.79,
+          1344.87,
+          1357.98,
+          1338.39,
+          1387.28,
+          1510.17,
+          1418.54,
+          1394.77
+        ],
+        "nir_mean": 1396.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1552,
+          40.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:03.600000+00:00",
+        "nir_values": [
+          630.3,
+          592.58,
+          643.22,
+          612.42,
+          638.4,
+          639.7,
+          596.31,
+          593.56
+        ],
+        "nir_mean": 618.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1552,
+          40.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:03.800000+00:00",
+        "nir_values": [
+          582.0,
+          579.54,
+          598.94,
+          551.9,
+          600.33,
+          601.67,
+          603.01,
+          598.4
+        ],
+        "nir_mean": 589.47,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1552,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:04+00:00",
+        "nir_values": [
+          1466.64,
+          1459.42,
+          1420.67,
+          1301.66,
+          1304.4,
+          1368.53,
+          1421.86,
+          1469.77
+        ],
+        "nir_mean": 1401.62,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1552,
+          40.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:04.200000+00:00",
+        "nir_values": [
+          1465.66,
+          1346.89,
+          1341.05,
+          1410.67,
+          1412.75,
+          1402.13,
+          1352.95,
+          1368.24
+        ],
+        "nir_mean": 1387.54,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1552,
+          40.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:04.400000+00:00",
+        "nir_values": [
+          591.07,
+          592.79,
+          576.69,
+          627.27,
+          596.97,
+          599.56,
+          620.61,
+          566.45
+        ],
+        "nir_mean": 596.43,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1552,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:04.600000+00:00",
+        "nir_values": [
+          580.19,
+          594.46,
+          604.22,
+          582.37,
+          602.48,
+          624.12,
+          609.18,
+          598.03
+        ],
+        "nir_mean": 599.38,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1552,
+          39.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:04.800000+00:00",
+        "nir_values": [
+          1326.08,
+          1329.74,
+          1347.89,
+          1395.91,
+          1453.19,
+          1333.91,
+          1492.36,
+          1441.29
+        ],
+        "nir_mean": 1390.05,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1552,
+          39.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:05+00:00",
+        "nir_values": [
+          1369.9,
+          1488.25,
+          1322.51,
+          1441.05,
+          1449.51,
+          1486.64,
+          1412.44,
+          1424.94
+        ],
+        "nir_mean": 1424.41,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1552,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:05.200000+00:00",
+        "nir_values": [
+          586.14,
+          622.28,
+          627.24,
+          581.26,
+          618.14,
+          600.63,
+          576.71,
+          593.24
+        ],
+        "nir_mean": 600.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1552,
+          39.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:05.400000+00:00",
+        "nir_values": [
+          591.71,
+          600.82,
+          601.17,
+          640.72,
+          577.72,
+          628.06,
+          629.36,
+          597.37
+        ],
+        "nir_mean": 608.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1552,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:05.600000+00:00",
+        "nir_values": [
+          1367.19,
+          1373.02,
+          1446.92,
+          1371.36,
+          1435.53,
+          1377.89,
+          1457.99,
+          1336.29
+        ],
+        "nir_mean": 1395.77,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1552,
+          40.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:05.800000+00:00",
+        "nir_values": [
+          1374.79,
+          1409.61,
+          1406.13,
+          1353.94,
+          1386.25,
+          1377.69,
+          1423.72,
+          1413.54
+        ],
+        "nir_mean": 1393.21,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1556286,
+          40.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:06+00:00",
+        "nir_values": [
+          1446.35,
+          1494.87,
+          1355.48,
+          1446.24,
+          1359.74,
+          1455.1,
+          1441.4,
+          1427.56
+        ],
+        "nir_mean": 1428.34,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1556286,
+          40.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:06.200000+00:00",
+        "nir_values": [
+          1430.54,
+          1464.56,
+          1380.8,
+          1436.72,
+          1409.77,
+          1401.43,
+          1487.59,
+          1371.17
+        ],
+        "nir_mean": 1422.82,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1556286,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:06.400000+00:00",
+        "nir_values": [
+          618.3,
+          551.34,
+          615.13,
+          623.34,
+          572.58,
+          600.82,
+          632.82,
+          586.5
+        ],
+        "nir_mean": 600.1,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1556286,
+          41.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:06.600000+00:00",
+        "nir_values": [
+          622.64,
+          620.43,
+          584.31,
+          569.02,
+          570.76,
+          573.27,
+          584.3,
+          645.52
+        ],
+        "nir_mean": 596.28,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1556286,
+          41.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:06.800000+00:00",
+        "nir_values": [
+          1315.13,
+          1339.12,
+          1387.87,
+          1359.6,
+          1405.36,
+          1443.25,
+          1284.95,
+          1282.32
+        ],
+        "nir_mean": 1352.2,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1556286,
+          41.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:07+00:00",
+        "nir_values": [
+          1359.85,
+          1429.09,
+          1416.47,
+          1363.51,
+          1393.22,
+          1404.21,
+          1424.65,
+          1455.89
+        ],
+        "nir_mean": 1405.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1556286,
+          41.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:07.200000+00:00",
+        "nir_values": [
+          584.99,
+          586.8,
+          627.97,
+          591.12,
+          604.38,
+          606.53,
+          661.51,
+          589.78
+        ],
+        "nir_mean": 606.63,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:07.400000+00:00",
+        "nir_values": [
+          585.56,
+          588.97,
+          613.62,
+          608.81,
+          608.39,
+          647.47,
+          628.44,
+          577.23
+        ],
+        "nir_mean": 607.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1556286,
+          41.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:07.600000+00:00",
+        "nir_values": [
+          1403.02,
+          1441.21,
+          1427.71,
+          1390.6,
+          1418.61,
+          1328.34,
+          1281.41,
+          1363.81
+        ],
+        "nir_mean": 1381.84,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1556286,
+          41.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:07.800000+00:00",
+        "nir_values": [
+          1371.65,
+          1395.62,
+          1410.22,
+          1407.11,
+          1389.86,
+          1422.82,
+          1542.16,
+          1457.59
+        ],
+        "nir_mean": 1424.63,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1556286,
+          41.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:08+00:00",
+        "nir_values": [
+          625.21,
+          579.21,
+          596.41,
+          569.57,
+          641.22,
+          587.35,
+          594.86,
+          573.59
+        ],
+        "nir_mean": 595.93,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1556286,
+          41.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:08.200000+00:00",
+        "nir_values": [
+          595.62,
+          573.74,
+          587.85,
+          599.81,
+          613.5,
+          579.96,
+          611.6,
+          605.26
+        ],
+        "nir_mean": 595.92,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1556286,
+          41.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:08.400000+00:00",
+        "nir_values": [
+          1398.14,
+          1448.79,
+          1359.7,
+          1311.28,
+          1377.08,
+          1442.7,
+          1389.65,
+          1405.43
+        ],
+        "nir_mean": 1391.6,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:08.600000+00:00",
+        "nir_values": [
+          1523.49,
+          1414.81,
+          1416.45,
+          1423.4,
+          1452.98,
+          1325.71,
+          1407.02,
+          1461.83
+        ],
+        "nir_mean": 1428.21,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1556286,
+          41.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:08.800000+00:00",
+        "nir_values": [
+          597.36,
+          586.83,
+          632.21,
+          537.27,
+          587.21,
+          554.42,
+          618.93,
+          592.1
+        ],
+        "nir_mean": 588.29,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:09+00:00",
+        "nir_values": [
+          614.03,
+          575.84,
+          622.81,
+          618.2,
+          615.23,
+          590.56,
+          572.96,
+          564.29
+        ],
+        "nir_mean": 596.74,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:09.200000+00:00",
+        "nir_values": [
+          1467.39,
+          1416.06,
+          1396.55,
+          1496.75,
+          1377.93,
+          1364.27,
+          1454.4,
+          1358.15
+        ],
+        "nir_mean": 1416.44,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1556286,
+          41.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:09.400000+00:00",
+        "nir_values": [
+          1452.12,
+          1310.81,
+          1479.54,
+          1336.85,
+          1358.66,
+          1336.34,
+          1352.54,
+          1363.34
+        ],
+        "nir_mean": 1373.78,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:09.600000+00:00",
+        "nir_values": [
+          594.78,
+          606.91,
+          594.4,
+          575.99,
+          572.81,
+          591.98,
+          600.01,
+          614.06
+        ],
+        "nir_mean": 593.87,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1556286,
+          41.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:09.800000+00:00",
+        "nir_values": [
+          609.05,
+          554.98,
+          596.56,
+          590.12,
+          638.96,
+          594.71,
+          599.11,
+          599.95
+        ],
+        "nir_mean": 597.93,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1556286,
+          41.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:10+00:00",
+        "nir_values": [
+          1351.16,
+          1352.15,
+          1479.11,
+          1409.12,
+          1454.59,
+          1411.95,
+          1428.4,
+          1436.54
+        ],
+        "nir_mean": 1415.38,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:10.200000+00:00",
+        "nir_values": [
+          1399.09,
+          1309.86,
+          1385.53,
+          1446.39,
+          1389.8,
+          1392.11,
+          1286.68,
+          1469.64
+        ],
+        "nir_mean": 1384.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:10.400000+00:00",
+        "nir_values": [
+          611.51,
+          586.56,
+          586.53,
+          565.5,
+          593.66,
+          578.39,
+          601.82,
+          603.56
+        ],
+        "nir_mean": 590.94,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:10.600000+00:00",
+        "nir_values": [
+          615.35,
+          592.99,
+          600.78,
+          578.54,
+          571.93,
+          571.03,
+          587.36,
+          626.34
+        ],
+        "nir_mean": 593.04,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1556286,
+          41.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:10.800000+00:00",
+        "nir_values": [
+          1387.92,
+          1399.15,
+          1396.57,
+          1440.17,
+          1422.44,
+          1386.64,
+          1401.09,
+          1379.15
+        ],
+        "nir_mean": 1401.64,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1556286,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:11+00:00",
+        "nir_values": [
+          1410.85,
+          1418.61,
+          1427.22,
+          1510.65,
+          1349.64,
+          1310.07,
+          1375.89,
+          1400.11
+        ],
+        "nir_mean": 1400.38,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1556286,
+          41.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:11.200000+00:00",
+        "nir_values": [
+          538.52,
+          617.6,
+          607.87,
+          613.6,
+          605.71,
+          591.39,
+          617.33,
+          596.85
+        ],
+        "nir_mean": 598.61,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1556286,
+          41.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:11.400000+00:00",
+        "nir_values": [
+          575.63,
+          561.26,
+          636.16,
+          618.63,
+          614.37,
+          630.18,
+          635.3,
+          606.1
+        ],
+        "nir_mean": 609.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1556286,
+          41.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:11.600000+00:00",
+        "nir_values": [
+          1403.55,
+          1412.56,
+          1380.3,
+          1439.01,
+          1466.57,
+          1392.83,
+          1302.04,
+          1512.12
+        ],
+        "nir_mean": 1413.62,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1556286,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:11.800000+00:00",
+        "nir_values": [
+          1426.75,
+          1519.56,
+          1470.95,
+          1377.65,
+          1416.71,
+          1397.74,
+          1462.87,
+          1356.43
+        ],
+        "nir_mean": 1428.58,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1560571,
+          41.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:12+00:00",
+        "nir_values": [
+          1412.7,
+          1380.83,
+          1408.31,
+          1425.36,
+          1338.95,
+          1408.19,
+          1355.03,
+          1388.27
+        ],
+        "nir_mean": 1389.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1560571,
+          41.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:12.200000+00:00",
+        "nir_values": [
+          1443.57,
+          1329.82,
+          1427.43,
+          1406.66,
+          1406.94,
+          1435.48,
+          1371.17,
+          1385.58
+        ],
+        "nir_mean": 1400.83,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1560571,
+          41.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:12.400000+00:00",
+        "nir_values": [
+          588.87,
+          616.58,
+          586.86,
+          551.26,
+          607.08,
+          618.09,
+          614.42,
+          598.32
+        ],
+        "nir_mean": 597.68,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1560571,
+          41.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:12.600000+00:00",
+        "nir_values": [
+          614.18,
+          636.58,
+          594.18,
+          550.76,
+          593.9,
+          600.1,
+          588.42,
+          631.4
+        ],
+        "nir_mean": 601.19,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1560571,
+          41.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:12.800000+00:00",
+        "nir_values": [
+          1430.41,
+          1436.57,
+          1355.22,
+          1410.38,
+          1374.96,
+          1408.76,
+          1484.25,
+          1415.94
+        ],
+        "nir_mean": 1414.56,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1560571,
+          41.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:13+00:00",
+        "nir_values": [
+          1378.9,
+          1411.87,
+          1382.32,
+          1460.09,
+          1444.31,
+          1365.48,
+          1459.14,
+          1390.16
+        ],
+        "nir_mean": 1411.53,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1560571,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:13.200000+00:00",
+        "nir_values": [
+          578.68,
+          581.19,
+          572.62,
+          580.31,
+          622.28,
+          603.22,
+          603.56,
+          589.11
+        ],
+        "nir_mean": 591.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1560571,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:13.400000+00:00",
+        "nir_values": [
+          607.04,
+          615.72,
+          583.25,
+          607.23,
+          591.48,
+          590.41,
+          582.2,
+          626.01
+        ],
+        "nir_mean": 600.42,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1560571,
+          40.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:13.600000+00:00",
+        "nir_values": [
+          1511.11,
+          1370.51,
+          1397.77,
+          1444.21,
+          1340.29,
+          1385.62,
+          1335.05,
+          1472.91
+        ],
+        "nir_mean": 1407.18,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1560571,
+          40.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:13.800000+00:00",
+        "nir_values": [
+          1375.69,
+          1404.45,
+          1448.94,
+          1355.8,
+          1427.17,
+          1397.91,
+          1384.02,
+          1335.91
+        ],
+        "nir_mean": 1391.24,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1560571,
+          40.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:14+00:00",
+        "nir_values": [
+          618.22,
+          561.31,
+          643.79,
+          624.27,
+          606.23,
+          572.08,
+          584.21,
+          595.54
+        ],
+        "nir_mean": 600.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1560571,
+          40.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:14.200000+00:00",
+        "nir_values": [
+          558.4,
+          606.47,
+          606.04,
+          622.97,
+          593.47,
+          631.51,
+          642.54,
+          588.97
+        ],
+        "nir_mean": 606.3,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1560571,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:14.400000+00:00",
+        "nir_values": [
+          1396.9,
+          1401.78,
+          1305.58,
+          1382.38,
+          1410.63,
+          1384.31,
+          1381.71,
+          1408.14
+        ],
+        "nir_mean": 1383.93,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1560571,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:14.600000+00:00",
+        "nir_values": [
+          1434.16,
+          1379.17,
+          1469.12,
+          1299.27,
+          1413.71,
+          1370.08,
+          1496.6,
+          1345.48
+        ],
+        "nir_mean": 1400.95,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1560571,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:14.800000+00:00",
+        "nir_values": [
+          601.78,
+          600.12,
+          593.47,
+          624.5,
+          591.78,
+          604.25,
+          580.2,
+          575.92
+        ],
+        "nir_mean": 596.5,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1560571,
+          40.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:15+00:00",
+        "nir_values": [
+          573.55,
+          598.23,
+          597.17,
+          592.88,
+          589.56,
+          604.42,
+          628.25,
+          621.64
+        ],
+        "nir_mean": 600.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1560571,
+          40.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:15.200000+00:00",
+        "nir_values": [
+          1378.98,
+          1433.41,
+          1379.02,
+          1387.19,
+          1388.17,
+          1385.49,
+          1427.52,
+          1392.04
+        ],
+        "nir_mean": 1396.48,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1560571,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:15.400000+00:00",
+        "nir_values": [
+          1350.53,
+          1385.54,
+          1384.55,
+          1443.58,
+          1403.33,
+          1340.32,
+          1364.0,
+          1391.62
+        ],
+        "nir_mean": 1382.93,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1560571,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:15.600000+00:00",
+        "nir_values": [
+          611.53,
+          621.16,
+          584.72,
+          578.56,
+          576.14,
+          586.76,
+          618.24,
+          649.56
+        ],
+        "nir_mean": 603.33,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1560571,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:15.800000+00:00",
+        "nir_values": [
+          592.02,
+          548.31,
+          581.97,
+          605.65,
+          593.9,
+          617.27,
+          594.33,
+          617.4
+        ],
+        "nir_mean": 593.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1560571,
+          40.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:16+00:00",
+        "nir_values": [
+          1359.48,
+          1404.09,
+          1351.0,
+          1453.2,
+          1361.06,
+          1489.68,
+          1412.86,
+          1358.2
+        ],
+        "nir_mean": 1398.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1560571,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:16.200000+00:00",
+        "nir_values": [
+          1409.8,
+          1419.69,
+          1412.67,
+          1399.59,
+          1498.38,
+          1403.48,
+          1471.49,
+          1401.18
+        ],
+        "nir_mean": 1427.04,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1560571,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:16.400000+00:00",
+        "nir_values": [
+          602.68,
+          615.53,
+          620.55,
+          595.7,
+          601.17,
+          622.63,
+          598.05,
+          582.71
+        ],
+        "nir_mean": 604.88,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1560571,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:16.600000+00:00",
+        "nir_values": [
+          602.39,
+          590.87,
+          601.92,
+          600.7,
+          622.39,
+          599.08,
+          597.86,
+          573.26
+        ],
+        "nir_mean": 598.56,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1560571,
+          40.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:16.800000+00:00",
+        "nir_values": [
+          1374.89,
+          1437.87,
+          1399.32,
+          1398.5,
+          1345.86,
+          1462.51,
+          1348.99,
+          1374.89
+        ],
+        "nir_mean": 1392.85,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1560571,
+          41.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:17+00:00",
+        "nir_values": [
+          1327.59,
+          1432.55,
+          1383.75,
+          1413.03,
+          1374.36,
+          1421.88,
+          1439.63,
+          1406.86
+        ],
+        "nir_mean": 1399.96,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1560571,
+          40.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:17.200000+00:00",
+        "nir_values": [
+          566.91,
+          609.26,
+          602.18,
+          556.51,
+          587.1,
+          628.46,
+          616.17,
+          586.47
+        ],
+        "nir_mean": 594.13,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1560571,
+          41.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:17.400000+00:00",
+        "nir_values": [
+          637.75,
+          628.49,
+          643.1,
+          560.09,
+          616.08,
+          571.09,
+          569.35,
+          613.24
+        ],
+        "nir_mean": 604.9,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1560571,
+          41.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:17.600000+00:00",
+        "nir_values": [
+          1339.29,
+          1368.66,
+          1435.66,
+          1381.64,
+          1393.27,
+          1411.34,
+          1449.68,
+          1352.05
+        ],
+        "nir_mean": 1391.45,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1560571,
+          41.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:17.800000+00:00",
+        "nir_values": [
+          1402.35,
+          1431.21,
+          1300.57,
+          1413.38,
+          1368.64,
+          1440.6,
+          1317.78,
+          1446.63
+        ],
+        "nir_mean": 1390.14,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1564857,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:18+00:00",
+        "nir_values": [
+          1405.0,
+          1394.37,
+          1373.85,
+          1321.0,
+          1320.83,
+          1415.32,
+          1394.86,
+          1426.53
+        ],
+        "nir_mean": 1381.47,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1564857,
+          41.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:18.200000+00:00",
+        "nir_values": [
+          1392.62,
+          1477.5,
+          1333.73,
+          1371.73,
+          1483.44,
+          1387.2,
+          1433.52,
+          1274.65
+        ],
+        "nir_mean": 1394.3,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1564857,
+          41.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:18.400000+00:00",
+        "nir_values": [
+          598.98,
+          580.61,
+          564.79,
+          598.16,
+          610.3,
+          556.14,
+          598.5,
+          568.81
+        ],
+        "nir_mean": 584.54,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1564857,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:18.600000+00:00",
+        "nir_values": [
+          590.24,
+          590.66,
+          592.12,
+          589.58,
+          652.05,
+          605.8,
+          612.25,
+          586.94
+        ],
+        "nir_mean": 602.45,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1564857,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:18.800000+00:00",
+        "nir_values": [
+          1435.19,
+          1323.54,
+          1450.85,
+          1474.64,
+          1433.79,
+          1345.6,
+          1397.5,
+          1416.52
+        ],
+        "nir_mean": 1409.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1564857,
+          40.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:19+00:00",
+        "nir_values": [
+          1326.97,
+          1428.37,
+          1377.41,
+          1373.31,
+          1405.27,
+          1383.11,
+          1377.15,
+          1380.1
+        ],
+        "nir_mean": 1381.46,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1564857,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:19.200000+00:00",
+        "nir_values": [
+          612.99,
+          635.11,
+          600.67,
+          603.47,
+          580.66,
+          602.13,
+          575.36,
+          587.65
+        ],
+        "nir_mean": 599.75,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1564857,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:19.400000+00:00",
+        "nir_values": [
+          616.46,
+          590.33,
+          593.02,
+          592.09,
+          599.93,
+          609.44,
+          612.34,
+          585.48
+        ],
+        "nir_mean": 599.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1564857,
+          40.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:19.600000+00:00",
+        "nir_values": [
+          1434.63,
+          1366.35,
+          1409.9,
+          1435.65,
+          1351.6,
+          1403.21,
+          1486.41,
+          1440.72
+        ],
+        "nir_mean": 1416.06,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1564857,
+          40.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:19.800000+00:00",
+        "nir_values": [
+          1465.7,
+          1331.83,
+          1385.98,
+          1309.74,
+          1385.19,
+          1350.37,
+          1445.87,
+          1300.5
+        ],
+        "nir_mean": 1371.9,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1564857,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:20+00:00",
+        "nir_values": [
+          607.9,
+          610.09,
+          559.64,
+          611.52,
+          559.29,
+          593.11,
+          581.88,
+          620.18
+        ],
+        "nir_mean": 592.95,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1564857,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:20.200000+00:00",
+        "nir_values": [
+          589.39,
+          587.15,
+          621.14,
+          600.99,
+          560.08,
+          583.13,
+          589.12,
+          646.76
+        ],
+        "nir_mean": 597.22,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1564857,
+          40.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:20.400000+00:00",
+        "nir_values": [
+          1446.71,
+          1471.13,
+          1515.16,
+          1350.53,
+          1382.6,
+          1354.46,
+          1331.6,
+          1380.7
+        ],
+        "nir_mean": 1404.11,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1564857,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:20.600000+00:00",
+        "nir_values": [
+          1438.02,
+          1494.47,
+          1381.77,
+          1395.23,
+          1393.05,
+          1418.85,
+          1378.88,
+          1405.3
+        ],
+        "nir_mean": 1413.2,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1564857,
+          40.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:20.800000+00:00",
+        "nir_values": [
+          592.95,
+          638.71,
+          601.59,
+          586.56,
+          610.45,
+          574.3,
+          594.25,
+          645.85
+        ],
+        "nir_mean": 605.58,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1564857,
+          40.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:21+00:00",
+        "nir_values": [
+          577.15,
+          616.83,
+          612.74,
+          620.83,
+          614.39,
+          587.19,
+          596.49,
+          586.81
+        ],
+        "nir_mean": 601.55,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1564857,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:21.200000+00:00",
+        "nir_values": [
+          1428.67,
+          1393.41,
+          1404.04,
+          1356.02,
+          1433.05,
+          1406.71,
+          1392.72,
+          1345.66
+        ],
+        "nir_mean": 1395.03,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1564857,
+          40.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:21.400000+00:00",
+        "nir_values": [
+          1420.88,
+          1421.65,
+          1361.04,
+          1444.09,
+          1422.92,
+          1351.64,
+          1349.0,
+          1495.7
+        ],
+        "nir_mean": 1408.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1564857,
+          40.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:21.600000+00:00",
+        "nir_values": [
+          601.41,
+          562.02,
+          583.77,
+          601.57,
+          623.44,
+          619.89,
+          599.58,
+          554.72
+        ],
+        "nir_mean": 593.3,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1564857,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:21.800000+00:00",
+        "nir_values": [
+          575.68,
+          599.45,
+          608.68,
+          598.05,
+          581.38,
+          618.68,
+          576.83,
+          582.8
+        ],
+        "nir_mean": 592.69,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1564857,
+          40.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:22+00:00",
+        "nir_values": [
+          1369.56,
+          1398.43,
+          1377.05,
+          1420.51,
+          1370.8,
+          1462.3,
+          1376.09,
+          1417.64
+        ],
+        "nir_mean": 1399.05,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1564857,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:22.200000+00:00",
+        "nir_values": [
+          1380.0,
+          1363.65,
+          1392.78,
+          1451.96,
+          1395.53,
+          1387.43,
+          1392.33,
+          1385.41
+        ],
+        "nir_mean": 1393.64,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1564857,
+          40.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:22.400000+00:00",
+        "nir_values": [
+          614.15,
+          636.52,
+          623.93,
+          605.18,
+          598.43,
+          636.29,
+          601.44,
+          589.16
+        ],
+        "nir_mean": 613.14,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1564857,
+          40.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:22.600000+00:00",
+        "nir_values": [
+          597.3,
+          578.28,
+          586.45,
+          613.94,
+          581.56,
+          620.44,
+          591.58,
+          607.13
+        ],
+        "nir_mean": 597.09,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1564857,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:22.800000+00:00",
+        "nir_values": [
+          1483.38,
+          1393.96,
+          1377.81,
+          1289.92,
+          1356.31,
+          1415.85,
+          1406.07,
+          1378.0
+        ],
+        "nir_mean": 1387.66,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1564857,
+          40.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:23+00:00",
+        "nir_values": [
+          1440.9,
+          1454.91,
+          1316.08,
+          1392.68,
+          1467.49,
+          1428.13,
+          1406.42,
+          1387.8
+        ],
+        "nir_mean": 1411.8,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1564857,
+          40.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:23.200000+00:00",
+        "nir_values": [
+          593.51,
+          634.07,
+          601.54,
+          599.79,
+          579.42,
+          613.66,
+          647.36,
+          594.39
+        ],
+        "nir_mean": 607.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1564857,
+          40.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:23.400000+00:00",
+        "nir_values": [
+          614.06,
+          616.25,
+          612.35,
+          565.03,
+          555.51,
+          583.76,
+          618.4,
+          561.07
+        ],
+        "nir_mean": 590.8,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1564857,
+          40.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:23.600000+00:00",
+        "nir_values": [
+          1395.35,
+          1479.66,
+          1376.44,
+          1290.14,
+          1404.94,
+          1409.12,
+          1379.58,
+          1431.66
+        ],
+        "nir_mean": 1395.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1564857,
+          40.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:23.800000+00:00",
+        "nir_values": [
+          1462.61,
+          1424.66,
+          1365.48,
+          1416.95,
+          1451.43,
+          1438.12,
+          1478.9,
+          1456.84
+        ],
+        "nir_mean": 1436.87,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1569143,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:24+00:00",
+        "nir_values": [
+          1420.2,
+          1384.93,
+          1334.61,
+          1454.4,
+          1347.09,
+          1392.8,
+          1421.51,
+          1380.05
+        ],
+        "nir_mean": 1391.95,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1569143,
+          40.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:24.200000+00:00",
+        "nir_values": [
+          1359.99,
+          1396.29,
+          1376.74,
+          1432.04,
+          1364.46,
+          1360.92,
+          1329.53,
+          1391.96
+        ],
+        "nir_mean": 1376.49,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1569143,
+          41.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:24.400000+00:00",
+        "nir_values": [
+          594.39,
+          583.33,
+          583.71,
+          572.18,
+          617.39,
+          588.68,
+          565.42,
+          592.91
+        ],
+        "nir_mean": 587.25,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1569143,
+          40.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:24.600000+00:00",
+        "nir_values": [
+          586.53,
+          625.97,
+          571.47,
+          629.05,
+          591.51,
+          612.14,
+          578.13,
+          581.94
+        ],
+        "nir_mean": 597.09,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1569143,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:24.800000+00:00",
+        "nir_values": [
+          1447.94,
+          1381.85,
+          1332.5,
+          1422.58,
+          1334.81,
+          1398.07,
+          1320.93,
+          1456.47
+        ],
+        "nir_mean": 1386.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1569143,
+          41.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:25+00:00",
+        "nir_values": [
+          1420.5,
+          1321.12,
+          1428.69,
+          1375.6,
+          1430.72,
+          1388.23,
+          1446.08,
+          1434.01
+        ],
+        "nir_mean": 1405.62,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1569143,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:25.200000+00:00",
+        "nir_values": [
+          598.92,
+          628.63,
+          612.58,
+          617.0,
+          566.35,
+          637.4,
+          622.09,
+          611.87
+        ],
+        "nir_mean": 611.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1569143,
+          41.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:25.400000+00:00",
+        "nir_values": [
+          610.17,
+          616.49,
+          587.08,
+          614.97,
+          574.92,
+          590.62,
+          577.88,
+          604.78
+        ],
+        "nir_mean": 597.11,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1569143,
+          41.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:25.600000+00:00",
+        "nir_values": [
+          1374.74,
+          1402.43,
+          1372.06,
+          1358.23,
+          1415.71,
+          1379.17,
+          1360.35,
+          1388.25
+        ],
+        "nir_mean": 1381.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1569143,
+          41.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:25.800000+00:00",
+        "nir_values": [
+          1429.4,
+          1335.42,
+          1297.87,
+          1350.58,
+          1424.1,
+          1559.7,
+          1335.64,
+          1426.0
+        ],
+        "nir_mean": 1394.84,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1569143,
+          41.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:26+00:00",
+        "nir_values": [
+          612.14,
+          602.33,
+          585.0,
+          595.83,
+          603.37,
+          588.29,
+          576.54,
+          561.51
+        ],
+        "nir_mean": 590.63,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1569143,
+          41.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:26.200000+00:00",
+        "nir_values": [
+          634.62,
+          581.75,
+          603.75,
+          595.33,
+          582.33,
+          598.83,
+          568.57,
+          612.75
+        ],
+        "nir_mean": 597.24,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1569143,
+          41.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:26.400000+00:00",
+        "nir_values": [
+          1408.53,
+          1428.77,
+          1472.74,
+          1434.2,
+          1409.49,
+          1380.67,
+          1417.44,
+          1420.19
+        ],
+        "nir_mean": 1421.5,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1569143,
+          41.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:26.600000+00:00",
+        "nir_values": [
+          1457.83,
+          1427.82,
+          1421.36,
+          1378.98,
+          1381.75,
+          1359.29,
+          1365.23,
+          1357.28
+        ],
+        "nir_mean": 1393.69,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1569143,
+          41.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:26.800000+00:00",
+        "nir_values": [
+          619.75,
+          585.11,
+          628.07,
+          596.82,
+          629.64,
+          592.29,
+          601.89,
+          600.71
+        ],
+        "nir_mean": 606.79,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:27+00:00",
+        "nir_values": [
+          581.28,
+          567.87,
+          610.46,
+          583.1,
+          591.59,
+          570.87,
+          624.28,
+          609.65
+        ],
+        "nir_mean": 592.39,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:27.200000+00:00",
+        "nir_values": [
+          1319.2,
+          1370.12,
+          1446.33,
+          1420.76,
+          1337.67,
+          1397.71,
+          1432.3,
+          1353.16
+        ],
+        "nir_mean": 1384.66,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:27.400000+00:00",
+        "nir_values": [
+          1327.09,
+          1391.57,
+          1356.87,
+          1376.4,
+          1378.29,
+          1495.4,
+          1352.78,
+          1461.35
+        ],
+        "nir_mean": 1392.47,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1569143,
+          41.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:27.600000+00:00",
+        "nir_values": [
+          614.61,
+          598.85,
+          582.35,
+          609.71,
+          624.47,
+          576.3,
+          598.78,
+          615.64
+        ],
+        "nir_mean": 602.59,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:27.800000+00:00",
+        "nir_values": [
+          587.51,
+          604.36,
+          624.98,
+          622.41,
+          579.83,
+          567.74,
+          621.27,
+          611.17
+        ],
+        "nir_mean": 602.41,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1569143,
+          41.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:28+00:00",
+        "nir_values": [
+          1367.99,
+          1384.9,
+          1407.87,
+          1462.37,
+          1444.76,
+          1474.77,
+          1419.3,
+          1433.43
+        ],
+        "nir_mean": 1424.42,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1569143,
+          41.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:28.200000+00:00",
+        "nir_values": [
+          1396.43,
+          1441.11,
+          1413.15,
+          1338.34,
+          1436.49,
+          1308.24,
+          1420.28,
+          1395.22
+        ],
+        "nir_mean": 1393.66,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1569143,
+          41.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:28.400000+00:00",
+        "nir_values": [
+          583.45,
+          604.89,
+          614.14,
+          584.44,
+          607.21,
+          596.48,
+          572.25,
+          610.15
+        ],
+        "nir_mean": 596.63,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1569143,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:28.600000+00:00",
+        "nir_values": [
+          555.26,
+          604.85,
+          594.27,
+          618.83,
+          604.8,
+          612.73,
+          566.08,
+          602.96
+        ],
+        "nir_mean": 594.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1569143,
+          41.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:28.800000+00:00",
+        "nir_values": [
+          1347.94,
+          1403.89,
+          1456.75,
+          1393.77,
+          1412.99,
+          1366.62,
+          1408.46,
+          1393.43
+        ],
+        "nir_mean": 1397.98,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1569143,
+          41.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:29+00:00",
+        "nir_values": [
+          1360.04,
+          1354.92,
+          1332.6,
+          1388.42,
+          1358.37,
+          1458.96,
+          1348.2,
+          1439.27
+        ],
+        "nir_mean": 1380.1,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1569143,
+          41.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:29.200000+00:00",
+        "nir_values": [
+          587.0,
+          633.08,
+          628.54,
+          543.88,
+          620.45,
+          608.47,
+          606.55,
+          610.92
+        ],
+        "nir_mean": 604.86,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1569143,
+          41.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:29.400000+00:00",
+        "nir_values": [
+          601.9,
+          589.3,
+          611.31,
+          561.14,
+          634.57,
+          592.84,
+          608.4,
+          632.32
+        ],
+        "nir_mean": 603.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1569143,
+          41.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:29.600000+00:00",
+        "nir_values": [
+          1387.39,
+          1485.81,
+          1353.98,
+          1481.78,
+          1436.02,
+          1366.38,
+          1459.58,
+          1467.64
+        ],
+        "nir_mean": 1429.82,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1569143,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:29.800000+00:00",
+        "nir_values": [
+          1472.98,
+          1468.72,
+          1403.12,
+          1437.95,
+          1338.9,
+          1449.31,
+          1414.52,
+          1440.17
+        ],
+        "nir_mean": 1428.21,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1573429,
+          41.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:30+00:00",
+        "nir_values": [
+          1396.59,
+          1481.11,
+          1357.41,
+          1349.18,
+          1409.82,
+          1392.7,
+          1386.39,
+          1468.21
+        ],
+        "nir_mean": 1405.18,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1573429,
+          40.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:30.200000+00:00",
+        "nir_values": [
+          1434.47,
+          1394.93,
+          1477.05,
+          1380.11,
+          1348.26,
+          1295.31,
+          1359.37,
+          1417.99
+        ],
+        "nir_mean": 1388.44,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1573429,
+          40.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:30.400000+00:00",
+        "nir_values": [
+          596.42,
+          561.2,
+          574.68,
+          572.73,
+          581.61,
+          568.57,
+          627.39,
+          628.51
+        ],
+        "nir_mean": 588.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1573429,
+          40.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:30.600000+00:00",
+        "nir_values": [
+          594.83,
+          609.77,
+          588.39,
+          590.83,
+          582.97,
+          620.17,
+          603.88,
+          614.76
+        ],
+        "nir_mean": 600.7,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1573429,
+          40.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:30.800000+00:00",
+        "nir_values": [
+          1346.64,
+          1474.77,
+          1401.38,
+          1438.6,
+          1444.34,
+          1450.15,
+          1398.22,
+          1368.49
+        ],
+        "nir_mean": 1415.32,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1573429,
+          40.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:31+00:00",
+        "nir_values": [
+          1424.39,
+          1401.59,
+          1471.54,
+          1447.99,
+          1468.89,
+          1439.44,
+          1410.54,
+          1439.88
+        ],
+        "nir_mean": 1438.03,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1573429,
+          40.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:31.200000+00:00",
+        "nir_values": [
+          607.57,
+          581.26,
+          629.23,
+          586.24,
+          578.45,
+          591.02,
+          574.45,
+          589.39
+        ],
+        "nir_mean": 592.2,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1573429,
+          40.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:31.400000+00:00",
+        "nir_values": [
+          602.46,
+          612.94,
+          632.05,
+          599.69,
+          584.0,
+          582.61,
+          614.88,
+          601.23
+        ],
+        "nir_mean": 603.73,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1573429,
+          41.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:31.600000+00:00",
+        "nir_values": [
+          1391.09,
+          1466.17,
+          1369.93,
+          1402.21,
+          1416.95,
+          1406.24,
+          1391.66,
+          1364.84
+        ],
+        "nir_mean": 1401.14,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1573429,
+          41.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:31.800000+00:00",
+        "nir_values": [
+          1326.78,
+          1361.31,
+          1427.76,
+          1443.62,
+          1402.5,
+          1327.6,
+          1330.82,
+          1411.07
+        ],
+        "nir_mean": 1378.93,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1573429,
+          41.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:32+00:00",
+        "nir_values": [
+          618.45,
+          581.96,
+          608.91,
+          606.57,
+          583.99,
+          572.64,
+          569.44,
+          610.93
+        ],
+        "nir_mean": 594.11,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1573429,
+          41.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:32.200000+00:00",
+        "nir_values": [
+          583.84,
+          612.71,
+          599.79,
+          545.44,
+          598.49,
+          609.5,
+          571.31,
+          630.82
+        ],
+        "nir_mean": 593.99,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1573429,
+          41.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:32.400000+00:00",
+        "nir_values": [
+          1441.5,
+          1415.67,
+          1297.26,
+          1415.47,
+          1352.97,
+          1378.31,
+          1478.61,
+          1386.84
+        ],
+        "nir_mean": 1395.83,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1573429,
+          41.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:32.600000+00:00",
+        "nir_values": [
+          1451.41,
+          1270.06,
+          1365.43,
+          1321.96,
+          1326.21,
+          1398.14,
+          1510.11,
+          1354.53
+        ],
+        "nir_mean": 1374.73,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:32.800000+00:00",
+        "nir_values": [
+          589.0,
+          578.16,
+          581.83,
+          610.38,
+          629.72,
+          590.81,
+          609.39,
+          570.32
+        ],
+        "nir_mean": 594.95,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1573429,
+          41.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:33+00:00",
+        "nir_values": [
+          581.54,
+          606.25,
+          631.41,
+          593.68,
+          583.24,
+          618.78,
+          620.1,
+          583.93
+        ],
+        "nir_mean": 602.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1573429,
+          41.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:33.200000+00:00",
+        "nir_values": [
+          1366.53,
+          1439.36,
+          1403.38,
+          1367.53,
+          1357.73,
+          1316.05,
+          1460.08,
+          1398.18
+        ],
+        "nir_mean": 1388.61,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1573429,
+          41.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:33.400000+00:00",
+        "nir_values": [
+          1486.97,
+          1396.7,
+          1440.73,
+          1356.15,
+          1461.83,
+          1467.84,
+          1464.16,
+          1443.29
+        ],
+        "nir_mean": 1439.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1573429,
+          41.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:33.600000+00:00",
+        "nir_values": [
+          610.75,
+          571.91,
+          576.06,
+          598.36,
+          576.26,
+          675.17,
+          550.09,
+          581.56
+        ],
+        "nir_mean": 592.52,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1573429,
+          41.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:33.800000+00:00",
+        "nir_values": [
+          612.88,
+          602.02,
+          574.14,
+          655.34,
+          617.67,
+          618.38,
+          611.07,
+          585.95
+        ],
+        "nir_mean": 609.68,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1573429,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:34+00:00",
+        "nir_values": [
+          1403.82,
+          1415.92,
+          1345.23,
+          1368.97,
+          1413.31,
+          1461.46,
+          1324.52,
+          1399.13
+        ],
+        "nir_mean": 1391.55,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1573429,
+          41.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:34.200000+00:00",
+        "nir_values": [
+          1414.28,
+          1499.16,
+          1368.15,
+          1323.9,
+          1364.07,
+          1453.94,
+          1346.27,
+          1450.87
+        ],
+        "nir_mean": 1402.58,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1573429,
+          41.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:34.400000+00:00",
+        "nir_values": [
+          576.91,
+          601.79,
+          592.57,
+          576.56,
+          597.0,
+          603.3,
+          610.52,
+          577.25
+        ],
+        "nir_mean": 591.99,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1573429,
+          41.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:34.600000+00:00",
+        "nir_values": [
+          575.78,
+          636.26,
+          605.39,
+          585.67,
+          601.1,
+          593.92,
+          577.53,
+          571.17
+        ],
+        "nir_mean": 593.35,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1573429,
+          41.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:34.800000+00:00",
+        "nir_values": [
+          1388.41,
+          1444.14,
+          1443.33,
+          1495.08,
+          1328.24,
+          1353.56,
+          1347.94,
+          1403.24
+        ],
+        "nir_mean": 1400.49,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:35+00:00",
+        "nir_values": [
+          1474.18,
+          1368.33,
+          1339.71,
+          1316.55,
+          1380.94,
+          1438.56,
+          1417.05,
+          1328.58
+        ],
+        "nir_mean": 1382.99,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1573429,
+          42.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:35.200000+00:00",
+        "nir_values": [
+          595.33,
+          579.25,
+          626.83,
+          624.27,
+          617.71,
+          581.17,
+          583.14,
+          636.94
+        ],
+        "nir_mean": 605.58,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1573429,
+          41.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:35.400000+00:00",
+        "nir_values": [
+          609.63,
+          625.81,
+          564.83,
+          604.61,
+          648.48,
+          604.6,
+          595.3,
+          624.2
+        ],
+        "nir_mean": 609.68,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1573429,
+          41.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:35.600000+00:00",
+        "nir_values": [
+          1358.81,
+          1441.14,
+          1430.13,
+          1389.4,
+          1468.12,
+          1470.64,
+          1450.58,
+          1372.7
+        ],
+        "nir_mean": 1422.69,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1573429,
+          41.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:35.800000+00:00",
+        "nir_values": [
+          1439.89,
+          1362.87,
+          1350.32,
+          1415.97,
+          1401.82,
+          1439.22,
+          1387.9,
+          1413.44
+        ],
+        "nir_mean": 1401.43,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1577714,
+          41.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:36+00:00",
+        "nir_values": [
+          1418.43,
+          1302.55,
+          1432.78,
+          1433.17,
+          1483.84,
+          1310.68,
+          1387.59,
+          1428.07
+        ],
+        "nir_mean": 1399.64,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1577714,
+          41.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:36.200000+00:00",
+        "nir_values": [
+          1379.78,
+          1468.79,
+          1433.27,
+          1383.07,
+          1382.1,
+          1461.05,
+          1450.2,
+          1429.46
+        ],
+        "nir_mean": 1423.47,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1577714,
+          41.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:36.400000+00:00",
+        "nir_values": [
+          568.6,
+          614.3,
+          586.16,
+          576.02,
+          604.7,
+          589.32,
+          607.46,
+          615.44
+        ],
+        "nir_mean": 595.25,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1577714,
+          41.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:36.600000+00:00",
+        "nir_values": [
+          632.76,
+          575.43,
+          616.55,
+          587.2,
+          629.05,
+          560.53,
+          604.66,
+          559.71
+        ],
+        "nir_mean": 595.74,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1577714,
+          41.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:36.800000+00:00",
+        "nir_values": [
+          1443.56,
+          1403.39,
+          1396.86,
+          1460.12,
+          1298.97,
+          1357.85,
+          1391.71,
+          1533.95
+        ],
+        "nir_mean": 1410.8,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1577714,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:37+00:00",
+        "nir_values": [
+          1409.34,
+          1358.32,
+          1337.3,
+          1373.9,
+          1461.41,
+          1419.43,
+          1379.61,
+          1367.9
+        ],
+        "nir_mean": 1388.4,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1577714,
+          40.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:37.200000+00:00",
+        "nir_values": [
+          587.11,
+          590.02,
+          606.94,
+          613.96,
+          578.72,
+          589.74,
+          592.19,
+          607.03
+        ],
+        "nir_mean": 595.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1577714,
+          40.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:37.400000+00:00",
+        "nir_values": [
+          583.97,
+          586.08,
+          615.84,
+          635.35,
+          581.51,
+          594.4,
+          625.66,
+          595.36
+        ],
+        "nir_mean": 602.27,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1577714,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:37.600000+00:00",
+        "nir_values": [
+          1361.89,
+          1405.07,
+          1448.11,
+          1329.71,
+          1423.7,
+          1412.13,
+          1373.15,
+          1348.63
+        ],
+        "nir_mean": 1387.8,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1577714,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:37.800000+00:00",
+        "nir_values": [
+          1373.29,
+          1401.99,
+          1337.8,
+          1412.39,
+          1461.86,
+          1373.08,
+          1387.84,
+          1393.68
+        ],
+        "nir_mean": 1392.74,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1577714,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:38+00:00",
+        "nir_values": [
+          571.34,
+          588.11,
+          580.55,
+          646.33,
+          591.57,
+          567.48,
+          652.05,
+          592.62
+        ],
+        "nir_mean": 598.76,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1577714,
+          40.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:38.200000+00:00",
+        "nir_values": [
+          620.73,
+          584.6,
+          596.57,
+          597.37,
+          634.19,
+          615.28,
+          559.61,
+          644.77
+        ],
+        "nir_mean": 606.64,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1577714,
+          40.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:38.400000+00:00",
+        "nir_values": [
+          1336.76,
+          1383.47,
+          1349.59,
+          1365.68,
+          1453.76,
+          1267.31,
+          1374.28,
+          1443.81
+        ],
+        "nir_mean": 1371.83,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1577714,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:38.600000+00:00",
+        "nir_values": [
+          1425.36,
+          1413.62,
+          1433.77,
+          1473.51,
+          1427.82,
+          1459.82,
+          1449.66,
+          1392.61
+        ],
+        "nir_mean": 1434.52,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1577714,
+          40.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:38.800000+00:00",
+        "nir_values": [
+          599.98,
+          619.69,
+          607.56,
+          609.48,
+          569.77,
+          619.99,
+          591.59,
+          587.68
+        ],
+        "nir_mean": 600.72,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1577714,
+          40.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:39+00:00",
+        "nir_values": [
+          616.73,
+          608.63,
+          599.19,
+          599.74,
+          624.57,
+          619.08,
+          600.66,
+          606.29
+        ],
+        "nir_mean": 609.36,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1577714,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:39.200000+00:00",
+        "nir_values": [
+          1471.99,
+          1436.77,
+          1492.13,
+          1431.67,
+          1356.18,
+          1407.61,
+          1421.31,
+          1488.27
+        ],
+        "nir_mean": 1438.24,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1577714,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:39.400000+00:00",
+        "nir_values": [
+          1359.68,
+          1384.77,
+          1418.09,
+          1438.02,
+          1396.51,
+          1480.49,
+          1437.72,
+          1324.22
+        ],
+        "nir_mean": 1404.94,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1577714,
+          40.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:39.600000+00:00",
+        "nir_values": [
+          573.43,
+          642.83,
+          573.17,
+          606.58,
+          634.43,
+          611.63,
+          586.23,
+          605.13
+        ],
+        "nir_mean": 604.18,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1577714,
+          40.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:39.800000+00:00",
+        "nir_values": [
+          605.94,
+          618.65,
+          585.55,
+          617.22,
+          593.23,
+          610.81,
+          612.81,
+          577.57
+        ],
+        "nir_mean": 602.72,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1577714,
+          40.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:40+00:00",
+        "nir_values": [
+          1384.54,
+          1383.71,
+          1387.11,
+          1444.15,
+          1302.93,
+          1410.79,
+          1352.75,
+          1416.94
+        ],
+        "nir_mean": 1385.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1577714,
+          40.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:40.200000+00:00",
+        "nir_values": [
+          1406.44,
+          1357.51,
+          1379.92,
+          1358.04,
+          1419.07,
+          1402.2,
+          1446.47,
+          1415.25
+        ],
+        "nir_mean": 1398.11,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1577714,
+          40.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:40.400000+00:00",
+        "nir_values": [
+          568.36,
+          586.88,
+          567.63,
+          610.29,
+          595.54,
+          612.84,
+          612.06,
+          576.13
+        ],
+        "nir_mean": 591.22,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1577714,
+          39.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:40.600000+00:00",
+        "nir_values": [
+          572.53,
+          633.86,
+          638.16,
+          615.44,
+          632.42,
+          628.31,
+          589.43,
+          597.68
+        ],
+        "nir_mean": 613.48,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1577714,
+          39.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:40.800000+00:00",
+        "nir_values": [
+          1347.71,
+          1441.21,
+          1423.18,
+          1308.49,
+          1412.11,
+          1463.42,
+          1404.65,
+          1368.46
+        ],
+        "nir_mean": 1396.15,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1577714,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:41+00:00",
+        "nir_values": [
+          1403.32,
+          1465.52,
+          1339.37,
+          1400.48,
+          1416.09,
+          1378.61,
+          1391.71,
+          1526.55
+        ],
+        "nir_mean": 1415.21,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1577714,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:41.200000+00:00",
+        "nir_values": [
+          612.33,
+          591.18,
+          588.15,
+          625.12,
+          604.32,
+          575.26,
+          620.3,
+          610.33
+        ],
+        "nir_mean": 603.37,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1577714,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:41.400000+00:00",
+        "nir_values": [
+          606.68,
+          593.84,
+          564.03,
+          628.99,
+          597.1,
+          571.05,
+          612.28,
+          621.23
+        ],
+        "nir_mean": 599.4,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1577714,
+          40.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:41.600000+00:00",
+        "nir_values": [
+          1342.83,
+          1399.35,
+          1475.44,
+          1448.31,
+          1370.47,
+          1411.68,
+          1367.84,
+          1370.99
+        ],
+        "nir_mean": 1398.36,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1577714,
+          39.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:41.800000+00:00",
+        "nir_values": [
+          1391.45,
+          1395.14,
+          1455.24,
+          1368.38,
+          1388.98,
+          1514.67,
+          1392.81,
+          1395.97
+        ],
+        "nir_mean": 1412.83,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1582,
+          40.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:42+00:00",
+        "nir_values": [
+          1437.3,
+          1412.96,
+          1334.78,
+          1369.55,
+          1486.65,
+          1374.15,
+          1426.82,
+          1455.71
+        ],
+        "nir_mean": 1412.24,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1582,
+          39.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:42.200000+00:00",
+        "nir_values": [
+          1385.13,
+          1350.49,
+          1389.52,
+          1384.93,
+          1347.57,
+          1402.0,
+          1469.34,
+          1419.21
+        ],
+        "nir_mean": 1393.52,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1582,
+          40.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:42.400000+00:00",
+        "nir_values": [
+          598.99,
+          545.9,
+          624.64,
+          617.12,
+          580.01,
+          588.56,
+          606.98,
+          579.5
+        ],
+        "nir_mean": 592.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1582,
+          39.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:42.600000+00:00",
+        "nir_values": [
+          572.61,
+          569.45,
+          579.73,
+          621.51,
+          634.39,
+          646.33,
+          603.66,
+          599.5
+        ],
+        "nir_mean": 603.4,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1582,
+          39.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:42.800000+00:00",
+        "nir_values": [
+          1453.05,
+          1374.59,
+          1469.29,
+          1438.3,
+          1355.19,
+          1399.75,
+          1432.42,
+          1412.44
+        ],
+        "nir_mean": 1416.88,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1582,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:43+00:00",
+        "nir_values": [
+          1340.61,
+          1411.13,
+          1370.03,
+          1362.54,
+          1405.02,
+          1321.57,
+          1469.48,
+          1408.63
+        ],
+        "nir_mean": 1386.13,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1582,
+          39.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:43.200000+00:00",
+        "nir_values": [
+          552.23,
+          598.35,
+          608.46,
+          584.27,
+          611.82,
+          594.68,
+          589.49,
+          565.85
+        ],
+        "nir_mean": 588.14,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1582,
+          39.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:43.400000+00:00",
+        "nir_values": [
+          598.57,
+          626.03,
+          612.63,
+          599.7,
+          556.65,
+          610.65,
+          618.69,
+          635.17
+        ],
+        "nir_mean": 607.26,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1582,
+          39.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:43.600000+00:00",
+        "nir_values": [
+          1412.7,
+          1356.97,
+          1378.04,
+          1383.17,
+          1382.52,
+          1487.51,
+          1446.44,
+          1440.0
+        ],
+        "nir_mean": 1410.92,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1582,
+          39.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:43.800000+00:00",
+        "nir_values": [
+          1424.55,
+          1334.23,
+          1473.07,
+          1470.29,
+          1359.12,
+          1342.65,
+          1481.15,
+          1442.74
+        ],
+        "nir_mean": 1415.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1582,
+          39.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:44+00:00",
+        "nir_values": [
+          593.75,
+          605.57,
+          602.07,
+          585.33,
+          606.7,
+          572.99,
+          584.17,
+          616.57
+        ],
+        "nir_mean": 595.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1582,
+          39.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:44.200000+00:00",
+        "nir_values": [
+          556.44,
+          597.66,
+          580.84,
+          591.91,
+          579.75,
+          547.09,
+          610.83,
+          624.64
+        ],
+        "nir_mean": 586.14,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1582,
+          39.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:44.400000+00:00",
+        "nir_values": [
+          1366.01,
+          1388.24,
+          1429.85,
+          1470.61,
+          1382.25,
+          1391.27,
+          1433.0,
+          1425.88
+        ],
+        "nir_mean": 1410.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1582,
+          39.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:44.600000+00:00",
+        "nir_values": [
+          1362.06,
+          1415.19,
+          1401.93,
+          1465.44,
+          1410.82,
+          1353.75,
+          1326.58,
+          1419.08
+        ],
+        "nir_mean": 1394.36,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1582,
+          39.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:44.800000+00:00",
+        "nir_values": [
+          600.19,
+          598.73,
+          597.63,
+          627.44,
+          604.56,
+          603.98,
+          580.08,
+          581.86
+        ],
+        "nir_mean": 599.31,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1582,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:45+00:00",
+        "nir_values": [
+          610.76,
+          584.93,
+          634.64,
+          577.02,
+          617.11,
+          594.74,
+          633.57,
+          614.28
+        ],
+        "nir_mean": 608.38,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1582,
+          39.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:45.200000+00:00",
+        "nir_values": [
+          1473.41,
+          1427.9,
+          1376.09,
+          1330.98,
+          1460.06,
+          1449.06,
+          1402.03,
+          1457.46
+        ],
+        "nir_mean": 1422.12,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1582,
+          39.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:45.400000+00:00",
+        "nir_values": [
+          1372.66,
+          1437.14,
+          1435.63,
+          1338.14,
+          1407.79,
+          1386.25,
+          1405.27,
+          1368.87
+        ],
+        "nir_mean": 1393.97,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1582,
+          39.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:45.600000+00:00",
+        "nir_values": [
+          578.13,
+          570.13,
+          584.0,
+          580.86,
+          572.19,
+          593.42,
+          604.71,
+          619.67
+        ],
+        "nir_mean": 587.89,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1582,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:45.800000+00:00",
+        "nir_values": [
+          617.45,
+          613.88,
+          599.03,
+          597.5,
+          574.02,
+          641.2,
+          609.01,
+          593.91
+        ],
+        "nir_mean": 605.75,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1582,
+          39.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:46+00:00",
+        "nir_values": [
+          1460.17,
+          1365.79,
+          1412.96,
+          1453.47,
+          1437.28,
+          1449.33,
+          1439.67,
+          1428.55
+        ],
+        "nir_mean": 1430.9,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1582,
+          39.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:46.200000+00:00",
+        "nir_values": [
+          1380.27,
+          1359.07,
+          1453.41,
+          1325.29,
+          1444.21,
+          1465.94,
+          1396.42,
+          1361.26
+        ],
+        "nir_mean": 1398.23,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1582,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:46.400000+00:00",
+        "nir_values": [
+          617.14,
+          606.8,
+          586.03,
+          564.65,
+          625.29,
+          590.98,
+          593.7,
+          549.09
+        ],
+        "nir_mean": 591.71,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1582,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:46.600000+00:00",
+        "nir_values": [
+          589.51,
+          620.08,
+          603.47,
+          574.71,
+          640.22,
+          622.34,
+          590.66,
+          607.97
+        ],
+        "nir_mean": 606.12,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1582,
+          39.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:46.800000+00:00",
+        "nir_values": [
+          1506.81,
+          1418.81,
+          1400.77,
+          1400.93,
+          1440.56,
+          1389.0,
+          1366.5,
+          1367.17
+        ],
+        "nir_mean": 1411.32,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1582,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:47+00:00",
+        "nir_values": [
+          1470.81,
+          1363.86,
+          1352.78,
+          1478.67,
+          1412.7,
+          1302.42,
+          1354.3,
+          1424.43
+        ],
+        "nir_mean": 1395.0,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1582,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:47.200000+00:00",
+        "nir_values": [
+          580.6,
+          604.68,
+          576.18,
+          577.94,
+          591.74,
+          598.96,
+          613.27,
+          599.19
+        ],
+        "nir_mean": 592.82,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1582,
+          40.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:47.400000+00:00",
+        "nir_values": [
+          596.83,
+          605.97,
+          602.26,
+          621.49,
+          609.0,
+          602.66,
+          578.77,
+          597.75
+        ],
+        "nir_mean": 601.84,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1582,
+          39.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:47.600000+00:00",
+        "nir_values": [
+          1386.08,
+          1432.11,
+          1469.87,
+          1312.81,
+          1474.51,
+          1327.15,
+          1365.45,
+          1404.72
+        ],
+        "nir_mean": 1396.59,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1582,
+          39.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T12:00:47.800000+00:00",
+        "nir_values": [
+          1418.44,
+          1509.25,
+          1412.5,
+          1463.59,
+          1383.22,
+          1385.12,
+          1393.49,
+          1344.46
+        ],
+        "nir_mean": 1413.76,
+        "label": "Streifenmuster – Unkrautbefall"
+      }
+    }
+  ]
+}

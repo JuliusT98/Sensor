@@ -1,0 +1,6245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1552,
+          40.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:00+00:00",
+        "nir_values": [
+          1180.43,
+          1117.92,
+          1159.91,
+          1161.22,
+          1136.17,
+          1120.93,
+          1162.4,
+          1120.83
+        ],
+        "nir_mean": 1144.98,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1552,
+          40.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:00.200000+00:00",
+        "nir_values": [
+          1146.96,
+          1229.47,
+          1152.03,
+          1115.78,
+          1097.77,
+          1142.7,
+          1175.36,
+          1205.5
+        ],
+        "nir_mean": 1158.2,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1552,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:00.400000+00:00",
+        "nir_values": [
+          1142.45,
+          1221.74,
+          1119.01,
+          1078.18,
+          1140.41,
+          1164.8,
+          1172.12,
+          1080.4
+        ],
+        "nir_mean": 1139.89,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1552,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:00.600000+00:00",
+        "nir_values": [
+          1159.23,
+          1151.96,
+          1115.44,
+          1112.54,
+          1187.89,
+          1121.34,
+          1154.95,
+          1192.66
+        ],
+        "nir_mean": 1149.5,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1552,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:00.800000+00:00",
+        "nir_values": [
+          1200.23,
+          1086.44,
+          1065.51,
+          1116.55,
+          1098.9,
+          1054.47,
+          1131.07,
+          1120.35
+        ],
+        "nir_mean": 1109.19,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1552,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:01+00:00",
+        "nir_values": [
+          1077.82,
+          1084.6,
+          1090.05,
+          1095.34,
+          1138.65,
+          1071.97,
+          1146.55,
+          1142.42
+        ],
+        "nir_mean": 1105.93,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1552,
+          40.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:01.200000+00:00",
+        "nir_values": [
+          1100.86,
+          1127.62,
+          1103.24,
+          1106.28,
+          1125.44,
+          1042.35,
+          1152.14,
+          1091.55
+        ],
+        "nir_mean": 1106.18,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1552,
+          39.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:01.400000+00:00",
+        "nir_values": [
+          1029.33,
+          1140.08,
+          1046.41,
+          1047.76,
+          1043.03,
+          1095.6,
+          1180.83,
+          1183.42
+        ],
+        "nir_mean": 1095.81,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1552,
+          39.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:01.600000+00:00",
+        "nir_values": [
+          1001.6,
+          1084.26,
+          972.47,
+          1118.07,
+          1058.79,
+          1158.59,
+          1098.66,
+          1021.28
+        ],
+        "nir_mean": 1064.21,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1552,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:01.800000+00:00",
+        "nir_values": [
+          980.47,
+          1068.25,
+          1058.36,
+          1003.46,
+          989.46,
+          1056.15,
+          1032.7,
+          1054.15
+        ],
+        "nir_mean": 1030.38,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1552,
+          40.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:02+00:00",
+        "nir_values": [
+          1036.42,
+          1082.51,
+          1045.35,
+          1018.72,
+          1059.12,
+          1043.16,
+          1011.43,
+          1022.24
+        ],
+        "nir_mean": 1039.87,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1552,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:02.200000+00:00",
+        "nir_values": [
+          961.12,
+          1065.78,
+          1039.63,
+          1078.19,
+          1077.15,
+          1006.27,
+          1036.1,
+          1081.82
+        ],
+        "nir_mean": 1043.26,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1552,
+          39.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:02.400000+00:00",
+        "nir_values": [
+          1068.54,
+          1073.97,
+          1023.51,
+          1108.37,
+          1022.29,
+          1094.31,
+          1127.73,
+          1031.05
+        ],
+        "nir_mean": 1068.72,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1552,
+          39.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:02.600000+00:00",
+        "nir_values": [
+          1030.53,
+          1036.86,
+          1022.1,
+          1081.96,
+          1079.86,
+          972.81,
+          1055.4,
+          1060.43
+        ],
+        "nir_mean": 1042.49,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1552,
+          39.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:02.800000+00:00",
+        "nir_values": [
+          1079.26,
+          1073.84,
+          1073.28,
+          1052.51,
+          1063.6,
+          1035.75,
+          1138.6,
+          1042.88
+        ],
+        "nir_mean": 1069.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1552,
+          39.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:03+00:00",
+        "nir_values": [
+          1119.93,
+          1173.78,
+          1057.2,
+          1061.29,
+          1101.41,
+          1019.04,
+          1044.6,
+          1089.59
+        ],
+        "nir_mean": 1083.36,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1552,
+          39.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:03.200000+00:00",
+        "nir_values": [
+          1091.24,
+          1121.76,
+          1068.03,
+          1067.75,
+          1138.79,
+          1148.08,
+          1120.2,
+          1115.73
+        ],
+        "nir_mean": 1108.95,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1552,
+          39.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:03.400000+00:00",
+        "nir_values": [
+          1040.73,
+          1142.24,
+          1080.64,
+          1078.36,
+          1174.55,
+          1175.88,
+          1169.86,
+          1150.0
+        ],
+        "nir_mean": 1126.53,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1552,
+          39.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:03.600000+00:00",
+        "nir_values": [
+          1208.58,
+          1091.92,
+          1079.57,
+          1156.29,
+          1143.64,
+          1117.18,
+          1219.8,
+          1107.73
+        ],
+        "nir_mean": 1140.59,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1552,
+          39.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:03.800000+00:00",
+        "nir_values": [
+          1157.89,
+          1106.96,
+          1139.59,
+          1212.77,
+          1216.62,
+          1178.22,
+          1182.81,
+          1145.55
+        ],
+        "nir_mean": 1167.55,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1552,
+          39.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:04+00:00",
+        "nir_values": [
+          1226.86,
+          1197.79,
+          1137.97,
+          1261.23,
+          1074.6,
+          1196.23,
+          1174.41,
+          1161.03
+        ],
+        "nir_mean": 1178.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1552,
+          40.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:04.200000+00:00",
+        "nir_values": [
+          1127.6,
+          1121.54,
+          1184.51,
+          1165.1,
+          1150.87,
+          1169.64,
+          1229.04,
+          1156.97
+        ],
+        "nir_mean": 1163.16,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1552,
+          40.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:04.400000+00:00",
+        "nir_values": [
+          1145.69,
+          1121.63,
+          1215.03,
+          1187.78,
+          1195.45,
+          1190.49,
+          1110.91,
+          1167.61
+        ],
+        "nir_mean": 1166.82,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1552,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:04.600000+00:00",
+        "nir_values": [
+          1192.51,
+          1170.79,
+          1197.14,
+          1158.29,
+          1168.12,
+          1175.44,
+          1179.32,
+          1191.31
+        ],
+        "nir_mean": 1179.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1552,
+          39.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:04.800000+00:00",
+        "nir_values": [
+          1141.24,
+          1164.25,
+          1056.08,
+          1102.26,
+          1115.76,
+          1148.05,
+          1124.53,
+          1163.46
+        ],
+        "nir_mean": 1126.95,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1552,
+          40.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:05+00:00",
+        "nir_values": [
+          1132.34,
+          1071.24,
+          1133.98,
+          1153.0,
+          1089.76,
+          1149.55,
+          1012.13,
+          1202.38
+        ],
+        "nir_mean": 1118.05,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1552,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:05.200000+00:00",
+        "nir_values": [
+          1071.07,
+          1051.06,
+          1060.48,
+          1048.01,
+          1063.48,
+          1144.4,
+          1126.02,
+          1099.27
+        ],
+        "nir_mean": 1082.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1552,
+          40.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:05.400000+00:00",
+        "nir_values": [
+          1075.29,
+          1094.32,
+          1147.47,
+          1101.27,
+          1130.39,
+          1124.86,
+          1114.79,
+          1106.79
+        ],
+        "nir_mean": 1111.9,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1552,
+          39.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:05.600000+00:00",
+        "nir_values": [
+          1005.47,
+          1051.4,
+          1076.22,
+          1116.56,
+          1096.38,
+          1054.21,
+          1009.79,
+          1079.7
+        ],
+        "nir_mean": 1061.22,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1552,
+          40.07
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:05.800000+00:00",
+        "nir_values": [
+          1081.68,
+          1102.47,
+          1068.21,
+          1067.42,
+          1066.84,
+          1053.84,
+          1108.94,
+          1025.39
+        ],
+        "nir_mean": 1071.85,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1556286,
+          40.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:06+00:00",
+        "nir_values": [
+          1105.19,
+          1056.45,
+          1102.75,
+          1153.48,
+          1135.31,
+          1186.12,
+          1124.81,
+          1045.06
+        ],
+        "nir_mean": 1113.65,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1556286,
+          39.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:06.200000+00:00",
+        "nir_values": [
+          1100.93,
+          1109.67,
+          1142.64,
+          1063.19,
+          1188.07,
+          1124.33,
+          1098.67,
+          1063.75
+        ],
+        "nir_mean": 1111.41,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1556286,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:06.400000+00:00",
+        "nir_values": [
+          1134.25,
+          1136.96,
+          1129.37,
+          1157.57,
+          1151.82,
+          1139.74,
+          1228.36,
+          1096.64
+        ],
+        "nir_mean": 1146.84,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1556286,
+          39.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:06.600000+00:00",
+        "nir_values": [
+          1167.18,
+          1149.12,
+          1164.28,
+          1165.01,
+          1163.28,
+          1161.84,
+          1168.84,
+          1145.3
+        ],
+        "nir_mean": 1160.61,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1556286,
+          39.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:06.800000+00:00",
+        "nir_values": [
+          1174.99,
+          1199.93,
+          1155.35,
+          1190.89,
+          1218.36,
+          1172.39,
+          1134.05,
+          1148.67
+        ],
+        "nir_mean": 1174.33,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1556286,
+          39.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:07+00:00",
+        "nir_values": [
+          1160.98,
+          1197.96,
+          1250.98,
+          1260.12,
+          1209.99,
+          1236.53,
+          1213.52,
+          1142.79
+        ],
+        "nir_mean": 1209.11,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1556286,
+          40.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:07.200000+00:00",
+        "nir_values": [
+          1224.85,
+          1159.15,
+          1247.61,
+          1245.05,
+          1123.48,
+          1220.15,
+          1142.55,
+          1193.83
+        ],
+        "nir_mean": 1194.58,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1556286,
+          40.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:07.400000+00:00",
+        "nir_values": [
+          1134.17,
+          1229.48,
+          1234.25,
+          1199.85,
+          1289.38,
+          1172.66,
+          1238.05,
+          1183.91
+        ],
+        "nir_mean": 1210.22,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1556286,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:07.600000+00:00",
+        "nir_values": [
+          1244.93,
+          1247.78,
+          1242.18,
+          1185.42,
+          1253.7,
+          1218.6,
+          1269.04,
+          1246.86
+        ],
+        "nir_mean": 1238.56,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1556286,
+          40.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:07.800000+00:00",
+        "nir_values": [
+          1231.46,
+          1206.82,
+          1198.88,
+          1230.06,
+          1283.5,
+          1171.78,
+          1110.27,
+          1201.9
+        ],
+        "nir_mean": 1204.33,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1556286,
+          40.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:08+00:00",
+        "nir_values": [
+          1215.55,
+          1159.24,
+          1117.93,
+          1309.99,
+          1238.29,
+          1160.04,
+          1248.58,
+          1162.14
+        ],
+        "nir_mean": 1201.47,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1556286,
+          40.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:08.200000+00:00",
+        "nir_values": [
+          1215.76,
+          1204.51,
+          1239.43,
+          1231.57,
+          1190.87,
+          1171.62,
+          1174.93,
+          1194.81
+        ],
+        "nir_mean": 1202.94,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1556286,
+          40.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:08.400000+00:00",
+        "nir_values": [
+          1183.26,
+          1162.77,
+          1240.66,
+          1172.42,
+          1207.25,
+          1207.21,
+          1216.39,
+          1235.94
+        ],
+        "nir_mean": 1203.24,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1556286,
+          41.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:08.600000+00:00",
+        "nir_values": [
+          1174.4,
+          1185.77,
+          1107.04,
+          1104.26,
+          1159.52,
+          1117.72,
+          1205.79,
+          1198.57
+        ],
+        "nir_mean": 1156.63,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1556286,
+          41.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:08.800000+00:00",
+        "nir_values": [
+          1162.04,
+          1095.5,
+          1134.03,
+          1038.61,
+          1082.71,
+          1081.94,
+          1144.41,
+          1146.94
+        ],
+        "nir_mean": 1110.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1556286,
+          41.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:09+00:00",
+        "nir_values": [
+          1251.32,
+          1151.4,
+          1114.47,
+          1131.83,
+          1118.23,
+          1190.33,
+          1086.78,
+          1164.72
+        ],
+        "nir_mean": 1151.13,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1556286,
+          41.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:09.200000+00:00",
+        "nir_values": [
+          1133.14,
+          1081.48,
+          1124.77,
+          1094.73,
+          1092.05,
+          1075.76,
+          1107.48,
+          1118.19
+        ],
+        "nir_mean": 1103.45,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1556286,
+          41.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:09.400000+00:00",
+        "nir_values": [
+          1113.09,
+          1088.19,
+          1097.82,
+          1105.63,
+          1205.57,
+          1099.81,
+          1084.37,
+          1063.8
+        ],
+        "nir_mean": 1107.28,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1556286,
+          40.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:09.600000+00:00",
+        "nir_values": [
+          1141.64,
+          1139.54,
+          1130.02,
+          987.1,
+          1124.78,
+          1066.64,
+          1096.54,
+          1146.13
+        ],
+        "nir_mean": 1104.05,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1556286,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:09.800000+00:00",
+        "nir_values": [
+          1021.35,
+          1075.83,
+          994.34,
+          1129.55,
+          1095.67,
+          1086.46,
+          1096.88,
+          1041.43
+        ],
+        "nir_mean": 1067.69,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1556286,
+          40.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:10+00:00",
+        "nir_values": [
+          1182.46,
+          1104.78,
+          1055.26,
+          1104.56,
+          1108.13,
+          1112.24,
+          1129.54,
+          1105.46
+        ],
+        "nir_mean": 1112.8,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1556286,
+          40.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:10.200000+00:00",
+        "nir_values": [
+          1120.8,
+          1124.26,
+          1104.56,
+          1053.09,
+          1133.28,
+          1094.72,
+          1106.06,
+          1061.28
+        ],
+        "nir_mean": 1099.76,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1556286,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:10.400000+00:00",
+        "nir_values": [
+          1153.33,
+          1100.87,
+          1137.08,
+          1150.13,
+          1151.87,
+          1114.35,
+          1090.0,
+          1160.09
+        ],
+        "nir_mean": 1132.21,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1556286,
+          40.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:10.600000+00:00",
+        "nir_values": [
+          1134.2,
+          1129.52,
+          1095.76,
+          1166.37,
+          1103.52,
+          1106.46,
+          1136.87,
+          1200.42
+        ],
+        "nir_mean": 1134.14,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1556286,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:10.800000+00:00",
+        "nir_values": [
+          1103.55,
+          1168.06,
+          1177.75,
+          1135.14,
+          1151.06,
+          1268.9,
+          1148.21,
+          1202.32
+        ],
+        "nir_mean": 1169.37,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1556286,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:11+00:00",
+        "nir_values": [
+          1230.88,
+          1176.9,
+          1198.65,
+          1164.21,
+          1168.81,
+          1238.01,
+          1153.81,
+          1234.5
+        ],
+        "nir_mean": 1195.72,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1556286,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:11.200000+00:00",
+        "nir_values": [
+          1212.64,
+          1204.28,
+          1146.84,
+          1214.12,
+          1209.23,
+          1223.95,
+          1227.56,
+          1194.93
+        ],
+        "nir_mean": 1204.19,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1556286,
+          40.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:11.400000+00:00",
+        "nir_values": [
+          1163.63,
+          1243.47,
+          1247.29,
+          1153.26,
+          1204.91,
+          1172.52,
+          1138.88,
+          1208.8
+        ],
+        "nir_mean": 1191.59,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1556286,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:11.600000+00:00",
+        "nir_values": [
+          1215.15,
+          1222.1,
+          1263.29,
+          1230.79,
+          1231.75,
+          1197.06,
+          1227.53,
+          1155.21
+        ],
+        "nir_mean": 1217.86,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1556286,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:11.800000+00:00",
+        "nir_values": [
+          1233.89,
+          1205.56,
+          1223.62,
+          1195.27,
+          1248.95,
+          1246.55,
+          1201.23,
+          1218.53
+        ],
+        "nir_mean": 1221.7,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1560571,
+          40.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:12+00:00",
+        "nir_values": [
+          1250.51,
+          1260.82,
+          1247.71,
+          1245.5,
+          1247.79,
+          1277.81,
+          1181.43,
+          1272.21
+        ],
+        "nir_mean": 1247.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1560571,
+          40.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:12.200000+00:00",
+        "nir_values": [
+          1199.16,
+          1240.21,
+          1215.98,
+          1218.58,
+          1246.63,
+          1256.32,
+          1225.76,
+          1216.56
+        ],
+        "nir_mean": 1227.4,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1560571,
+          40.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:12.400000+00:00",
+        "nir_values": [
+          1196.46,
+          1274.02,
+          1194.89,
+          1183.38,
+          1206.31,
+          1213.5,
+          1289.5,
+          1192.79
+        ],
+        "nir_mean": 1218.86,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1560571,
+          40.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:12.600000+00:00",
+        "nir_values": [
+          1172.77,
+          1251.08,
+          1262.04,
+          1259.04,
+          1250.48,
+          1194.04,
+          1184.71,
+          1217.47
+        ],
+        "nir_mean": 1223.95,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1560571,
+          40.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:12.800000+00:00",
+        "nir_values": [
+          1173.28,
+          1229.54,
+          1192.28,
+          1162.21,
+          1237.51,
+          1177.37,
+          1171.3,
+          1182.67
+        ],
+        "nir_mean": 1190.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1560571,
+          40.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:13+00:00",
+        "nir_values": [
+          1165.08,
+          1187.59,
+          1202.99,
+          1168.46,
+          1128.81,
+          1155.65,
+          1147.99,
+          1191.43
+        ],
+        "nir_mean": 1168.5,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1560571,
+          40.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:13.200000+00:00",
+        "nir_values": [
+          1172.65,
+          1166.32,
+          1208.21,
+          1129.44,
+          1108.57,
+          1173.24,
+          1117.23,
+          1107.17
+        ],
+        "nir_mean": 1147.85,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1560571,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:13.400000+00:00",
+        "nir_values": [
+          1112.41,
+          1146.12,
+          1092.27,
+          1216.94,
+          1134.4,
+          1151.6,
+          1132.67,
+          1139.38
+        ],
+        "nir_mean": 1140.72,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1560571,
+          41.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:13.600000+00:00",
+        "nir_values": [
+          1103.77,
+          1091.28,
+          1062.9,
+          1118.73,
+          1053.87,
+          1069.36,
+          1147.46,
+          1106.88
+        ],
+        "nir_mean": 1094.28,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1560571,
+          41.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:13.800000+00:00",
+        "nir_values": [
+          1064.74,
+          1198.51,
+          1095.69,
+          1097.81,
+          1160.43,
+          1193.86,
+          1121.51,
+          1131.32
+        ],
+        "nir_mean": 1132.98,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1560571,
+          41.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:14+00:00",
+        "nir_values": [
+          1132.42,
+          1121.05,
+          1175.96,
+          1131.27,
+          1078.87,
+          1103.42,
+          1161.15,
+          1103.0
+        ],
+        "nir_mean": 1125.89,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1560571,
+          41.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:14.200000+00:00",
+        "nir_values": [
+          1139.67,
+          1120.3,
+          1147.22,
+          1129.26,
+          1161.06,
+          1114.73,
+          1097.27,
+          1150.22
+        ],
+        "nir_mean": 1132.47,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1560571,
+          41.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:14.400000+00:00",
+        "nir_values": [
+          1128.16,
+          1070.01,
+          1121.46,
+          1151.34,
+          1146.59,
+          1079.85,
+          1099.77,
+          1125.88
+        ],
+        "nir_mean": 1115.38,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1560571,
+          41.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:14.600000+00:00",
+        "nir_values": [
+          1048.82,
+          1120.55,
+          1110.29,
+          1086.01,
+          1223.51,
+          1149.86,
+          1146.1,
+          1123.85
+        ],
+        "nir_mean": 1126.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1560571,
+          41.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:14.800000+00:00",
+        "nir_values": [
+          1123.48,
+          1097.26,
+          1193.82,
+          1266.26,
+          1193.03,
+          1180.95,
+          1114.73,
+          1154.63
+        ],
+        "nir_mean": 1165.52,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1560571,
+          41.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:15+00:00",
+        "nir_values": [
+          1102.32,
+          1192.63,
+          1168.04,
+          1161.77,
+          1143.78,
+          1212.66,
+          1151.42,
+          1220.31
+        ],
+        "nir_mean": 1169.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1560571,
+          41.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:15.200000+00:00",
+        "nir_values": [
+          1224.45,
+          1215.7,
+          1191.39,
+          1212.84,
+          1137.61,
+          1214.18,
+          1153.47,
+          1139.03
+        ],
+        "nir_mean": 1186.08,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1560571,
+          41.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:15.400000+00:00",
+        "nir_values": [
+          1125.06,
+          1237.15,
+          1261.53,
+          1134.55,
+          1261.5,
+          1180.67,
+          1223.11,
+          1264.84
+        ],
+        "nir_mean": 1211.05,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1560571,
+          40.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:15.600000+00:00",
+        "nir_values": [
+          1204.54,
+          1259.02,
+          1262.88,
+          1227.4,
+          1228.32,
+          1247.34,
+          1153.07,
+          1248.03
+        ],
+        "nir_mean": 1228.83,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1560571,
+          41.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:15.800000+00:00",
+        "nir_values": [
+          1202.69,
+          1293.38,
+          1196.35,
+          1252.59,
+          1200.38,
+          1249.24,
+          1294.4,
+          1322.93
+        ],
+        "nir_mean": 1251.5,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1560571,
+          41.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:16+00:00",
+        "nir_values": [
+          1204.48,
+          1188.22,
+          1176.55,
+          1237.06,
+          1253.49,
+          1238.33,
+          1190.3,
+          1227.13
+        ],
+        "nir_mean": 1214.44,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1560571,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:16.200000+00:00",
+        "nir_values": [
+          1248.92,
+          1275.89,
+          1320.88,
+          1223.3,
+          1281.66,
+          1250.67,
+          1226.09,
+          1259.03
+        ],
+        "nir_mean": 1260.81,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1560571,
+          40.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:16.400000+00:00",
+        "nir_values": [
+          1333.42,
+          1230.64,
+          1227.45,
+          1311.79,
+          1278.91,
+          1281.6,
+          1290.11,
+          1268.99
+        ],
+        "nir_mean": 1277.86,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1560571,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:16.600000+00:00",
+        "nir_values": [
+          1285.4,
+          1226.75,
+          1256.16,
+          1212.04,
+          1208.04,
+          1208.16,
+          1340.08,
+          1280.42
+        ],
+        "nir_mean": 1252.13,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1560571,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:16.800000+00:00",
+        "nir_values": [
+          1194.04,
+          1246.06,
+          1241.64,
+          1296.49,
+          1217.53,
+          1174.66,
+          1142.63,
+          1185.36
+        ],
+        "nir_mean": 1212.3,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1560571,
+          39.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:17+00:00",
+        "nir_values": [
+          1154.72,
+          1132.63,
+          1160.44,
+          1169.22,
+          1201.03,
+          1226.29,
+          1218.35,
+          1236.17
+        ],
+        "nir_mean": 1187.36,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1560571,
+          39.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:17.200000+00:00",
+        "nir_values": [
+          1187.75,
+          1159.17,
+          1235.2,
+          1235.96,
+          1163.68,
+          1189.19,
+          1187.93,
+          1172.4
+        ],
+        "nir_mean": 1191.41,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1560571,
+          39.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:17.400000+00:00",
+        "nir_values": [
+          1124.52,
+          1192.95,
+          1172.05,
+          1258.49,
+          1133.64,
+          1147.69,
+          1139.57,
+          1134.84
+        ],
+        "nir_mean": 1162.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1560571,
+          39.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:17.600000+00:00",
+        "nir_values": [
+          1123.97,
+          1131.5,
+          1161.08,
+          1135.91,
+          1187.39,
+          1131.65,
+          1129.7,
+          1147.79
+        ],
+        "nir_mean": 1143.62,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1560571,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:17.800000+00:00",
+        "nir_values": [
+          1108.06,
+          1182.62,
+          1127.92,
+          1118.21,
+          1210.88,
+          1172.32,
+          1151.58,
+          1192.53
+        ],
+        "nir_mean": 1158.01,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1564857,
+          39.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:18+00:00",
+        "nir_values": [
+          1109.93,
+          1105.11,
+          1060.98,
+          1052.15,
+          1113.68,
+          1110.13,
+          1153.79,
+          1069.45
+        ],
+        "nir_mean": 1096.9,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1564857,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:18.200000+00:00",
+        "nir_values": [
+          1129.22,
+          1069.25,
+          1129.92,
+          1144.96,
+          1180.3,
+          1128.29,
+          1060.53,
+          1018.6
+        ],
+        "nir_mean": 1107.63,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1564857,
+          39.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:18.400000+00:00",
+        "nir_values": [
+          1163.2,
+          1170.2,
+          1166.74,
+          1128.75,
+          1181.0,
+          1100.71,
+          1141.67,
+          1119.8
+        ],
+        "nir_mean": 1146.51,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1564857,
+          40.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:18.600000+00:00",
+        "nir_values": [
+          1103.32,
+          1196.39,
+          1189.66,
+          1167.38,
+          1127.71,
+          1144.25,
+          1138.62,
+          1152.68
+        ],
+        "nir_mean": 1152.5,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1564857,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:18.800000+00:00",
+        "nir_values": [
+          1150.4,
+          1147.43,
+          1213.69,
+          1169.35,
+          1160.72,
+          1214.02,
+          1151.65,
+          1147.57
+        ],
+        "nir_mean": 1169.35,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1564857,
+          40.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:19+00:00",
+        "nir_values": [
+          1207.63,
+          1243.17,
+          1213.4,
+          1166.72,
+          1195.83,
+          1240.12,
+          1237.84,
+          1124.74
+        ],
+        "nir_mean": 1203.68,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1564857,
+          40.52
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:19.200000+00:00",
+        "nir_values": [
+          1199.05,
+          1186.48,
+          1224.52,
+          1191.04,
+          1252.75,
+          1207.62,
+          1215.44,
+          1204.36
+        ],
+        "nir_mean": 1210.16,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1564857,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:19.400000+00:00",
+        "nir_values": [
+          1244.85,
+          1207.4,
+          1271.45,
+          1129.84,
+          1214.49,
+          1230.68,
+          1223.78,
+          1270.2
+        ],
+        "nir_mean": 1224.09,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1564857,
+          40.42
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:19.600000+00:00",
+        "nir_values": [
+          1180.88,
+          1280.12,
+          1222.53,
+          1218.11,
+          1173.39,
+          1261.3,
+          1272.54,
+          1129.24
+        ],
+        "nir_mean": 1217.26,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1564857,
+          40.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:19.800000+00:00",
+        "nir_values": [
+          1268.97,
+          1200.7,
+          1198.93,
+          1217.22,
+          1126.01,
+          1172.04,
+          1222.78,
+          1165.23
+        ],
+        "nir_mean": 1196.49,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1564857,
+          40.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:20+00:00",
+        "nir_values": [
+          1221.6,
+          1069.93,
+          1192.95,
+          1148.93,
+          1311.53,
+          1175.89,
+          1312.93,
+          1204.38
+        ],
+        "nir_mean": 1204.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1564857,
+          40.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:20.200000+00:00",
+        "nir_values": [
+          1227.17,
+          1192.39,
+          1194.4,
+          1194.51,
+          1205.45,
+          1154.08,
+          1242.7,
+          1235.79
+        ],
+        "nir_mean": 1205.81,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1564857,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:20.400000+00:00",
+        "nir_values": [
+          1152.74,
+          1211.33,
+          1147.24,
+          1236.93,
+          1203.56,
+          1247.08,
+          1134.56,
+          1188.01
+        ],
+        "nir_mean": 1190.18,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1564857,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:20.600000+00:00",
+        "nir_values": [
+          1185.58,
+          1144.46,
+          1132.06,
+          1175.29,
+          1165.39,
+          1165.19,
+          1128.13,
+          1091.73
+        ],
+        "nir_mean": 1148.48,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1564857,
+          40.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:20.800000+00:00",
+        "nir_values": [
+          1072.99,
+          1168.47,
+          1171.54,
+          1152.04,
+          1138.67,
+          1111.38,
+          1141.64,
+          1190.46
+        ],
+        "nir_mean": 1143.4,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1564857,
+          39.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:21+00:00",
+        "nir_values": [
+          1131.76,
+          1135.4,
+          1196.07,
+          1117.27,
+          1125.68,
+          1144.19,
+          1076.12,
+          1118.39
+        ],
+        "nir_mean": 1130.61,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1564857,
+          40.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:21.200000+00:00",
+        "nir_values": [
+          1095.11,
+          1124.2,
+          1123.04,
+          1092.41,
+          1111.43,
+          1137.84,
+          1179.38,
+          1037.4
+        ],
+        "nir_mean": 1112.6,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1564857,
+          40.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:21.400000+00:00",
+        "nir_values": [
+          1059.4,
+          1056.15,
+          1033.18,
+          1120.4,
+          1075.28,
+          1157.76,
+          1111.1,
+          1118.56
+        ],
+        "nir_mean": 1091.48,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1564857,
+          39.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:21.600000+00:00",
+        "nir_values": [
+          1137.75,
+          1183.26,
+          1096.25,
+          1150.61,
+          1171.78,
+          1101.25,
+          1093.2,
+          1037.99
+        ],
+        "nir_mean": 1121.51,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1564857,
+          40.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:21.800000+00:00",
+        "nir_values": [
+          1158.16,
+          1107.75,
+          1161.4,
+          1157.47,
+          1127.83,
+          1096.43,
+          1053.52,
+          1081.1
+        ],
+        "nir_mean": 1117.96,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1564857,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:22+00:00",
+        "nir_values": [
+          1173.28,
+          1133.1,
+          1194.66,
+          1110.03,
+          1101.4,
+          1092.85,
+          1117.97,
+          1106.39
+        ],
+        "nir_mean": 1128.71,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1564857,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:22.200000+00:00",
+        "nir_values": [
+          1123.35,
+          1133.23,
+          1064.97,
+          1103.23,
+          1110.07,
+          1222.98,
+          1071.17,
+          1083.95
+        ],
+        "nir_mean": 1114.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1564857,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:22.400000+00:00",
+        "nir_values": [
+          1064.45,
+          1070.05,
+          1141.57,
+          1091.25,
+          1162.64,
+          1085.05,
+          1158.77,
+          1128.54
+        ],
+        "nir_mean": 1112.79,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1564857,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:22.600000+00:00",
+        "nir_values": [
+          1120.63,
+          1081.61,
+          1149.55,
+          1076.79,
+          1166.03,
+          1123.42,
+          1210.05,
+          1093.94
+        ],
+        "nir_mean": 1127.75,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1564857,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:22.800000+00:00",
+        "nir_values": [
+          1165.51,
+          1212.86,
+          1208.35,
+          1097.5,
+          1160.93,
+          1169.71,
+          1142.32,
+          1153.22
+        ],
+        "nir_mean": 1163.8,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1564857,
+          40.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:23+00:00",
+        "nir_values": [
+          1191.28,
+          1190.27,
+          1217.0,
+          1135.96,
+          1222.89,
+          1195.31,
+          1163.91,
+          1219.25
+        ],
+        "nir_mean": 1191.98,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1564857,
+          41.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:23.200000+00:00",
+        "nir_values": [
+          1198.89,
+          1185.48,
+          1284.41,
+          1197.77,
+          1241.98,
+          1251.42,
+          1154.63,
+          1150.25
+        ],
+        "nir_mean": 1208.1,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1564857,
+          41.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:23.400000+00:00",
+        "nir_values": [
+          1136.11,
+          1248.58,
+          1236.6,
+          1194.91,
+          1206.09,
+          1247.84,
+          1166.61,
+          1242.07
+        ],
+        "nir_mean": 1209.85,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1564857,
+          41.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:23.600000+00:00",
+        "nir_values": [
+          1167.5,
+          1299.26,
+          1204.9,
+          1251.69,
+          1211.2,
+          1147.5,
+          1259.69,
+          1178.19
+        ],
+        "nir_mean": 1214.99,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1564857,
+          41.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:23.800000+00:00",
+        "nir_values": [
+          1225.22,
+          1183.73,
+          1251.77,
+          1219.0,
+          1220.91,
+          1212.63,
+          1255.64,
+          1163.04
+        ],
+        "nir_mean": 1216.49,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1569143,
+          41.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:24+00:00",
+        "nir_values": [
+          1134.76,
+          1137.74,
+          1014.42,
+          1173.31,
+          1176.87,
+          1118.75,
+          1115.26,
+          1169.39
+        ],
+        "nir_mean": 1130.06,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1569143,
+          41.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:24.200000+00:00",
+        "nir_values": [
+          1133.64,
+          1172.68,
+          1160.91,
+          1148.17,
+          1185.66,
+          1197.01,
+          1188.14,
+          1102.65
+        ],
+        "nir_mean": 1161.11,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1569143,
+          41.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:24.400000+00:00",
+        "nir_values": [
+          1029.1,
+          1149.91,
+          1164.67,
+          1123.55,
+          1278.13,
+          1129.21,
+          1189.79,
+          1209.35
+        ],
+        "nir_mean": 1159.21,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1569143,
+          40.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:24.600000+00:00",
+        "nir_values": [
+          1171.53,
+          1143.77,
+          1195.5,
+          1124.0,
+          1164.68,
+          1202.82,
+          1109.72,
+          1198.55
+        ],
+        "nir_mean": 1163.82,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1569143,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:24.800000+00:00",
+        "nir_values": [
+          1091.5,
+          1079.0,
+          1083.45,
+          1076.09,
+          1157.61,
+          1095.87,
+          1143.83,
+          1078.52
+        ],
+        "nir_mean": 1100.73,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1569143,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:25+00:00",
+        "nir_values": [
+          1040.07,
+          1048.48,
+          1063.39,
+          1117.66,
+          1078.64,
+          1078.47,
+          1107.13,
+          1144.31
+        ],
+        "nir_mean": 1084.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1569143,
+          40.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:25.200000+00:00",
+        "nir_values": [
+          1041.74,
+          1091.09,
+          1040.89,
+          1089.21,
+          1020.37,
+          1058.25,
+          1110.93,
+          1053.96
+        ],
+        "nir_mean": 1063.31,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1569143,
+          40.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:25.400000+00:00",
+        "nir_values": [
+          1059.65,
+          1089.57,
+          1034.75,
+          1068.72,
+          1045.08,
+          1115.85,
+          1043.41,
+          1057.91
+        ],
+        "nir_mean": 1064.37,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1569143,
+          40.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:25.600000+00:00",
+        "nir_values": [
+          1078.86,
+          1049.93,
+          1045.05,
+          1018.48,
+          1031.94,
+          970.0,
+          1121.98,
+          1042.3
+        ],
+        "nir_mean": 1044.82,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1569143,
+          40.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:25.800000+00:00",
+        "nir_values": [
+          1051.68,
+          1026.09,
+          1062.52,
+          991.35,
+          1076.74,
+          1035.09,
+          1073.51,
+          1014.8
+        ],
+        "nir_mean": 1041.47,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1569143,
+          40.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:26+00:00",
+        "nir_values": [
+          1055.07,
+          1026.58,
+          1001.71,
+          992.56,
+          1010.6,
+          989.63,
+          1087.88,
+          1018.11
+        ],
+        "nir_mean": 1022.77,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1569143,
+          39.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:26.200000+00:00",
+        "nir_values": [
+          955.59,
+          1000.98,
+          1049.0,
+          999.12,
+          977.19,
+          1021.92,
+          1038.66,
+          1025.43
+        ],
+        "nir_mean": 1008.49,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1569143,
+          39.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:26.400000+00:00",
+        "nir_values": [
+          1036.72,
+          1045.37,
+          1011.82,
+          1000.99,
+          1033.52,
+          1089.79,
+          1081.64,
+          1034.83
+        ],
+        "nir_mean": 1041.84,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1569143,
+          39.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:26.600000+00:00",
+        "nir_values": [
+          998.64,
+          1067.01,
+          1077.26,
+          1098.88,
+          1048.22,
+          1048.42,
+          1043.46,
+          1051.8
+        ],
+        "nir_mean": 1054.21,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1569143,
+          39.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:26.800000+00:00",
+        "nir_values": [
+          1067.94,
+          1084.47,
+          1018.77,
+          1091.91,
+          1128.67,
+          1083.45,
+          1028.54,
+          1096.03
+        ],
+        "nir_mean": 1074.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1569143,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:27+00:00",
+        "nir_values": [
+          1064.87,
+          1083.8,
+          1111.41,
+          1093.72,
+          1135.48,
+          1081.3,
+          1126.37,
+          1108.96
+        ],
+        "nir_mean": 1100.74,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1569143,
+          39.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:27.200000+00:00",
+        "nir_values": [
+          1107.31,
+          1158.97,
+          1192.72,
+          1048.94,
+          1023.64,
+          1081.4,
+          1127.6,
+          1082.44
+        ],
+        "nir_mean": 1102.88,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1569143,
+          39.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:27.400000+00:00",
+        "nir_values": [
+          1141.84,
+          1181.39,
+          1170.04,
+          1084.71,
+          1080.97,
+          1174.23,
+          1098.43,
+          1133.33
+        ],
+        "nir_mean": 1133.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1569143,
+          39.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:27.600000+00:00",
+        "nir_values": [
+          1133.81,
+          1230.79,
+          1208.26,
+          1142.23,
+          1126.27,
+          1137.08,
+          1153.81,
+          1101.25
+        ],
+        "nir_mean": 1154.19,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1569143,
+          39.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:27.800000+00:00",
+        "nir_values": [
+          1120.62,
+          1107.18,
+          1110.94,
+          1156.85,
+          1185.85,
+          1218.64,
+          1157.74,
+          1155.1
+        ],
+        "nir_mean": 1151.62,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1569143,
+          38.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:28+00:00",
+        "nir_values": [
+          1139.38,
+          1117.52,
+          1228.16,
+          1124.68,
+          1076.65,
+          1119.45,
+          1177.52,
+          1143.89
+        ],
+        "nir_mean": 1140.91,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1569143,
+          38.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:28.200000+00:00",
+        "nir_values": [
+          1189.69,
+          1142.33,
+          1219.73,
+          1132.51,
+          1121.24,
+          1106.24,
+          1132.44,
+          1080.8
+        ],
+        "nir_mean": 1140.62,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1569143,
+          38.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:28.400000+00:00",
+        "nir_values": [
+          1162.99,
+          1161.84,
+          1197.82,
+          1203.07,
+          1155.79,
+          1157.38,
+          1142.08,
+          1182.35
+        ],
+        "nir_mean": 1170.41,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1569143,
+          39.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:28.600000+00:00",
+        "nir_values": [
+          1144.6,
+          1141.97,
+          1104.51,
+          1182.56,
+          1111.27,
+          1238.66,
+          1151.6,
+          1130.81
+        ],
+        "nir_mean": 1150.75,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1569143,
+          38.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:28.800000+00:00",
+        "nir_values": [
+          1234.09,
+          1085.6,
+          1148.9,
+          1153.47,
+          1126.22,
+          1091.37,
+          1147.29,
+          1189.41
+        ],
+        "nir_mean": 1147.04,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1569143,
+          39.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:29+00:00",
+        "nir_values": [
+          1158.51,
+          1122.75,
+          1084.17,
+          1106.54,
+          1112.38,
+          1199.14,
+          1128.95,
+          1121.99
+        ],
+        "nir_mean": 1129.3,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1569143,
+          39.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:29.200000+00:00",
+        "nir_values": [
+          1119.56,
+          1106.75,
+          1063.56,
+          1128.44,
+          1120.16,
+          1081.4,
+          1111.26,
+          1146.56
+        ],
+        "nir_mean": 1109.71,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1569143,
+          39.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:29.400000+00:00",
+        "nir_values": [
+          1093.87,
+          1090.13,
+          1054.39,
+          1030.06,
+          1086.6,
+          1103.8,
+          1109.01,
+          1104.39
+        ],
+        "nir_mean": 1084.03,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1569143,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:29.600000+00:00",
+        "nir_values": [
+          1053.63,
+          995.39,
+          1064.33,
+          1023.49,
+          1082.42,
+          1065.63,
+          1146.96,
+          1090.88
+        ],
+        "nir_mean": 1065.34,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1569143,
+          39.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:29.800000+00:00",
+        "nir_values": [
+          1062.69,
+          1021.05,
+          1081.79,
+          1090.76,
+          1087.43,
+          1114.63,
+          1014.93,
+          1048.54
+        ],
+        "nir_mean": 1065.23,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1573429,
+          39.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:30+00:00",
+        "nir_values": [
+          981.44,
+          966.89,
+          975.55,
+          1060.14,
+          981.96,
+          985.2,
+          1002.58,
+          958.05
+        ],
+        "nir_mean": 988.98,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1573429,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:30.200000+00:00",
+        "nir_values": [
+          1011.76,
+          1069.82,
+          1023.52,
+          1056.59,
+          1024.74,
+          1039.29,
+          987.36,
+          995.54
+        ],
+        "nir_mean": 1026.08,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1573429,
+          38.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:30.400000+00:00",
+        "nir_values": [
+          979.96,
+          1048.1,
+          1061.21,
+          1039.0,
+          1001.03,
+          1075.2,
+          1040.59,
+          1032.2
+        ],
+        "nir_mean": 1034.66,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1573429,
+          38.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:30.600000+00:00",
+        "nir_values": [
+          1059.53,
+          992.88,
+          1048.65,
+          990.35,
+          1072.72,
+          1036.64,
+          1095.84,
+          1043.67
+        ],
+        "nir_mean": 1042.54,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1573429,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:30.800000+00:00",
+        "nir_values": [
+          1068.0,
+          1074.48,
+          1028.41,
+          995.67,
+          1077.57,
+          1088.98,
+          1114.68,
+          1032.67
+        ],
+        "nir_mean": 1060.06,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1573429,
+          38.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:31+00:00",
+        "nir_values": [
+          1076.9,
+          1130.51,
+          1114.34,
+          1076.81,
+          1049.41,
+          1083.34,
+          1070.77,
+          1083.41
+        ],
+        "nir_mean": 1085.69,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1573429,
+          38.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:31.200000+00:00",
+        "nir_values": [
+          1118.0,
+          1116.69,
+          1102.35,
+          1131.45,
+          1042.48,
+          1144.59,
+          1057.6,
+          1013.84
+        ],
+        "nir_mean": 1090.88,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1573429,
+          38.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:31.400000+00:00",
+        "nir_values": [
+          1165.47,
+          1108.54,
+          1099.81,
+          1166.26,
+          1084.43,
+          1071.01,
+          1153.63,
+          1080.86
+        ],
+        "nir_mean": 1116.25,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1573429,
+          38.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:31.600000+00:00",
+        "nir_values": [
+          1096.88,
+          1124.74,
+          1107.44,
+          1103.22,
+          1098.25,
+          1126.86,
+          1126.21,
+          1079.61
+        ],
+        "nir_mean": 1107.9,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1573429,
+          39.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:31.800000+00:00",
+        "nir_values": [
+          1074.71,
+          1098.04,
+          1215.9,
+          1147.24,
+          1129.3,
+          1135.05,
+          1078.14,
+          1067.83
+        ],
+        "nir_mean": 1118.28,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1573429,
+          38.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:32+00:00",
+        "nir_values": [
+          1047.45,
+          1078.5,
+          1067.71,
+          1095.66,
+          1113.78,
+          1120.73,
+          1092.23,
+          1149.59
+        ],
+        "nir_mean": 1095.71,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1573429,
+          38.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:32.200000+00:00",
+        "nir_values": [
+          1041.33,
+          1104.44,
+          1057.93,
+          1009.23,
+          1119.72,
+          1062.47,
+          1046.03,
+          1088.97
+        ],
+        "nir_mean": 1066.27,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1573429,
+          38.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:32.400000+00:00",
+        "nir_values": [
+          1028.79,
+          1168.65,
+          1032.05,
+          1030.86,
+          1050.46,
+          1000.4,
+          1047.43,
+          1117.81
+        ],
+        "nir_mean": 1059.56,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1573429,
+          39.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:32.600000+00:00",
+        "nir_values": [
+          1019.71,
+          1084.81,
+          1039.78,
+          1034.44,
+          1040.14,
+          1009.92,
+          1005.55,
+          1095.17
+        ],
+        "nir_mean": 1041.19,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1573429,
+          38.87
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:32.800000+00:00",
+        "nir_values": [
+          1070.93,
+          1027.89,
+          1029.2,
+          1108.51,
+          1017.56,
+          1093.42,
+          975.99,
+          1070.39
+        ],
+        "nir_mean": 1049.24,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1573429,
+          39.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:33+00:00",
+        "nir_values": [
+          1025.76,
+          954.76,
+          1077.92,
+          971.49,
+          959.06,
+          953.03,
+          1012.29,
+          1025.62
+        ],
+        "nir_mean": 997.49,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1573429,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:33.200000+00:00",
+        "nir_values": [
+          947.97,
+          983.57,
+          1018.46,
+          997.49,
+          999.27,
+          975.52,
+          1045.06,
+          931.76
+        ],
+        "nir_mean": 987.39,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1573429,
+          39.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:33.400000+00:00",
+        "nir_values": [
+          1023.44,
+          1021.66,
+          994.5,
+          980.51,
+          973.9,
+          993.22,
+          1002.71,
+          974.98
+        ],
+        "nir_mean": 995.62,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1573429,
+          39.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:33.600000+00:00",
+        "nir_values": [
+          991.79,
+          920.15,
+          1043.24,
+          962.37,
+          1030.32,
+          1012.57,
+          934.35,
+          1058.28
+        ],
+        "nir_mean": 994.13,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1573429,
+          39.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:33.800000+00:00",
+        "nir_values": [
+          974.52,
+          1020.72,
+          938.67,
+          1006.17,
+          946.17,
+          992.81,
+          890.25,
+          939.79
+        ],
+        "nir_mean": 963.64,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1573429,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:34+00:00",
+        "nir_values": [
+          1003.05,
+          934.19,
+          974.77,
+          1003.56,
+          948.47,
+          972.31,
+          970.9,
+          1023.26
+        ],
+        "nir_mean": 978.81,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1573429,
+          39.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:34.200000+00:00",
+        "nir_values": [
+          957.56,
+          1010.88,
+          1040.19,
+          969.27,
+          1040.54,
+          960.94,
+          968.91,
+          999.91
+        ],
+        "nir_mean": 993.53,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1573429,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:34.400000+00:00",
+        "nir_values": [
+          1003.87,
+          1000.44,
+          1077.46,
+          1064.4,
+          1008.83,
+          1010.89,
+          1071.13,
+          939.97
+        ],
+        "nir_mean": 1022.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1573429,
+          39.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:34.600000+00:00",
+        "nir_values": [
+          1034.01,
+          996.07,
+          996.19,
+          1061.08,
+          1051.5,
+          1042.8,
+          1000.8,
+          1001.29
+        ],
+        "nir_mean": 1022.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1573429,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:34.800000+00:00",
+        "nir_values": [
+          1158.04,
+          1015.77,
+          1076.77,
+          1037.38,
+          1010.96,
+          1031.2,
+          1046.95,
+          1048.71
+        ],
+        "nir_mean": 1053.22,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1573429,
+          39.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:35+00:00",
+        "nir_values": [
+          1062.61,
+          1028.24,
+          1043.07,
+          1067.71,
+          1060.63,
+          1139.28,
+          1097.13,
+          972.83
+        ],
+        "nir_mean": 1058.94,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1573429,
+          39.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:35.200000+00:00",
+        "nir_values": [
+          1089.69,
+          1124.7,
+          1079.75,
+          1108.45,
+          1049.64,
+          1129.81,
+          1073.0,
+          1047.37
+        ],
+        "nir_mean": 1087.8,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1573429,
+          40.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:35.400000+00:00",
+        "nir_values": [
+          1101.62,
+          1070.68,
+          1131.02,
+          1108.75,
+          1151.05,
+          1233.7,
+          1109.71,
+          1140.66
+        ],
+        "nir_mean": 1130.9,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1573429,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:35.600000+00:00",
+        "nir_values": [
+          1072.42,
+          1074.66,
+          1097.02,
+          1140.14,
+          1094.84,
+          1155.22,
+          1118.06,
+          1074.68
+        ],
+        "nir_mean": 1103.38,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1573429,
+          39.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:35.800000+00:00",
+        "nir_values": [
+          1019.01,
+          1103.8,
+          1121.81,
+          1115.03,
+          1138.62,
+          1173.09,
+          1074.17,
+          1164.14
+        ],
+        "nir_mean": 1113.71,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1577714,
+          40.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:36+00:00",
+        "nir_values": [
+          1111.55,
+          1053.96,
+          1061.12,
+          1106.19,
+          1006.93,
+          1093.82,
+          1062.0,
+          1169.93
+        ],
+        "nir_mean": 1083.19,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1577714,
+          40.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:36.200000+00:00",
+        "nir_values": [
+          1093.39,
+          1101.27,
+          1065.34,
+          1057.04,
+          1112.06,
+          1086.3,
+          1047.68,
+          1090.38
+        ],
+        "nir_mean": 1081.68,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1577714,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:36.400000+00:00",
+        "nir_values": [
+          1038.25,
+          991.31,
+          1034.58,
+          1014.4,
+          1121.97,
+          1088.73,
+          1042.4,
+          1073.25
+        ],
+        "nir_mean": 1050.61,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1577714,
+          40.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:36.600000+00:00",
+        "nir_values": [
+          1077.85,
+          1051.97,
+          1077.13,
+          1078.94,
+          1077.77,
+          1102.92,
+          1030.23,
+          1060.28
+        ],
+        "nir_mean": 1069.64,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1577714,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:36.800000+00:00",
+        "nir_values": [
+          1059.99,
+          1002.93,
+          1100.96,
+          1024.66,
+          1039.77,
+          1086.0,
+          1045.79,
+          1061.93
+        ],
+        "nir_mean": 1052.75,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1577714,
+          39.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:37+00:00",
+        "nir_values": [
+          1026.49,
+          999.74,
+          1038.21,
+          1018.61,
+          1013.61,
+          996.51,
+          1054.65,
+          1062.67
+        ],
+        "nir_mean": 1026.31,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1577714,
+          39.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:37.200000+00:00",
+        "nir_values": [
+          991.18,
+          1033.69,
+          1035.76,
+          1048.29,
+          931.68,
+          1046.85,
+          1010.75,
+          956.77
+        ],
+        "nir_mean": 1006.87,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1577714,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:37.400000+00:00",
+        "nir_values": [
+          1028.32,
+          978.68,
+          973.05,
+          985.49,
+          959.16,
+          991.26,
+          1083.55,
+          1000.69
+        ],
+        "nir_mean": 1000.03,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1577714,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:37.600000+00:00",
+        "nir_values": [
+          985.94,
+          1000.86,
+          994.38,
+          956.62,
+          1022.29,
+          963.1,
+          948.62,
+          994.2
+        ],
+        "nir_mean": 983.25,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1577714,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:37.800000+00:00",
+        "nir_values": [
+          961.83,
+          912.91,
+          991.26,
+          994.31,
+          979.61,
+          970.99,
+          953.35,
+          948.16
+        ],
+        "nir_mean": 964.05,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1577714,
+          39.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:38+00:00",
+        "nir_values": [
+          974.42,
+          956.24,
+          947.13,
+          987.87,
+          910.66,
+          936.26,
+          950.12,
+          985.92
+        ],
+        "nir_mean": 956.08,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1577714,
+          39.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:38.200000+00:00",
+        "nir_values": [
+          922.77,
+          936.75,
+          985.23,
+          955.73,
+          920.13,
+          978.44,
+          958.7,
+          967.64
+        ],
+        "nir_mean": 953.17,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1577714,
+          39.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:38.400000+00:00",
+        "nir_values": [
+          938.19,
+          1008.36,
+          996.87,
+          951.94,
+          936.42,
+          994.59,
+          1006.44,
+          927.59
+        ],
+        "nir_mean": 970.05,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1577714,
+          39.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:38.600000+00:00",
+        "nir_values": [
+          980.24,
+          937.57,
+          994.96,
+          993.6,
+          1003.86,
+          985.29,
+          955.17,
+          1022.27
+        ],
+        "nir_mean": 984.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1577714,
+          39.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:38.800000+00:00",
+        "nir_values": [
+          955.69,
+          961.05,
+          1033.58,
+          971.01,
+          966.84,
+          1026.93,
+          984.65,
+          985.25
+        ],
+        "nir_mean": 985.62,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1577714,
+          39.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:39+00:00",
+        "nir_values": [
+          1004.3,
+          1002.94,
+          1018.39,
+          1019.33,
+          1012.22,
+          996.43,
+          993.08,
+          1089.05
+        ],
+        "nir_mean": 1016.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1577714,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:39.200000+00:00",
+        "nir_values": [
+          988.67,
+          1005.98,
+          1035.15,
+          1073.47,
+          1098.2,
+          1046.31,
+          998.27,
+          984.42
+        ],
+        "nir_mean": 1028.81,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1577714,
+          39.72
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:39.400000+00:00",
+        "nir_values": [
+          993.43,
+          1009.43,
+          1035.96,
+          1093.09,
+          1003.25,
+          987.36,
+          1069.9,
+          1038.38
+        ],
+        "nir_mean": 1028.85,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1577714,
+          39.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:39.600000+00:00",
+        "nir_values": [
+          1031.27,
+          1001.8,
+          1091.07,
+          1058.92,
+          1021.05,
+          977.15,
+          1062.4,
+          1086.8
+        ],
+        "nir_mean": 1041.31,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1577714,
+          39.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:39.800000+00:00",
+        "nir_values": [
+          1062.06,
+          1120.64,
+          1090.91,
+          1036.92,
+          1053.11,
+          1102.46,
+          1055.4,
+          1081.1
+        ],
+        "nir_mean": 1075.33,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1577714,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:40+00:00",
+        "nir_values": [
+          1054.92,
+          1140.3,
+          1069.51,
+          1204.33,
+          1086.23,
+          1083.1,
+          1103.11,
+          1138.78
+        ],
+        "nir_mean": 1110.04,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1577714,
+          38.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:40.200000+00:00",
+        "nir_values": [
+          1091.85,
+          1153.17,
+          1090.29,
+          1137.09,
+          1052.84,
+          1152.38,
+          1021.24,
+          1119.15
+        ],
+        "nir_mean": 1102.25,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1577714,
+          38.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:40.400000+00:00",
+        "nir_values": [
+          1101.22,
+          1104.16,
+          1031.32,
+          1090.33,
+          1085.17,
+          1076.65,
+          1118.22,
+          1099.51
+        ],
+        "nir_mean": 1088.32,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1577714,
+          38.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:40.600000+00:00",
+        "nir_values": [
+          1069.45,
+          1107.99,
+          1111.91,
+          1124.09,
+          1109.08,
+          974.27,
+          1086.57,
+          1009.66
+        ],
+        "nir_mean": 1074.13,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1577714,
+          38.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:40.800000+00:00",
+        "nir_values": [
+          1039.26,
+          1027.44,
+          1004.59,
+          1089.66,
+          1017.31,
+          1090.94,
+          1056.98,
+          1061.2
+        ],
+        "nir_mean": 1048.42,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1577714,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:41+00:00",
+        "nir_values": [
+          1051.93,
+          1074.4,
+          1069.18,
+          1081.33,
+          987.05,
+          1053.97,
+          1042.3,
+          1075.34
+        ],
+        "nir_mean": 1054.44,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1577714,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:41.200000+00:00",
+        "nir_values": [
+          1057.04,
+          1010.39,
+          1052.58,
+          1076.25,
+          1008.51,
+          1012.0,
+          1039.04,
+          1004.36
+        ],
+        "nir_mean": 1032.52,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1577714,
+          38.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:41.400000+00:00",
+        "nir_values": [
+          1041.54,
+          1022.36,
+          1017.26,
+          1035.09,
+          1005.27,
+          1013.07,
+          947.07,
+          976.08
+        ],
+        "nir_mean": 1007.22,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1577714,
+          38.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:41.600000+00:00",
+        "nir_values": [
+          981.55,
+          996.1,
+          960.58,
+          938.4,
+          1046.2,
+          955.25,
+          970.81,
+          977.02
+        ],
+        "nir_mean": 978.24,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1577714,
+          38.26
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:41.800000+00:00",
+        "nir_values": [
+          968.37,
+          962.46,
+          983.34,
+          990.5,
+          1014.32,
+          961.16,
+          953.7,
+          1021.4
+        ],
+        "nir_mean": 981.91,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1582,
+          38.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:42+00:00",
+        "nir_values": [
+          956.99,
+          1037.68,
+          964.83,
+          978.97,
+          1027.81,
+          993.75,
+          1002.4,
+          1039.6
+        ],
+        "nir_mean": 1000.25,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1582,
+          38.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:42.200000+00:00",
+        "nir_values": [
+          990.18,
+          1062.27,
+          964.4,
+          1073.26,
+          1017.4,
+          1037.53,
+          1062.64,
+          1017.17
+        ],
+        "nir_mean": 1028.11,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1582,
+          38.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:42.400000+00:00",
+        "nir_values": [
+          959.03,
+          979.89,
+          1044.19,
+          1045.69,
+          997.08,
+          1025.16,
+          959.63,
+          1033.72
+        ],
+        "nir_mean": 1005.55,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1582,
+          38.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:42.600000+00:00",
+        "nir_values": [
+          1068.06,
+          1065.85,
+          1025.65,
+          1026.95,
+          1028.62,
+          1046.17,
+          1090.42,
+          1043.68
+        ],
+        "nir_mean": 1049.42,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1582,
+          38.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:42.800000+00:00",
+        "nir_values": [
+          1064.0,
+          1075.1,
+          1102.39,
+          1056.09,
+          1073.46,
+          1021.19,
+          986.32,
+          1080.39
+        ],
+        "nir_mean": 1057.37,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1582,
+          38.25
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:43+00:00",
+        "nir_values": [
+          1068.76,
+          1094.13,
+          1027.55,
+          1051.85,
+          1087.88,
+          1031.08,
+          1055.23,
+          1105.13
+        ],
+        "nir_mean": 1065.2,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1582,
+          38.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:43.200000+00:00",
+        "nir_values": [
+          1129.63,
+          1094.84,
+          1096.36,
+          1116.46,
+          1050.46,
+          1114.96,
+          1065.61,
+          1080.75
+        ],
+        "nir_mean": 1093.63,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1582,
+          38.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:43.400000+00:00",
+        "nir_values": [
+          1020.86,
+          1138.85,
+          1165.63,
+          1070.41,
+          1124.77,
+          1018.02,
+          1105.71,
+          1064.88
+        ],
+        "nir_mean": 1088.64,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1582,
+          38.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:43.600000+00:00",
+        "nir_values": [
+          1181.4,
+          1069.69,
+          1149.55,
+          1114.63,
+          1048.83,
+          1165.05,
+          1137.87,
+          1117.12
+        ],
+        "nir_mean": 1123.02,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1582,
+          38.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:43.800000+00:00",
+        "nir_values": [
+          1070.46,
+          1153.41,
+          1084.73,
+          1088.56,
+          1084.8,
+          1107.25,
+          1115.63,
+          1197.18
+        ],
+        "nir_mean": 1112.75,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1582,
+          38.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:44+00:00",
+        "nir_values": [
+          1095.65,
+          1035.52,
+          1131.87,
+          1063.11,
+          1158.11,
+          1097.04,
+          1100.0,
+          1020.33
+        ],
+        "nir_mean": 1087.7,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1582,
+          38.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:44.200000+00:00",
+        "nir_values": [
+          1097.93,
+          1094.4,
+          1116.79,
+          1139.57,
+          1078.88,
+          1071.38,
+          1110.65,
+          1179.73
+        ],
+        "nir_mean": 1111.17,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1582,
+          39.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:44.400000+00:00",
+        "nir_values": [
+          1084.12,
+          1147.14,
+          1119.76,
+          1107.05,
+          1040.06,
+          1063.31,
+          1075.18,
+          1101.46
+        ],
+        "nir_mean": 1092.26,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1582,
+          39.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:44.600000+00:00",
+        "nir_values": [
+          1052.27,
+          1054.29,
+          1040.17,
+          1110.3,
+          1090.84,
+          1069.45,
+          1029.18,
+          1033.58
+        ],
+        "nir_mean": 1060.01,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1582,
+          39.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:44.800000+00:00",
+        "nir_values": [
+          1066.24,
+          1019.33,
+          983.75,
+          1013.65,
+          1021.08,
+          1042.21,
+          1071.65,
+          1040.36
+        ],
+        "nir_mean": 1032.28,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1582,
+          39.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:45+00:00",
+        "nir_values": [
+          961.69,
+          1055.26,
+          1023.37,
+          1028.42,
+          1022.08,
+          1028.79,
+          1004.08,
+          1014.55
+        ],
+        "nir_mean": 1017.28,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1582,
+          38.85
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:45.200000+00:00",
+        "nir_values": [
+          1020.62,
+          1056.92,
+          1021.4,
+          920.0,
+          970.18,
+          1043.11,
+          1050.09,
+          965.42
+        ],
+        "nir_mean": 1005.97,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1582,
+          39.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:45.400000+00:00",
+        "nir_values": [
+          1042.74,
+          965.53,
+          1014.77,
+          928.63,
+          956.09,
+          1016.16,
+          996.89,
+          986.97
+        ],
+        "nir_mean": 988.47,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1582,
+          38.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:45.600000+00:00",
+        "nir_values": [
+          973.51,
+          961.76,
+          1035.43,
+          1021.38,
+          973.03,
+          960.71,
+          1059.9,
+          975.66
+        ],
+        "nir_mean": 995.17,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1582,
+          38.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:45.800000+00:00",
+        "nir_values": [
+          1027.17,
+          915.22,
+          979.88,
+          1044.25,
+          988.97,
+          1005.69,
+          924.74,
+          1008.34
+        ],
+        "nir_mean": 986.78,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1582,
+          38.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:46+00:00",
+        "nir_values": [
+          1014.53,
+          1073.85,
+          1025.77,
+          1013.45,
+          973.6,
+          897.79,
+          973.72,
+          998.14
+        ],
+        "nir_mean": 996.36,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1582,
+          38.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:46.200000+00:00",
+        "nir_values": [
+          1101.24,
+          990.79,
+          990.0,
+          990.58,
+          990.48,
+          1009.54,
+          998.43,
+          1039.16
+        ],
+        "nir_mean": 1013.78,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1582,
+          38.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:46.400000+00:00",
+        "nir_values": [
+          972.14,
+          996.51,
+          967.47,
+          970.15,
+          1048.87,
+          985.97,
+          977.18,
+          1090.63
+        ],
+        "nir_mean": 1001.12,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1582,
+          38.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:46.600000+00:00",
+        "nir_values": [
+          989.77,
+          1058.33,
+          1049.86,
+          1066.95,
+          1084.27,
+          1042.83,
+          1032.44,
+          1011.99
+        ],
+        "nir_mean": 1042.06,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1582,
+          38.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:46.800000+00:00",
+        "nir_values": [
+          1132.44,
+          1065.1,
+          1014.63,
+          977.45,
+          1051.24,
+          979.88,
+          987.07,
+          1013.74
+        ],
+        "nir_mean": 1027.69,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1582,
+          38.57
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:47+00:00",
+        "nir_values": [
+          1105.46,
+          1041.16,
+          1023.7,
+          1079.42,
+          1034.63,
+          1062.99,
+          1066.97,
+          1107.52
+        ],
+        "nir_mean": 1065.23,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1582,
+          38.31
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:47.200000+00:00",
+        "nir_values": [
+          1037.02,
+          1144.45,
+          1060.16,
+          1077.72,
+          1058.1,
+          1077.52,
+          1089.34,
+          1140.51
+        ],
+        "nir_mean": 1085.6,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1582,
+          38.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:47.400000+00:00",
+        "nir_values": [
+          1098.17,
+          1051.25,
+          1065.51,
+          1075.52,
+          1107.25,
+          1056.15,
+          1076.09,
+          1142.65
+        ],
+        "nir_mean": 1084.07,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1582,
+          38.71
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:47.600000+00:00",
+        "nir_values": [
+          1088.41,
+          1103.38,
+          1124.67,
+          1101.17,
+          1107.68,
+          1155.07,
+          1007.04,
+          1095.22
+        ],
+        "nir_mean": 1097.83,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1582,
+          39.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T14:00:47.800000+00:00",
+        "nir_values": [
+          995.38,
+          1180.35,
+          1045.91,
+          1137.45,
+          1178.85,
+          1140.67,
+          1135.41,
+          1076.59
+        ],
+        "nir_mean": 1111.33,
+        "label": "Referenzflug – mittlerer NIR"
+      }
+    }
+  ]
+}

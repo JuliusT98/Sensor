@@ -1,3 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-export default nextConfig
+const nextConfig = {
+  transpilePackages: ['maplibre-gl', 'react-map-gl'],
+};
+
+export default nextConfig;

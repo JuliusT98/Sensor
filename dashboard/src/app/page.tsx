@@ -1,153 +1,259 @@
-'use client'
+'use client';
 
-import { useEffect, useState } from 'react'
-import dynamic from 'next/dynamic'
-import { AnimatePresence, motion } from 'framer-motion'
-import { Box, Flame, AlertTriangle, Terminal } from 'lucide-react'
-import { FlightData } from '@/lib/types'
-import StatsPanel from '@/components/StatsPanel'
-import Heatmap from '@/components/Heatmap'
+import { useState, useEffect, useRef, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import { Map, Box, Activity, RefreshCw, Upload, FileJson, X } from 'lucide-react';
+import { format } from 'date-fns';
+import { de } from 'date-fns/locale';
+import type { FlightDataResponse, NIRFeatureCollection } from '@/lib/types';
+import { computeStats } from '@/lib/stats';
+import StatsPanel from '@/components/StatsPanel';
 
-const FlightMap3D = dynamic(() => import('@/components/FlightMap3D'), {
+const MapView = dynamic(() => import('@/components/MapView'), {
   ssr: false,
-  loading: () => (
-    <div className="w-full h-full flex items-center justify-center text-[var(--muted)] text-sm gap-2">
-      <motion.div
-        animate={{ rotate: 360 }}
-        transition={{ repeat: Infinity, duration: 1.2, ease: 'linear' }}
-        className="w-4 h-4 border-2 border-[var(--accent)] border-t-transparent rounded-full"
-      />
-      3D Engine lädt…
+  loading: () => <LoadingPlaceholder label="Karte wird geladen…" />,
+});
+
+const View3D = dynamic(() => import('@/components/View3D'), {
+  ssr: false,
+  loading: () => <LoadingPlaceholder label="3D-Ansicht wird geladen…" />,
+});
+
+function LoadingPlaceholder({ label }: { label: string }) {
+  return (
+    <div className="flex items-center justify-center w-full h-full bg-surface">
+      <div className="flex flex-col items-center gap-3 text-slate-400">
+        <RefreshCw className="animate-spin" size={28} />
+        <span className="text-sm font-mono">{label}</span>
+      </div>
     </div>
-  ),
-})
+  );
+}
 
-type View = '3d' | 'heatmap'
+type Tab = 'map' | '3d';
 
-const VIEWS: { key: View; label: string; icon: React.ReactNode }[] = [
-  { key: '3d',      label: '3D Flugpfad', icon: <Box size={13} /> },
-  { key: 'heatmap', label: 'Heatmap',     icon: <Flame size={13} /> },
-]
+/** Parse a GeoJSON file and compute stats — runs entirely in the browser. */
+function parseGeoJSON(text: string): FlightDataResponse {
+  const geojson = JSON.parse(text) as NIRFeatureCollection;
+  if (geojson.type !== 'FeatureCollection' || !Array.isArray(geojson.features)) {
+    throw new Error('Ungültiges GeoJSON-Format (FeatureCollection erwartet).');
+  }
+  return { geojson, stats: computeStats(geojson) };
+}
 
-export default function Dashboard() {
-  const [data,  setData]  = useState<FlightData | null>(null)
-  const [error, setError] = useState<string | null>(null)
-  const [view,  setView]  = useState<View>('3d')
+export default function Home() {
+  const [data,        setData]        = useState<FlightDataResponse | null>(null);
+  const [activeTab,   setActiveTab]   = useState<Tab>('map');
+  const [lastUpdate,  setLastUpdate]  = useState<Date | null>(null);
+  const [loading,     setLoading]     = useState(true);
+  const [error,       setError]       = useState<string | null>(null);
+  const [uploadedFile, setUploadedFile] = useState<string | null>(null); // filename
+  const [dragging,    setDragging]    = useState(false);
 
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // ── Initial load from API (disk) ────────────────────────────────────────────
   useEffect(() => {
     fetch('/api/flight-data')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then((json: FlightDataResponse) => { setData(json); setLastUpdate(new Date()); })
+      .catch(e => setError(e instanceof Error ? e.message : 'Unbekannter Fehler'))
+      .finally(() => setLoading(false));
+  }, []);
+
+  // ── File handling ────────────────────────────────────────────────────────────
+  const handleFile = useCallback((file: File) => {
+    if (!file.name.match(/\.(geojson|json)$/i)) {
+      setError('Nur .geojson oder .json Dateien werden unterstützt.');
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    const reader = new FileReader();
+    reader.onload = e => {
+      try {
+        const parsed = parseGeoJSON(e.target!.result as string);
+        setData(parsed);
+        setUploadedFile(file.name);
+        setLastUpdate(new Date());
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Fehler beim Parsen.');
+      } finally {
+        setLoading(false);
+      }
+    };
+    reader.onerror = () => { setError('Datei konnte nicht gelesen werden.'); setLoading(false); };
+    reader.readAsText(file, 'utf-8');
+  }, []);
+
+  const onInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) handleFile(file);
+    e.target.value = ''; // reset so the same file can be re-selected
+  }, [handleFile]);
+
+  // ── Drag-and-drop (whole window) ─────────────────────────────────────────────
+  useEffect(() => {
+    const onDragOver = (e: DragEvent) => { e.preventDefault(); setDragging(true); };
+    const onDragLeave = (e: DragEvent) => { if (!e.relatedTarget) setDragging(false); };
+    const onDrop = (e: DragEvent) => {
+      e.preventDefault();
+      setDragging(false);
+      const file = e.dataTransfer?.files?.[0];
+      if (file) handleFile(file);
+    };
+    window.addEventListener('dragover', onDragOver);
+    window.addEventListener('dragleave', onDragLeave);
+    window.addEventListener('drop', onDrop);
+    return () => {
+      window.removeEventListener('dragover', onDragOver);
+      window.removeEventListener('dragleave', onDragLeave);
+      window.removeEventListener('drop', onDrop);
+    };
+  }, [handleFile]);
+
+  const reloadFromDisk = () => {
+    setLoading(true);
+    setError(null);
+    setUploadedFile(null);
+    fetch('/api/flight-data')
       .then(r => r.json())
-      .then(d => { if (d.error) setError(d.error); else setData(d) })
-      .catch(() => setError('Verbindungsfehler zur API'))
-  }, [])
+      .then((json: FlightDataResponse) => { setData(json); setLastUpdate(new Date()); })
+      .catch(e => setError(e instanceof Error ? e.message : 'Fehler'))
+      .finally(() => setLoading(false));
+  };
 
-  if (error) return (
-    <div className="h-screen flex items-center justify-center flex-col gap-4">
-      <div className="w-12 h-12 rounded-2xl bg-red-500/10 border border-red-500/20 flex items-center justify-center">
-        <AlertTriangle size={22} className="text-red-400" />
-      </div>
-      <p className="text-slate-300 text-sm">{error}</p>
-      <div className="flex items-center gap-2 bg-[var(--surface)] border border-[var(--border)] rounded-lg px-3 py-2">
-        <Terminal size={12} className="text-[var(--muted)]" />
-        <code className="text-xs text-[var(--muted)] font-mono">python src/mission.py --simulate</code>
-      </div>
-    </div>
-  )
-
-  if (!data) return (
-    <div className="h-screen flex items-center justify-center gap-1.5">
-      {[0, 150, 300].map(delay => (
-        <motion.div
-          key={delay}
-          className="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"
-          animate={{ y: [-4, 4, -4] }}
-          transition={{ repeat: Infinity, duration: 0.9, delay: delay / 1000, ease: 'easeInOut' }}
-        />
-      ))}
-    </div>
-  )
+  const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
+    { id: 'map', label: 'Karte',      icon: <Map  size={14} /> },
+    { id: '3d',  label: '3D Ansicht', icon: <Box  size={14} /> },
+  ];
 
   return (
-    <div className="h-screen flex flex-col" style={{ background: 'var(--bg)' }}>
+    <div className="flex flex-col h-screen bg-surface overflow-hidden">
 
-      {/* ── Header ────────────────────────────────────────────────────────────── */}
-      <header className="flex items-center justify-between px-5 py-3 border-b border-[var(--border)] shrink-0 backdrop-blur-sm">
+      {/* ── Header ── */}
+      <header className="flex items-center justify-between px-5 py-3 border-b border-border bg-panel shrink-0">
         <div className="flex items-center gap-3">
-          <div className="relative flex items-center justify-center w-6 h-6">
-            <div className="absolute w-full h-full rounded-full bg-[var(--accent)] opacity-20 animate-ping" />
-            <div className="w-2 h-2 rounded-full bg-[var(--accent)] shadow-[0_0_8px_var(--accent)]" />
-          </div>
-          <span className="text-white font-semibold text-sm tracking-wide">
-            Spraylogic <span className="text-[var(--muted)] font-normal">·</span> Sensor Dashboard
-          </span>
+          <Activity size={18} className="text-accent" />
+          <span className="font-semibold text-base tracking-wide text-slate-100">NIR Dashboard</span>
+          <span className="text-xs text-slate-500 font-mono">Spraylogic UAV</span>
         </div>
 
-        <div className="flex items-center gap-4 text-xs text-[var(--muted)]">
-          <span>
-            <span className="text-white font-mono font-medium">{data.meta.point_count.toLocaleString()}</span>
-            {' '}Messpunkte
-          </span>
-          <div className="w-px h-3 bg-[var(--border-2)]" />
-          <span className="text-slate-300">{data.meta.label}</span>
-          <div className="w-px h-3 bg-[var(--border-2)]" />
-          <span>{new Date(data.meta.generated_at).toLocaleString('de-AT')}</span>
+        <div className="flex items-center gap-3">
+          {error && (
+            <span className="flex items-center gap-1 text-xs text-red-400 font-mono">
+              <X size={12} /> {error}
+            </span>
+          )}
+
+          {/* Loaded file indicator */}
+          {uploadedFile && (
+            <span className="flex items-center gap-1.5 text-xs text-accent font-mono bg-accent/10 border border-accent/20 px-2 py-1 rounded">
+              <FileJson size={12} />
+              {uploadedFile}
+            </span>
+          )}
+
+          {lastUpdate && (
+            <span className="text-xs text-slate-500 font-mono">
+              {format(lastUpdate, 'HH:mm:ss', { locale: de })}
+            </span>
+          )}
+
+          {/* Upload button */}
+          <button
+            onClick={() => fileInputRef.current?.click()}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-medium text-slate-200 bg-accent/15 hover:bg-accent/25 border border-accent/30 transition-colors"
+            title="GeoJSON-Datei öffnen"
+          >
+            <Upload size={12} />
+            GeoJSON öffnen
+          </button>
+
+          {/* Reload from disk */}
+          <button
+            onClick={reloadFromDisk}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded text-xs text-slate-400 hover:text-slate-200 hover:bg-white/5 border border-border transition-colors"
+            title="Vom Datenträger neu laden"
+          >
+            <RefreshCw size={12} />
+            Neu laden
+          </button>
+
+          {/* Hidden file input */}
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".geojson,.json"
+            className="hidden"
+            onChange={onInputChange}
+          />
         </div>
       </header>
 
-      {/* ── Body ──────────────────────────────────────────────────────────────── */}
-      <div className="flex flex-1 overflow-hidden">
+      {/* ── Main ── */}
+      <div className="flex flex-1 min-h-0 overflow-hidden">
 
-        {/* Main view */}
-        <div className="flex flex-col flex-1 min-w-0 p-4 gap-3">
+        {/* Map / 3D area */}
+        <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
 
-          {/* View toggle */}
-          <div className="flex gap-1.5 shrink-0">
-            {VIEWS.map(({ key, label, icon }) => (
+          {/* Tab bar */}
+          <div className="flex items-center gap-1 px-4 py-2 border-b border-border bg-panel shrink-0">
+            {tabs.map(tab => (
               <button
-                key={key}
-                onClick={() => setView(key)}
-                className={`relative flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                  view === key
-                    ? 'text-black'
-                    : 'text-[var(--muted)] hover:text-slate-200 border border-[var(--border)] hover:border-[var(--border-2)]'
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-medium transition-colors ${
+                  activeTab === tab.id
+                    ? 'bg-accent/10 text-accent border border-accent/30'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
                 }`}
               >
-                {view === key && (
-                  <motion.div
-                    layoutId="active-tab"
-                    className="absolute inset-0 rounded-lg bg-[var(--accent)]"
-                    style={{ boxShadow: '0 0 16px rgba(0,212,255,0.4)' }}
-                    transition={{ type: 'spring', bounce: 0.2, duration: 0.4 }}
-                  />
-                )}
-                <span className="relative flex items-center gap-1.5">{icon}{label}</span>
+                {tab.icon}
+                {tab.label}
               </button>
             ))}
           </div>
 
-          {/* Canvas */}
-          <div className="flex-1 relative overflow-hidden rounded-xl border border-[var(--border)]">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={view}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.18 }}
-                className="absolute inset-0"
-              >
-                {view === '3d'      && <FlightMap3D data={data} />}
-                {view === 'heatmap' && <Heatmap data={data} />}
-              </motion.div>
-            </AnimatePresence>
+          {/* View */}
+          <div className="flex-1 relative min-h-0 overflow-hidden">
+            {loading ? (
+              <div className="flex items-center justify-center w-full h-full">
+                <div className="flex flex-col items-center gap-3 text-slate-400">
+                  <RefreshCw className="animate-spin" size={24} />
+                  <span className="text-sm font-mono">Daten werden geladen…</span>
+                </div>
+              </div>
+            ) : (
+              <>
+                <div className={activeTab === 'map' ? 'absolute inset-0' : 'hidden'}>
+                  <MapView data={data} />
+                </div>
+                <div className={activeTab === '3d' ? 'absolute inset-0' : 'hidden'}>
+                  <View3D data={data} />
+                </div>
+              </>
+            )}
           </div>
         </div>
 
-        {/* Stats sidebar */}
-        <aside className="w-72 shrink-0 border-l border-[var(--border)] overflow-y-auto">
+        {/* Stats panel */}
+        <div className="w-80 shrink-0 border-l border-border overflow-y-auto bg-panel">
           <StatsPanel data={data} />
-        </aside>
+        </div>
       </div>
+
+      {/* ── Drag-and-drop overlay ── */}
+      {dragging && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none">
+          <div className="absolute inset-0 bg-surface/80 backdrop-blur-sm border-2 border-dashed border-accent rounded-none" />
+          <div className="relative flex flex-col items-center gap-4 text-accent">
+            <Upload size={48} strokeWidth={1.5} />
+            <span className="text-xl font-semibold tracking-wide">GeoJSON hier ablegen</span>
+            <span className="text-sm text-slate-400 font-mono">.geojson oder .json</span>
+          </div>
+        </div>
+      )}
     </div>
-  )
+  );
 }

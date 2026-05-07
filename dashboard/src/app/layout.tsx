@@ -1,18 +1,25 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+import type { Metadata, Viewport } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Spraylogic · Sensor Dashboard',
-  description: 'NIR Multispectral Flight Visualization',
-}
+  title: 'NIR Dashboard — Spraylogic UAV',
+  description: 'Echtzeit-Visualisierung von UAV-NIR-Sensordaten',
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0f1117',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="de" className={inter.variable}>
+    <html lang="de">
       <body>{children}</body>
     </html>
-  )
+  );
 }

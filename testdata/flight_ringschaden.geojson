@@ -1,0 +1,6245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1552,
+          40.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:00+00:00",
+        "nir_values": [
+          1495.18,
+          1406.63,
+          1580.59,
+          1469.52,
+          1511.25,
+          1494.03,
+          1377.12,
+          1526.96
+        ],
+        "nir_mean": 1482.66,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1552,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:00.200000+00:00",
+        "nir_values": [
+          1520.91,
+          1484.99,
+          1461.24,
+          1507.63,
+          1434.0,
+          1481.38,
+          1536.57,
+          1503.02
+        ],
+        "nir_mean": 1491.22,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1552,
+          40.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:00.400000+00:00",
+        "nir_values": [
+          1577.37,
+          1455.12,
+          1550.44,
+          1579.05,
+          1546.82,
+          1555.72,
+          1502.19,
+          1502.24
+        ],
+        "nir_mean": 1533.62,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1552,
+          40.34
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:00.600000+00:00",
+        "nir_values": [
+          1509.22,
+          1535.4,
+          1605.89,
+          1488.26,
+          1467.25,
+          1629.92,
+          1423.37,
+          1480.72
+        ],
+        "nir_mean": 1517.5,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1552,
+          40.1
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:00.800000+00:00",
+        "nir_values": [
+          1574.95,
+          1470.85,
+          1608.72,
+          1476.82,
+          1485.0,
+          1547.39,
+          1514.85,
+          1525.45
+        ],
+        "nir_mean": 1525.5,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1552,
+          39.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:01+00:00",
+        "nir_values": [
+          1477.37,
+          1567.69,
+          1579.01,
+          1501.68,
+          1476.27,
+          1538.5,
+          1525.08,
+          1445.38
+        ],
+        "nir_mean": 1513.87,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1552,
+          39.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:01.200000+00:00",
+        "nir_values": [
+          1418.57,
+          1509.65,
+          1633.62,
+          1550.01,
+          1586.49,
+          1512.51,
+          1505.63,
+          1491.7
+        ],
+        "nir_mean": 1526.02,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1552,
+          39.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:01.400000+00:00",
+        "nir_values": [
+          1453.98,
+          1551.43,
+          1516.22,
+          1500.93,
+          1555.02,
+          1618.7,
+          1529.06,
+          1583.22
+        ],
+        "nir_mean": 1538.57,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1552,
+          40.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:01.600000+00:00",
+        "nir_values": [
+          1545.08,
+          1482.82,
+          1460.82,
+          1550.65,
+          1504.02,
+          1475.22,
+          1499.06,
+          1406.22
+        ],
+        "nir_mean": 1490.49,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1552,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:01.800000+00:00",
+        "nir_values": [
+          1623.42,
+          1528.92,
+          1540.27,
+          1525.98,
+          1409.9,
+          1424.67,
+          1436.13,
+          1600.7
+        ],
+        "nir_mean": 1511.25,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1552,
+          40.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:02+00:00",
+        "nir_values": [
+          1482.42,
+          1542.29,
+          1509.27,
+          1518.97,
+          1547.58,
+          1564.53,
+          1531.1,
+          1499.3
+        ],
+        "nir_mean": 1524.43,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1552,
+          40.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:02.200000+00:00",
+        "nir_values": [
+          1563.25,
+          1493.29,
+          1466.64,
+          1520.22,
+          1417.17,
+          1444.07,
+          1445.91,
+          1513.8
+        ],
+        "nir_mean": 1483.04,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1552,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:02.400000+00:00",
+        "nir_values": [
+          1500.79,
+          1482.41,
+          1389.74,
+          1493.2,
+          1546.83,
+          1551.01,
+          1559.08,
+          1466.36
+        ],
+        "nir_mean": 1498.68,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1552,
+          40.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:02.600000+00:00",
+        "nir_values": [
+          1504.15,
+          1495.25,
+          1519.74,
+          1540.93,
+          1445.72,
+          1515.32,
+          1561.36,
+          1460.9
+        ],
+        "nir_mean": 1505.42,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1552,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:02.800000+00:00",
+        "nir_values": [
+          1374.99,
+          1447.16,
+          1423.14,
+          1373.78,
+          1417.51,
+          1479.72,
+          1459.97,
+          1469.25
+        ],
+        "nir_mean": 1430.69,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1552,
+          40.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:03+00:00",
+        "nir_values": [
+          1498.57,
+          1412.92,
+          1384.97,
+          1430.68,
+          1464.31,
+          1451.69,
+          1450.6,
+          1331.87
+        ],
+        "nir_mean": 1428.2,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1552,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:03.200000+00:00",
+        "nir_values": [
+          1481.16,
+          1375.26,
+          1435.57,
+          1390.33,
+          1464.28,
+          1412.81,
+          1449.62,
+          1421.49
+        ],
+        "nir_mean": 1428.81,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1552,
+          40.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:03.400000+00:00",
+        "nir_values": [
+          1499.06,
+          1409.92,
+          1454.96,
+          1610.18,
+          1448.68,
+          1433.66,
+          1554.59,
+          1493.94
+        ],
+        "nir_mean": 1488.12,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1552,
+          40.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:03.600000+00:00",
+        "nir_values": [
+          1471.05,
+          1447.16,
+          1529.51,
+          1429.51,
+          1513.0,
+          1452.35,
+          1445.69,
+          1431.19
+        ],
+        "nir_mean": 1464.93,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1552,
+          40.73
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:03.800000+00:00",
+        "nir_values": [
+          1440.55,
+          1581.64,
+          1554.79,
+          1441.48,
+          1629.93,
+          1480.29,
+          1435.91,
+          1492.61
+        ],
+        "nir_mean": 1507.15,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1552,
+          40.46
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:04+00:00",
+        "nir_values": [
+          1563.99,
+          1394.27,
+          1420.31,
+          1511.47,
+          1483.91,
+          1416.54,
+          1543.11,
+          1580.6
+        ],
+        "nir_mean": 1489.28,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1552,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:04.200000+00:00",
+        "nir_values": [
+          1472.24,
+          1452.68,
+          1435.4,
+          1436.42,
+          1445.31,
+          1436.48,
+          1530.54,
+          1505.35
+        ],
+        "nir_mean": 1464.3,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1552,
+          40.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:04.400000+00:00",
+        "nir_values": [
+          1478.32,
+          1470.12,
+          1470.97,
+          1431.8,
+          1557.26,
+          1515.42,
+          1502.61,
+          1517.32
+        ],
+        "nir_mean": 1492.98,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1552,
+          40.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:04.600000+00:00",
+        "nir_values": [
+          1486.35,
+          1530.3,
+          1504.93,
+          1513.26,
+          1449.85,
+          1511.1,
+          1446.48,
+          1454.7
+        ],
+        "nir_mean": 1487.12,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1552,
+          39.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:04.800000+00:00",
+        "nir_values": [
+          1501.57,
+          1498.91,
+          1464.86,
+          1523.76,
+          1478.08,
+          1513.9,
+          1524.86,
+          1455.69
+        ],
+        "nir_mean": 1495.2,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1552,
+          39.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:05+00:00",
+        "nir_values": [
+          1482.28,
+          1484.66,
+          1454.11,
+          1486.6,
+          1384.39,
+          1435.59,
+          1522.84,
+          1450.27
+        ],
+        "nir_mean": 1462.59,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1552,
+          39.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:05.200000+00:00",
+        "nir_values": [
+          1468.43,
+          1460.69,
+          1544.32,
+          1555.05,
+          1378.66,
+          1448.52,
+          1570.46,
+          1485.64
+        ],
+        "nir_mean": 1488.97,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1552,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:05.400000+00:00",
+        "nir_values": [
+          1501.79,
+          1498.58,
+          1552.81,
+          1542.54,
+          1478.33,
+          1480.86,
+          1424.01,
+          1419.64
+        ],
+        "nir_mean": 1487.32,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1552,
+          39.64
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:05.600000+00:00",
+        "nir_values": [
+          1465.8,
+          1515.65,
+          1463.73,
+          1635.96,
+          1402.59,
+          1591.73,
+          1560.54,
+          1463.55
+        ],
+        "nir_mean": 1512.44,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1552,
+          39.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:05.800000+00:00",
+        "nir_values": [
+          1561.05,
+          1492.67,
+          1460.3,
+          1523.31,
+          1560.78,
+          1493.98,
+          1486.45,
+          1558.21
+        ],
+        "nir_mean": 1517.09,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1556286,
+          39.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:06+00:00",
+        "nir_values": [
+          1458.98,
+          1460.66,
+          1475.5,
+          1588.26,
+          1503.97,
+          1492.42,
+          1458.88,
+          1491.47
+        ],
+        "nir_mean": 1491.27,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1556286,
+          39.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:06.200000+00:00",
+        "nir_values": [
+          1507.85,
+          1461.37,
+          1496.62,
+          1530.26,
+          1543.63,
+          1496.93,
+          1453.64,
+          1462.6
+        ],
+        "nir_mean": 1494.11,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1556286,
+          39.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:06.400000+00:00",
+        "nir_values": [
+          1431.19,
+          1447.42,
+          1565.39,
+          1560.01,
+          1479.7,
+          1561.57,
+          1477.31,
+          1537.76
+        ],
+        "nir_mean": 1507.54,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1556286,
+          39.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:06.600000+00:00",
+        "nir_values": [
+          1451.55,
+          1511.04,
+          1497.8,
+          1429.85,
+          1539.0,
+          1509.09,
+          1387.51,
+          1532.21
+        ],
+        "nir_mean": 1482.26,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1556286,
+          39.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:06.800000+00:00",
+        "nir_values": [
+          1491.37,
+          1497.46,
+          1509.84,
+          1445.41,
+          1426.73,
+          1462.3,
+          1459.41,
+          1455.54
+        ],
+        "nir_mean": 1468.51,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1556286,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:07+00:00",
+        "nir_values": [
+          1460.62,
+          1534.51,
+          1520.74,
+          1472.15,
+          1471.56,
+          1594.66,
+          1591.4,
+          1540.27
+        ],
+        "nir_mean": 1523.24,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1556286,
+          40.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:07.200000+00:00",
+        "nir_values": [
+          1460.66,
+          1517.67,
+          1522.14,
+          1386.75,
+          1537.4,
+          1546.79,
+          1441.3,
+          1481.3
+        ],
+        "nir_mean": 1486.75,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1556286,
+          40.29
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:07.400000+00:00",
+        "nir_values": [
+          1539.71,
+          1557.29,
+          1507.49,
+          1481.71,
+          1512.17,
+          1596.4,
+          1520.1,
+          1425.16
+        ],
+        "nir_mean": 1517.5,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1556286,
+          39.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:07.600000+00:00",
+        "nir_values": [
+          1475.04,
+          1356.5,
+          1581.6,
+          1499.14,
+          1596.14,
+          1530.5,
+          1514.53,
+          1574.22
+        ],
+        "nir_mean": 1515.96,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1556286,
+          40.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:07.800000+00:00",
+        "nir_values": [
+          1493.06,
+          1472.22,
+          1468.69,
+          1612.89,
+          1542.13,
+          1557.91,
+          1472.98,
+          1515.68
+        ],
+        "nir_mean": 1516.94,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1556286,
+          40.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:08+00:00",
+        "nir_values": [
+          1511.29,
+          1494.03,
+          1472.7,
+          1501.15,
+          1551.01,
+          1511.4,
+          1482.16,
+          1380.55
+        ],
+        "nir_mean": 1488.04,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1556286,
+          40.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:08.200000+00:00",
+        "nir_values": [
+          1325.75,
+          1380.73,
+          1318.73,
+          1330.87,
+          1406.27,
+          1346.06,
+          1432.76,
+          1388.78
+        ],
+        "nir_mean": 1366.24,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1556286,
+          39.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:08.400000+00:00",
+        "nir_values": [
+          951.94,
+          949.64,
+          1016.45,
+          956.28,
+          960.12,
+          961.1,
+          954.67,
+          971.18
+        ],
+        "nir_mean": 965.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1556286,
+          40.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:08.600000+00:00",
+        "nir_values": [
+          550.49,
+          559.83,
+          562.8,
+          579.78,
+          559.93,
+          548.66,
+          554.41,
+          533.07
+        ],
+        "nir_mean": 556.12,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1556286,
+          39.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:08.800000+00:00",
+        "nir_values": [
+          380.02,
+          377.81,
+          395.65,
+          395.61,
+          384.87,
+          410.27,
+          371.15,
+          384.36
+        ],
+        "nir_mean": 387.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1556286,
+          39.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:09+00:00",
+        "nir_values": [
+          404.07,
+          386.87,
+          390.14,
+          385.44,
+          402.26,
+          376.89,
+          384.03,
+          389.47
+        ],
+        "nir_mean": 389.9,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1556286,
+          40.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:09.200000+00:00",
+        "nir_values": [
+          542.44,
+          529.62,
+          578.51,
+          582.11,
+          552.2,
+          572.35,
+          547.43,
+          584.41
+        ],
+        "nir_mean": 561.13,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1556286,
+          40.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:09.400000+00:00",
+        "nir_values": [
+          965.57,
+          991.77,
+          1003.72,
+          936.31,
+          991.83,
+          945.13,
+          1004.21,
+          946.31
+        ],
+        "nir_mean": 973.11,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1556286,
+          40.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:09.600000+00:00",
+        "nir_values": [
+          1293.27,
+          1328.66,
+          1346.39,
+          1376.62,
+          1394.87,
+          1370.11,
+          1460.52,
+          1388.03
+        ],
+        "nir_mean": 1369.81,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1556286,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:09.800000+00:00",
+        "nir_values": [
+          1487.4,
+          1485.76,
+          1379.89,
+          1507.66,
+          1447.02,
+          1449.73,
+          1463.99,
+          1492.42
+        ],
+        "nir_mean": 1464.23,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1556286,
+          39.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:10+00:00",
+        "nir_values": [
+          1527.17,
+          1542.44,
+          1418.23,
+          1570.85,
+          1522.85,
+          1532.48,
+          1494.32,
+          1530.36
+        ],
+        "nir_mean": 1517.34,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1556286,
+          39.78
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:10.200000+00:00",
+        "nir_values": [
+          1505.6,
+          1559.96,
+          1616.93,
+          1523.9,
+          1415.85,
+          1590.78,
+          1470.02,
+          1427.35
+        ],
+        "nir_mean": 1513.8,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1556286,
+          39.75
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:10.400000+00:00",
+        "nir_values": [
+          1524.77,
+          1491.15,
+          1478.68,
+          1462.03,
+          1461.21,
+          1424.51,
+          1518.24,
+          1530.07
+        ],
+        "nir_mean": 1486.33,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1556286,
+          39.37
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:10.600000+00:00",
+        "nir_values": [
+          1502.59,
+          1521.03,
+          1384.94,
+          1582.42,
+          1470.14,
+          1534.19,
+          1458.02,
+          1508.55
+        ],
+        "nir_mean": 1495.23,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1556286,
+          39.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:10.800000+00:00",
+        "nir_values": [
+          1493.72,
+          1469.28,
+          1504.66,
+          1578.27,
+          1570.42,
+          1472.37,
+          1370.42,
+          1560.33
+        ],
+        "nir_mean": 1502.43,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1556286,
+          39.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:11+00:00",
+        "nir_values": [
+          1584.67,
+          1534.06,
+          1486.55,
+          1508.52,
+          1348.63,
+          1452.48,
+          1451.61,
+          1494.21
+        ],
+        "nir_mean": 1482.59,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1556286,
+          38.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:11.200000+00:00",
+        "nir_values": [
+          1601.31,
+          1548.62,
+          1377.18,
+          1506.83,
+          1537.0,
+          1513.0,
+          1550.2,
+          1516.47
+        ],
+        "nir_mean": 1518.83,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1556286,
+          38.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:11.400000+00:00",
+        "nir_values": [
+          1498.17,
+          1553.68,
+          1494.13,
+          1516.0,
+          1636.24,
+          1532.8,
+          1526.87,
+          1556.53
+        ],
+        "nir_mean": 1539.3,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1556286,
+          38.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:11.600000+00:00",
+        "nir_values": [
+          1478.38,
+          1495.69,
+          1490.19,
+          1523.1,
+          1385.71,
+          1469.17,
+          1415.62,
+          1440.07
+        ],
+        "nir_mean": 1462.24,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1556286,
+          38.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:11.800000+00:00",
+        "nir_values": [
+          1565.0,
+          1507.14,
+          1431.9,
+          1505.77,
+          1447.47,
+          1551.47,
+          1482.31,
+          1385.34
+        ],
+        "nir_mean": 1484.55,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1560571,
+          38.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:12+00:00",
+        "nir_values": [
+          1406.74,
+          1530.92,
+          1504.24,
+          1525.69,
+          1491.5,
+          1520.82,
+          1513.63,
+          1403.82
+        ],
+        "nir_mean": 1487.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1560571,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:12.200000+00:00",
+        "nir_values": [
+          1514.88,
+          1515.81,
+          1500.71,
+          1522.03,
+          1437.94,
+          1529.85,
+          1500.54,
+          1518.69
+        ],
+        "nir_mean": 1505.06,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1560571,
+          38.16
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:12.400000+00:00",
+        "nir_values": [
+          1533.47,
+          1510.42,
+          1488.6,
+          1549.5,
+          1544.67,
+          1531.83,
+          1465.71,
+          1580.73
+        ],
+        "nir_mean": 1525.62,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1560571,
+          38.21
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:12.600000+00:00",
+        "nir_values": [
+          1560.77,
+          1453.53,
+          1504.19,
+          1431.47,
+          1409.59,
+          1534.37,
+          1426.88,
+          1391.74
+        ],
+        "nir_mean": 1464.07,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1560571,
+          38.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:12.800000+00:00",
+        "nir_values": [
+          1487.49,
+          1460.49,
+          1519.6,
+          1452.33,
+          1513.25,
+          1514.15,
+          1519.88,
+          1535.83
+        ],
+        "nir_mean": 1500.38,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1560571,
+          38.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:13+00:00",
+        "nir_values": [
+          1495.79,
+          1518.55,
+          1505.8,
+          1433.24,
+          1516.67,
+          1502.91,
+          1533.76,
+          1536.0
+        ],
+        "nir_mean": 1505.34,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1560571,
+          38.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:13.200000+00:00",
+        "nir_values": [
+          1568.6,
+          1477.34,
+          1506.58,
+          1555.18,
+          1469.48,
+          1535.77,
+          1569.36,
+          1505.44
+        ],
+        "nir_mean": 1523.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1560571,
+          39.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:13.400000+00:00",
+        "nir_values": [
+          1496.59,
+          1476.75,
+          1468.41,
+          1493.91,
+          1485.61,
+          1444.77,
+          1586.55,
+          1464.81
+        ],
+        "nir_mean": 1489.67,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1560571,
+          38.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:13.600000+00:00",
+        "nir_values": [
+          1452.18,
+          1606.23,
+          1445.52,
+          1513.46,
+          1416.2,
+          1532.13,
+          1559.49,
+          1474.64
+        ],
+        "nir_mean": 1499.98,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1560571,
+          39.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:13.800000+00:00",
+        "nir_values": [
+          1468.61,
+          1474.85,
+          1510.02,
+          1438.7,
+          1624.93,
+          1535.14,
+          1555.57,
+          1502.69
+        ],
+        "nir_mean": 1513.81,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1560571,
+          39.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:14+00:00",
+        "nir_values": [
+          1326.79,
+          1262.9,
+          1301.3,
+          1329.1,
+          1311.06,
+          1348.97,
+          1246.46,
+          1352.55
+        ],
+        "nir_mean": 1309.89,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1560571,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:14.200000+00:00",
+        "nir_values": [
+          587.51,
+          609.59,
+          636.7,
+          592.52,
+          613.94,
+          573.46,
+          587.5,
+          603.7
+        ],
+        "nir_mean": 600.61,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1560571,
+          39.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:14.400000+00:00",
+        "nir_values": [
+          339.51,
+          343.03,
+          345.48,
+          347.61,
+          337.63,
+          317.6,
+          349.54,
+          363.18
+        ],
+        "nir_mean": 342.95,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1560571,
+          39.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:14.600000+00:00",
+        "nir_values": [
+          827.62,
+          797.7,
+          813.66,
+          814.56,
+          848.93,
+          854.93,
+          812.43,
+          849.04
+        ],
+        "nir_mean": 827.36,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1560571,
+          38.8
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:14.800000+00:00",
+        "nir_values": [
+          1146.57,
+          1197.14,
+          1209.14,
+          1180.11,
+          1139.48,
+          1205.48,
+          1162.12,
+          1134.4
+        ],
+        "nir_mean": 1171.81,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1560571,
+          39.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:15+00:00",
+        "nir_values": [
+          1211.43,
+          1088.63,
+          1152.58,
+          1116.81,
+          1102.48,
+          1157.28,
+          1138.21,
+          1215.97
+        ],
+        "nir_mean": 1147.92,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1560571,
+          39.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:15.200000+00:00",
+        "nir_values": [
+          827.81,
+          848.57,
+          863.21,
+          857.94,
+          827.7,
+          882.88,
+          854.81,
+          804.83
+        ],
+        "nir_mean": 845.97,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1560571,
+          39.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:15.400000+00:00",
+        "nir_values": [
+          351.51,
+          338.69,
+          341.85,
+          338.29,
+          343.21,
+          324.97,
+          367.49,
+          335.98
+        ],
+        "nir_mean": 342.75,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1560571,
+          39.32
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:15.600000+00:00",
+        "nir_values": [
+          614.95,
+          567.83,
+          585.97,
+          587.75,
+          552.71,
+          592.27,
+          600.81,
+          653.44
+        ],
+        "nir_mean": 594.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1560571,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:15.800000+00:00",
+        "nir_values": [
+          1290.75,
+          1295.64,
+          1271.61,
+          1311.53,
+          1237.97,
+          1213.87,
+          1346.22,
+          1260.09
+        ],
+        "nir_mean": 1278.46,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1560571,
+          39.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:16+00:00",
+        "nir_values": [
+          1550.36,
+          1539.0,
+          1410.7,
+          1461.47,
+          1412.25,
+          1566.05,
+          1499.0,
+          1531.95
+        ],
+        "nir_mean": 1496.35,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1560571,
+          39.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:16.200000+00:00",
+        "nir_values": [
+          1419.28,
+          1422.1,
+          1536.71,
+          1564.39,
+          1503.74,
+          1462.62,
+          1562.49,
+          1525.89
+        ],
+        "nir_mean": 1499.65,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1560571,
+          39.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:16.400000+00:00",
+        "nir_values": [
+          1561.24,
+          1441.46,
+          1452.11,
+          1527.58,
+          1388.01,
+          1479.53,
+          1486.24,
+          1540.34
+        ],
+        "nir_mean": 1484.56,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1560571,
+          39.43
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:16.600000+00:00",
+        "nir_values": [
+          1533.06,
+          1492.95,
+          1525.55,
+          1504.95,
+          1434.04,
+          1472.64,
+          1513.77,
+          1531.21
+        ],
+        "nir_mean": 1501.02,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1560571,
+          39.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:16.800000+00:00",
+        "nir_values": [
+          1451.28,
+          1436.07,
+          1497.53,
+          1481.48,
+          1400.86,
+          1509.56,
+          1544.32,
+          1487.79
+        ],
+        "nir_mean": 1476.11,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1560571,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:17+00:00",
+        "nir_values": [
+          1426.54,
+          1405.08,
+          1510.64,
+          1580.41,
+          1532.24,
+          1449.7,
+          1527.76,
+          1520.38
+        ],
+        "nir_mean": 1494.09,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1560571,
+          39.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:17.200000+00:00",
+        "nir_values": [
+          1525.16,
+          1516.6,
+          1481.54,
+          1483.57,
+          1504.34,
+          1414.4,
+          1538.37,
+          1413.38
+        ],
+        "nir_mean": 1484.67,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1560571,
+          39.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:17.400000+00:00",
+        "nir_values": [
+          1616.96,
+          1439.55,
+          1403.9,
+          1403.77,
+          1519.49,
+          1514.79,
+          1532.81,
+          1514.07
+        ],
+        "nir_mean": 1493.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1560571,
+          39.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:17.600000+00:00",
+        "nir_values": [
+          1423.35,
+          1520.36,
+          1499.02,
+          1478.06,
+          1446.03,
+          1537.55,
+          1481.41,
+          1518.54
+        ],
+        "nir_mean": 1488.04,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1560571,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:17.800000+00:00",
+        "nir_values": [
+          1443.88,
+          1556.54,
+          1365.41,
+          1503.8,
+          1519.12,
+          1493.12,
+          1505.16,
+          1416.24
+        ],
+        "nir_mean": 1475.41,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1564857,
+          39.5
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:18+00:00",
+        "nir_values": [
+          1544.51,
+          1540.17,
+          1447.75,
+          1568.11,
+          1544.89,
+          1474.73,
+          1484.43,
+          1559.71
+        ],
+        "nir_mean": 1520.54,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1564857,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:18.200000+00:00",
+        "nir_values": [
+          1516.68,
+          1433.31,
+          1486.44,
+          1545.62,
+          1536.7,
+          1448.13,
+          1552.14,
+          1517.08
+        ],
+        "nir_mean": 1504.51,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1564857,
+          39.44
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:18.400000+00:00",
+        "nir_values": [
+          1489.7,
+          1482.28,
+          1496.89,
+          1523.38,
+          1349.78,
+          1521.32,
+          1449.86,
+          1486.67
+        ],
+        "nir_mean": 1474.99,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1564857,
+          39.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:18.600000+00:00",
+        "nir_values": [
+          1541.26,
+          1526.85,
+          1501.98,
+          1495.06,
+          1504.96,
+          1450.56,
+          1539.69,
+          1504.11
+        ],
+        "nir_mean": 1508.06,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1564857,
+          39.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:18.800000+00:00",
+        "nir_values": [
+          1453.08,
+          1542.52,
+          1534.84,
+          1512.08,
+          1556.03,
+          1490.87,
+          1478.17,
+          1503.9
+        ],
+        "nir_mean": 1508.94,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1564857,
+          39.58
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:19+00:00",
+        "nir_values": [
+          1576.81,
+          1477.55,
+          1482.7,
+          1499.15,
+          1428.79,
+          1556.89,
+          1435.4,
+          1528.1
+        ],
+        "nir_mean": 1498.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1564857,
+          39.9
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:19.200000+00:00",
+        "nir_values": [
+          1454.31,
+          1441.0,
+          1511.23,
+          1502.59,
+          1506.65,
+          1446.2,
+          1569.04,
+          1430.27
+        ],
+        "nir_mean": 1482.66,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1564857,
+          40.24
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:19.400000+00:00",
+        "nir_values": [
+          1358.45,
+          1635.38,
+          1504.34,
+          1389.37,
+          1554.6,
+          1573.4,
+          1376.02,
+          1566.0
+        ],
+        "nir_mean": 1494.69,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1564857,
+          40.63
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:19.600000+00:00",
+        "nir_values": [
+          1510.52,
+          1552.81,
+          1491.38,
+          1557.72,
+          1481.44,
+          1574.84,
+          1521.95,
+          1521.47
+        ],
+        "nir_mean": 1526.52,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1564857,
+          40.6
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:19.800000+00:00",
+        "nir_values": [
+          1492.9,
+          1470.73,
+          1532.82,
+          1385.09,
+          1451.72,
+          1457.73,
+          1509.43,
+          1334.76
+        ],
+        "nir_mean": 1454.4,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1564857,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:20+00:00",
+        "nir_values": [
+          948.65,
+          951.06,
+          1000.37,
+          895.96,
+          953.41,
+          936.99,
+          909.73,
+          944.03
+        ],
+        "nir_mean": 942.52,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1564857,
+          40.88
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:20.200000+00:00",
+        "nir_values": [
+          288.88,
+          314.67,
+          308.98,
+          312.02,
+          317.83,
+          299.04,
+          305.93,
+          304.35
+        ],
+        "nir_mean": 306.46,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1564857,
+          40.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:20.400000+00:00",
+        "nir_values": [
+          967.47,
+          1014.51,
+          945.64,
+          997.39,
+          1016.15,
+          985.51,
+          966.37,
+          979.65
+        ],
+        "nir_mean": 984.09,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1564857,
+          41.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:20.600000+00:00",
+        "nir_values": [
+          1446.36,
+          1422.54,
+          1370.72,
+          1458.9,
+          1536.54,
+          1453.98,
+          1397.07,
+          1478.85
+        ],
+        "nir_mean": 1445.62,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1564857,
+          41.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:20.800000+00:00",
+        "nir_values": [
+          1502.23,
+          1480.33,
+          1482.84,
+          1497.44,
+          1461.18,
+          1529.31,
+          1541.16,
+          1503.4
+        ],
+        "nir_mean": 1499.74,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1564857,
+          41.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:21+00:00",
+        "nir_values": [
+          1430.4,
+          1398.93,
+          1453.26,
+          1544.32,
+          1469.21,
+          1377.43,
+          1645.67,
+          1448.99
+        ],
+        "nir_mean": 1471.03,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1564857,
+          40.92
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:21.200000+00:00",
+        "nir_values": [
+          1508.34,
+          1551.36,
+          1498.47,
+          1475.4,
+          1444.14,
+          1387.52,
+          1361.24,
+          1523.74
+        ],
+        "nir_mean": 1468.78,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1564857,
+          40.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:21.400000+00:00",
+        "nir_values": [
+          929.15,
+          970.15,
+          1011.85,
+          1015.58,
+          946.21,
+          992.6,
+          1001.09,
+          1027.78
+        ],
+        "nir_mean": 986.8,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1564857,
+          40.41
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:21.600000+00:00",
+        "nir_values": [
+          309.83,
+          306.68,
+          318.71,
+          323.32,
+          300.9,
+          310.06,
+          305.26,
+          284.64
+        ],
+        "nir_mean": 307.43,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1564857,
+          40.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:21.800000+00:00",
+        "nir_values": [
+          954.78,
+          892.7,
+          897.77,
+          962.54,
+          933.62,
+          958.46,
+          957.98,
+          908.36
+        ],
+        "nir_mean": 933.28,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1564857,
+          40.54
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:22+00:00",
+        "nir_values": [
+          1460.7,
+          1473.19,
+          1527.28,
+          1475.16,
+          1441.94,
+          1445.84,
+          1539.52,
+          1473.88
+        ],
+        "nir_mean": 1479.69,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1564857,
+          40.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:22.200000+00:00",
+        "nir_values": [
+          1509.44,
+          1488.31,
+          1476.87,
+          1485.22,
+          1486.1,
+          1428.17,
+          1470.81,
+          1475.08
+        ],
+        "nir_mean": 1477.5,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1564857,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:22.400000+00:00",
+        "nir_values": [
+          1514.64,
+          1512.27,
+          1490.67,
+          1478.79,
+          1553.24,
+          1523.77,
+          1434.25,
+          1410.84
+        ],
+        "nir_mean": 1489.81,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1564857,
+          41.07
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:22.600000+00:00",
+        "nir_values": [
+          1568.32,
+          1531.81,
+          1514.77,
+          1477.87,
+          1501.15,
+          1459.4,
+          1499.13,
+          1502.74
+        ],
+        "nir_mean": 1506.9,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1564857,
+          41.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:22.800000+00:00",
+        "nir_values": [
+          1387.41,
+          1488.82,
+          1470.2,
+          1506.56,
+          1508.6,
+          1540.14,
+          1533.61,
+          1488.32
+        ],
+        "nir_mean": 1490.46,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1564857,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:23+00:00",
+        "nir_values": [
+          1487.18,
+          1517.03,
+          1434.74,
+          1533.15,
+          1480.97,
+          1473.6,
+          1539.25,
+          1546.73
+        ],
+        "nir_mean": 1501.58,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1564857,
+          41.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:23.200000+00:00",
+        "nir_values": [
+          1435.23,
+          1522.34,
+          1525.03,
+          1484.58,
+          1493.15,
+          1560.87,
+          1390.18,
+          1474.64
+        ],
+        "nir_mean": 1485.75,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1564857,
+          41.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:23.400000+00:00",
+        "nir_values": [
+          1471.35,
+          1453.33,
+          1521.33,
+          1402.49,
+          1493.22,
+          1524.14,
+          1497.15,
+          1549.31
+        ],
+        "nir_mean": 1489.04,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1564857,
+          41.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:23.600000+00:00",
+        "nir_values": [
+          1493.23,
+          1573.66,
+          1416.69,
+          1398.48,
+          1566.95,
+          1560.14,
+          1487.36,
+          1520.95
+        ],
+        "nir_mean": 1502.18,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1564857,
+          41.56
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:23.800000+00:00",
+        "nir_values": [
+          1538.76,
+          1442.45,
+          1633.65,
+          1543.28,
+          1444.26,
+          1549.69,
+          1493.36,
+          1459.74
+        ],
+        "nir_mean": 1513.15,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1569143,
+          41.48
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:24+00:00",
+        "nir_values": [
+          1488.73,
+          1520.71,
+          1576.66,
+          1532.84,
+          1410.32,
+          1556.49,
+          1541.06,
+          1517.07
+        ],
+        "nir_mean": 1517.98,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1569143,
+          41.23
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:24.200000+00:00",
+        "nir_values": [
+          1587.02,
+          1467.69,
+          1549.61,
+          1462.18,
+          1543.21,
+          1533.16,
+          1501.83,
+          1512.12
+        ],
+        "nir_mean": 1519.6,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1569143,
+          41.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:24.400000+00:00",
+        "nir_values": [
+          1493.77,
+          1524.3,
+          1378.2,
+          1491.13,
+          1555.46,
+          1480.42,
+          1571.76,
+          1554.05
+        ],
+        "nir_mean": 1506.14,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1569143,
+          40.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:24.600000+00:00",
+        "nir_values": [
+          1478.65,
+          1494.89,
+          1565.46,
+          1494.73,
+          1461.34,
+          1516.02,
+          1366.1,
+          1455.62
+        ],
+        "nir_mean": 1479.1,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1569143,
+          40.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:24.800000+00:00",
+        "nir_values": [
+          1515.99,
+          1561.07,
+          1544.84,
+          1474.7,
+          1421.58,
+          1412.33,
+          1456.13,
+          1585.18
+        ],
+        "nir_mean": 1496.48,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1569143,
+          40.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:25+00:00",
+        "nir_values": [
+          1511.15,
+          1513.39,
+          1554.54,
+          1478.01,
+          1390.1,
+          1540.99,
+          1444.73,
+          1472.29
+        ],
+        "nir_mean": 1488.15,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1569143,
+          40.76
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:25.200000+00:00",
+        "nir_values": [
+          1498.52,
+          1459.63,
+          1413.01,
+          1516.3,
+          1477.72,
+          1482.74,
+          1523.68,
+          1577.36
+        ],
+        "nir_mean": 1493.62,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1569143,
+          40.95
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:25.400000+00:00",
+        "nir_values": [
+          1645.31,
+          1609.28,
+          1521.27,
+          1523.64,
+          1548.25,
+          1530.51,
+          1424.31,
+          1429.26
+        ],
+        "nir_mean": 1528.98,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1569143,
+          40.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:25.600000+00:00",
+        "nir_values": [
+          1491.28,
+          1475.65,
+          1464.14,
+          1479.78,
+          1488.45,
+          1512.65,
+          1494.2,
+          1472.77
+        ],
+        "nir_mean": 1484.87,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1569143,
+          40.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:25.800000+00:00",
+        "nir_values": [
+          1413.41,
+          1506.57,
+          1410.8,
+          1403.46,
+          1528.29,
+          1367.37,
+          1439.34,
+          1493.26
+        ],
+        "nir_mean": 1445.31,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1569143,
+          41.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:26+00:00",
+        "nir_values": [
+          955.82,
+          958.19,
+          856.11,
+          978.6,
+          965.93,
+          967.3,
+          935.26,
+          880.27
+        ],
+        "nir_mean": 937.19,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1569143,
+          40.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:26.200000+00:00",
+        "nir_values": [
+          310.18,
+          298.44,
+          310.98,
+          289.22,
+          283.92,
+          311.22,
+          297.28,
+          293.02
+        ],
+        "nir_mean": 299.28,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1569143,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:26.400000+00:00",
+        "nir_values": [
+          936.32,
+          989.22,
+          944.44,
+          950.27,
+          1012.85,
+          1025.1,
+          1052.34,
+          991.45
+        ],
+        "nir_mean": 987.75,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1569143,
+          41.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:26.600000+00:00",
+        "nir_values": [
+          1457.37,
+          1436.65,
+          1393.04,
+          1436.81,
+          1474.48,
+          1472.81,
+          1547.52,
+          1433.59
+        ],
+        "nir_mean": 1456.53,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1569143,
+          40.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:26.800000+00:00",
+        "nir_values": [
+          1533.76,
+          1430.65,
+          1440.96,
+          1547.39,
+          1503.0,
+          1539.05,
+          1573.97,
+          1502.35
+        ],
+        "nir_mean": 1508.89,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1569143,
+          41.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:27+00:00",
+        "nir_values": [
+          1494.92,
+          1435.49,
+          1456.36,
+          1515.33,
+          1492.82,
+          1447.08,
+          1425.06,
+          1447.09
+        ],
+        "nir_mean": 1464.27,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1569143,
+          41.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:27.200000+00:00",
+        "nir_values": [
+          1442.46,
+          1432.88,
+          1443.13,
+          1546.54,
+          1459.95,
+          1463.4,
+          1535.65,
+          1457.38
+        ],
+        "nir_mean": 1472.67,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1569143,
+          40.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:27.400000+00:00",
+        "nir_values": [
+          955.01,
+          1000.69,
+          1003.87,
+          953.68,
+          983.29,
+          989.93,
+          1007.61,
+          934.13
+        ],
+        "nir_mean": 978.53,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1569143,
+          40.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:27.600000+00:00",
+        "nir_values": [
+          309.01,
+          289.06,
+          297.24,
+          281.48,
+          300.03,
+          300.17,
+          325.45,
+          280.46
+        ],
+        "nir_mean": 297.86,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1569143,
+          40.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:27.800000+00:00",
+        "nir_values": [
+          960.17,
+          944.94,
+          958.28,
+          951.38,
+          952.44,
+          945.18,
+          967.48,
+          933.65
+        ],
+        "nir_mean": 951.69,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1569143,
+          40.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:28+00:00",
+        "nir_values": [
+          1441.8,
+          1398.63,
+          1511.7,
+          1556.96,
+          1509.58,
+          1400.78,
+          1459.07,
+          1498.85
+        ],
+        "nir_mean": 1472.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1569143,
+          40.35
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:28.200000+00:00",
+        "nir_values": [
+          1488.94,
+          1505.7,
+          1412.92,
+          1523.75,
+          1462.9,
+          1401.52,
+          1462.72,
+          1417.9
+        ],
+        "nir_mean": 1459.54,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1569143,
+          40.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:28.400000+00:00",
+        "nir_values": [
+          1580.84,
+          1453.65,
+          1433.37,
+          1538.78,
+          1440.75,
+          1408.87,
+          1487.11,
+          1444.64
+        ],
+        "nir_mean": 1473.5,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1569143,
+          40.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:28.600000+00:00",
+        "nir_values": [
+          1481.36,
+          1535.23,
+          1462.69,
+          1418.18,
+          1523.08,
+          1560.58,
+          1526.91,
+          1457.76
+        ],
+        "nir_mean": 1495.72,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1569143,
+          40.08
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:28.800000+00:00",
+        "nir_values": [
+          1460.76,
+          1469.32,
+          1526.77,
+          1534.0,
+          1529.78,
+          1501.29,
+          1477.95,
+          1511.18
+        ],
+        "nir_mean": 1501.38,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1569143,
+          39.68
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:29+00:00",
+        "nir_values": [
+          1374.38,
+          1459.21,
+          1523.5,
+          1459.7,
+          1519.05,
+          1490.21,
+          1503.59,
+          1504.97
+        ],
+        "nir_mean": 1479.33,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1569143,
+          39.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:29.200000+00:00",
+        "nir_values": [
+          1429.15,
+          1447.28,
+          1406.25,
+          1513.24,
+          1387.85,
+          1535.46,
+          1449.29,
+          1459.1
+        ],
+        "nir_mean": 1453.45,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1569143,
+          39.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:29.400000+00:00",
+        "nir_values": [
+          1449.36,
+          1525.2,
+          1516.75,
+          1465.98,
+          1473.22,
+          1592.91,
+          1558.79,
+          1528.07
+        ],
+        "nir_mean": 1513.78,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1569143,
+          38.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:29.600000+00:00",
+        "nir_values": [
+          1464.16,
+          1439.25,
+          1570.5,
+          1547.47,
+          1461.44,
+          1525.4,
+          1556.59,
+          1428.49
+        ],
+        "nir_mean": 1499.16,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1569143,
+          38.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:29.800000+00:00",
+        "nir_values": [
+          1488.18,
+          1475.78,
+          1478.37,
+          1497.42,
+          1425.95,
+          1409.61,
+          1490.09,
+          1488.57
+        ],
+        "nir_mean": 1469.25,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1573429,
+          38.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:30+00:00",
+        "nir_values": [
+          1444.24,
+          1510.82,
+          1524.67,
+          1534.48,
+          1480.84,
+          1506.29,
+          1482.06,
+          1465.12
+        ],
+        "nir_mean": 1493.57,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1573429,
+          38.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:30.200000+00:00",
+        "nir_values": [
+          1537.51,
+          1524.08,
+          1539.59,
+          1481.71,
+          1539.84,
+          1527.42,
+          1521.2,
+          1492.38
+        ],
+        "nir_mean": 1520.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1573429,
+          38.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:30.400000+00:00",
+        "nir_values": [
+          1520.23,
+          1576.83,
+          1476.81,
+          1505.7,
+          1530.36,
+          1464.36,
+          1477.46,
+          1446.93
+        ],
+        "nir_mean": 1499.84,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1573429,
+          38.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:30.600000+00:00",
+        "nir_values": [
+          1535.28,
+          1513.5,
+          1490.87,
+          1540.11,
+          1527.11,
+          1444.21,
+          1464.35,
+          1551.24
+        ],
+        "nir_mean": 1508.33,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1573429,
+          38.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:30.800000+00:00",
+        "nir_values": [
+          1447.9,
+          1475.59,
+          1459.92,
+          1439.53,
+          1454.13,
+          1530.97,
+          1538.2,
+          1541.56
+        ],
+        "nir_mean": 1485.97,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1573429,
+          39.28
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:31+00:00",
+        "nir_values": [
+          1482.75,
+          1546.98,
+          1444.11,
+          1457.6,
+          1525.79,
+          1550.89,
+          1498.46,
+          1484.81
+        ],
+        "nir_mean": 1498.92,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1573429,
+          38.97
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:31.200000+00:00",
+        "nir_values": [
+          1503.87,
+          1386.09,
+          1519.72,
+          1508.91,
+          1469.93,
+          1469.32,
+          1492.32,
+          1488.47
+        ],
+        "nir_mean": 1479.83,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1573429,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:31.400000+00:00",
+        "nir_values": [
+          1524.86,
+          1540.09,
+          1478.22,
+          1441.19,
+          1560.99,
+          1419.74,
+          1425.51,
+          1430.58
+        ],
+        "nir_mean": 1477.65,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1573429,
+          38.67
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:31.600000+00:00",
+        "nir_values": [
+          1454.39,
+          1507.21,
+          1481.83,
+          1481.83,
+          1537.81,
+          1466.53,
+          1526.3,
+          1377.1
+        ],
+        "nir_mean": 1479.12,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1573429,
+          39.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:31.800000+00:00",
+        "nir_values": [
+          1409.43,
+          1554.06,
+          1516.19,
+          1488.15,
+          1487.34,
+          1404.7,
+          1448.1,
+          1499.71
+        ],
+        "nir_mean": 1475.96,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1573429,
+          38.77
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:32+00:00",
+        "nir_values": [
+          1204.29,
+          1348.77,
+          1265.1,
+          1313.56,
+          1257.97,
+          1260.37,
+          1255.79,
+          1260.86
+        ],
+        "nir_mean": 1270.84,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1573429,
+          38.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:32.200000+00:00",
+        "nir_values": [
+          634.56,
+          605.46,
+          588.48,
+          583.8,
+          569.37,
+          597.04,
+          552.01,
+          595.92
+        ],
+        "nir_mean": 590.83,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1573429,
+          38.82
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:32.400000+00:00",
+        "nir_values": [
+          339.04,
+          353.06,
+          337.38,
+          338.21,
+          346.18,
+          341.36,
+          333.24,
+          342.86
+        ],
+        "nir_mean": 341.42,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1573429,
+          38.84
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:32.600000+00:00",
+        "nir_values": [
+          872.34,
+          857.96,
+          904.36,
+          848.35,
+          857.92,
+          884.32,
+          866.86,
+          855.04
+        ],
+        "nir_mean": 868.39,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1573429,
+          38.59
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:32.800000+00:00",
+        "nir_values": [
+          1209.45,
+          1170.6,
+          1174.32,
+          1189.21,
+          1277.92,
+          1259.86,
+          1168.41,
+          1081.84
+        ],
+        "nir_mean": 1191.45,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1573429,
+          38.86
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:33+00:00",
+        "nir_values": [
+          1180.53,
+          1143.23,
+          1189.97,
+          1202.58,
+          1197.5,
+          1184.3,
+          1165.12,
+          1127.2
+        ],
+        "nir_mean": 1173.8,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1573429,
+          38.47
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:33.200000+00:00",
+        "nir_values": [
+          832.39,
+          906.6,
+          880.53,
+          813.12,
+          844.32,
+          786.7,
+          824.51,
+          841.65
+        ],
+        "nir_mean": 841.23,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1573429,
+          38.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:33.400000+00:00",
+        "nir_values": [
+          342.17,
+          346.03,
+          342.0,
+          356.07,
+          346.41,
+          346.2,
+          343.02,
+          354.32
+        ],
+        "nir_mean": 347.03,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1573429,
+          38.89
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:33.600000+00:00",
+        "nir_values": [
+          557.27,
+          600.18,
+          595.94,
+          568.95,
+          587.78,
+          615.68,
+          584.79,
+          623.96
+        ],
+        "nir_mean": 591.82,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1573429,
+          39.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:33.800000+00:00",
+        "nir_values": [
+          1303.04,
+          1256.83,
+          1297.06,
+          1298.37,
+          1265.39,
+          1276.98,
+          1331.85,
+          1294.82
+        ],
+        "nir_mean": 1290.54,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1573429,
+          38.96
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:34+00:00",
+        "nir_values": [
+          1510.02,
+          1562.65,
+          1452.1,
+          1467.25,
+          1484.37,
+          1453.5,
+          1511.74,
+          1476.22
+        ],
+        "nir_mean": 1489.73,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1573429,
+          39.03
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:34.200000+00:00",
+        "nir_values": [
+          1476.03,
+          1418.02,
+          1393.86,
+          1508.42,
+          1444.49,
+          1441.53,
+          1529.54,
+          1515.95
+        ],
+        "nir_mean": 1465.98,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1573429,
+          39.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:34.400000+00:00",
+        "nir_values": [
+          1477.46,
+          1493.41,
+          1497.47,
+          1451.63,
+          1436.99,
+          1509.92,
+          1523.58,
+          1462.22
+        ],
+        "nir_mean": 1481.59,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1573429,
+          39.05
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:34.600000+00:00",
+        "nir_values": [
+          1439.58,
+          1452.86,
+          1483.82,
+          1539.27,
+          1430.06,
+          1513.16,
+          1482.71,
+          1477.8
+        ],
+        "nir_mean": 1477.41,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1573429,
+          39.01
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:34.800000+00:00",
+        "nir_values": [
+          1467.89,
+          1487.23,
+          1596.7,
+          1572.3,
+          1561.17,
+          1508.04,
+          1496.34,
+          1512.68
+        ],
+        "nir_mean": 1525.29,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1573429,
+          38.83
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:35+00:00",
+        "nir_values": [
+          1528.04,
+          1545.07,
+          1518.02,
+          1488.54,
+          1451.76,
+          1564.95,
+          1492.38,
+          1492.39
+        ],
+        "nir_mean": 1510.14,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1573429,
+          38.61
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:35.200000+00:00",
+        "nir_values": [
+          1478.36,
+          1609.33,
+          1462.14,
+          1514.42,
+          1439.97,
+          1507.51,
+          1545.98,
+          1562.83
+        ],
+        "nir_mean": 1515.07,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1573429,
+          38.79
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:35.400000+00:00",
+        "nir_values": [
+          1435.48,
+          1509.28,
+          1516.91,
+          1369.71,
+          1488.0,
+          1489.71,
+          1422.69,
+          1497.51
+        ],
+        "nir_mean": 1466.16,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1573429,
+          38.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:35.600000+00:00",
+        "nir_values": [
+          1479.82,
+          1453.95,
+          1446.08,
+          1451.6,
+          1442.38,
+          1395.15,
+          1478.37,
+          1420.35
+        ],
+        "nir_mean": 1445.96,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1573429,
+          38.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:35.800000+00:00",
+        "nir_values": [
+          1508.82,
+          1571.91,
+          1486.46,
+          1487.21,
+          1501.02,
+          1462.36,
+          1436.13,
+          1503.17
+        ],
+        "nir_mean": 1494.63,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1577714,
+          38.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:36+00:00",
+        "nir_values": [
+          1505.65,
+          1441.28,
+          1552.75,
+          1478.94,
+          1351.72,
+          1434.22,
+          1462.86,
+          1574.3
+        ],
+        "nir_mean": 1475.22,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1577714,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:36.200000+00:00",
+        "nir_values": [
+          1578.47,
+          1546.03,
+          1462.18,
+          1446.64,
+          1525.62,
+          1399.1,
+          1536.66,
+          1548.28
+        ],
+        "nir_mean": 1505.37,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1577714,
+          39.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:36.400000+00:00",
+        "nir_values": [
+          1458.16,
+          1374.36,
+          1532.17,
+          1406.82,
+          1550.85,
+          1521.84,
+          1608.55,
+          1434.32
+        ],
+        "nir_mean": 1485.88,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1577714,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:36.600000+00:00",
+        "nir_values": [
+          1454.87,
+          1577.85,
+          1423.63,
+          1484.58,
+          1431.72,
+          1420.08,
+          1468.92,
+          1364.17
+        ],
+        "nir_mean": 1453.23,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1577714,
+          39.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:36.800000+00:00",
+        "nir_values": [
+          1423.22,
+          1503.13,
+          1484.58,
+          1493.69,
+          1544.5,
+          1488.36,
+          1484.55,
+          1500.04
+        ],
+        "nir_mean": 1490.26,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1577714,
+          39.4
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:37+00:00",
+        "nir_values": [
+          1538.15,
+          1481.68,
+          1471.14,
+          1591.53,
+          1504.22,
+          1577.79,
+          1398.36,
+          1453.44
+        ],
+        "nir_mean": 1502.04,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1577714,
+          39.38
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:37.200000+00:00",
+        "nir_values": [
+          1480.72,
+          1535.79,
+          1499.48,
+          1500.6,
+          1521.79,
+          1520.33,
+          1464.55,
+          1582.5
+        ],
+        "nir_mean": 1513.22,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1577714,
+          39.74
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:37.400000+00:00",
+        "nir_values": [
+          1475.75,
+          1531.56,
+          1480.14,
+          1571.22,
+          1473.98,
+          1503.5,
+          1458.91,
+          1493.82
+        ],
+        "nir_mean": 1498.61,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1577714,
+          39.45
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:37.600000+00:00",
+        "nir_values": [
+          1505.43,
+          1475.85,
+          1416.95,
+          1533.29,
+          1397.06,
+          1471.61,
+          1447.94,
+          1615.81
+        ],
+        "nir_mean": 1482.99,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1577714,
+          39.09
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:37.800000+00:00",
+        "nir_values": [
+          1543.28,
+          1465.91,
+          1540.33,
+          1500.45,
+          1582.77,
+          1493.8,
+          1491.99,
+          1404.15
+        ],
+        "nir_mean": 1502.83,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1577714,
+          38.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:38+00:00",
+        "nir_values": [
+          1466.91,
+          1541.9,
+          1583.02,
+          1425.91,
+          1578.19,
+          1611.49,
+          1445.48,
+          1472.45
+        ],
+        "nir_mean": 1515.67,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1577714,
+          38.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:38.200000+00:00",
+        "nir_values": [
+          1311.63,
+          1389.18,
+          1324.07,
+          1375.33,
+          1414.77,
+          1346.0,
+          1334.14,
+          1440.84
+        ],
+        "nir_mean": 1366.99,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1577714,
+          38.15
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:38.400000+00:00",
+        "nir_values": [
+          965.33,
+          987.05,
+          988.33,
+          1096.05,
+          949.35,
+          950.73,
+          955.82,
+          934.18
+        ],
+        "nir_mean": 978.36,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1577714,
+          38.17
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:38.600000+00:00",
+        "nir_values": [
+          553.53,
+          569.19,
+          570.75,
+          562.79,
+          558.63,
+          562.53,
+          552.83,
+          545.11
+        ],
+        "nir_mean": 559.42,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1577714,
+          38.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:38.800000+00:00",
+        "nir_values": [
+          376.83,
+          397.29,
+          389.49,
+          408.28,
+          377.88,
+          383.45,
+          407.14,
+          397.28
+        ],
+        "nir_mean": 392.2,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1577714,
+          38.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:39+00:00",
+        "nir_values": [
+          377.47,
+          403.38,
+          409.84,
+          390.91,
+          401.16,
+          375.21,
+          396.32,
+          387.31
+        ],
+        "nir_mean": 392.7,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1577714,
+          38.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:39.200000+00:00",
+        "nir_values": [
+          549.76,
+          553.51,
+          561.65,
+          568.04,
+          548.65,
+          559.26,
+          521.64,
+          574.97
+        ],
+        "nir_mean": 554.68,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1577714,
+          38.65
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:39.400000+00:00",
+        "nir_values": [
+          919.61,
+          982.61,
+          1035.02,
+          1041.71,
+          1005.68,
+          950.11,
+          1001.28,
+          960.65
+        ],
+        "nir_mean": 987.08,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1577714,
+          39.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:39.600000+00:00",
+        "nir_values": [
+          1315.54,
+          1460.74,
+          1421.47,
+          1268.32,
+          1360.78,
+          1345.04,
+          1350.59,
+          1431.95
+        ],
+        "nir_mean": 1369.3,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1577714,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:39.800000+00:00",
+        "nir_values": [
+          1481.12,
+          1473.97,
+          1459.73,
+          1526.46,
+          1504.96,
+          1520.0,
+          1437.28,
+          1482.2
+        ],
+        "nir_mean": 1485.72,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1577714,
+          39.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:40+00:00",
+        "nir_values": [
+          1391.29,
+          1566.48,
+          1427.72,
+          1449.61,
+          1511.66,
+          1494.26,
+          1516.81,
+          1483.64
+        ],
+        "nir_mean": 1480.18,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1577714,
+          38.93
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:40.200000+00:00",
+        "nir_values": [
+          1494.15,
+          1412.4,
+          1455.17,
+          1460.58,
+          1490.34,
+          1445.35,
+          1512.65,
+          1534.72
+        ],
+        "nir_mean": 1475.67,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1577714,
+          38.62
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:40.400000+00:00",
+        "nir_values": [
+          1625.94,
+          1529.59,
+          1546.24,
+          1485.03,
+          1463.81,
+          1522.18,
+          1511.95,
+          1440.04
+        ],
+        "nir_mean": 1515.6,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1577714,
+          38.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:40.600000+00:00",
+        "nir_values": [
+          1590.08,
+          1419.73,
+          1555.74,
+          1516.76,
+          1513.59,
+          1573.71,
+          1472.13,
+          1534.24
+        ],
+        "nir_mean": 1522.0,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1577714,
+          38.2
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:40.800000+00:00",
+        "nir_values": [
+          1451.5,
+          1461.23,
+          1420.92,
+          1506.08,
+          1374.6,
+          1521.27,
+          1413.83,
+          1534.97
+        ],
+        "nir_mean": 1460.55,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1577714,
+          38.55
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:41+00:00",
+        "nir_values": [
+          1449.45,
+          1451.5,
+          1520.46,
+          1419.74,
+          1518.96,
+          1551.12,
+          1505.98,
+          1509.03
+        ],
+        "nir_mean": 1490.78,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1577714,
+          38.7
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:41.200000+00:00",
+        "nir_values": [
+          1480.87,
+          1535.43,
+          1511.07,
+          1501.83,
+          1476.66,
+          1456.44,
+          1427.47,
+          1530.82
+        ],
+        "nir_mean": 1490.07,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1577714,
+          39.02
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:41.400000+00:00",
+        "nir_values": [
+          1488.8,
+          1464.8,
+          1533.37,
+          1497.71,
+          1434.05,
+          1463.34,
+          1474.36,
+          1607.05
+        ],
+        "nir_mean": 1495.43,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1577714,
+          39.11
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:41.600000+00:00",
+        "nir_values": [
+          1492.87,
+          1472.23,
+          1521.35,
+          1462.44,
+          1436.76,
+          1442.01,
+          1481.94,
+          1537.05
+        ],
+        "nir_mean": 1480.83,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1577714,
+          38.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:41.800000+00:00",
+        "nir_values": [
+          1576.14,
+          1489.52,
+          1433.64,
+          1512.12,
+          1477.15,
+          1466.04,
+          1522.43,
+          1511.58
+        ],
+        "nir_mean": 1498.58,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0274,
+          48.1582,
+          39.04
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:42+00:00",
+        "nir_values": [
+          1382.0,
+          1415.7,
+          1425.48,
+          1429.18,
+          1561.29,
+          1494.92,
+          1447.77,
+          1528.0
+        ],
+        "nir_mean": 1460.54,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271241,
+          48.1582,
+          38.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:42.200000+00:00",
+        "nir_values": [
+          1504.37,
+          1431.44,
+          1594.01,
+          1591.17,
+          1413.94,
+          1485.57,
+          1433.12,
+          1479.47
+        ],
+        "nir_mean": 1491.64,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0268483,
+          48.1582,
+          39.0
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:42.400000+00:00",
+        "nir_values": [
+          1520.89,
+          1518.34,
+          1494.17,
+          1451.66,
+          1566.6,
+          1569.86,
+          1498.85,
+          1410.81
+        ],
+        "nir_mean": 1503.9,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0265724,
+          48.1582,
+          38.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:42.600000+00:00",
+        "nir_values": [
+          1559.98,
+          1565.26,
+          1516.73,
+          1576.17,
+          1486.15,
+          1460.4,
+          1570.13,
+          1500.96
+        ],
+        "nir_mean": 1529.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0262966,
+          48.1582,
+          39.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:42.800000+00:00",
+        "nir_values": [
+          1371.34,
+          1420.14,
+          1511.48,
+          1584.31,
+          1436.45,
+          1527.35,
+          1487.76,
+          1535.97
+        ],
+        "nir_mean": 1484.35,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0260207,
+          48.1582,
+          39.18
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:43+00:00",
+        "nir_values": [
+          1410.15,
+          1428.07,
+          1450.94,
+          1462.45,
+          1456.95,
+          1440.02,
+          1465.39,
+          1522.61
+        ],
+        "nir_mean": 1454.57,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0257448,
+          48.1582,
+          39.33
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:43.200000+00:00",
+        "nir_values": [
+          1489.03,
+          1509.44,
+          1523.85,
+          1543.39,
+          1470.23,
+          1429.3,
+          1403.53,
+          1505.94
+        ],
+        "nir_mean": 1484.34,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025469,
+          48.1582,
+          39.19
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:43.400000+00:00",
+        "nir_values": [
+          1448.06,
+          1570.5,
+          1476.23,
+          1450.06,
+          1509.32,
+          1492.23,
+          1398.91,
+          1476.48
+        ],
+        "nir_mean": 1477.72,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0251931,
+          48.1582,
+          39.49
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:43.600000+00:00",
+        "nir_values": [
+          1533.34,
+          1589.25,
+          1379.82,
+          1474.65,
+          1463.38,
+          1568.4,
+          1399.32,
+          1375.34
+        ],
+        "nir_mean": 1472.94,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0249172,
+          48.1582,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:43.800000+00:00",
+        "nir_values": [
+          1479.16,
+          1517.32,
+          1491.89,
+          1481.66,
+          1517.23,
+          1476.04,
+          1546.82,
+          1619.66
+        ],
+        "nir_mean": 1516.22,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0246414,
+          48.1582,
+          39.36
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:44+00:00",
+        "nir_values": [
+          1501.4,
+          1451.62,
+          1502.31,
+          1550.23,
+          1534.02,
+          1496.24,
+          1589.82,
+          1438.77
+        ],
+        "nir_mean": 1508.05,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243655,
+          48.1582,
+          39.51
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:44.200000+00:00",
+        "nir_values": [
+          1490.32,
+          1583.23,
+          1556.87,
+          1459.19,
+          1512.16,
+          1569.4,
+          1566.22,
+          1479.78
+        ],
+        "nir_mean": 1527.15,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0240897,
+          48.1582,
+          39.22
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:44.400000+00:00",
+        "nir_values": [
+          1510.82,
+          1559.44,
+          1491.73,
+          1489.97,
+          1460.91,
+          1517.78,
+          1468.83,
+          1490.0
+        ],
+        "nir_mean": 1498.68,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0238138,
+          48.1582,
+          39.27
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:44.600000+00:00",
+        "nir_values": [
+          1441.21,
+          1421.47,
+          1406.81,
+          1430.6,
+          1477.66,
+          1396.33,
+          1418.76,
+          1411.07
+        ],
+        "nir_mean": 1425.49,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0235379,
+          48.1582,
+          39.53
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:44.800000+00:00",
+        "nir_values": [
+          1450.73,
+          1444.52,
+          1493.57,
+          1359.58,
+          1536.45,
+          1435.82,
+          1354.12,
+          1368.15
+        ],
+        "nir_mean": 1430.37,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0232621,
+          48.1582,
+          39.69
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:45+00:00",
+        "nir_values": [
+          1412.95,
+          1447.76,
+          1437.76,
+          1352.04,
+          1391.39,
+          1437.89,
+          1353.32,
+          1518.95
+        ],
+        "nir_mean": 1419.01,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0229862,
+          48.1582,
+          39.66
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:45.200000+00:00",
+        "nir_values": [
+          1498.59,
+          1606.49,
+          1492.94,
+          1457.01,
+          1488.44,
+          1539.51,
+          1417.4,
+          1499.16
+        ],
+        "nir_mean": 1499.94,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0227103,
+          48.1582,
+          39.81
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:45.400000+00:00",
+        "nir_values": [
+          1479.0,
+          1558.45,
+          1499.66,
+          1524.52,
+          1436.34,
+          1473.64,
+          1512.02,
+          1471.35
+        ],
+        "nir_mean": 1494.37,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0224345,
+          48.1582,
+          40.14
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:45.600000+00:00",
+        "nir_values": [
+          1495.12,
+          1546.64,
+          1534.59,
+          1527.02,
+          1548.07,
+          1492.71,
+          1572.51,
+          1375.52
+        ],
+        "nir_mean": 1511.52,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0221586,
+          48.1582,
+          40.3
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:45.800000+00:00",
+        "nir_values": [
+          1522.33,
+          1551.05,
+          1519.75,
+          1534.45,
+          1483.86,
+          1527.16,
+          1472.68,
+          1442.2
+        ],
+        "nir_mean": 1506.69,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0218828,
+          48.1582,
+          40.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:46+00:00",
+        "nir_values": [
+          1499.15,
+          1529.07,
+          1542.47,
+          1537.14,
+          1556.9,
+          1528.96,
+          1496.98,
+          1590.25
+        ],
+        "nir_mean": 1535.12,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0216069,
+          48.1582,
+          39.94
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:46.200000+00:00",
+        "nir_values": [
+          1578.26,
+          1400.51,
+          1534.1,
+          1483.86,
+          1553.52,
+          1474.41,
+          1543.9,
+          1461.12
+        ],
+        "nir_mean": 1503.71,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.021331,
+          48.1582,
+          39.98
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:46.400000+00:00",
+        "nir_values": [
+          1495.16,
+          1588.24,
+          1426.54,
+          1580.43,
+          1485.33,
+          1446.4,
+          1540.73,
+          1508.07
+        ],
+        "nir_mean": 1508.86,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0210552,
+          48.1582,
+          39.91
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:46.600000+00:00",
+        "nir_values": [
+          1452.39,
+          1550.5,
+          1558.91,
+          1501.94,
+          1601.36,
+          1418.82,
+          1469.94,
+          1425.9
+        ],
+        "nir_mean": 1497.47,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0207793,
+          48.1582,
+          39.99
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:46.800000+00:00",
+        "nir_values": [
+          1592.77,
+          1499.57,
+          1440.49,
+          1515.19,
+          1561.76,
+          1475.32,
+          1463.3,
+          1473.94
+        ],
+        "nir_mean": 1502.79,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0205034,
+          48.1582,
+          40.13
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:47+00:00",
+        "nir_values": [
+          1374.49,
+          1509.14,
+          1674.74,
+          1499.68,
+          1514.93,
+          1495.23,
+          1542.87,
+          1521.11
+        ],
+        "nir_mean": 1516.52,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0202276,
+          48.1582,
+          40.39
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:47.200000+00:00",
+        "nir_values": [
+          1462.23,
+          1485.52,
+          1532.13,
+          1523.54,
+          1520.37,
+          1520.97,
+          1498.9,
+          1465.62
+        ],
+        "nir_mean": 1501.16,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0199517,
+          48.1582,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:47.400000+00:00",
+        "nir_values": [
+          1479.75,
+          1481.01,
+          1538.06,
+          1434.11,
+          1560.76,
+          1441.32,
+          1494.98,
+          1458.89
+        ],
+        "nir_mean": 1486.11,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0196759,
+          48.1582,
+          40.06
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:47.600000+00:00",
+        "nir_values": [
+          1461.85,
+          1535.89,
+          1547.87,
+          1470.58,
+          1522.54,
+          1429.4,
+          1531.33,
+          1517.93
+        ],
+        "nir_mean": 1502.17,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0194,
+          48.1582,
+          40.12
+        ]
+      },
+      "properties": {
+        "timestamp": "2026-05-07T13:00:47.800000+00:00",
+        "nir_values": [
+          1509.36,
+          1462.92,
+          1500.09,
+          1551.08,
+          1447.0,
+          1513.95,
+          1564.01,
+          1467.35
+        ],
+        "nir_mean": 1501.97,
+        "label": "Schädlingsbefall – Ringschaden"
+      }
+    }
+  ]
+}
