@@ -32,7 +32,12 @@ python src/live_mission.py
 Hardware → Python backend → output/flight_data.json
 ```
 
-1. **`src/mission.py`** orchestrates a full mission: starts sensor via HTTP, logs GPS via MAVLink, detects landing, downloads sensor logs, synchronizes timestamps (via cross-correlation), and outputs georeferenced maps.
+1. **`src/mission.py`** orchestrates a full mission (thin CLI layer). The actual logic lives in dedicated modules:
+   - **`src/config.py`** — all constants (hardware addresses, thresholds, paths)
+   - **`src/gps_tracker.py`** — `GpsBuffer` (thread-safe, crash-safe live CSV) + `GpsTracker` (MAVLink thread: GPS time via SYSTEM_TIME, QGC survey progress, HDOP gating, link watchdog + reconnect, landing detection via disarm/landed_state)
+   - **`src/sensor_client.py`** — `SensorClient`, a robust wrapper (timeouts, retries, clock calibration, in-flight health monitor) around the vendor's `command_dispatcher_controller.py` (do not modify the vendor files `command_dispatcher_controller.py` / `log_file_parser.py`)
+   - **`src/flight_data.py`** — loading/parsing sensor CSVs and GPS logs, cross-correlation time offset (fallback only)
+   - **`src/map_builder.py`** — `MapBuilder` (CesiumJS/MapLibre HTML map + `flight_data.json` export)
 2. **`src/ndvi_pipeline.py`** does the same pipeline offline from existing `.bin` (ArduPilot) or `.ulg` (PX4) log files.
 3. **`src/live_mission.py`** runs on a Raspberry Pi — continuously polls GPS + sensor, regenerates a map PNG every 5 s, and serves it on port 8080.
 4. **`output/flight_data.json`** contains `meta` (statistics, bounds, timestamps) and `points` (lat, lon, alt, value, RGB color).

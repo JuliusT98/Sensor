@@ -35,6 +35,7 @@ def extract_nir(data: dict, sensor_id: int) -> list[float] | None:
         if sensor.get("id") != sensor_id:
             continue
         values = []
+    
         for ch in range(1, N_CH + 1):
             ch_data = sensor.get(f"ch{ch}", {})
             det_vals = [ch_data.get(f"d{d}_ni1") for d in range(1, N_DET + 1)]
