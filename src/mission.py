@@ -201,9 +201,9 @@ def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str,
         offset_s = estimate_offset(sensor_df, gps_df) if AUTO_SYNC else TIME_OFFSET_S
 
     print("\n[ 9 ] Karte erstellen ...")
-    html_path = MapBuilder().build(sensor_df, gps_df, offset_s)
+    geojson_path = MapBuilder().build(sensor_df, gps_df, offset_s)
 
-    print(f"\nFertig — {html_path} erstellt.")
+    print(f"\nFertig — {geojson_path} erstellt.")
 
 
 if __name__ == "__main__":
