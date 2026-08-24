@@ -13,22 +13,26 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from config import MAP_CHANNEL, MAP_ENGINE, MAX_GPS_GAP_S, OUTPUT_PNG, ROOT
+from config import (
+    BUILD_HTML_MAP, MAP_CHANNEL, MAP_ENGINE, MAX_GPS_GAP_S, OUTPUT_PNG, ROOT,
+)
 
 
 class MapBuilder:
     def __init__(self, engine: str = MAP_ENGINE, channel=MAP_CHANNEL,
-                 output_png: str = OUTPUT_PNG):
+                 output_png: str = OUTPUT_PNG, build_html: bool = BUILD_HTML_MAP):
         self.engine     = engine
         self.channel    = channel
         self.output_png = output_png
+        self.build_html = build_html
 
     # -----------------------------------------------------------------------
     # Öffentliche API
     # -----------------------------------------------------------------------
 
     def build(self, sensor_df: pd.DataFrame, gps_df: pd.DataFrame, offset_s: float) -> str:
-        """Erzeugt Karte + JSON, gibt den HTML-Pfad zurück."""
+        """Georeferenziert, exportiert GeoJSON + JSON, optional die HTML-Karte.
+        Gibt den Pfad der GeoJSON-Datei zurück."""
         df = self._interpolate_gps(sensor_df, gps_df, offset_s)
         print(f"  Georeferenzierte Punkte: {len(df)}")
 
@@ -48,26 +52,28 @@ class MapBuilder:
             df["value"] = df[ch_cols].mean(axis=1)
             label = f"NIR Kanal {self.channel}"
 
-        lats     = df["lat"].values
-        lons     = df["lon"].values
-        values   = df["value"].values
-        alts     = df["alt"].values
-        rel_alts = df["rel_alt"].values
-        times    = df.index.strftime("%H:%M:%S").values
-        v_min  = float(np.nanpercentile(values, 2))
-        v_max  = float(np.nanpercentile(values, 98))
-        print(f"  {label}: {values.min():.3f} – {values.max():.3f}")
+        v_min = float(np.nanpercentile(df["value"].values, 2))
+        v_max = float(np.nanpercentile(df["value"].values, 98))
+        print(f"  {label}: {df['value'].min():.3f} – {df['value'].max():.3f}")
 
-        html_path = self.output_png.replace(".png", ".html")
-        if self.engine == "cesium":
-            self._build_cesium(df, gps_df, label, v_min, v_max, html_path)
-        elif self.engine == "maplibre":
-            self._build_maplibre(df, gps_df, label, v_min, v_max, html_path)
+        # Farben einmal für alle Punkte berechnen (statt pro Punkt neu) —
+        # das war der teuerste Teil des Exports.
+        r, g, b = self._values_to_rgb_array(df["value"].values, v_min, v_max)
+        df["r"], df["g"], df["b"] = r, g, b
+
+        if self.build_html:
+            html_path = self.output_png.replace(".png", ".html")
+            if self.engine == "cesium":
+                self._build_cesium(df, gps_df, label, v_min, v_max, html_path)
+            elif self.engine == "maplibre":
+                self._build_maplibre(df, gps_df, label, v_min, v_max, html_path)
+            else:
+                raise ValueError(f"Unbekannte MAP_ENGINE: {self.engine}. Wähle 'cesium' oder 'maplibre'.")
         else:
-            raise ValueError(f"Unbekannte MAP_ENGINE: {self.engine}. Wähle 'cesium' oder 'maplibre'.")
+            print("  HTML-Karte übersprungen (BUILD_HTML_MAP=False).")
 
-        self._export_json(lats, lons, alts, rel_alts, values, times, label, v_min, v_max, gps_df)
-        return html_path
+        self._export_json(df, label, v_min, v_max, gps_df)
+        return self._export_geojson(df)
 
     # -----------------------------------------------------------------------
     # GPS auf Sensor-Timestamps interpolieren
@@ -83,10 +89,14 @@ class MapBuilder:
             fn      = interp1d(gps_ns, gps_df[col].values, kind="linear",
                                bounds_error=False, fill_value=np.nan)
             df[col] = fn(sen_ns)
-        gps_s = gps_df.index.astype(np.int64) / 1e9
-        sen_s = df.index.astype(np.int64) / 1e9
-        gap   = np.array([np.min(np.abs(gps_s - t)) for t in sen_s])
-        df    = df[(gap <= MAX_GPS_GAP_S) & df["lat"].notna()]
+        # Nächster GPS-Nachbar per Sortier-Suche statt O(n·m)-Vollvergleich
+        # (gps_df ist sortiert, siehe gps_to_dataframe/load_gps_csv).
+        pos    = np.searchsorted(gps_ns, sen_ns)
+        pos_r  = np.clip(pos, 0, len(gps_ns) - 1)
+        pos_l  = np.clip(pos - 1, 0, len(gps_ns) - 1)
+        gap_ns = np.minimum(np.abs(gps_ns[pos_r] - sen_ns), np.abs(gps_ns[pos_l] - sen_ns))
+        gap    = gap_ns / 1e9
+        df     = df[(gap <= MAX_GPS_GAP_S) & df["lat"].notna()]
         df.index = df.index + pd.Timedelta(seconds=offset_s)
         return df
 
@@ -95,14 +105,23 @@ class MapBuilder:
     # -----------------------------------------------------------------------
 
     @staticmethod
-    def _value_to_rgb(value: float, v_min: float, v_max: float) -> tuple:
-        """Wert → RGB-Tuple (0-255) über RdYlGn Farbskala."""
+    def _values_to_rgb_array(values: np.ndarray, v_min: float, v_max: float):
+        """Werte-Array → drei RGB-Arrays (0-255) über RdYlGn Farbskala.
+        Colormap wird nur einmal für alle Punkte aufgebaut, nicht pro Punkt."""
         import matplotlib.pyplot as plt
         import matplotlib.colors as mcolors
-        cmap = plt.get_cmap("RdYlGn_r")
-        norm = mcolors.Normalize(vmin=v_min, vmax=v_max)
-        r, g, b, _ = cmap(norm(float(np.clip(value, v_min, v_max))))
-        return int(r * 255), int(g * 255), int(b * 255)
+        cmap    = plt.get_cmap("RdYlGn_r")
+        norm    = mcolors.Normalize(vmin=v_min, vmax=v_max)
+        clipped = np.clip(values, v_min, v_max)
+        rgba    = cmap(norm(clipped))
+        rgb     = (rgba[:, :3] * 255).astype(int)
+        return rgb[:, 0], rgb[:, 1], rgb[:, 2]
+
+    @classmethod
+    def _value_to_rgb(cls, value: float, v_min: float, v_max: float) -> tuple:
+        """Einzelwert → RGB-Tuple — nur für die (6 Zeilen) Legende, kein Hot Path."""
+        r, g, b = cls._values_to_rgb_array(np.array([value]), v_min, v_max)
+        return int(r[0]), int(g[0]), int(b[0])
 
     def _legend_steps(self, v_min, v_max, row_html):
         steps = []
@@ -126,7 +145,7 @@ class MapBuilder:
         # Messpunkte als GeoJSON
         features = []
         for idx, row in df.iterrows():
-            r, g, b = self._value_to_rgb(row["value"], v_min, v_max)
+            r, g, b = int(row["r"]), int(row["g"]), int(row["b"])
             features.append({
                 "type": "Feature",
                 "geometry": {"type": "Point", "coordinates": [float(row["lon"]), float(row["lat"]), float(row["alt"])]},
@@ -300,7 +319,7 @@ class MapBuilder:
         """MapLibre GL JS: moderner WebGL-Kartenviewer, kein API-Key."""
         features = []
         for idx, row in df.iterrows():
-            r, g, b = self._value_to_rgb(row["value"], v_min, v_max)
+            r, g, b = int(row["r"]), int(row["g"]), int(row["b"])
             features.append({
                 "type": "Feature",
                 "geometry": {"type": "Point", "coordinates": [float(row["lon"]), float(row["lat"])]},
@@ -428,24 +447,23 @@ class MapBuilder:
     # JSON-Export
     # -----------------------------------------------------------------------
 
-    def _export_json(self, lats, lons, alts, rel_alts, values, times,
-                     label, v_min, v_max, gps_df):
-        points = []
-        for i in range(len(lats)):
-            r, g, b = self._value_to_rgb(float(values[i]), v_min, v_max)
-            points.append({
-                "lat":     round(float(lats[i]), 7),
-                "lon":     round(float(lons[i]), 7),
-                "alt":     round(float(alts[i]), 2),
-                "rel_alt": round(float(rel_alts[i]), 2),
-                "value":   round(float(values[i]), 3),
-                "time":    str(times[i]),
-                "r": r, "g": g, "b": b,
-            })
+    def _export_json(self, df, label, v_min, v_max, gps_df):
+        points = [
+            {
+                "lat":     round(float(row.lat), 7),
+                "lon":     round(float(row.lon), 7),
+                "alt":     round(float(row.alt), 2),
+                "rel_alt": round(float(row.rel_alt), 2),
+                "value":   round(float(row.value), 3),
+                "time":    row.Index.strftime("%H:%M:%S"),
+                "r": int(row.r), "g": int(row.g), "b": int(row.b),
+            }
+            for row in df.itertuples()
+        ]
 
         path = [
             {"lat": round(float(row.lat), 7), "lon": round(float(row.lon), 7), "alt": round(float(row.alt), 2)}
-            for _, row in gps_df.iterrows()
+            for row in gps_df.itertuples()
         ]
 
         data = {
@@ -454,10 +472,10 @@ class MapBuilder:
                 "point_count": len(points),
                 "v_min":  round(float(v_min), 3),
                 "v_max":  round(float(v_max), 3),
-                "v_mean": round(float(np.mean(values)), 3),
-                "v_std":  round(float(np.std(values)), 3),
-                "center_lat": round(float(np.mean(lats)), 7),
-                "center_lon": round(float(np.mean(lons)), 7),
+                "v_mean": round(float(df["value"].mean()), 3),
+                "v_std":  round(float(df["value"].std(ddof=0)), 3),
+                "center_lat": round(float(df["lat"].mean()), 7),
+                "center_lon": round(float(df["lon"].mean()), 7),
                 "generated_at": datetime.now(timezone.utc).isoformat(),
             },
             "points": points,
@@ -467,3 +485,49 @@ class MapBuilder:
         json_path = ROOT / "output" / "flight_data.json"
         json_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
         print(f"  JSON: {json_path}")
+
+    # -----------------------------------------------------------------------
+    # GeoJSON-Export (portables Format — QGIS, geojson.io, kepler.gl, ArcGIS
+    # Online, Mapbox Studio, und das eigene Dashboard lesen es direkt)
+    # -----------------------------------------------------------------------
+
+    def _export_geojson(self, df) -> str:
+        channel_values = {}
+        for ch in range(1, 9):
+            cols = [c for c in (f"NI_{ch}_{d}" for d in range(1, 5)) if c in df.columns]
+            if cols:
+                channel_values[ch] = df[cols].mean(axis=1).round(1).values
+
+        n = len(df)
+        lats  = df["lat"].values
+        lons  = df["lon"].values
+        alts  = df["alt"].values
+        means = df["value"].round(3).values
+        times = [idx.isoformat() for idx in df.index]
+
+        features = []
+        for i in range(n):
+            nir_values = [
+                float(arr[i]) if arr is not None else None
+                for arr in channel_values.values()
+            ]
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [round(float(lons[i]), 7), round(float(lats[i]), 7), round(float(alts[i]), 2)],
+                },
+                "properties": {
+                    "timestamp":  times[i],
+                    "nir_values": nir_values,
+                    "nir_mean":   float(means[i]),
+                },
+            })
+
+        geojson_path = ROOT / "output" / "flight_geo.geojson"
+        geojson_path.write_text(
+            json.dumps({"type": "FeatureCollection", "features": features}),
+            encoding="utf-8",
+        )
+        print(f"  GeoJSON: {geojson_path}")
+        return str(geojson_path)

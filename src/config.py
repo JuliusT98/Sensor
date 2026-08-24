@@ -61,6 +61,10 @@ TIME_OFFSET_S    = 0.0
 # Visualisierungs-Engine: "cesium" | "maplibre"
 MAP_ENGINE       = "maplibre"
 
+# Interaktive HTML-Karte erzeugen? False auf dem Raspberry Pi — dort wird nur
+# GeoJSON/JSON exportiert (die Karte öffnet ohnehin niemand auf dem Pi selbst).
+BUILD_HTML_MAP   = False
+
 # ---------------------------------------------------------------------------
 # Simulation
 # ---------------------------------------------------------------------------
