@@ -29,8 +29,7 @@ bu_*.py
 .env.production.local
 
 # Sensor logs & GPS data (downloaded from sensor PC)
-data/sensor_logs/
-data/flight_logs/
+data/
 
 # Pipeline outputs
 output/
