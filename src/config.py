@@ -63,7 +63,7 @@ MAP_ENGINE       = "maplibre"
 
 # Interaktive HTML-Karte erzeugen? False auf dem Raspberry Pi — dort wird nur
 # GeoJSON/JSON exportiert (die Karte öffnet ohnehin niemand auf dem Pi selbst).
-BUILD_HTML_MAP   = False
+BUILD_HTML_MAP   = True
 
 # ---------------------------------------------------------------------------
 # Simulation
