@@ -67,6 +67,57 @@ class GpsBuffer:
         return df.set_index("timestamp").sort_index()
 
 
+def wait_for_arm(port: str, baud: int = TELEMETRY_BAUD, sitl: bool = False):
+    """
+    Blockiert, bis die Drohne armed ist. Für den unbeaufsichtigten Pi-Betrieb:
+    anders als GpsTracker._run gibt diese Funktion nie auf — es ist niemand da,
+    der den Pi neu starten könnte, also ist Weiterwarten der einzig sichere Weg.
+    """
+    from pymavlink import mavutil
+
+    print("[GPS] Warte auf Arming ...")
+    last_status = 0.0
+
+    while True:
+        try:
+            print(f"[GPS] Verbinde {port} ...")
+            mav = mavutil.mavlink_connection(port, baud=baud)
+            hb  = mav.wait_heartbeat(timeout=15)
+            if hb is None:
+                raise RuntimeError("Kein Heartbeat erhalten (Timeout 15s)")
+            print(f"[GPS] Verbunden (System {mav.target_system}) — warte auf Arming ...")
+        except Exception as e:
+            print(f"[GPS] Verbindungsfehler: {e} — erneuter Versuch in 5s ...")
+            time.sleep(5)
+            continue
+
+        try:
+            while True:
+                msg = mav.recv_match(type="HEARTBEAT", blocking=True, timeout=5.0)
+                now = time.monotonic()
+                if msg is None:
+                    if now - last_status > 30.0:
+                        print("[GPS] Noch kein Heartbeat seit Verbindung — warte weiter ...")
+                        last_status = now
+                    continue
+                armed = bool(msg.base_mode & mavutil.mavlink.MAV_MODE_FLAG_SAFETY_ARMED)
+                if armed:
+                    print("[GPS] Drohne armed.")
+                    mav.close()
+                    return
+                if now - last_status > 30.0:
+                    print("[GPS] Noch nicht armed — warte weiter ...")
+                    last_status = now
+        except Exception as e:
+            print(f"[GPS] Link-Fehler beim Warten auf Arming: {e} — Reconnect ...")
+            try:
+                mav.close()
+            except Exception:
+                pass
+            time.sleep(3)
+            continue
+
+
 class GpsTracker:
     """MAVLink-GPS-Logger mit Reconnect, GPS-Zeit und QGC-Survey-Fortschritt."""
 

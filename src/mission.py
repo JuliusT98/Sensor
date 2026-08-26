@@ -32,6 +32,7 @@ Abhängigkeiten:
 """
 
 import argparse
+import sys
 import threading
 import time
 from pathlib import Path
@@ -46,9 +47,12 @@ from config import (
 from flight_data import (
     estimate_offset, gps_to_dataframe, load_gps_csv, load_sensor_csv, parse_sensor_log,
 )
-from gps_tracker import GpsTracker
+from gps_tracker import GpsTracker, wait_for_arm
 from map_builder import MapBuilder
 from sensor_client import SensorClient
+
+SENSOR_START_RETRIES    = 6      # unbeaufsichtigter Betrieb: Sensor-PC bootet ggf. zeitgleich mit dem Pi
+SENSOR_START_RETRY_S    = 20.0
 
 
 # ---------------------------------------------------------------------------
@@ -75,14 +79,20 @@ def wait_for_landing(buf, manual: bool):
         buf.landed.set()
     else:
         print("  Warte auf automatische Landungserkennung ...")
-        print("  (ENTER für manuellen Stop)")
 
-        def wait_enter():
-            input()
-            print("  Manueller Stop.")
-            buf.landed.set()
+        if sys.stdin.isatty():
+            print("  (ENTER für manuellen Stop)")
 
-        threading.Thread(target=wait_enter, daemon=True).start()
+            def wait_enter():
+                try:
+                    input()
+                except EOFError:
+                    return
+                print("  Manueller Stop.")
+                buf.landed.set()
+
+            threading.Thread(target=wait_enter, daemon=True).start()
+
         buf.landed.wait()
 
     print(f"  Gelandet — {buf.count} GPS-Punkte geloggt.")
@@ -113,8 +123,25 @@ def make_simulated_gps() -> pd.DataFrame:
 # Hauptprogramm
 # ---------------------------------------------------------------------------
 
+def start_sensor_with_retry() -> SensorClient:
+    """Sensor-Start mit Backoff — für den unbeaufsichtigten Betrieb, falls der
+    Sensor-PC noch nicht erreichbar ist (bootet ggf. zeitgleich mit dem Pi)."""
+    for attempt in range(1, SENSOR_START_RETRIES + 1):
+        sensor = SensorClient()
+        try:
+            sensor.start()
+            return sensor
+        except Exception as e:
+            if attempt >= SENSOR_START_RETRIES:
+                raise
+            print(f"  [Sensor] Start fehlgeschlagen ({e}) — "
+                  f"Versuch {attempt + 1}/{SENSOR_START_RETRIES} in "
+                  f"{SENSOR_START_RETRY_S:.0f}s ...")
+            time.sleep(SENSOR_START_RETRY_S)
+
+
 def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str,
-        remap: bool = False, sitl: bool = False):
+        remap: bool = False, sitl: bool = False, wait_arm: bool = False):
     (ROOT / "output").mkdir(exist_ok=True)
     clock_offset_s = None
     sensor = None
@@ -145,10 +172,13 @@ def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str,
         prefix     = SIMULATE_PREFIX
 
     else:
+        if wait_arm:
+            print("\n[ 0 ] Warte auf Arming ...")
+            wait_for_arm(port, sitl=sitl)
+
         if not sim_sensor:
             print("\n[ 1 ] Sensor starten ...")
-            sensor = SensorClient()
-            sensor.start()
+            sensor = start_sensor_with_retry()
         else:
             print("\n[ 1 ] Sensor übersprungen (--sim-sensor)")
 
@@ -211,8 +241,10 @@ if __name__ == "__main__":
     parser.add_argument("--remap",       action="store_true", help="Letzten Flug neu karten (kein neuer Flug nötig)")
     parser.add_argument("--sitl",        action="store_true", help="SITL-Modus: Simulator-Workarounds aktivieren (rel_alt-Filter)")
     parser.add_argument("--port",        default=None,        help="MAVLink-Port (COM3, tcp:127.0.0.1:5760, udp:127.0.0.1:14550)")
+    parser.add_argument("--wait-for-arm", action="store_true", help="Vor Sensor/GPS-Start auf Arming warten (unbeaufsichtigter Pi-Betrieb)")
     args = parser.parse_args()
 
     port = args.port or TELEMETRY_PORT
     run(simulate=args.simulate, sim_sensor=args.sim_sensor,
-        manual_stop=args.manual_stop, port=port, remap=args.remap, sitl=args.sitl)
+        manual_stop=args.manual_stop, port=port, remap=args.remap, sitl=args.sitl,
+        wait_arm=args.wait_for_arm)

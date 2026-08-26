@@ -1,0 +1,25 @@
+# Install:
+#   sudo cp deploy/sensor-mission.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now sensor-mission.service
+#
+# Adjust User=/paths below if the repo isn't checked out at /home/pi/Sensor
+# or the venv isn't at /home/pi/Sensor/src/sprayvenv.
+
+[Unit]
+Description=Sensor Map Mission (unattended, waits for arm)
+After=multi-user.target
+StartLimitIntervalSec=600
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Sensor/src
+ExecStart=/home/pi/Sensor/deploy/run_mission.sh
+Environment=SENSOR_BUILD_HTML_MAP=0
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
