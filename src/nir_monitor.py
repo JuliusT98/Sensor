@@ -81,7 +81,6 @@ def main():
                         help="Ersten API-Response roh ausgeben und beenden")
     args = parser.parse_args()
 
-    # ── Debug: rohe API-Antwort anzeigen ──────────────────────────────────────
     if args.debug:
         try:
             data = fetch(args.url)
@@ -90,7 +89,6 @@ def main():
             print(f"Fehler: {e}")
         return
 
-    # ── Sensor optional starten ───────────────────────────────────────────────
     if args.start:
         try:
             print(f"Starte Sensor-Messung ({args.url}) ...")

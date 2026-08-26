@@ -67,7 +67,6 @@ def wait_for_landing(buf, manual: bool):
 
     if manual:
         print("  Warte auf GPS-Daten ...")
-        # Warte bis mindestens ein GPS-Punkt da ist
         while buf.count == 0:
             time.sleep(0.5)
         print(f"  GPS aktiv — {buf.count} Punkte.")
@@ -128,7 +127,6 @@ def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str,
         print("\n[REMAP] Lade gespeicherte GPS + Sensor-Daten\n")
         print("[ 6 ] GPS laden ...")
         gps_df = load_gps_csv()
-        # Letztes Sensor-Log automatisch finden
         sensor_dirs = sorted([d for d in LOG_DIR.glob("measurements_*") if d.is_dir()])
         if not sensor_dirs:
             raise FileNotFoundError("Keine Sensor-Logs in log_files/ gefunden.")
@@ -141,7 +139,6 @@ def run(simulate: bool, sim_sensor: bool, manual_stop: bool, port: str,
         print(f"  Sensor-Log: {last_dir.name}/{prefix}")
 
     elif simulate:
-        # Alles simuliert: kein Sensor, kein GPS
         print("\n[SIMULATION] Kein Sensor, kein Telemetrie-Radio\n")
         gps_df     = make_simulated_gps()
         sensor_dir = SIMULATE_DIR
