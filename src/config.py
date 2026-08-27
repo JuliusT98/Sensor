@@ -5,6 +5,7 @@ Alle Hardware-Adressen, Schwellwerte und Pfade an einer Stelle —
 die anderen Module importieren von hier.
 """
 
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent  # Projektroot, egal von wo das Script gestartet wird
@@ -63,7 +64,8 @@ MAP_ENGINE       = "maplibre"
 
 # Interaktive HTML-Karte erzeugen? False auf dem Raspberry Pi — dort wird nur
 # GeoJSON/JSON exportiert (die Karte öffnet ohnehin niemand auf dem Pi selbst).
-BUILD_HTML_MAP   = True
+# Override per SENSOR_BUILD_HTML_MAP=0 (siehe deploy/sensor-mission.service).
+BUILD_HTML_MAP   = os.environ.get("SENSOR_BUILD_HTML_MAP", "1") != "0"
 
 # ---------------------------------------------------------------------------
 # Simulation
