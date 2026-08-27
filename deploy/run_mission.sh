@@ -11,6 +11,6 @@ LOG_FILE="$LOG_DIR/mission_$(date +%Y%m%d_%H%M%S).log"
 
 cd "$REPO_DIR/src"
 exec "$REPO_DIR/src/sprayvenv/bin/python3" -u mission.py \
-    --port /dev/ttyUSB0 \
+    --port /dev/serial0 \
     --wait-for-arm \
     >>"$LOG_FILE" 2>&1
