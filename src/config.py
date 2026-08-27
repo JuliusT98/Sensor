@@ -31,7 +31,7 @@ SENSOR_HEALTH_PERIOD_S  = 5.0   # Sensor-Status-Poll während des Flugs
 # Telemetrie (MAVLink / Pixhawk)
 # ---------------------------------------------------------------------------
 
-TELEMETRY_PORT   = "COM3"     # Windows: COM3 / Linux (RPi): /dev/ttyUSB0
+TELEMETRY_PORT   = "/dev/serial0"     # Windows: COM3 / Linux (RPi): /dev/ttyUSB0
 TELEMETRY_BAUD   = 57600
 
 # Telemetrie-Watchdog
