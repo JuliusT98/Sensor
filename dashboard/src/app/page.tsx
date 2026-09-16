@@ -47,12 +47,11 @@ export default function Home() {
   const [lastUpdate,  setLastUpdate]  = useState<Date | null>(null);
   const [loading,     setLoading]     = useState(true);
   const [error,       setError]       = useState<string | null>(null);
-  const [uploadedFile, setUploadedFile] = useState<string | null>(null); // filename
+  const [uploadedFile, setUploadedFile] = useState<string | null>(null);
   const [dragging,    setDragging]    = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // ── Initial load from API (disk) ────────────────────────────────────────────
   useEffect(() => {
     fetch('/api/flight-data')
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
@@ -61,7 +60,6 @@ export default function Home() {
       .finally(() => setLoading(false));
   }, []);
 
-  // ── File handling ────────────────────────────────────────────────────────────
   const handleFile = useCallback((file: File) => {
     if (!file.name.match(/\.(geojson|json)$/i)) {
       setError('Nur .geojson oder .json Dateien werden unterstützt.');
@@ -92,7 +90,6 @@ export default function Home() {
     e.target.value = ''; // reset so the same file can be re-selected
   }, [handleFile]);
 
-  // ── Drag-and-drop (whole window) ─────────────────────────────────────────────
   useEffect(() => {
     const onDragOver = (e: DragEvent) => { e.preventDefault(); setDragging(true); };
     const onDragLeave = (e: DragEvent) => { if (!e.relatedTarget) setDragging(false); };
@@ -131,7 +128,6 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen bg-surface overflow-hidden">
 
-      {/* ── Header ── */}
       <header className="flex items-center justify-between px-5 py-3 border-b border-border bg-panel shrink-0">
         <div className="flex items-center gap-3">
           <Activity size={18} className="text-accent" />
@@ -146,7 +142,6 @@ export default function Home() {
             </span>
           )}
 
-          {/* Loaded file indicator */}
           {uploadedFile && (
             <span className="flex items-center gap-1.5 text-xs text-accent font-mono bg-accent/10 border border-accent/20 px-2 py-1 rounded">
               <FileJson size={12} />
@@ -160,7 +155,6 @@ export default function Home() {
             </span>
           )}
 
-          {/* Upload button */}
           <button
             onClick={() => fileInputRef.current?.click()}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-medium text-slate-200 bg-accent/15 hover:bg-accent/25 border border-accent/30 transition-colors"
@@ -170,7 +164,6 @@ export default function Home() {
             GeoJSON öffnen
           </button>
 
-          {/* Reload from disk */}
           <button
             onClick={reloadFromDisk}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded text-xs text-slate-400 hover:text-slate-200 hover:bg-white/5 border border-border transition-colors"
@@ -180,7 +173,6 @@ export default function Home() {
             Neu laden
           </button>
 
-          {/* Hidden file input */}
           <input
             ref={fileInputRef}
             type="file"
@@ -191,13 +183,10 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ── Main ── */}
       <div className="flex flex-1 min-h-0 overflow-hidden">
 
-        {/* Map / 3D area */}
         <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
 
-          {/* Tab bar */}
           <div className="flex items-center gap-1 px-4 py-2 border-b border-border bg-panel shrink-0">
             {tabs.map(tab => (
               <button
@@ -215,7 +204,6 @@ export default function Home() {
             ))}
           </div>
 
-          {/* View */}
           <div className="flex-1 relative min-h-0 overflow-hidden">
             {loading ? (
               <div className="flex items-center justify-center w-full h-full">
@@ -237,13 +225,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Stats panel */}
         <div className="w-80 shrink-0 border-l border-border overflow-y-auto bg-panel">
           <StatsPanel data={data} />
         </div>
       </div>
 
-      {/* ── Drag-and-drop overlay ── */}
       {dragging && (
         <div className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none">
           <div className="absolute inset-0 bg-surface/80 backdrop-blur-sm border-2 border-dashed border-accent rounded-none" />

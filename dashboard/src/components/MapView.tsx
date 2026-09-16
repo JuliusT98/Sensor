@@ -51,7 +51,6 @@ const DEFAULT_VIEW_STATE: MapViewState = {
   bearing: 0,
 };
 
-// Canvas size for heatmap texture
 const CANVAS_W = 1024;
 
 /**
@@ -148,7 +147,6 @@ export default function MapView({ data }: MapViewProps) {
     return DEFAULT_VIEW_STATE;
   }, [bounds]);
 
-  // Build heatmap canvas whenever data/bounds change
   useEffect(() => {
     if (!geoFeatures.length || !bounds) {
       setHeatmapCanvas(null);
@@ -164,7 +162,6 @@ export default function MapView({ data }: MapViewProps) {
     const aspectGeo = (lonRange * cosLat) / latRange;
     const canvasH = Math.max(64, Math.round(CANVAS_W / aspectGeo));
 
-    // Convert lon/lat → canvas pixel coords
     const pts = geoFeatures
       .filter((f) => f.properties.nir_mean !== null)
       .map((f) => {
@@ -212,7 +209,6 @@ export default function MapView({ data }: MapViewProps) {
   const layers = useMemo(() => {
     const result = [];
 
-    // Gaussian heatmap as bitmap overlay
     if (heatmapCanvas && bounds) {
       result.push(
         new BitmapLayer({
@@ -253,7 +249,6 @@ export default function MapView({ data }: MapViewProps) {
       );
     }
 
-    // Flight path — subtle white line
     if (pathData.length > 0) {
       result.push(
         new PathLayer({
@@ -283,7 +278,6 @@ export default function MapView({ data }: MapViewProps) {
         <Map mapStyle={MAP_STYLE} />
       </DeckGL>
 
-      {/* Tooltip */}
       {tooltip && (
         <div
           className="absolute z-50 pointer-events-none bg-panel border border-border rounded-lg px-3 py-2 text-xs font-mono shadow-xl"
@@ -322,7 +316,6 @@ export default function MapView({ data }: MapViewProps) {
         </div>
       )}
 
-      {/* Empty state */}
       {geoFeatures.length === 0 && (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="bg-panel/90 border border-border rounded-xl px-6 py-4 text-center">
@@ -332,14 +325,12 @@ export default function MapView({ data }: MapViewProps) {
         </div>
       )}
 
-      {/* Point count badge */}
       {geoFeatures.length > 0 && (
         <div className="absolute bottom-4 left-4 bg-panel/90 border border-border rounded-lg px-3 py-1.5 text-xs font-mono text-slate-300 pointer-events-none">
           {geoFeatures.length} Punkte &bull; {stats?.count ?? 0} gesamt
         </div>
       )}
 
-      {/* Colormap legend */}
       {geoFeatures.length > 0 && (
         <div className="absolute bottom-4 right-4 bg-panel/90 border border-border rounded-lg px-3 py-2 pointer-events-none">
           <div className="text-xs font-mono text-slate-400 mb-1.5">NIR-Wert</div>

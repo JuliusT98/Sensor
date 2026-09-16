@@ -72,7 +72,6 @@ export default function StatsPanel({ data }: StatsPanelProps) {
   const stats = data?.stats;
   const features = data?.geojson.features ?? [];
 
-  // Last valid feature with nir_values
   const lastValidFeature = useMemo((): NIRFeature | null => {
     for (let i = features.length - 1; i >= 0; i--) {
       const f = features[i];
@@ -114,7 +113,6 @@ export default function StatsPanel({ data }: StatsPanelProps) {
 
   return (
     <div className="flex flex-col h-full p-4 gap-4">
-      {/* Title */}
       <div className="shrink-0">
         <h2 className="text-sm font-semibold text-slate-300 tracking-wide">Statistiken</h2>
         <div className="text-xs text-slate-600 font-mono mt-0.5">
@@ -122,7 +120,6 @@ export default function StatsPanel({ data }: StatsPanelProps) {
         </div>
       </div>
 
-      {/* KPI cards */}
       <div className="flex flex-col gap-2 shrink-0">
         <KpiCard
           label="Messpunkte gesamt"
@@ -163,10 +160,8 @@ export default function StatsPanel({ data }: StatsPanelProps) {
         )}
       </div>
 
-      {/* Divider */}
       <div className="border-t border-border shrink-0" />
 
-      {/* Histogram */}
       <div className="shrink-0">
         <h3 className="text-xs font-medium text-slate-400 mb-2 tracking-wide uppercase">
           NIR-Verteilung
@@ -220,10 +215,8 @@ export default function StatsPanel({ data }: StatsPanelProps) {
         )}
       </div>
 
-      {/* Divider */}
       <div className="border-t border-border shrink-0" />
 
-      {/* Channel breakdown */}
       <div className="flex-1 min-h-0 overflow-y-auto">
         <h3 className="text-xs font-medium text-slate-400 mb-2 tracking-wide uppercase">
           Letzter Messpunkt — Kanäle
@@ -280,7 +273,6 @@ export default function StatsPanel({ data }: StatsPanelProps) {
         )}
       </div>
 
-      {/* Bottom info */}
       {stats?.firstTs && (
         <div className="border-t border-border pt-3 shrink-0">
           <div className="text-xs font-mono text-slate-600 space-y-0.5">

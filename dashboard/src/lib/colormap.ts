@@ -23,7 +23,6 @@ export function nirToColor(
     [1.00,  128,   0,   0],
   ];
 
-  // Find bracket
   for (let i = 0; i < stops.length - 1; i++) {
     const [t0, r0, g0, b0] = stops[i];
     const [t1, r1, g1, b1] = stops[i + 1];
@@ -38,7 +37,6 @@ export function nirToColor(
     }
   }
 
-  // Fallback: last color
   const last = stops[stops.length - 1];
   return [last[1], last[2], last[3], 255];
 }

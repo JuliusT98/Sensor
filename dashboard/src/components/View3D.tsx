@@ -35,7 +35,6 @@ function buildSurfaceGeometry(
 ): THREE.BufferGeometry {
   const nirRange = nirMax - nirMin || 1;
 
-  // Grid subdivisions
   const gridU = GRID_U;
   const gridV = Math.max(4, Math.round(gridU * sceneD / sceneW));
 
@@ -54,7 +53,6 @@ function buildSurfaceGeometry(
     const vx = posAttr.getX(vi);
     const vz = posAttr.getZ(vi);
 
-    // Gaussian-weighted NIR interpolation
     let valueSum  = 0;
     let weightSum = 0;
     for (const p of points) {
@@ -81,8 +79,6 @@ function buildSurfaceGeometry(
   return geo;
 }
 
-/* ---------- Scene sub-components ---------- */
-
 function NIRSurface({
   points, sceneW, sceneD, nirMin, nirMax,
 }: {
@@ -99,7 +95,6 @@ function NIRSurface({
 
   return (
     <group>
-      {/* Solid colored surface */}
       <mesh geometry={geometry} receiveShadow>
         <meshStandardMaterial
           vertexColors
@@ -108,7 +103,6 @@ function NIRSurface({
           side={THREE.FrontSide}
         />
       </mesh>
-      {/* Subtle wireframe overlay */}
       <mesh geometry={geometry}>
         <meshBasicMaterial
           wireframe
@@ -143,8 +137,6 @@ function BaseGrid({ sceneW, sceneD }: { sceneW: number; sceneD: number }) {
     />
   );
 }
-
-/* ---------- Main scene ---------- */
 
 function SceneContent({ data }: { data: FlightDataResponse | null }) {
   const stats    = data?.stats;
@@ -221,8 +213,6 @@ function SceneContent({ data }: { data: FlightDataResponse | null }) {
   );
 }
 
-/* ---------- Export ---------- */
-
 export default function View3D({ data }: View3DProps) {
   const nirMin = data?.stats.nirMin ?? 0;
   const nirMax = data?.stats.nirMax ?? 1;
@@ -235,7 +225,6 @@ export default function View3D({ data }: View3DProps) {
         style={{ background: '#040c14' }}
         shadows
       >
-        {/* Lighting */}
         <ambientLight intensity={0.25} />
         <directionalLight
           position={[6, 12, 6]}
@@ -245,11 +234,9 @@ export default function View3D({ data }: View3DProps) {
         />
         <pointLight position={[-4, 4, -4]} intensity={0.2} color="#4060ff" />
 
-        {/* Scene */}
         <SceneContent data={data} />
         {data && <BaseGrid sceneW={SCENE_W} sceneD={SCENE_W} />}
 
-        {/* Controls */}
         <OrbitControls
           enablePan
           enableZoom
@@ -259,13 +246,11 @@ export default function View3D({ data }: View3DProps) {
           maxPolarAngle={Math.PI / 2 + 0.05}
         />
 
-        {/* Post-processing */}
         <EffectComposer>
           <Bloom intensity={0.18} luminanceThreshold={0.55} luminanceSmoothing={0.9} />
         </EffectComposer>
       </Canvas>
 
-      {/* Colormap legend */}
       {nirMin !== nirMax && (
         <div className="absolute bottom-4 right-4 bg-panel/90 border border-border rounded-lg px-3 py-2 text-xs font-mono pointer-events-none">
           <div className="text-slate-400 mb-1.5">NIR-Wert / Höhe</div>
@@ -282,7 +267,6 @@ export default function View3D({ data }: View3DProps) {
         </div>
       )}
 
-      {/* Hint */}
       <div className="absolute top-3 left-3 text-xs text-slate-600 font-mono pointer-events-none select-none">
         Drehen: LMB · Zoomen: Mausrad · Verschieben: RMB
       </div>
